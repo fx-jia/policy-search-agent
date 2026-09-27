@@ -1,0 +1,14 @@
+{
+  "all_protected_hashes_match": true,
+  "grading_jobs": 570,
+  "grading_rows": 570,
+  "valid_grade_totals_recomputed": true,
+  "same_question_pairing_recomputed": true,
+  "no_pending_grading_usage": true,
+  "historical_generation_unsettled_reserves": {
+    "rag": 0,
+    "low": 0,
+    "v7": 19508,
+    "ab": 0
+  }
+}

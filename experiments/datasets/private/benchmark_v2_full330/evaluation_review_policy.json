@@ -1,0 +1,21 @@
+{
+  "recorded_date": "2026-09-24",
+  "basis": "user_current_message_general_screening_no_problems_and_defers_targeted_review_to_failure_analysis",
+  "user_statement": "这些题我大致看了一下，没发现什么问题，后续失败归因的时候可以记录一下，再去人工审核看看有没有问题",
+  "dataset_readiness": "accepted_for_provisional_evaluation",
+  "review_level": "general_user_screening_not_itemwise_gold_certification",
+  "per_item_status_unchanged": true,
+  "advance_condition": "do_not_require_full_itemwise_review_before_evaluation; freeze grouped split and evaluation configuration first",
+  "review_queue_triggers": [
+    "apparent_answer_failure",
+    "suspected_question_or_reference_error",
+    "rubric_overreach",
+    "new_unlabelled_support",
+    "judge_disagreement",
+    "small_random_sample_of_predicted_correct_answers"
+  ],
+  "unlabelled_citation_rule": "pending_evidence_review_not_automatically_incorrect",
+  "data_correction_rule": "version_labels; apply_same_corrected_labels_to_all_system_outputs; preserve_original_and_revised_metrics; exclude_invalid_item_from_all_arms_consistently",
+  "test_split_rule": "no_test_answers_used_for_method_tuning; item_repairs_are_data_quality_fixes_only",
+  "external_api_calls_in_this_planning_step": 0
+}

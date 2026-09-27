@@ -1,0 +1,59 @@
+{
+  "version": "candidate_v1",
+  "created_date": "2026-09-24",
+  "core_count": 300,
+  "preserved_pilot_count": 60,
+  "new_core_count": 240,
+  "boundary_count": 30,
+  "difficulty_counts": {
+    "Easy": 62,
+    "Medium": 178,
+    "Hard": 60
+  },
+  "new_difficulty_counts": {
+    "Easy": 42,
+    "Medium": 155,
+    "Hard": 43
+  },
+  "boundary_difficulty_counts": {
+    "Medium": 23,
+    "Hard": 7
+  },
+  "role_counts": {
+    "参保人/家属": 201,
+    "单位经办人": 23,
+    "定点机构经办人": 2,
+    "医保经办管理人员": 2,
+    "医疗机构采购人员": 1,
+    "照护机构经办人": 8,
+    "医保经办人员": 3,
+    "医药机构经办人": 5,
+    "医保政策查询者": 8,
+    "医疗机构采购经办人": 8,
+    "药品采购经办人": 16,
+    "医药机构管理人员": 6,
+    "耗材采购经办人": 4,
+    "医院医保办人员": 5,
+    "牙冠采购经办人": 5,
+    "医疗机构项目申报人员": 3
+  },
+  "selected_source_documents": 70,
+  "new_question_source_documents": 41,
+  "core_question_families": 282,
+  "core_evidence_count": 335,
+  "conservative_group_count_including_boundary": 48,
+  "corpus_documents": 1000,
+  "corpus_chunks": 3205,
+  "human_approved_in_this_release": 0,
+  "unseen_test_count": 0,
+  "review_status": "pending_human_review",
+  "generation_api_calls": 0,
+  "embedding_api_calls": 0,
+  "retrieval_api_calls": 0,
+  "system_evaluation_calls": 0,
+  "all_quote_visibility_passed": true,
+  "semantic_dedup_complete": false,
+  "lexical_flag_pairs": 0,
+  "protected_input_lock": "input_lock.json",
+  "scope": "historical-file-scoped diagnostic candidates; not traffic-representative; not a held-out evaluation result"
+}

@@ -1,0 +1,36 @@
+{
+  "rag": {
+    "records": 60,
+    "status": {
+      "ok": 58,
+      "budget_censored": 2
+    },
+    "known_tokens": 222722,
+    "unsettled_calls": 0
+  },
+  "low": {
+    "records": 60,
+    "status": {
+      "ok": 59,
+      "guard_stopped": 1
+    },
+    "known_tokens": 370284,
+    "unsettled_calls": 0
+  },
+  "agent": {
+    "records": 60,
+    "status": {
+      "ok": 58,
+      "guard_stopped": 2
+    },
+    "known_tokens": 427314,
+    "unsettled_calls": 1
+  },
+  "verified": [
+    "all_180_planned_questions_attempted_once",
+    "frozen_configs_and_source_unchanged",
+    "original_baseline_files_unchanged",
+    "runtime_questions_contain_no_labels",
+    "usage_and_unsettled_reservations_distinguished"
+  ]
+}

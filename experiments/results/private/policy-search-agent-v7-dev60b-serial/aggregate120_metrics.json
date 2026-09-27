@@ -1,0 +1,477 @@
+{
+  "rag": {
+    "planned": 120,
+    "attempted": 120,
+    "accepted": 111,
+    "unassessed": 0,
+    "outcomes": {
+      "complete": 111,
+      "budget_censored": 3,
+      "incomplete": 6
+    },
+    "statuses": {
+      "ok": 117,
+      "budget_censored": 3
+    },
+    "mean_seconds": 5.6,
+    "p95_seconds": 8.63,
+    "generation_calls": 131,
+    "generation_tokens": 450801,
+    "unknown_generation_reservation": 0,
+    "query_embedding_calls": 120,
+    "query_embedding_physical_calls": null,
+    "embedding_cache_hits": null,
+    "controller_failures": 0,
+    "controller_telemetry_incomplete": 0,
+    "fallback_questions": 0,
+    "fallback_answered_questions": 0,
+    "supplement_questions": 0,
+    "query_embedding_calls_missing_records": [],
+    "query_embedding_observed_successes": 120,
+    "required_points_passed": 202,
+    "required_points_planned": 216,
+    "required_points_pending": 0,
+    "latency_stdev_seconds": 1.81,
+    "by_difficulty": {
+      "Easy": {
+        "planned": 30,
+        "attempted": 30,
+        "accepted": 30,
+        "unassessed": 0,
+        "outcomes": {
+          "complete": 30
+        },
+        "statuses": {
+          "ok": 30
+        },
+        "mean_seconds": 5.56,
+        "p95_seconds": 9.99,
+        "generation_calls": 30,
+        "generation_tokens": 113282,
+        "unknown_generation_reservation": 0,
+        "query_embedding_calls": 30,
+        "query_embedding_physical_calls": null,
+        "embedding_cache_hits": 0,
+        "controller_failures": 0,
+        "controller_telemetry_incomplete": 0,
+        "fallback_questions": 0,
+        "fallback_answered_questions": 0,
+        "supplement_questions": 0,
+        "query_embedding_calls_missing_records": [],
+        "query_embedding_observed_successes": 30
+      },
+      "Medium": {
+        "planned": 60,
+        "attempted": 60,
+        "accepted": 56,
+        "unassessed": 0,
+        "outcomes": {
+          "complete": 56,
+          "budget_censored": 3,
+          "incomplete": 1
+        },
+        "statuses": {
+          "ok": 57,
+          "budget_censored": 3
+        },
+        "mean_seconds": 4.96,
+        "p95_seconds": 7.34,
+        "generation_calls": 69,
+        "generation_tokens": 217173,
+        "unknown_generation_reservation": 0,
+        "query_embedding_calls": 60,
+        "query_embedding_physical_calls": null,
+        "embedding_cache_hits": 0,
+        "controller_failures": 0,
+        "controller_telemetry_incomplete": 0,
+        "fallback_questions": 0,
+        "fallback_answered_questions": 0,
+        "supplement_questions": 0,
+        "query_embedding_calls_missing_records": [],
+        "query_embedding_observed_successes": 60
+      },
+      "Hard": {
+        "planned": 30,
+        "attempted": 30,
+        "accepted": 25,
+        "unassessed": 0,
+        "outcomes": {
+          "complete": 25,
+          "incomplete": 5
+        },
+        "statuses": {
+          "ok": 30
+        },
+        "mean_seconds": 6.93,
+        "p95_seconds": 9.4,
+        "generation_calls": 32,
+        "generation_tokens": 120346,
+        "unknown_generation_reservation": 0,
+        "query_embedding_calls": 30,
+        "query_embedding_physical_calls": null,
+        "embedding_cache_hits": 0,
+        "controller_failures": 0,
+        "controller_telemetry_incomplete": 0,
+        "fallback_questions": 0,
+        "fallback_answered_questions": 0,
+        "supplement_questions": 0,
+        "query_embedding_calls_missing_records": [],
+        "query_embedding_observed_successes": 30
+      }
+    }
+  },
+  "vs_rag": {
+    "paired": 120,
+    "improved": [
+      "mb2-131",
+      "mb2-039",
+      "mb2-144"
+    ],
+    "regressed": [
+      "mb2-111",
+      "mb2-209",
+      "mb2-276",
+      "mb2-281",
+      "mb2-048",
+      "mb2-242",
+      "mb2-247"
+    ],
+    "unpaired": []
+  },
+  "content_only_vs_rag": {
+    "paired": 115,
+    "improved": [],
+    "regressed": [
+      "mb2-276",
+      "mb2-281",
+      "mb2-048",
+      "mb2-242",
+      "mb2-247"
+    ],
+    "unpaired": []
+  },
+  "content_cluster_interval_vs_rag": {
+    "policy_groups": 19,
+    "resamples": 10000,
+    "seed": 20260924,
+    "interval95_percentage_points": [
+      -8.53,
+      0.0
+    ],
+    "note": "Descriptive policy-group bootstrap; development data, not held-out significance proof."
+  },
+  "low": {
+    "planned": 120,
+    "attempted": 120,
+    "accepted": 100,
+    "unassessed": 0,
+    "outcomes": {
+      "complete": 100,
+      "incomplete": 19,
+      "technical_error": 1
+    },
+    "statuses": {
+      "ok": 119,
+      "guard_stopped": 1
+    },
+    "mean_seconds": 23.65,
+    "p95_seconds": 29.32,
+    "generation_calls": 510,
+    "generation_tokens": 754066,
+    "unknown_generation_reservation": 0,
+    "query_embedding_calls": null,
+    "query_embedding_physical_calls": null,
+    "embedding_cache_hits": null,
+    "controller_failures": 0,
+    "controller_telemetry_incomplete": 0,
+    "fallback_questions": 0,
+    "fallback_answered_questions": 0,
+    "supplement_questions": 0,
+    "query_embedding_calls_missing_records": [
+      "mb2-010"
+    ],
+    "query_embedding_observed_successes": 2023,
+    "required_points_passed": 180,
+    "required_points_planned": 216,
+    "required_points_pending": 0,
+    "latency_stdev_seconds": 4.72,
+    "by_difficulty": {
+      "Easy": {
+        "planned": 30,
+        "attempted": 30,
+        "accepted": 28,
+        "unassessed": 0,
+        "outcomes": {
+          "complete": 28,
+          "technical_error": 1,
+          "incomplete": 1
+        },
+        "statuses": {
+          "ok": 29,
+          "guard_stopped": 1
+        },
+        "mean_seconds": 23.84,
+        "p95_seconds": 32.09,
+        "generation_calls": 132,
+        "generation_tokens": 181756,
+        "unknown_generation_reservation": 0,
+        "query_embedding_calls": null,
+        "query_embedding_physical_calls": null,
+        "embedding_cache_hits": 0,
+        "controller_failures": 0,
+        "controller_telemetry_incomplete": 0,
+        "fallback_questions": 0,
+        "fallback_answered_questions": 0,
+        "supplement_questions": 0,
+        "query_embedding_calls_missing_records": [
+          "mb2-010"
+        ],
+        "query_embedding_observed_successes": 493
+      },
+      "Medium": {
+        "planned": 60,
+        "attempted": 60,
+        "accepted": 53,
+        "unassessed": 0,
+        "outcomes": {
+          "complete": 53,
+          "incomplete": 7
+        },
+        "statuses": {
+          "ok": 60
+        },
+        "mean_seconds": 21.81,
+        "p95_seconds": 26.72,
+        "generation_calls": 248,
+        "generation_tokens": 377687,
+        "unknown_generation_reservation": 0,
+        "query_embedding_calls": 1020,
+        "query_embedding_physical_calls": null,
+        "embedding_cache_hits": 0,
+        "controller_failures": 0,
+        "controller_telemetry_incomplete": 0,
+        "fallback_questions": 0,
+        "fallback_answered_questions": 0,
+        "supplement_questions": 0,
+        "query_embedding_calls_missing_records": [],
+        "query_embedding_observed_successes": 1020
+      },
+      "Hard": {
+        "planned": 30,
+        "attempted": 30,
+        "accepted": 19,
+        "unassessed": 0,
+        "outcomes": {
+          "incomplete": 11,
+          "complete": 19
+        },
+        "statuses": {
+          "ok": 30
+        },
+        "mean_seconds": 27.13,
+        "p95_seconds": 42.62,
+        "generation_calls": 130,
+        "generation_tokens": 194623,
+        "unknown_generation_reservation": 0,
+        "query_embedding_calls": 510,
+        "query_embedding_physical_calls": null,
+        "embedding_cache_hits": 0,
+        "controller_failures": 0,
+        "controller_telemetry_incomplete": 0,
+        "fallback_questions": 0,
+        "fallback_answered_questions": 0,
+        "supplement_questions": 0,
+        "query_embedding_calls_missing_records": [],
+        "query_embedding_observed_successes": 510
+      }
+    }
+  },
+  "vs_low": {
+    "paired": 120,
+    "improved": [
+      "mb2-284",
+      "mb2-056",
+      "mb2-010",
+      "mb2-145",
+      "mb2-277",
+      "mb2-096",
+      "mb2-267",
+      "mb2-050",
+      "mb2-011",
+      "mb2-051",
+      "mb2-298",
+      "mb2-083",
+      "mb2-273",
+      "mb2-132"
+    ],
+    "regressed": [
+      "mb2-111",
+      "mb2-209",
+      "mb2-091",
+      "mb2-281",
+      "mb2-095",
+      "mb2-242",
+      "mb2-247"
+    ],
+    "unpaired": []
+  },
+  "content_only_vs_low": {
+    "paired": 117,
+    "improved": [
+      "mb2-284",
+      "mb2-056",
+      "mb2-145",
+      "mb2-277",
+      "mb2-096",
+      "mb2-267",
+      "mb2-050",
+      "mb2-011",
+      "mb2-051",
+      "mb2-298",
+      "mb2-083",
+      "mb2-273",
+      "mb2-132"
+    ],
+    "regressed": [
+      "mb2-091",
+      "mb2-281",
+      "mb2-095",
+      "mb2-242",
+      "mb2-247"
+    ],
+    "unpaired": []
+  },
+  "content_cluster_interval_vs_low": {
+    "policy_groups": 19,
+    "resamples": 10000,
+    "seed": 20260924,
+    "interval95_percentage_points": [
+      0.72,
+      12.36
+    ],
+    "note": "Descriptive policy-group bootstrap; development data, not held-out significance proof."
+  },
+  "agent": {
+    "planned": 120,
+    "attempted": 120,
+    "accepted": 107,
+    "unassessed": 0,
+    "outcomes": {
+      "complete": 107,
+      "incomplete": 11,
+      "technical_error": 2
+    },
+    "statuses": {
+      "ok": 118,
+      "guard_stopped": 2
+    },
+    "mean_seconds": 7.58,
+    "p95_seconds": 12.06,
+    "generation_calls": 250,
+    "generation_tokens": 862654,
+    "unknown_generation_reservation": 19508,
+    "query_embedding_calls": 121,
+    "query_embedding_physical_calls": 122,
+    "embedding_cache_hits": 0,
+    "controller_failures": 7,
+    "controller_telemetry_incomplete": 0,
+    "fallback_questions": 7,
+    "fallback_answered_questions": 7,
+    "supplement_questions": 1,
+    "query_embedding_calls_missing_records": [],
+    "query_embedding_observed_successes": 121,
+    "required_points_passed": 199,
+    "required_points_planned": 216,
+    "required_points_pending": 0,
+    "latency_stdev_seconds": 3.62,
+    "by_difficulty": {
+      "Easy": {
+        "planned": 30,
+        "attempted": 30,
+        "accepted": 29,
+        "unassessed": 0,
+        "outcomes": {
+          "complete": 29,
+          "technical_error": 1
+        },
+        "statuses": {
+          "ok": 29,
+          "guard_stopped": 1
+        },
+        "mean_seconds": 7.68,
+        "p95_seconds": 15.44,
+        "generation_calls": 65,
+        "generation_tokens": 206752,
+        "unknown_generation_reservation": 0,
+        "query_embedding_calls": 30,
+        "query_embedding_physical_calls": 31,
+        "embedding_cache_hits": 0,
+        "controller_failures": 0,
+        "controller_telemetry_incomplete": 0,
+        "fallback_questions": 0,
+        "fallback_answered_questions": 0,
+        "supplement_questions": 0,
+        "query_embedding_calls_missing_records": [],
+        "query_embedding_observed_successes": 30
+      },
+      "Medium": {
+        "planned": 60,
+        "attempted": 60,
+        "accepted": 57,
+        "unassessed": 0,
+        "outcomes": {
+          "complete": 57,
+          "incomplete": 3
+        },
+        "statuses": {
+          "ok": 60
+        },
+        "mean_seconds": 6.72,
+        "p95_seconds": 8.88,
+        "generation_calls": 123,
+        "generation_tokens": 432374,
+        "unknown_generation_reservation": 0,
+        "query_embedding_calls": 61,
+        "query_embedding_physical_calls": 61,
+        "embedding_cache_hits": 0,
+        "controller_failures": 3,
+        "controller_telemetry_incomplete": 0,
+        "fallback_questions": 3,
+        "fallback_answered_questions": 3,
+        "supplement_questions": 1,
+        "query_embedding_calls_missing_records": [],
+        "query_embedding_observed_successes": 61
+      },
+      "Hard": {
+        "planned": 30,
+        "attempted": 30,
+        "accepted": 21,
+        "unassessed": 0,
+        "outcomes": {
+          "complete": 21,
+          "incomplete": 8,
+          "technical_error": 1
+        },
+        "statuses": {
+          "ok": 29,
+          "guard_stopped": 1
+        },
+        "mean_seconds": 9.22,
+        "p95_seconds": 13.31,
+        "generation_calls": 62,
+        "generation_tokens": 223528,
+        "unknown_generation_reservation": 19508,
+        "query_embedding_calls": 30,
+        "query_embedding_physical_calls": 30,
+        "embedding_cache_hits": 0,
+        "controller_failures": 4,
+        "controller_telemetry_incomplete": 0,
+        "fallback_questions": 4,
+        "fallback_answered_questions": 4,
+        "supplement_questions": 0,
+        "query_embedding_calls_missing_records": [],
+        "query_embedding_observed_successes": 30
+      }
+    }
+  }
+}

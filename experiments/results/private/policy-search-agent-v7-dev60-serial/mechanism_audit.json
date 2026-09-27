@@ -1,0 +1,59 @@
+{
+  "scope": "Offline post-hoc diagnosis using gold evidence. No gold target was supplied to the runtime; neighbor reachability is not a measured answer improvement.",
+  "missing_evidence": [
+    {
+      "question_id": "mb2-046",
+      "target_chunk": {
+        "id": "6a402837e5f7418f",
+        "document_id": "70bf18bcb58911f186f8778a11d56d90",
+        "order": 1,
+        "content_sha256": "49e862122c45ecd403ec1c10327d56f864dd2a56c1d06e7efe53aebf59d2a428"
+      },
+      "same_document_seen_chunks": [
+        {
+          "id": "6b7956e52411fddb",
+          "order": 2,
+          "distance": 1
+        }
+      ],
+      "tools_triggered": 0,
+      "cause": "wrong_version_accepted"
+    },
+    {
+      "question_id": "mb2-060",
+      "target_chunk": {
+        "id": "57d0b01bd4557835",
+        "document_id": "7179ea8eb58911f186f8778a11d56d90",
+        "order": 3,
+        "content_sha256": "a7c859442786140a307e993fd1b7576d83677b1c1fe1d2265e6ba6d990042b13"
+      },
+      "same_document_seen_chunks": [
+        {
+          "id": "338ccbe293fa4edb",
+          "order": 2,
+          "distance": -1
+        }
+      ],
+      "tools_triggered": 0,
+      "cause": "incomplete_boundary_clause_accepted"
+    }
+  ],
+  "present_evidence_not_applied": [
+    {
+      "question_id": "mb2-045",
+      "arm": "rag",
+      "verified_rule_in_final": "各档次奖励额度低于上一档次最高奖励额度的按上一档次最高奖励额度执行"
+    },
+    {
+      "question_id": "mb2-045",
+      "arm": "agent",
+      "verified_rule_in_final": "各档次奖励额度低于上一档次最高奖励额度的按上一档次最高奖励额度执行"
+    },
+    {
+      "question_id": "mb2-091",
+      "judge_reason": "依据失智专区设置条件，需至少2名经过失智照护专业培训的人员且照护人员与失智人员配比不低于1:3，现有7名照护人员（24人需至少8名）且仅1人培训，故缺1名照护人员和1名培训人员。",
+      "final_answer": "根据《关于做好徐州市长期照护保险照护服务机构协议管理工作的通知》，失智专区至少设置20张床位，至少配有2名经过失智照护专业培训的医护人员或者养老护理员，照护人员与失智人员配比不低于1∶3 [ID:0]。您提到的失智专区有24张床、24名失智人员，只有7名照护人员且仅1人接受过失智专业培训。按床数、培训与人员比，至少还缺什么？",
+      "cause": "Final generator omits arithmetic; evidence judge reason is not sent as a substitute policy source."
+    }
+  ]
+}

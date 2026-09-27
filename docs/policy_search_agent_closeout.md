@@ -1,0 +1,75 @@
+# 医保政策 Search Agent 收尾清单
+
+当前可以结束本轮算法实验，进入交付和项目讲述阶段。已有原生基线、独立控制器、开发迭代、冻结测试、逐题轨迹和辅助复核，能够形成完整的应用工程项目。
+
+项目定位：**医保政策证据驱动问答系统（RAG + Search Agent）**，目前为本地原型。当前有 Python 单题及批量入口，另完成Fast RAG和轻量路由离线验证；网页、在线Adaptive路由、外网搜索、多轮记忆尚未实现。单题入口依赖现有本地 RAGFlow 容器、已冻结语料和私有映射，尚未验证换一台机器即可部署。
+
+|交付项|当前状态|收尾动作|
+|---|---|---|
+|固定语料与索引|1000篇、3205 Chunk，原 Embedding|保留版本映射；本轮不重新入库|
+|Benchmark|330题：300核心题、30边界题；核心205开发/95测试|说明用户浏览认可、定向审核与抽查范围，不宣称330题全部独立人工精标|
+|原生基线|Native RAG、Native Low各95题已尝试|保留失败记录；重跑作为单独诊断阶段|
+|独立控制器|v8.1 A+B，单题/批量入口及轨迹|冻结策略和源码，不再使用这95题调参|
+|离线质量评分|277份首轮评分尝试，255有效、22缺失|原分保留，不把质量分叫正确率|
+|辅助复核|53题×3方案及8份重跑，共167份|建议分另存；150题扣分强度保留争议说明|
+|运行说明与索引|已更新为最终测试状态|按下面单题演示流程检查|
+|演示验收|已完成1题现场问答、2份开发轨迹核验|见演示报告；保留部分拒答案例中的控制器误判，未宣称整体拒答能力已验收|
+|Fast与路由探索|Fast v1/v2各尝试199道开发题；路由完成165题政策组交叉验证|保留质量与开销取舍；不采用v2，不宣称Adaptive已保质提速|
+|面试材料|90秒介绍、4条主推简历要点及2条替换项、15个主问及8个追问已更新|按导学理解源码；正式投递前补齐时间与个人独立编码范围|
+
+核心链路是原问题Hybrid初检，合并的需求提取与证据充分性判断，然后在限定动作内选择同块补读、邻块读取或定向补检，保留可核验原文并进行一次最终回答。底层复用RAGFlow检索、模型接口及引用流程；我们控制证据窗口、搜索行动、停止条件、调用预算及评测隔离。
+
+生成模型为 deepseek-v4-flash-0731，非思考；原索引与查询使用 qwen3.7-text-embedding。离线裁判为 deepseek-v4.1-flash。首版未增加最终答案二次生成或额外答案Judge。Evidence Judge的充分性只是运行控制信号，不是评测标签。
+
+可使用的成果口径：
+
+- 构建有来源原文、必答点、难度依据及政策组划分的Benchmark；核心205题用于开发、95题在冻结策略后测试，边界题单列。
+- 实现带原文位置绑定的需求证据选择、同块/邻块补读和有界补检；记录动作、停止原因、引用、物理调用、Token及耗时。
+- 冻结测试的同题有效评分中，v8.1相对Native Low平均质量分差为+13.977/100（77对）；相对Native RAG仅+0.016/100（77对，描述性区间跨0）。这是未经人工全面终审的模型评分。
+- 三方案均成功生成的同一87题上，平均耗时RAG/v8.1/Low为6.622/9.001/25.810秒，P95为10.323/15.632/32.095秒。v8.1比Low平均耗时低约65.1%，但每题生成Token为8128，对照Low为6079，约高33.7%。
+- 同87题查询Embedding观测调用为RAG 1次、v8.1 1次、Low 17次。本批缓存命中为0，调用减少来自流程差异，不能归功于缓存。
+
+本项目的实验结论有明确边界：v8.1相对Low有质量评分和耗时优势，但没有证明相对原生RAG更优；质量与开销需要共同取舍。部分检索或子问复查尝试没有净收益，这些结果同样构成方案选择依据。当前不把它描述为原创检索算法、已上线业务平台，或全库3081篇上的准确率提升。
+
+收尾顺序：
+
+1. **资料归档**：以本文和两个README为入口，连接冻结配置、测试报告、复核侧表和关键案例。原始成绩不变；150题的评分争议不阻塞交付。
+2. **单题演示（已完成）**：现有环境中1题真实运行成功，另核验开发题082的邻块补读和043的信息不足回答边界。现场与保存记录分开标注；见[演示与验收](<policy_search_agent_demo.md>)。
+3. **项目讲述（已更新）**：[简历与面试材料](<../面经-医保Agent.md>)提供90秒介绍、4条主推要点及2条替换项、15个主问及8个追问，纳入Fast和路由探索；[源码导学](<../导学-医保Agent.md>)提供5分钟流程讲解和阅读顺序；[证据账本](<policy_search_agent_claims.json>)保存指标与职责边界。接下来重点是自行复述和源码理解，不需要为了收尾继续扩大实验。
+
+后续效率探索与原95题冻结测试分开报告。Fast v1在165道三组共同有效开发题上，相对Native RAG平均快30.4%、生成Token少36.1%，质量低5.25分。证据路由相对题干路由有改善迹象，但仍未证明相对RAG保质提速。Fast v2在174道与v1有效配对题上平均低1.35分，未采用；15道退步中11道丢掉了原答案引用过的来源块，且全部15题均未截断。面试可以用这段过程解释“关键词覆盖与关键条款支持的区别”，不能把探索性提速写成已上线系统成果。
+
+演示准备命令从仓库根目录执行，输出目录必须不存在：
+
+```bash
+python3 -m experiments.evaluation.search_agent_eval prepare \
+  --question '按徐州2019年城镇职工医疗保险办法，职工医保的三个层次分别是什么？' \
+  --connect-retries 2 \
+  --output experiments/results/private/closeout-demo-01
+```
+
+`prepare`只冻结配置，不调用模型。实际运行使用本机既有容器和已配置模型：
+
+```bash
+python3 -m experiments.evaluation.search_agent_eval run \
+  --output experiments/results/private/closeout-demo-01 --stage pilot
+```
+
+此题已于2026年9月27日真实运行成功：问答阶段8.235秒、生成7,054 Token、查询Embedding 34 Token；含容器初始化的命令耗时34.056秒。输出目录`closeout-demo-01`现已存在，准备新的运行须更换目录。此题用于演示链路，不能算新增泛化证据；一次成功演示也不能代替整套部署验收。
+
+证据入口：
+
+- [最终测试汇总](<../experiments/results/private/policy-search-agent-final-test95/final_summary.md>)
+- [首轮指标](<../experiments/results/private/policy-search-agent-final-test95/metrics.json>)
+- [技术失败单次重跑](<../experiments/results/private/policy-search-agent-final-test95/technical-retry-v1/report.md>)
+- [AI辅助复核报告](<../experiments/results/private/policy-search-agent-final-test95/assistant-review-v1/report.md>)
+- [冻结及用量核验](<../experiments/results/private/policy-search-agent-final-test95/final_integrity.json>)
+- [控制器与运行说明](<../experiments/search_agent/README.md>)
+- [三案例演示与验收](<policy_search_agent_demo.md>)
+- [简历与面试材料](<../面经-医保Agent.md>)
+- [源码导学](<../导学-医保Agent.md>)
+- [Fast v1开发报告](<../experiments/results/private/fast-rag-v1-dev199/report.md>)
+- [轻量证据路由分析](<../experiments/results/private/evidence-router-v1-dev165/analysis.md>)
+- [Fast v2未采用的原因](<../experiments/results/private/fast-rag-v2-dev199/analysis.md>)
+
+这些报告路径包含本地私有实验材料。对外作品集应整理脱敏案例和可分享的指标摘要，不直接把整个私有结果目录当发布包。

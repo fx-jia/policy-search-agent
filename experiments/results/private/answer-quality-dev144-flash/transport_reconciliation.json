@@ -1,0 +1,23 @@
+{
+  "job_id": "1769d8f135c0c64912a6",
+  "question_id": "mb2-050",
+  "arm": "low",
+  "old_records_sha256": "5744032303432147f2f13abb5c09a2f6856cb6123f6326af15e3a5ef1b0fcdc7",
+  "new_records_sha256": "94332b9a07586249d1c93ae9c18a5da37eb6be3bbdc4c10fb6c44ffc64a38cac",
+  "inspection_sha256": "cf4c9d2dda5ebe5ea6d17ed57de479186194c2e308b63f8e160f3d023ce5bb77",
+  "event": {
+    "event": "finish",
+    "call_id": "1769d8f135c0c64912a6:0",
+    "transport_status": "not_sent",
+    "transport_error": "ConnectTimeout",
+    "usage": {
+      "prompt_tokens": 0,
+      "completion_tokens": 0,
+      "total_tokens": 0
+    },
+    "reconciliation_basis": "Inspected direct HTTPX0.28.1/httpcore1.0.9: ConnectTimeout occurs in TCP or TLS connection establishment before HTTP send; no retry."
+  },
+  "all_grade_outcomes_preserved": true,
+  "failed_job_will_not_be_retried": true,
+  "unattempted_jobs_remaining": 164
+}

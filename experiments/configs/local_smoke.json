@@ -1,0 +1,11 @@
+{
+  "method": "local_bm25_smoke",
+  "source_sha256": "dd052ee5ac20640dcef637eba37624be07fcd2a97f80d2080645ba66d383427c",
+  "ragflow_version": "0.27.2 (source declaration; RAGFlow not used for this local run)",
+  "embedding_model": null,
+  "rerank_model": null,
+  "llm_model": null,
+  "chunking_config": {"algorithm": "fixed_unicode_chars", "chunk_chars": 600, "overlap": 0, "title": "prepend_for_scoring", "attachments": false},
+  "retrieval_config": {"candidate_count": 64, "context_top_k": 5, "tokenizer": "chinese_bigram_ascii_word", "bm25_k1": 1.2, "bm25_b": 0.75},
+  "generation_config": {"enabled": false}
+}

@@ -1,0 +1,160 @@
+[
+  {
+    "question_id": "mb2-022",
+    "question": "按2019年江苏异地就医规程解读，申请异地住院费用和普通门诊费用的零星报销，各自需要哪些医疗材料？不讨论身份材料。",
+    "old_score": 70.0,
+    "new_score": 51.25,
+    "delta": -18.75,
+    "lost_old_cited_chunks": [],
+    "new_context_truncated": false
+  },
+  {
+    "question_id": "mb2-030",
+    "question": "按江苏2020年医保经办政务服务评价通知，综合评定、服务体验和服务满意度在百分制中各占多少分？这个比例是否永远固定？",
+    "old_score": 100.0,
+    "new_score": 2.5,
+    "delta": -97.5,
+    "lost_old_cited_chunks": [
+      "338ccbe293fa4edb"
+    ],
+    "new_context_truncated": false
+  },
+  {
+    "question_id": "mb2-037",
+    "question": "按徐州脑血管病康复床日收付费通知，床日费用打包后，医院能否再单独向患者收取药品、耗材和床位费？",
+    "old_score": 100.0,
+    "new_score": 20.0,
+    "delta": -80.0,
+    "lost_old_cited_chunks": [
+      "a25fde37735225bf"
+    ],
+    "new_context_truncated": false
+  },
+  {
+    "question_id": "mb2-058",
+    "question": "按2019年江苏异地就医规程解读：甲已备案，在就医地定点医院因未联网未能直接结算，发生住院费用；乙在外地突发急病且未备案，发生急诊费用。能否仅因甲未直结、乙未备案就都拒绝零星报销？两人的医疗材料分别是什么，完整材料通常多久办结？",
+    "old_score": 100.0,
+    "new_score": 58.75,
+    "delta": -41.25,
+    "lost_old_cited_chunks": [
+      "2a99a8553eb4a824"
+    ],
+    "new_context_truncated": false
+  },
+  {
+    "question_id": "mb2-078",
+    "question": "仅按徐州市区2021年1月长护险实施细则，申请失能失智评估可以由谁办理，可以走哪些渠道？",
+    "old_score": 100.0,
+    "new_score": 27.5,
+    "delta": -72.5,
+    "lost_old_cited_chunks": [
+      "c929ed37bd6f152a"
+    ],
+    "new_context_truncated": false
+  },
+  {
+    "question_id": "mb2-086",
+    "question": "仅按徐州市区2021年1月长护险实施细则，甲为中度、乙为重度，两人都想居家只由家人照护并同时领取机构入住待遇。按该份细则，各有什么不符合？",
+    "old_score": 100.0,
+    "new_score": 20.0,
+    "delta": -80.0,
+    "lost_old_cited_chunks": [
+      "9051c7d31466a432"
+    ],
+    "new_context_truncated": false
+  },
+  {
+    "question_id": "mb2-088",
+    "question": "仅按徐州市区2021年1月长护险实施细则，同一结算年度从居民医保转职工医保，长护险费还要再缴一遍吗？",
+    "old_score": 100.0,
+    "new_score": 98.75,
+    "delta": -1.25,
+    "lost_old_cited_chunks": [],
+    "new_context_truncated": false
+  },
+  {
+    "question_id": "mb2-091",
+    "question": "按徐州2021年照护服务机构协议管理通知，失智专区有24张床、24名失智人员，只有7名照护人员且仅1人接受过失智专业培训。按床数、培训与人员比，至少还缺什么？",
+    "old_score": 100.0,
+    "new_score": 45.0,
+    "delta": -55.0,
+    "lost_old_cited_chunks": [],
+    "new_context_truncated": false
+  },
+  {
+    "question_id": "mb2-125",
+    "question": "按江苏2020年经办事项清单通知，经办六统一指哪些方面？",
+    "old_score": 100.0,
+    "new_score": 93.75,
+    "delta": -6.25,
+    "lost_old_cited_chunks": [
+      "6eb34907b4567752"
+    ],
+    "new_context_truncated": false
+  },
+  {
+    "question_id": "mb2-133",
+    "question": "按江苏2020年支持中医药发展的若干措施，中医项目与西医项目同质同效同价能否理解为所有项目统一同一价格？",
+    "old_score": 100.0,
+    "new_score": 93.75,
+    "delta": -6.25,
+    "lost_old_cited_chunks": [
+      "01a25546fd9de468"
+    ],
+    "new_context_truncated": false
+  },
+  {
+    "question_id": "mb2-145",
+    "question": "按江苏2022年优化医保营商环境意见，窗口能否在统一办事清单外额外增加环节和材料来提高管理效率？",
+    "old_score": 100.0,
+    "new_score": 26.25,
+    "delta": -73.75,
+    "lost_old_cited_chunks": [
+      "f41480a3153c38bf"
+    ],
+    "new_context_truncated": false
+  },
+  {
+    "question_id": "mb2-159",
+    "question": "按2019年国务院两险合并实施意见，合并后的生育保险待遇含哪些内容，资金从哪里支付？",
+    "old_score": 100.0,
+    "new_score": 51.25,
+    "delta": -48.75,
+    "lost_old_cited_chunks": [
+      "310ab2a2e727b54c"
+    ],
+    "new_context_truncated": false
+  },
+  {
+    "question_id": "mb2-163",
+    "question": "按2020年国家扩大长护险试点指导意见，甲只失能2个月、乙已规范诊疗且失能7个月但还没申请评估。能否仅凭失能事实要求马上享受待遇？",
+    "old_score": 100.0,
+    "new_score": 82.5,
+    "delta": -17.5,
+    "lost_old_cited_chunks": [],
+    "new_context_truncated": false
+  },
+  {
+    "question_id": "mb2-179",
+    "question": "按徐州2024年度居民医保集中征缴解读，文中有2023上半年77.51%和住院保障75%左右两个比例，能据此承诺某位居民下一次所有账单都报77.51%吗？",
+    "old_score": 100.0,
+    "new_score": 63.75,
+    "delta": -36.25,
+    "lost_old_cited_chunks": [
+      "416f2ad679ab2484",
+      "a7d20200fac80723"
+    ],
+    "new_context_truncated": false
+  },
+  {
+    "question_id": "mb2-215",
+    "question": "按徐州2023年4月新冠医疗费用保障通知，甲2023年3月30日入院，乙4月2日入院。4月17日才印发的新通知应按哪个日期分政策，能否两人都按印发前的旧政策处理？",
+    "old_score": 100.0,
+    "new_score": 26.25,
+    "delta": -73.75,
+    "lost_old_cited_chunks": [
+      "e12d79188ffb5945"
+    ],
+    "new_context_truncated": false
+  }
+]

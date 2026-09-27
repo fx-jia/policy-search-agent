@@ -1,0 +1,600 @@
+{
+  "rag": {
+    "planned": 60,
+    "attempted": 60,
+    "accepted": 57,
+    "unassessed": 0,
+    "outcomes": {
+      "complete": 57,
+      "budget_censored": 1,
+      "incomplete": 2
+    },
+    "statuses": {
+      "ok": 59,
+      "budget_censored": 1
+    },
+    "mean_seconds": 4.66,
+    "p95_seconds": 6.83,
+    "generation_calls": 65,
+    "generation_tokens": 228079,
+    "unknown_generation_reservation": 0,
+    "query_embedding_calls": 60,
+    "query_embedding_physical_calls": null,
+    "embedding_cache_hits": null,
+    "controller_failures": 0,
+    "controller_telemetry_incomplete": 0,
+    "fallback_questions": 0,
+    "fallback_answered_questions": 0,
+    "supplement_questions": 0,
+    "query_embedding_calls_missing_records": [],
+    "query_embedding_observed_successes": 60,
+    "required_points_passed": 102,
+    "required_points_planned": 106,
+    "core_accepted_range": [
+      57,
+      57
+    ],
+    "extra_claim_flag_questions": [
+      "mb2-051",
+      "mb2-048"
+    ],
+    "generation_not_sent_attempts": 6,
+    "generation_prompt_tokens": 221768,
+    "generation_completion_tokens": 6311,
+    "generation_provider_cached_prompt_tokens": 5120,
+    "generation_unsettled_attempts": 0,
+    "query_embedding_duplicate_observed_successes": 0,
+    "duplicate_embedding_note": "Same-query hashes within one question under frozen model/config; observed application successes, not physical requests or realized cache savings.",
+    "query_embedding_known_tokens": 3290,
+    "by_difficulty": {
+      "Easy": {
+        "planned": 10,
+        "attempted": 10,
+        "accepted": 10,
+        "unassessed": 0,
+        "outcomes": {
+          "complete": 10
+        },
+        "statuses": {
+          "ok": 10
+        },
+        "mean_seconds": 4.09,
+        "p95_seconds": 6.09,
+        "generation_calls": 10,
+        "generation_tokens": 39430,
+        "unknown_generation_reservation": 0,
+        "query_embedding_calls": 10,
+        "query_embedding_physical_calls": null,
+        "embedding_cache_hits": null,
+        "controller_failures": 0,
+        "controller_telemetry_incomplete": 0,
+        "fallback_questions": 0,
+        "fallback_answered_questions": 0,
+        "supplement_questions": 0,
+        "query_embedding_calls_missing_records": [],
+        "query_embedding_observed_successes": 10
+      },
+      "Medium": {
+        "planned": 40,
+        "attempted": 40,
+        "accepted": 39,
+        "unassessed": 0,
+        "outcomes": {
+          "complete": 39,
+          "budget_censored": 1
+        },
+        "statuses": {
+          "ok": 39,
+          "budget_censored": 1
+        },
+        "mean_seconds": 4.49,
+        "p95_seconds": 6.28,
+        "generation_calls": 44,
+        "generation_tokens": 149470,
+        "unknown_generation_reservation": 0,
+        "query_embedding_calls": 40,
+        "query_embedding_physical_calls": null,
+        "embedding_cache_hits": null,
+        "controller_failures": 0,
+        "controller_telemetry_incomplete": 0,
+        "fallback_questions": 0,
+        "fallback_answered_questions": 0,
+        "supplement_questions": 0,
+        "query_embedding_calls_missing_records": [],
+        "query_embedding_observed_successes": 40
+      },
+      "Hard": {
+        "planned": 10,
+        "attempted": 10,
+        "accepted": 8,
+        "unassessed": 0,
+        "outcomes": {
+          "complete": 8,
+          "incomplete": 2
+        },
+        "statuses": {
+          "ok": 10
+        },
+        "mean_seconds": 5.91,
+        "p95_seconds": 9.07,
+        "generation_calls": 11,
+        "generation_tokens": 39179,
+        "unknown_generation_reservation": 0,
+        "query_embedding_calls": 10,
+        "query_embedding_physical_calls": null,
+        "embedding_cache_hits": null,
+        "controller_failures": 0,
+        "controller_telemetry_incomplete": 0,
+        "fallback_questions": 0,
+        "fallback_answered_questions": 0,
+        "supplement_questions": 0,
+        "query_embedding_calls_missing_records": [],
+        "query_embedding_observed_successes": 10
+      }
+    },
+    "latency_stdev_seconds": 1.24,
+    "candidate_literal_all_spans": 54,
+    "final_literal_all_spans": 53,
+    "unmapped_citation_questions": [],
+    "additional_citation_questions_pending": [
+      "mb2-012",
+      "mb2-117",
+      "mb2-171",
+      "mb2-050",
+      "mb2-179",
+      "mb2-001",
+      "mb2-128",
+      "mb2-048",
+      "mb2-256",
+      "mb2-059",
+      "mb2-155",
+      "mb2-130",
+      "mb2-142",
+      "mb2-025",
+      "mb2-272",
+      "mb2-022",
+      "mb2-160"
+    ]
+  },
+  "low": {
+    "planned": 60,
+    "attempted": 60,
+    "accepted": 50,
+    "unassessed": 0,
+    "outcomes": {
+      "complete": 50,
+      "incomplete": 10
+    },
+    "statuses": {
+      "ok": 60
+    },
+    "mean_seconds": 21.08,
+    "p95_seconds": 25.69,
+    "generation_calls": 257,
+    "generation_tokens": 383782,
+    "unknown_generation_reservation": 0,
+    "query_embedding_calls": 1020,
+    "query_embedding_physical_calls": null,
+    "embedding_cache_hits": null,
+    "controller_failures": 0,
+    "controller_telemetry_incomplete": 0,
+    "fallback_questions": 0,
+    "fallback_answered_questions": 0,
+    "supplement_questions": 0,
+    "query_embedding_calls_missing_records": [],
+    "query_embedding_observed_successes": 1020,
+    "required_points_passed": 85,
+    "required_points_planned": 106,
+    "core_accepted_range": [
+      50,
+      50
+    ],
+    "extra_claim_flag_questions": [
+      "mb2-128"
+    ],
+    "generation_not_sent_attempts": 17,
+    "generation_prompt_tokens": 361715,
+    "generation_completion_tokens": 22067,
+    "generation_provider_cached_prompt_tokens": 60416,
+    "generation_unsettled_attempts": 0,
+    "query_embedding_duplicate_observed_successes": 900,
+    "duplicate_embedding_note": "Same-query hashes within one question under frozen model/config; observed application successes, not physical requests or realized cache savings.",
+    "query_embedding_known_tokens": 63929,
+    "by_difficulty": {
+      "Easy": {
+        "planned": 10,
+        "attempted": 10,
+        "accepted": 9,
+        "unassessed": 0,
+        "outcomes": {
+          "complete": 9,
+          "incomplete": 1
+        },
+        "statuses": {
+          "ok": 10
+        },
+        "mean_seconds": 21.22,
+        "p95_seconds": 28.06,
+        "generation_calls": 45,
+        "generation_tokens": 63073,
+        "unknown_generation_reservation": 0,
+        "query_embedding_calls": 170,
+        "query_embedding_physical_calls": null,
+        "embedding_cache_hits": null,
+        "controller_failures": 0,
+        "controller_telemetry_incomplete": 0,
+        "fallback_questions": 0,
+        "fallback_answered_questions": 0,
+        "supplement_questions": 0,
+        "query_embedding_calls_missing_records": [],
+        "query_embedding_observed_successes": 170
+      },
+      "Medium": {
+        "planned": 40,
+        "attempted": 40,
+        "accepted": 36,
+        "unassessed": 0,
+        "outcomes": {
+          "complete": 36,
+          "incomplete": 4
+        },
+        "statuses": {
+          "ok": 40
+        },
+        "mean_seconds": 20.61,
+        "p95_seconds": 24.16,
+        "generation_calls": 166,
+        "generation_tokens": 253116,
+        "unknown_generation_reservation": 0,
+        "query_embedding_calls": 680,
+        "query_embedding_physical_calls": null,
+        "embedding_cache_hits": null,
+        "controller_failures": 0,
+        "controller_telemetry_incomplete": 0,
+        "fallback_questions": 0,
+        "fallback_answered_questions": 0,
+        "supplement_questions": 0,
+        "query_embedding_calls_missing_records": [],
+        "query_embedding_observed_successes": 680
+      },
+      "Hard": {
+        "planned": 10,
+        "attempted": 10,
+        "accepted": 5,
+        "unassessed": 0,
+        "outcomes": {
+          "incomplete": 5,
+          "complete": 5
+        },
+        "statuses": {
+          "ok": 10
+        },
+        "mean_seconds": 22.84,
+        "p95_seconds": 25.69,
+        "generation_calls": 46,
+        "generation_tokens": 67593,
+        "unknown_generation_reservation": 0,
+        "query_embedding_calls": 170,
+        "query_embedding_physical_calls": null,
+        "embedding_cache_hits": null,
+        "controller_failures": 0,
+        "controller_telemetry_incomplete": 0,
+        "fallback_questions": 0,
+        "fallback_answered_questions": 0,
+        "supplement_questions": 0,
+        "query_embedding_calls_missing_records": [],
+        "query_embedding_observed_successes": 170
+      }
+    },
+    "latency_stdev_seconds": 2.34,
+    "candidate_literal_all_spans": 50,
+    "final_literal_all_spans": 47,
+    "unmapped_citation_questions": [],
+    "additional_citation_questions_pending": [
+      "mb2-117",
+      "mb2-004",
+      "mb2-179",
+      "mb2-001",
+      "mb2-128",
+      "mb2-144",
+      "mb2-256",
+      "mb2-059",
+      "mb2-298",
+      "mb2-273",
+      "mb2-155",
+      "mb2-022",
+      "mb2-246",
+      "mb2-160"
+    ]
+  },
+  "agent": {
+    "planned": 60,
+    "attempted": 60,
+    "accepted": 54,
+    "unassessed": 0,
+    "outcomes": {
+      "complete": 54,
+      "incomplete": 6
+    },
+    "statuses": {
+      "ok": 60
+    },
+    "mean_seconds": 6.35,
+    "p95_seconds": 8.03,
+    "generation_calls": 122,
+    "generation_tokens": 435340,
+    "unknown_generation_reservation": 0,
+    "query_embedding_calls": 61,
+    "query_embedding_physical_calls": 62,
+    "embedding_cache_hits": 0,
+    "controller_failures": 3,
+    "controller_telemetry_incomplete": 0,
+    "fallback_questions": 3,
+    "fallback_answered_questions": 3,
+    "supplement_questions": 1,
+    "query_embedding_calls_missing_records": [],
+    "query_embedding_observed_successes": 61,
+    "required_points_passed": 98,
+    "required_points_planned": 106,
+    "core_accepted_range": [
+      54,
+      54
+    ],
+    "extra_claim_flag_questions": [],
+    "generation_not_sent_attempts": 1,
+    "generation_prompt_tokens": 422078,
+    "generation_completion_tokens": 13262,
+    "generation_provider_cached_prompt_tokens": 92160,
+    "generation_unsettled_attempts": 0,
+    "query_embedding_duplicate_observed_successes": null,
+    "duplicate_embedding_note": "Same-query hashes within one question under frozen model/config; observed application successes, not physical requests or realized cache savings.",
+    "query_embedding_known_tokens": 3365,
+    "by_difficulty": {
+      "Easy": {
+        "planned": 10,
+        "attempted": 10,
+        "accepted": 10,
+        "unassessed": 0,
+        "outcomes": {
+          "complete": 10
+        },
+        "statuses": {
+          "ok": 10
+        },
+        "mean_seconds": 5.72,
+        "p95_seconds": 8.28,
+        "generation_calls": 20,
+        "generation_tokens": 70971,
+        "unknown_generation_reservation": 0,
+        "query_embedding_calls": 10,
+        "query_embedding_physical_calls": 11,
+        "embedding_cache_hits": 0,
+        "controller_failures": 0,
+        "controller_telemetry_incomplete": 0,
+        "fallback_questions": 0,
+        "fallback_answered_questions": 0,
+        "supplement_questions": 0,
+        "query_embedding_calls_missing_records": [],
+        "query_embedding_observed_successes": 10
+      },
+      "Medium": {
+        "planned": 40,
+        "attempted": 40,
+        "accepted": 38,
+        "unassessed": 0,
+        "outcomes": {
+          "complete": 38,
+          "incomplete": 2
+        },
+        "statuses": {
+          "ok": 40
+        },
+        "mean_seconds": 6.31,
+        "p95_seconds": 7.48,
+        "generation_calls": 82,
+        "generation_tokens": 288465,
+        "unknown_generation_reservation": 0,
+        "query_embedding_calls": 41,
+        "query_embedding_physical_calls": 41,
+        "embedding_cache_hits": 0,
+        "controller_failures": 2,
+        "controller_telemetry_incomplete": 0,
+        "fallback_questions": 2,
+        "fallback_answered_questions": 2,
+        "supplement_questions": 1,
+        "query_embedding_calls_missing_records": [],
+        "query_embedding_observed_successes": 41
+      },
+      "Hard": {
+        "planned": 10,
+        "attempted": 10,
+        "accepted": 6,
+        "unassessed": 0,
+        "outcomes": {
+          "complete": 6,
+          "incomplete": 4
+        },
+        "statuses": {
+          "ok": 10
+        },
+        "mean_seconds": 7.18,
+        "p95_seconds": 9.31,
+        "generation_calls": 20,
+        "generation_tokens": 75904,
+        "unknown_generation_reservation": 0,
+        "query_embedding_calls": 10,
+        "query_embedding_physical_calls": 10,
+        "embedding_cache_hits": 0,
+        "controller_failures": 1,
+        "controller_telemetry_incomplete": 0,
+        "fallback_questions": 1,
+        "fallback_answered_questions": 1,
+        "supplement_questions": 0,
+        "query_embedding_calls_missing_records": [],
+        "query_embedding_observed_successes": 10
+      }
+    },
+    "latency_stdev_seconds": 0.99,
+    "judge_tokens": 215159,
+    "final_tokens": 220181,
+    "candidate_literal_all_spans": 54,
+    "final_literal_all_spans": 50,
+    "unmapped_citation_questions": [],
+    "additional_citation_questions_pending": [
+      "mb2-012",
+      "mb2-117",
+      "mb2-171",
+      "mb2-050",
+      "mb2-179",
+      "mb2-001",
+      "mb2-210",
+      "mb2-128",
+      "mb2-048",
+      "mb2-256",
+      "mb2-059",
+      "mb2-155",
+      "mb2-142",
+      "mb2-025",
+      "mb2-272",
+      "mb2-022",
+      "mb2-160",
+      "mb2-247"
+    ]
+  },
+  "vs_rag": {
+    "paired": 60,
+    "improved": [
+      "mb2-144"
+    ],
+    "regressed": [
+      "mb2-281",
+      "mb2-048",
+      "mb2-242",
+      "mb2-247"
+    ],
+    "unpaired": []
+  },
+  "content_only_vs_rag": {
+    "paired": 59,
+    "improved": [],
+    "regressed": [
+      "mb2-281",
+      "mb2-048",
+      "mb2-242",
+      "mb2-247"
+    ],
+    "unpaired": []
+  },
+  "content_points_vs_rag": {
+    "questions": 59,
+    "planned_points": 105,
+    "rag": 102,
+    "agent": 97,
+    "pending_points": {
+      "rag": 0,
+      "agent": 0
+    }
+  },
+  "cluster_interval_vs_rag": {
+    "policy_groups": 14,
+    "resamples": 10000,
+    "seed": 20260924,
+    "interval95_percentage_points": [
+      -12.9,
+      2.9
+    ],
+    "note": "Descriptive policy-group bootstrap; development data, not held-out significance proof."
+  },
+  "content_cluster_interval_vs_rag": {
+    "policy_groups": 14,
+    "resamples": 10000,
+    "seed": 20260924,
+    "interval95_percentage_points": [
+      -14.06,
+      0.0
+    ],
+    "note": "Descriptive policy-group bootstrap; development data, not held-out significance proof.",
+    "question_count": 59,
+    "excluded_ids": [
+      "mb2-144"
+    ]
+  },
+  "vs_low": {
+    "paired": 60,
+    "improved": [
+      "mb2-267",
+      "mb2-050",
+      "mb2-011",
+      "mb2-051",
+      "mb2-298",
+      "mb2-083",
+      "mb2-273",
+      "mb2-132"
+    ],
+    "regressed": [
+      "mb2-281",
+      "mb2-095",
+      "mb2-242",
+      "mb2-247"
+    ],
+    "unpaired": []
+  },
+  "content_only_vs_low": {
+    "paired": 60,
+    "improved": [
+      "mb2-267",
+      "mb2-050",
+      "mb2-011",
+      "mb2-051",
+      "mb2-298",
+      "mb2-083",
+      "mb2-273",
+      "mb2-132"
+    ],
+    "regressed": [
+      "mb2-281",
+      "mb2-095",
+      "mb2-242",
+      "mb2-247"
+    ],
+    "unpaired": []
+  },
+  "content_points_vs_low": {
+    "questions": 60,
+    "planned_points": 106,
+    "low": 85,
+    "agent": 98,
+    "pending_points": {
+      "low": 0,
+      "agent": 0
+    }
+  },
+  "cluster_interval_vs_low": {
+    "policy_groups": 14,
+    "resamples": 10000,
+    "seed": 20260924,
+    "interval95_percentage_points": [
+      -3.9,
+      16.0
+    ],
+    "note": "Descriptive policy-group bootstrap; development data, not held-out significance proof."
+  },
+  "content_cluster_interval_vs_low": {
+    "policy_groups": 14,
+    "resamples": 10000,
+    "seed": 20260924,
+    "interval95_percentage_points": [
+      -3.9,
+      16.0
+    ],
+    "note": "Descriptive policy-group bootstrap; development data, not held-out significance proof.",
+    "question_count": 60,
+    "excluded_ids": []
+  },
+  "scope": "New dev60 only; fixed planned denominator; source-aware literal diagnostics are not semantic scores. Unknown alternative citations not counted as wrong.",
+  "interrupted_batch": {
+    "path": null,
+    "known_generation_tokens": 0,
+    "reason": "No interruption at launch; prior cohort incident kept in its own report."
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "date": "2026-09-27",
+  "offline_tests": {
+    "executed": 146,
+    "passed": 146,
+    "failed": 0,
+    "command": "python scripts/test_offline.py",
+    "python": "3.13.9",
+    "excluded_count": 1,
+    "excluded_reason": "Original frozen Fast runner audit requires generation/config.json containing omitted raw corpus and review mappings; source retained."
+  },
+  "export_checks": {
+    "python_syntax_valid": 202,
+    "structured_files_valid": 73,
+    "missing_markdown_links": 0,
+    "high_confidence_credential_matches": 0
+  },
+  "privacy_review": {
+    "allowlist_based": true,
+    "known_redacted_substring_probes": 735,
+    "unmatched_raw_content_hashes": 0,
+    "remaining_sensitive_matches": 0,
+    "accepted_public_match": "ybj.xz.gov.cn",
+    "pattern_scan_manual_review": "17 lower-confidence matches reviewed: test credentials and fabricated test phone/identity examples only."
+  },
+  "limitations": [
+    "No full RAGFlow runtime or external-provider integration test in this backup.",
+    "No full corpus, original raw calls, complete usage ledgers or databases uploaded.",
+    "Historical record hashes refer to originals; export hashes refer to packaged copies.",
+    "Tests and scans do not establish experiment efficacy or guarantee absence of all possible sensitive text."
+  ]
+}

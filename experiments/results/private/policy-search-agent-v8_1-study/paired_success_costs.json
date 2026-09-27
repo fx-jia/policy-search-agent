@@ -1,0 +1,54 @@
+{
+  "rag": {
+    "questions": 52,
+    "arms": {
+      "rag": {
+        "mean_seconds": 5.04,
+        "generation_tokens": 193407
+      },
+      "ab": {
+        "mean_seconds": 7.7,
+        "generation_tokens": 432971
+      }
+    }
+  },
+  "low": {
+    "questions": 54,
+    "arms": {
+      "low": {
+        "mean_seconds": 22.82,
+        "generation_tokens": 342410
+      },
+      "ab": {
+        "mean_seconds": 7.7,
+        "generation_tokens": 446554
+      }
+    }
+  },
+  "v7": {
+    "questions": 54,
+    "arms": {
+      "v7": {
+        "mean_seconds": 6.47,
+        "generation_tokens": 395024
+      },
+      "ab": {
+        "mean_seconds": 7.7,
+        "generation_tokens": 446554
+      }
+    }
+  },
+  "a": {
+    "questions": 52,
+    "arms": {
+      "a": {
+        "mean_seconds": 7.76,
+        "generation_tokens": 402045
+      },
+      "ab": {
+        "mean_seconds": 7.55,
+        "generation_tokens": 422023
+      }
+    }
+  }
+}

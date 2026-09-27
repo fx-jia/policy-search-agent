@@ -1,0 +1,16 @@
+{
+  "stage": "calibration",
+  "attempts": 60,
+  "structurally_valid": 54,
+  "invalid_grades": 6,
+  "provider_usage_unknown": 0,
+  "known_tokens": 127609,
+  "decision": "Proceed unchanged for exploratory scoring; invalid grades remain unknown and all missingness will be reported. No reranking-based rubric tuning.",
+  "human_alignment_limitation": "Only one explicit user quality preference (082); no numeric human gold scores or full agreement estimate.",
+  "observations": [
+    "082: A+B100, v7/A51.25, Low33.75; RAG invalid quote so no accepted numeric score.",
+    "165: wrong Low approval body gets lower score; other answers use user-approved scope.",
+    "110/112: omitted optional background not automatically penalized as missing required information.",
+    "Six malformed/incomplete citation audits require review; a source-mapping error by Judge is not an error in the original answer."
+  ]
+}

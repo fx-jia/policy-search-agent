@@ -1,0 +1,2920 @@
+{
+  "created_date": "2026-09-27",
+  "visibility_required": "private",
+  "files": [
+    {
+      "path": ".gitignore",
+      "source": null,
+      "source_sha256": null,
+      "export_sha256": "2151836467aaad2f62397a70e20063bd0f85c6cdb56186e92ca0e53cf2b52ed8",
+      "bytes": 212,
+      "treatment": "Created for this private backup; not an original experiment artifact"
+    },
+    {
+      "path": "BACKUP_VALIDATION.json",
+      "source": null,
+      "source_sha256": null,
+      "export_sha256": "a879fcb4e549a22a57abb67b2450e0dde2dfb930dbf1c7d0ae7be523047382a3",
+      "bytes": 1302,
+      "treatment": "Created for this private backup; not an original experiment artifact"
+    },
+    {
+      "path": "LICENSE",
+      "source": "LICENSE",
+      "source_sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "export_sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4",
+      "bytes": 11357,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "README.md",
+      "source": null,
+      "source_sha256": null,
+      "export_sha256": "c7d76fbedeaa684929d1d09b64214ee7038885b08369463c883e255f48139ef5",
+      "bytes": 5906,
+      "treatment": "Created for this private backup; not an original experiment artifact"
+    },
+    {
+      "path": "THIRD_PARTY.md",
+      "source": null,
+      "source_sha256": null,
+      "export_sha256": "c459b98f34367b2dd395cf78ac56575d8d04d3e3434ff8b3ac41733391925150",
+      "bytes": 1086,
+      "treatment": "Created for this private backup; not an original experiment artifact"
+    },
+    {
+      "path": "docs/benchmark_construction.md",
+      "source": "docs/benchmark_construction.md",
+      "source_sha256": "b68413924b58717c2b5bdfcb991f3748a9d6cc738c1b44d81093db2311e658f3",
+      "export_sha256": "b7f413b2feb040624e06f3f9a0aa623998f7db7677afa6f2faaad4531778f8f3",
+      "bytes": 10822,
+      "treatment": "allowlisted source copy; Markdown links made portable; absent local-only targets marked"
+    },
+    {
+      "path": "docs/benchmark_expansion.md",
+      "source": "docs/benchmark_expansion.md",
+      "source_sha256": "44d7bb78b52897fe22d6f6d837a03d71a64ed2ebab91981463df7b907a25d8a2",
+      "export_sha256": "12fc8a3c30b5704a88110b89e5100472a63756af6d9cfeec5080d15ed2566ab1",
+      "bytes": 8372,
+      "treatment": "allowlisted source copy; Markdown links made portable; absent local-only targets marked"
+    },
+    {
+      "path": "docs/benchmark_review.md",
+      "source": "docs/benchmark_review.md",
+      "source_sha256": "ec41172e547745df1a93d09928564b0a1b55c0ef08b168a003826a0f0a45ad8f",
+      "export_sha256": "3d16a7279d3ba5bc28134e26b75953894a5a72a3b2b9baabc214b12ccb764720",
+      "bytes": 6892,
+      "treatment": "allowlisted source copy; Markdown links made portable; absent local-only targets marked"
+    },
+    {
+      "path": "docs/benchmark_split.md",
+      "source": "docs/benchmark_split.md",
+      "source_sha256": "31d5ac442ff27b4afb8cc1a123f1ff602a1fca41525b567a3a2ca080e207c5fe",
+      "export_sha256": "a86b048441fa24d938f75b748e68699d716f5ab5dd5531c8f205896c6aef87dc",
+      "bytes": 3878,
+      "treatment": "allowlisted source copy; Markdown links made portable; absent local-only targets marked"
+    },
+    {
+      "path": "docs/citation_evaluation.md",
+      "source": "docs/citation_evaluation.md",
+      "source_sha256": "3f9dae5e069a0e18bf65322c858df0e584035491350dd333edf571f57f5df674",
+      "export_sha256": "cf6e723df7dc72c926f342c9239c8bbd08193a7f241b92521cef28cd29e26a11",
+      "bytes": 9213,
+      "treatment": "allowlisted source copy; Markdown links made portable; absent local-only targets marked"
+    },
+    {
+      "path": "docs/citation_format_protocol_v1.md",
+      "source": "docs/citation_format_protocol_v1.md",
+      "source_sha256": "9fac3bc4813ede4e1743f6012a4156e7970953001ef5e583b5efac5ed58cb7e8",
+      "export_sha256": "9fac3bc4813ede4e1743f6012a4156e7970953001ef5e583b5efac5ed58cb7e8",
+      "bytes": 3819,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "docs/context_completion_protocol.md",
+      "source": "docs/context_completion_protocol.md",
+      "source_sha256": "48248a17b9c4164861b62dccd5bd27562a392063278753756a88a9364db61449",
+      "export_sha256": "48248a17b9c4164861b62dccd5bd27562a392063278753756a88a9364db61449",
+      "bytes": 3714,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "docs/coverage_extension_evaluation.md",
+      "source": "docs/coverage_extension_evaluation.md",
+      "source_sha256": "5dbf0796a23b7bf9979f98a9144ca169e41e06d095557576cda62709af339edb",
+      "export_sha256": "e084182437805df627608dbbdb4b335defba3bac89c3c90396d2c81a10a1297e",
+      "bytes": 7977,
+      "treatment": "allowlisted source copy; Markdown links made portable; absent local-only targets marked"
+    },
+    {
+      "path": "docs/coverage_extension_protocol_v1.md",
+      "source": "docs/coverage_extension_protocol_v1.md",
+      "source_sha256": "21ba7630184c21369562aa86690010307350b7a8772854d6cfd0bace3da3004a",
+      "export_sha256": "21ba7630184c21369562aa86690010307350b7a8772854d6cfd0bace3da3004a",
+      "bytes": 3579,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "docs/coverage_revision_evaluation.md",
+      "source": "docs/coverage_revision_evaluation.md",
+      "source_sha256": "1ff6985f550cba5ca1ccee73e77b264dd606e76baa015a49961924b32652b90f",
+      "export_sha256": "48abfe5932bbbf359bf71db8f820c2f01e7c265520aac6e7fb339a6b7f449f50",
+      "bytes": 6452,
+      "treatment": "allowlisted source copy; Markdown links made portable; absent local-only targets marked"
+    },
+    {
+      "path": "docs/coverage_revision_protocol_v1.md",
+      "source": "docs/coverage_revision_protocol_v1.md",
+      "source_sha256": "de82d0afaecea54561c3a3ad12ec0bb5a96e30de55e2e38a34df33c467412554",
+      "export_sha256": "de82d0afaecea54561c3a3ad12ec0bb5a96e30de55e2e38a34df33c467412554",
+      "bytes": 3896,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "docs/dataset_analysis.md",
+      "source": "docs/dataset_analysis.md",
+      "source_sha256": "2d64ffddb0c1f464f1ac555e549bd18f010f4bed88f4c00a593fe98709fb87b3",
+      "export_sha256": "2d64ffddb0c1f464f1ac555e549bd18f010f4bed88f4c00a593fe98709fb87b3",
+      "bytes": 11091,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "docs/evaluation_protocol.md",
+      "source": "docs/evaluation_protocol.md",
+      "source_sha256": "f4fdee98dc8289d04f272c79e3144e7a135f8bd40594db7a5edec148fe2aafb3",
+      "export_sha256": "0cc153a63b067bf4e5d0e97c965b8d1120727ecfe4d578d7cfaa44e45752616d",
+      "bytes": 15541,
+      "treatment": "allowlisted source copy; Markdown links made portable; absent local-only targets marked"
+    },
+    {
+      "path": "docs/failure_analysis.md",
+      "source": "docs/failure_analysis.md",
+      "source_sha256": "949c1983d9234b2a171b2be89ab62e150eeeb9a79a276705adf7521f1c0e6f2d",
+      "export_sha256": "16698b12ea1584163cf701c6572fb469efb9dd9c2efd82bcc6a90232211b331f",
+      "bytes": 10435,
+      "treatment": "allowlisted source copy; Markdown links made portable; absent local-only targets marked"
+    },
+    {
+      "path": "docs/generation_evaluation.md",
+      "source": "docs/generation_evaluation.md",
+      "source_sha256": "5e21d3f72badce9aa287c02c42010faaabe74c792e3cf5c2cbfe22b350636fdd",
+      "export_sha256": "a139dc9bd50b09f3bd8d3e0c5ea9253919a024795e45cbbe4cf4fb4202637ac6",
+      "bytes": 8644,
+      "treatment": "allowlisted source copy; Markdown links made portable; absent local-only targets marked"
+    },
+    {
+      "path": "docs/generation_pilot_protocol.md",
+      "source": "docs/generation_pilot_protocol.md",
+      "source_sha256": "ae12929c8b73dbba4466335c201abad69151581bc6e881546062887562438906",
+      "export_sha256": "ae12929c8b73dbba4466335c201abad69151581bc6e881546062887562438906",
+      "bytes": 4965,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "docs/generation_pilot_protocol_v2.md",
+      "source": "docs/generation_pilot_protocol_v2.md",
+      "source_sha256": "f11676711f22516fe56def893e1fcbe21aa3a3948b5b028166b9f83e26b65593",
+      "export_sha256": "6391448fcf65a47b4cf65abfd78699efbc9cbb04e8ea37978e6f3a3957d99ef3",
+      "bytes": 1651,
+      "treatment": "allowlisted source copy; Markdown links made portable; absent local-only targets marked"
+    },
+    {
+      "path": "docs/generation_pilot_protocol_v3.md",
+      "source": "docs/generation_pilot_protocol_v3.md",
+      "source_sha256": "5a5fd0e1534777e84c7f5f8a0cd3853f3681e4915acce0d1f392e2c8ee770448",
+      "export_sha256": "5a5fd0e1534777e84c7f5f8a0cd3853f3681e4915acce0d1f392e2c8ee770448",
+      "bytes": 1701,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "docs/heldout_generation_evaluation.md",
+      "source": "docs/heldout_generation_evaluation.md",
+      "source_sha256": "3e2f6aea1c875b2fd40421fd5dbae7407701c435ab01229e63b0feab2af3abed",
+      "export_sha256": "458179699e839259f0058e1ee082b4c89224c635788a58c7dc7c9e2d6d76d1eb",
+      "bytes": 8851,
+      "treatment": "allowlisted source copy; Markdown links made portable; absent local-only targets marked"
+    },
+    {
+      "path": "docs/heldout_generation_protocol_v1.md",
+      "source": "docs/heldout_generation_protocol_v1.md",
+      "source_sha256": "07ec0309fafc34b9da48850099e3f258bce3664a6567dd82396987b85e0cee93",
+      "export_sha256": "07ec0309fafc34b9da48850099e3f258bce3664a6567dd82396987b85e0cee93",
+      "bytes": 5625,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "docs/heldout_generation_review_v2.md",
+      "source": "docs/heldout_generation_review_v2.md",
+      "source_sha256": "17dc090a5b7ca12d66e8a7e101e8250412619cfcb32d5340588f1973c6889765",
+      "export_sha256": "1054babff9d1891e25e193b4db5afe68ea698692b01379a5842f1f2501c9b959",
+      "bytes": 7093,
+      "treatment": "allowlisted source copy; Markdown links made portable; absent local-only targets marked"
+    },
+    {
+      "path": "docs/heldout_retrieval_evaluation.md",
+      "source": "docs/heldout_retrieval_evaluation.md",
+      "source_sha256": "828db2e2043bdf60c432eb03cf7426a8a4c588c7e4439319086d87b8ed55bc45",
+      "export_sha256": "cb0da68ad857a91c41c4c25c0eb4ecc4216cc7a9e9631f853e1e1a5466826727",
+      "bytes": 13658,
+      "treatment": "allowlisted source copy; Markdown links made portable; absent local-only targets marked"
+    },
+    {
+      "path": "docs/heldout_retrieval_protocol_v1.md",
+      "source": "docs/heldout_retrieval_protocol_v1.md",
+      "source_sha256": "e7c33b70e72b92a7682f82ae8083bd37a16ba48220f345a87e42c8fec2428f55",
+      "export_sha256": "e7c33b70e72b92a7682f82ae8083bd37a16ba48220f345a87e42c8fec2428f55",
+      "bytes": 5242,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "docs/independent_rerank_evaluation.md",
+      "source": "docs/independent_rerank_evaluation.md",
+      "source_sha256": "5e979a6105284efa535aa40344b6ab86671045d5ac8dff3c66360ff1d9c58588",
+      "export_sha256": "61cc01497539c317cd828d090a8381d8b69c28282a5a1d29b6eef8eb8f8c16aa",
+      "bytes": 4630,
+      "treatment": "allowlisted source copy; Markdown links made portable; absent local-only targets marked"
+    },
+    {
+      "path": "docs/independent_rerank_protocol_v1.md",
+      "source": "docs/independent_rerank_protocol_v1.md",
+      "source_sha256": "16f1aac22f66936c65f87e614e71cdbf5f7a973a2ca28d53a3310d03b550d694",
+      "export_sha256": "16f1aac22f66936c65f87e614e71cdbf5f7a973a2ca28d53a3310d03b550d694",
+      "bytes": 4600,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "docs/policy_fast_rag.md",
+      "source": "docs/policy_fast_rag.md",
+      "source_sha256": "ddb0d2925b6edb48533a24f6803df6095882518972fac7a0f9268f9fa78755c9",
+      "export_sha256": "94a8618dfc568e866ffc988d888be069798782043d7290115ea202dd3c9347c2",
+      "bytes": 4730,
+      "treatment": "allowlisted source copy; Markdown links made portable; absent local-only targets marked"
+    },
+    {
+      "path": "docs/policy_qa.md",
+      "source": "docs/policy_qa.md",
+      "source_sha256": "b03dcb020a47d5ccf62fd149953ef006f48ff25da7e165cf542d90af15a4e5c8",
+      "export_sha256": "06d5e33da9c03c136ea279c1973e8d1529318537e24c703f3add6ce0b3bcef5d",
+      "bytes": 10409,
+      "treatment": "allowlisted source copy; Markdown links made portable; absent local-only targets marked"
+    },
+    {
+      "path": "docs/policy_qa_protocol_v1.md",
+      "source": "docs/policy_qa_protocol_v1.md",
+      "source_sha256": "9c20fcf5c5469b9e62d2b58761bbe87bb262f187e75874c2d8b808caeb89d515",
+      "export_sha256": "9c20fcf5c5469b9e62d2b58761bbe87bb262f187e75874c2d8b808caeb89d515",
+      "bytes": 3638,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "docs/policy_search_agent_claims.json",
+      "source": "docs/policy_search_agent_claims.json",
+      "source_sha256": "d9a32dc2ea36e756467eb1a0e61dda7fa2e6d896f1b8edb578802f9303a5618e",
+      "export_sha256": "d9a32dc2ea36e756467eb1a0e61dda7fa2e6d896f1b8edb578802f9303a5618e",
+      "bytes": 26302,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "docs/policy_search_agent_closeout.md",
+      "source": "docs/policy_search_agent_closeout.md",
+      "source_sha256": "72b69370c0a344657ca3c75f7b171d791862a92afbebf9d01da398a7f8fa01bb",
+      "export_sha256": "2f5c2d793cd62b4d4462ebeed022e4b88da1a423e257748536fcc2336188104a",
+      "bytes": 7684,
+      "treatment": "allowlisted source copy; Markdown links made portable; absent local-only targets marked"
+    },
+    {
+      "path": "docs/policy_search_agent_demo.md",
+      "source": "docs/policy_search_agent_demo.md",
+      "source_sha256": "cbb4aad4cfcc7f50cf1f533a72a8f082e6ecb1ba83caacef41f28823c31c0f92",
+      "export_sha256": "a6a2a3cb49d30a7fa70f26e99e8220abb3a3841cfbf4cdfdb74f6aab72e8a69c",
+      "bytes": 10394,
+      "treatment": "allowlisted source copy; Markdown links made portable; absent local-only targets marked"
+    },
+    {
+      "path": "docs/rrf_fusion_evaluation.md",
+      "source": "docs/rrf_fusion_evaluation.md",
+      "source_sha256": "fec2cf2c0e9aec8b36c52e62cbb4e39545486a8bfbd971f12ec61969ad4d0ff6",
+      "export_sha256": "1f7472a9d7838d2f332752a71be9bc69de7ddc4c06b228550522aaaaac63ae30",
+      "bytes": 4739,
+      "treatment": "allowlisted source copy; Markdown links made portable; absent local-only targets marked"
+    },
+    {
+      "path": "docs/rrf_fusion_protocol_v1.md",
+      "source": "docs/rrf_fusion_protocol_v1.md",
+      "source_sha256": "65b372debfce27f37b5a48f74c9c89c0a6c9bf90fcf659d53f67082c8f36fc03",
+      "export_sha256": "65b372debfce27f37b5a48f74c9c89c0a6c9bf90fcf659d53f67082c8f36fc03",
+      "bytes": 4844,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/README.md",
+      "source": "experiments/README.md",
+      "source_sha256": "6d22c5fe486c2fed35cc82598c8bbb7922f247f4ddfc6b6ab2f31c7fac24ab3d",
+      "export_sha256": "f69e8ef94c6b0f6f796e27778cba3c245322cf22a379b2488549b1083b4455d3",
+      "bytes": 4227,
+      "treatment": "allowlisted source copy; Markdown links made portable; absent local-only targets marked"
+    },
+    {
+      "path": "experiments/__init__.py",
+      "source": "experiments/__init__.py",
+      "source_sha256": "5850e7b2e1f9888a0479b7549e3f58b42be355b14727517600cca78bc63f1aa8",
+      "export_sha256": "5850e7b2e1f9888a0479b7549e3f58b42be355b14727517600cca78bc63f1aa8",
+      "bytes": 69,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/analysis/__init__.py",
+      "source": "experiments/analysis/__init__.py",
+      "source_sha256": "02be5c93eb7c7d084bd62ffa34a7da88a7540d19b9d21330278700eaa7cb48c6",
+      "export_sha256": "02be5c93eb7c7d084bd62ffa34a7da88a7540d19b9d21330278700eaa7cb48c6",
+      "bytes": 27,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/analysis/estimate_embedding.py",
+      "source": "experiments/analysis/estimate_embedding.py",
+      "source_sha256": "74e72426458603832048ce93e4b6d76b8856d0b88dce6aaeb743e85acfe02565",
+      "export_sha256": "74e72426458603832048ce93e4b6d76b8856d0b88dce6aaeb743e85acfe02565",
+      "bytes": 1985,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/analysis/profile_dataset.py",
+      "source": "experiments/analysis/profile_dataset.py",
+      "source_sha256": "04c86dd6aa7a424f263a75afcf129b2b98fd7d20e3c7a693210740bf70fd90d9",
+      "export_sha256": "04c86dd6aa7a424f263a75afcf129b2b98fd7d20e3c7a693210740bf70fd90d9",
+      "bytes": 8494,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/analysis/write_dataset_report.py",
+      "source": "experiments/analysis/write_dataset_report.py",
+      "source_sha256": "43295e7f353a600ecaaba1a348d883ddeddec44920004f545f36eb7a5c69fd9c",
+      "export_sha256": "43295e7f353a600ecaaba1a348d883ddeddec44920004f545f36eb7a5c69fd9c",
+      "bytes": 12818,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/configs/local_smoke.json",
+      "source": "experiments/configs/local_smoke.json",
+      "source_sha256": "cdb24bdffe015cec1a4f2effed7eb110d3bcde9a4146af908dd8d5c9f6bd6acb",
+      "export_sha256": "cdb24bdffe015cec1a4f2effed7eb110d3bcde9a4146af908dd8d5c9f6bd6acb",
+      "bytes": 614,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/configs/ragflow_hybrid.json",
+      "source": "experiments/configs/ragflow_hybrid.json",
+      "source_sha256": "f551a549d53f749b7e1189131b1b4af0134ee4ad3e90e9cd10cc79d88e331e3b",
+      "export_sha256": "f551a549d53f749b7e1189131b1b4af0134ee4ad3e90e9cd10cc79d88e331e3b",
+      "bytes": 919,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/datasets/__init__.py",
+      "source": "experiments/datasets/__init__.py",
+      "source_sha256": "d80ebd10d9400c03c5c8f877b05b7fcca8541794f9cbfd133422080d4a23e231",
+      "export_sha256": "d80ebd10d9400c03c5c8f877b05b7fcca8541794f9cbfd133422080d4a23e231",
+      "bytes": 46,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/datasets/build_benchmark.py",
+      "source": "experiments/datasets/build_benchmark.py",
+      "source_sha256": "6fd78306b64729dafff40d9930717790a62fe79525795f320096f06273f2b491",
+      "export_sha256": "6fd78306b64729dafff40d9930717790a62fe79525795f320096f06273f2b491",
+      "bytes": 13415,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/datasets/freeze_existing.py",
+      "source": "experiments/datasets/freeze_existing.py",
+      "source_sha256": "6f8952041a1d7bda62359006a2930f58d9389ea58426786d37f63ef9e95d5b9a",
+      "export_sha256": "6f8952041a1d7bda62359006a2930f58d9389ea58426786d37f63ef9e95d5b9a",
+      "bytes": 6580,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/datasets/import_ragflow.py",
+      "source": "experiments/datasets/import_ragflow.py",
+      "source_sha256": "0837c181c8e15c731784e5fa8c43c09e3bbea6bda6a544f1d4a4fc892c380d6a",
+      "export_sha256": "0837c181c8e15c731784e5fa8c43c09e3bbea6bda6a544f1d4a4fc892c380d6a",
+      "bytes": 12351,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/datasets/prepare_import.py",
+      "source": "experiments/datasets/prepare_import.py",
+      "source_sha256": "0029c57d8bd105afd15f074ac1f93774fc2dc8a9381c495c67902d909f5e3e58",
+      "export_sha256": "0029c57d8bd105afd15f074ac1f93774fc2dc8a9381c495c67902d909f5e3e58",
+      "bytes": 7061,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/datasets/private/benchmark_v2_full330/author_boundary.py",
+      "source": "experiments/datasets/private/benchmark_v2_full330/author_boundary.py",
+      "source_sha256": "f31104bfad79f54dd6481aee4433a706013d57edd11684b6444b79da9f980ff7",
+      "export_sha256": "f31104bfad79f54dd6481aee4433a706013d57edd11684b6444b79da9f980ff7",
+      "bytes": 14929,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/datasets/private/benchmark_v2_full330/author_expansion.py",
+      "source": "experiments/datasets/private/benchmark_v2_full330/author_expansion.py",
+      "source_sha256": "51d3ea8ed6493cdf6c82e54c7241bc83d9a83991f2071bd0388775e2f0f526ab",
+      "export_sha256": "51d3ea8ed6493cdf6c82e54c7241bc83d9a83991f2071bd0388775e2f0f526ab",
+      "bytes": 70725,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/datasets/private/benchmark_v2_full330/benchmark_overview.md",
+      "source": "experiments/datasets/private/benchmark_v2_full330/benchmark_overview.md",
+      "source_sha256": "620c7d46dde2bd913029f7f19028dc6cadb4395d9ed757c772d34fd91d84c3a0",
+      "export_sha256": "71246df08e1474f3d5fe0a664c3adbce1665799f4b20a56a1a5afdb4f52da3af",
+      "bytes": 6254,
+      "treatment": "allowlisted source copy; Markdown links made portable; absent local-only targets marked"
+    },
+    {
+      "path": "experiments/datasets/private/benchmark_v2_full330/benchmark_v2_boundary30.jsonl",
+      "source": "experiments/datasets/private/benchmark_v2_full330/benchmark_v2_boundary30.jsonl",
+      "source_sha256": "248184ac11c0367e717a67ab1fdecbbc01e0b3ed871aaffd839d42f11a49e91c",
+      "export_sha256": "248184ac11c0367e717a67ab1fdecbbc01e0b3ed871aaffd839d42f11a49e91c",
+      "bytes": 156745,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/datasets/private/benchmark_v2_full330/benchmark_v2_core300.jsonl",
+      "source": "experiments/datasets/private/benchmark_v2_full330/benchmark_v2_core300.jsonl",
+      "source_sha256": "c4a3557198e829c3372e382e4447fcdb49902626b204318c85e7e89bd650af81",
+      "export_sha256": "c4a3557198e829c3372e382e4447fcdb49902626b204318c85e7e89bd650af81",
+      "bytes": 1257677,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/datasets/private/benchmark_v2_full330/boundary_review_report.md",
+      "source": "experiments/datasets/private/benchmark_v2_full330/boundary_review_report.md",
+      "source_sha256": "ccf8ce0bf2973d9de717022a91bd37d263266d86093e24e02ea338dc65c2776a",
+      "export_sha256": "ccf8ce0bf2973d9de717022a91bd37d263266d86093e24e02ea338dc65c2776a",
+      "bytes": 92243,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/datasets/private/benchmark_v2_full330/build_artifacts.py",
+      "source": "experiments/datasets/private/benchmark_v2_full330/build_artifacts.py",
+      "source_sha256": "149e190a44f820f2504c454bd1a047db834658d059bd7ef021efa684781d5fca",
+      "export_sha256": "149e190a44f820f2504c454bd1a047db834658d059bd7ef021efa684781d5fca",
+      "bytes": 22656,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/datasets/private/benchmark_v2_full330/content_revision_log.json",
+      "source": "experiments/datasets/private/benchmark_v2_full330/content_revision_log.json",
+      "source_sha256": "bbe61280d923f6139e85d5d76c4a1d0f6cea4ca613f433e376a465dd0bfa3510",
+      "export_sha256": "bbe61280d923f6139e85d5d76c4a1d0f6cea4ca613f433e376a465dd0bfa3510",
+      "bytes": 32846,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/datasets/private/benchmark_v2_full330/evaluation_review_policy.json",
+      "source": "experiments/datasets/private/benchmark_v2_full330/evaluation_review_policy.json",
+      "source_sha256": "f3add99c2eb9f361307b608fe960688437c33c0f52186ca9c0fc9d28b6821ee0",
+      "export_sha256": "f3add99c2eb9f361307b608fe960688437c33c0f52186ca9c0fc9d28b6821ee0",
+      "bytes": 1295,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/datasets/private/benchmark_v2_full330/evidence.py",
+      "source": "experiments/datasets/private/benchmark_v2_full330/evidence.py",
+      "source_sha256": "1986f51a7ed19d83d2dd2f2cb97e387a3519532dabe6568bf78d115aadfa3425",
+      "export_sha256": "1986f51a7ed19d83d2dd2f2cb97e387a3519532dabe6568bf78d115aadfa3425",
+      "bytes": 4953,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/datasets/private/benchmark_v2_full330/manifest.json",
+      "source": "experiments/datasets/private/benchmark_v2_full330/manifest.json",
+      "source_sha256": "3bd8d128341bc4085727c3f258327ccc0f1f5b78dddad773741061a6008e029a",
+      "export_sha256": "3bd8d128341bc4085727c3f258327ccc0f1f5b78dddad773741061a6008e029a",
+      "bytes": 1685,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/datasets/private/benchmark_v2_full330/quality_review.md",
+      "source": "experiments/datasets/private/benchmark_v2_full330/quality_review.md",
+      "source_sha256": "3a1edc4c5daefaa85d39d6cd4b34025470a679ff43c9453f8f2b3fa269bc20e1",
+      "export_sha256": "3a1edc4c5daefaa85d39d6cd4b34025470a679ff43c9453f8f2b3fa269bc20e1",
+      "bytes": 4793,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/datasets/private/benchmark_v2_full330/report_001_060.md",
+      "source": "experiments/datasets/private/benchmark_v2_full330/report_001_060.md",
+      "source_sha256": "587ffb13e1952eb6ceb9c251ca051894547c02f279f16b4286af64ba376aaf02",
+      "export_sha256": "587ffb13e1952eb6ceb9c251ca051894547c02f279f16b4286af64ba376aaf02",
+      "bytes": 149362,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/datasets/private/benchmark_v2_full330/report_061_120.md",
+      "source": "experiments/datasets/private/benchmark_v2_full330/report_061_120.md",
+      "source_sha256": "832c77c7e2ebe73131c9e640a23a814fc58e275ed0a1303e95cd576ccce788d1",
+      "export_sha256": "832c77c7e2ebe73131c9e640a23a814fc58e275ed0a1303e95cd576ccce788d1",
+      "bytes": 111957,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/datasets/private/benchmark_v2_full330/report_121_180.md",
+      "source": "experiments/datasets/private/benchmark_v2_full330/report_121_180.md",
+      "source_sha256": "b620d58080251b07d1b27f20ddc67434456d9864f1de3a9959fd5eff1f051185",
+      "export_sha256": "b620d58080251b07d1b27f20ddc67434456d9864f1de3a9959fd5eff1f051185",
+      "bytes": 119517,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/datasets/private/benchmark_v2_full330/report_181_240.md",
+      "source": "experiments/datasets/private/benchmark_v2_full330/report_181_240.md",
+      "source_sha256": "280adc8db653d9209976f7546cc9cad35ec0443b970506ffd881e6c1454118fd",
+      "export_sha256": "280adc8db653d9209976f7546cc9cad35ec0443b970506ffd881e6c1454118fd",
+      "bytes": 117512,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/datasets/private/benchmark_v2_full330/report_241_300.md",
+      "source": "experiments/datasets/private/benchmark_v2_full330/report_241_300.md",
+      "source_sha256": "8434d19a249345b8a1e5bcd8acbb0cfce19fdd310062875123d59127e81165b6",
+      "export_sha256": "8434d19a249345b8a1e5bcd8acbb0cfce19fdd310062875123d59127e81165b6",
+      "bytes": 123444,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/datasets/private/benchmark_v2_full330/source_group_candidates.json",
+      "source": "experiments/datasets/private/benchmark_v2_full330/source_group_candidates.json",
+      "source_sha256": "04578f51dbfa6686ea9607eedae40b6ec9afc5eebd763b3c700f4116563ddc40",
+      "export_sha256": "04578f51dbfa6686ea9607eedae40b6ec9afc5eebd763b3c700f4116563ddc40",
+      "bytes": 18290,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/datasets/private/benchmark_v2_full330/source_inventory.json",
+      "source": "experiments/datasets/private/benchmark_v2_full330/source_inventory.json",
+      "source_sha256": "bf55c5be429553627d5c1dadbe3e4c493d3103938c1183e9328e1ed894d2228c",
+      "export_sha256": "bf55c5be429553627d5c1dadbe3e4c493d3103938c1183e9328e1ed894d2228c",
+      "bytes": 51201,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/datasets/private/benchmark_v2_full330/validation.json",
+      "source": "experiments/datasets/private/benchmark_v2_full330/validation.json",
+      "source_sha256": "100b00fb30442e8b59d50511eb908408b0f1ec0e12b33b22988909ce16dcdcad",
+      "export_sha256": "100b00fb30442e8b59d50511eb908408b0f1ec0e12b33b22988909ce16dcdcad",
+      "bytes": 942,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/datasets/private/benchmark_v2_full330/verify_artifacts.py",
+      "source": "experiments/datasets/private/benchmark_v2_full330/verify_artifacts.py",
+      "source_sha256": "a881b3d49621115e61907c7ca7282a805f0d7a64290b261b78e4d8423113d14e",
+      "export_sha256": "a881b3d49621115e61907c7ca7282a805f0d7a64290b261b78e4d8423113d14e",
+      "bytes": 7056,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/datasets/split_benchmark.py",
+      "source": "experiments/datasets/split_benchmark.py",
+      "source_sha256": "76d87150726a5b77a2a5cd78968fd100e9bf3808d26a22ff736ba524916045a3",
+      "export_sha256": "76d87150726a5b77a2a5cd78968fd100e9bf3808d26a22ff736ba524916045a3",
+      "bytes": 8261,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/datasets/test_build_benchmark.py",
+      "source": "experiments/datasets/test_build_benchmark.py",
+      "source_sha256": "e098f2fc9bc45fdd1a231e06609f8fe632a19025a2138b948761c08cd71bae46",
+      "export_sha256": "e098f2fc9bc45fdd1a231e06609f8fe632a19025a2138b948761c08cd71bae46",
+      "bytes": 4817,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/datasets/test_freeze_existing.py",
+      "source": "experiments/datasets/test_freeze_existing.py",
+      "source_sha256": "2f7fc96371ddd7a59ab9e6106b3e4e91af341f079d53a450941ec1d41c2a4c56",
+      "export_sha256": "2f7fc96371ddd7a59ab9e6106b3e4e91af341f079d53a450941ec1d41c2a4c56",
+      "bytes": 740,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/datasets/test_import_ragflow.py",
+      "source": "experiments/datasets/test_import_ragflow.py",
+      "source_sha256": "ec4fb4967dbb71d0470c2782b78222b9f96587619d105820dd5ebeac6edb3e97",
+      "export_sha256": "ec4fb4967dbb71d0470c2782b78222b9f96587619d105820dd5ebeac6edb3e97",
+      "bytes": 4325,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/datasets/test_prepare_import.py",
+      "source": "experiments/datasets/test_prepare_import.py",
+      "source_sha256": "ded0e145f7ed33242c3d263677eb514756d5e4e00d40b0820d20fbf336affd2c",
+      "export_sha256": "ded0e145f7ed33242c3d263677eb514756d5e4e00d40b0820d20fbf336affd2c",
+      "bytes": 2456,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/datasets/test_split_benchmark.py",
+      "source": "experiments/datasets/test_split_benchmark.py",
+      "source_sha256": "8d99468877c56823c3b980390670429e01b683ab8630bc7a3efc72dab55b603a",
+      "export_sha256": "8d99468877c56823c3b980390670429e01b683ab8630bc7a3efc72dab55b603a",
+      "bytes": 2204,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/evaluation/__init__.py",
+      "source": "experiments/evaluation/__init__.py",
+      "source_sha256": "8d549a79b2741f08bf18b1daa7be81a047e6a811c7cb86dcf8a402c18161df9e",
+      "export_sha256": "8d549a79b2741f08bf18b1daa7be81a047e6a811c7cb86dcf8a402c18161df9e",
+      "bytes": 33,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/evaluation/analyze_fusion_results.py",
+      "source": "experiments/evaluation/analyze_fusion_results.py",
+      "source_sha256": "be684cf73ae0b596a90ea282f3aa1f6cb9dedfb9349304e348a27e10b616683e",
+      "export_sha256": "be684cf73ae0b596a90ea282f3aa1f6cb9dedfb9349304e348a27e10b616683e",
+      "bytes": 9497,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/evaluation/analyze_heldout.py",
+      "source": "experiments/evaluation/analyze_heldout.py",
+      "source_sha256": "37ebb73641985ef37e9e1dae80267b0d83b79f875fee638c518b14b374f4d04b",
+      "export_sha256": "37ebb73641985ef37e9e1dae80267b0d83b79f875fee638c518b14b374f4d04b",
+      "bytes": 11590,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/evaluation/analyze_independent_rerank.py",
+      "source": "experiments/evaluation/analyze_independent_rerank.py",
+      "source_sha256": "44e8e263f305991d550814a06415af09fab9bc46a0913b2e2e8793996035969a",
+      "export_sha256": "44e8e263f305991d550814a06415af09fab9bc46a0913b2e2e8793996035969a",
+      "bytes": 16324,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/evaluation/answer_quality.py",
+      "source": "experiments/evaluation/answer_quality.py",
+      "source_sha256": "7f9e18b781fa3a6a1a0a3574a16498288fd60c70e7040180faaaf05aae1698e7",
+      "export_sha256": "7f9e18b781fa3a6a1a0a3574a16498288fd60c70e7040180faaaf05aae1698e7",
+      "bytes": 8207,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/evaluation/answer_quality_eval.py",
+      "source": "experiments/evaluation/answer_quality_eval.py",
+      "source_sha256": "133eb69ae3e91b697f594c87924b9ebf33a783c23236482c6d3f354fb0fb1142",
+      "export_sha256": "133eb69ae3e91b697f594c87924b9ebf33a783c23236482c6d3f354fb0fb1142",
+      "bytes": 9775,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/evaluation/answer_quality_report.py",
+      "source": "experiments/evaluation/answer_quality_report.py",
+      "source_sha256": "1d22ade8360d53361487c4cea227c1982fdf4b6d44d37369fe8aa2838017a0ec",
+      "export_sha256": "1d22ade8360d53361487c4cea227c1982fdf4b6d44d37369fe8aa2838017a0ec",
+      "bytes": 12683,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/evaluation/answer_quality_worker.py",
+      "source": "experiments/evaluation/answer_quality_worker.py",
+      "source_sha256": "47c9d283081db70ac104d10d9d33c26eeead034b43f64162e405f04c2bf5d749",
+      "export_sha256": "47c9d283081db70ac104d10d9d33c26eeead034b43f64162e405f04c2bf5d749",
+      "bytes": 4617,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/evaluation/audit_context.py",
+      "source": "experiments/evaluation/audit_context.py",
+      "source_sha256": "d27bc0f7fa4bc6fc1ad3eff18aeefe4aa88638fd444dc96830b57db7aae2d9d0",
+      "export_sha256": "d27bc0f7fa4bc6fc1ad3eff18aeefe4aa88638fd444dc96830b57db7aae2d9d0",
+      "bytes": 3991,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/evaluation/audit_heldout_generation.py",
+      "source": "experiments/evaluation/audit_heldout_generation.py",
+      "source_sha256": "f4993c5c91b8332be2495abe823ca68e60febf2bdffff90bf938d544cfdea936",
+      "export_sha256": "f4993c5c91b8332be2495abe823ca68e60febf2bdffff90bf938d544cfdea936",
+      "bytes": 6647,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/evaluation/benchmark_v2_baselines.py",
+      "source": "experiments/evaluation/benchmark_v2_baselines.py",
+      "source_sha256": "e09fe5159de582e44acebcb33cef09a100d95035aa36feb016d05f7f5d21e575",
+      "export_sha256": "e09fe5159de582e44acebcb33cef09a100d95035aa36feb016d05f7f5d21e575",
+      "bytes": 16741,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/evaluation/compare.py",
+      "source": "experiments/evaluation/compare.py",
+      "source_sha256": "a5916b19e4141cfc9745610cf6ef637a5ea0bfb6a5ec052ecc0b091f191e9392",
+      "export_sha256": "a5916b19e4141cfc9745610cf6ef637a5ea0bfb6a5ec052ecc0b091f191e9392",
+      "bytes": 10860,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/evaluation/context_completion.py",
+      "source": "experiments/evaluation/context_completion.py",
+      "source_sha256": "6e850fa9811ddbebe0e93172ccbee5e492a341a5e00353468d79ee0973f9a1b7",
+      "export_sha256": "6e850fa9811ddbebe0e93172ccbee5e492a341a5e00353468d79ee0973f9a1b7",
+      "bytes": 3352,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/evaluation/context_experiment.py",
+      "source": "experiments/evaluation/context_experiment.py",
+      "source_sha256": "15b634cb1a268196a0a36510d8dbab53902261cd54f7c59c9d84bdc8e5846f64",
+      "export_sha256": "15b634cb1a268196a0a36510d8dbab53902261cd54f7c59c9d84bdc8e5846f64",
+      "bytes": 16405,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/evaluation/coverage_extension.py",
+      "source": "experiments/evaluation/coverage_extension.py",
+      "source_sha256": "a06509d138fa48e4d3e13017680cc19719f807fd853f15e38ab1f0ac519bb361",
+      "export_sha256": "a06509d138fa48e4d3e13017680cc19719f807fd853f15e38ab1f0ac519bb361",
+      "bytes": 9525,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/evaluation/coverage_extension_report.py",
+      "source": "experiments/evaluation/coverage_extension_report.py",
+      "source_sha256": "7401a3eb9b992cac82c8dd3736ab556b0a6abb69733497ddad742242408cbba0",
+      "export_sha256": "7401a3eb9b992cac82c8dd3736ab556b0a6abb69733497ddad742242408cbba0",
+      "bytes": 7609,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/evaluation/coverage_revision.py",
+      "source": "experiments/evaluation/coverage_revision.py",
+      "source_sha256": "6e2f1acec92b5b0ba676278e054203ab1efd572c33e7b6440830875509b8ca3f",
+      "export_sha256": "6e2f1acec92b5b0ba676278e054203ab1efd572c33e7b6440830875509b8ca3f",
+      "bytes": 11791,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/evaluation/coverage_revision_report.py",
+      "source": "experiments/evaluation/coverage_revision_report.py",
+      "source_sha256": "75e1e4f95f78221ccbb937ec042358363383b96285757868379d3bdb1656f587",
+      "export_sha256": "75e1e4f95f78221ccbb937ec042358363383b96285757868379d3bdb1656f587",
+      "bytes": 7572,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/evaluation/evidence_router_eval.py",
+      "source": "experiments/evaluation/evidence_router_eval.py",
+      "source_sha256": "17320640931fec099f09616c78fd63efd00653b5d70df812190674c13c3f597a",
+      "export_sha256": "17320640931fec099f09616c78fd63efd00653b5d70df812190674c13c3f597a",
+      "bytes": 16265,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/evaluation/export_context_snapshot.py",
+      "source": "experiments/evaluation/export_context_snapshot.py",
+      "source_sha256": "bf16b450efc9de4e44ce7e75ff8210f4d860e26b9953f59b05b812836188eb4b",
+      "export_sha256": "bf16b450efc9de4e44ce7e75ff8210f4d860e26b9953f59b05b812836188eb4b",
+      "bytes": 4965,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/evaluation/fast_context_eval.py",
+      "source": "experiments/evaluation/fast_context_eval.py",
+      "source_sha256": "72af87efc39c2baadd5051b62abe9d8bb72ab6fc17f1ecbb4861836e5b6e4811",
+      "export_sha256": "72af87efc39c2baadd5051b62abe9d8bb72ab6fc17f1ecbb4861836e5b6e4811",
+      "bytes": 17287,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/evaluation/fast_rag_eval.py",
+      "source": "experiments/evaluation/fast_rag_eval.py",
+      "source_sha256": "85d3903c8aff98ce4ef77fbd244547c70c314bfad9f30d73804080b669aaf887",
+      "export_sha256": "85d3903c8aff98ce4ef77fbd244547c70c314bfad9f30d73804080b669aaf887",
+      "bytes": 12911,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/evaluation/fast_rag_report.py",
+      "source": "experiments/evaluation/fast_rag_report.py",
+      "source_sha256": "b716fd0f1296767007d66337e8899d3860c9f96743ea971285578d451a73a4ef",
+      "export_sha256": "b716fd0f1296767007d66337e8899d3860c9f96743ea971285578d451a73a4ef",
+      "bytes": 14843,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/evaluation/fast_rag_router.py",
+      "source": "experiments/evaluation/fast_rag_router.py",
+      "source_sha256": "3f014542ce43be70c55b08021c668288fbffab87ad5869023c6c7a9ddf1a78b6",
+      "export_sha256": "3f014542ce43be70c55b08021c668288fbffab87ad5869023c6c7a9ddf1a78b6",
+      "bytes": 10184,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/evaluation/fixtures/native_agent_installed_functions.json",
+      "source": "experiments/evaluation/fixtures/native_agent_installed_functions.json",
+      "source_sha256": "55f7b11ebf41bf27babc93c31439c43c692daabf870d814a53acd4099849d00d",
+      "export_sha256": "55f7b11ebf41bf27babc93c31439c43c692daabf870d814a53acd4099849d00d",
+      "bytes": 13426,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/evaluation/fusion_experiment.py",
+      "source": "experiments/evaluation/fusion_experiment.py",
+      "source_sha256": "59bf80824bb624f8a5eaf9483d8eccae7385b6e73373473368b604f08e314cf4",
+      "export_sha256": "59bf80824bb624f8a5eaf9483d8eccae7385b6e73373473368b604f08e314cf4",
+      "bytes": 15243,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/evaluation/fusion_report.py",
+      "source": "experiments/evaluation/fusion_report.py",
+      "source_sha256": "1c453a230451cb39c2021078d0c1fa2cfae97e05e0ca1f014b2bd78e5ab04dbb",
+      "export_sha256": "1c453a230451cb39c2021078d0c1fa2cfae97e05e0ca1f014b2bd78e5ab04dbb",
+      "bytes": 11070,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/evaluation/generation_pilot.py",
+      "source": "experiments/evaluation/generation_pilot.py",
+      "source_sha256": "a15aab68cbce96e1860dbf26f27049213317c81ffc331474019aa2f71a535f29",
+      "export_sha256": "a15aab68cbce96e1860dbf26f27049213317c81ffc331474019aa2f71a535f29",
+      "bytes": 16544,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/evaluation/generation_report.py",
+      "source": "experiments/evaluation/generation_report.py",
+      "source_sha256": "26c23d34b13eb7fe506dac0bce1dfc612d0448074b7dedc0fa3fe4a4784f2393",
+      "export_sha256": "26c23d34b13eb7fe506dac0bce1dfc612d0448074b7dedc0fa3fe4a4784f2393",
+      "bytes": 8792,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/evaluation/generation_worker.py",
+      "source": "experiments/evaluation/generation_worker.py",
+      "source_sha256": "030f4b35d0f4202ebad4ce717128db417666c34643260cce30a53df7a5e3f03d",
+      "export_sha256": "030f4b35d0f4202ebad4ce717128db417666c34643260cce30a53df7a5e3f03d",
+      "bytes": 4423,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/evaluation/heldout_generation.py",
+      "source": "experiments/evaluation/heldout_generation.py",
+      "source_sha256": "92e73b20cfc772f8e4ea36e854a1db3caaba97cfcd912e17d607e565092190c5",
+      "export_sha256": "92e73b20cfc772f8e4ea36e854a1db3caaba97cfcd912e17d607e565092190c5",
+      "bytes": 12592,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/evaluation/heldout_generation_report.py",
+      "source": "experiments/evaluation/heldout_generation_report.py",
+      "source_sha256": "801b640c43412317a8ee24f2f6abd570f20f0162ff4b849430d9d92c6c83b308",
+      "export_sha256": "801b640c43412317a8ee24f2f6abd570f20f0162ff4b849430d9d92c6c83b308",
+      "bytes": 6955,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/evaluation/heldout_retrieval.py",
+      "source": "experiments/evaluation/heldout_retrieval.py",
+      "source_sha256": "c56b5a47c319ddcadabcff6ed73b440002721b6048166727a57c7818d17f94ac",
+      "export_sha256": "c56b5a47c319ddcadabcff6ed73b440002721b6048166727a57c7818d17f94ac",
+      "bytes": 17278,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/evaluation/independent_rerank_experiment.py",
+      "source": "experiments/evaluation/independent_rerank_experiment.py",
+      "source_sha256": "9dbd2909fd074c9729ecceb1b223e531144a874f59c3ef1744bb81f5cbbb3e2f",
+      "export_sha256": "9dbd2909fd074c9729ecceb1b223e531144a874f59c3ef1744bb81f5cbbb3e2f",
+      "bytes": 16410,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/evaluation/index_snapshot.py",
+      "source": "experiments/evaluation/index_snapshot.py",
+      "source_sha256": "3f58e9f96059f7bfb2fd021562003e0e098c4ecc510cd86a3d7e2ac530cd6262",
+      "export_sha256": "3f58e9f96059f7bfb2fd021562003e0e098c4ecc510cd86a3d7e2ac530cd6262",
+      "bytes": 1821,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/evaluation/metrics.py",
+      "source": "experiments/evaluation/metrics.py",
+      "source_sha256": "13b352b195875d8ced8e8be9fcf24136bbfc9421e9d422ae8af7eef1a7d812da",
+      "export_sha256": "13b352b195875d8ced8e8be9fcf24136bbfc9421e9d422ae8af7eef1a7d812da",
+      "bytes": 2390,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/evaluation/native_agent_baseline.py",
+      "source": "experiments/evaluation/native_agent_baseline.py",
+      "source_sha256": "f951f3e4ee44e6dde518571fd06a34072203e27a77dd00c9501c8013a8acccc4",
+      "export_sha256": "f951f3e4ee44e6dde518571fd06a34072203e27a77dd00c9501c8013a8acccc4",
+      "bytes": 12059,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/evaluation/native_agent_guard.py",
+      "source": "experiments/evaluation/native_agent_guard.py",
+      "source_sha256": "d963ebff1af2365d4af35fa099fd445c6d6e405b6ef0b4804ec96a2ca103accd",
+      "export_sha256": "d963ebff1af2365d4af35fa099fd445c6d6e405b6ef0b4804ec96a2ca103accd",
+      "bytes": 5803,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/evaluation/native_agent_integrity_patch.py",
+      "source": "experiments/evaluation/native_agent_integrity_patch.py",
+      "source_sha256": "1389741dcc9fa6c081a02543ce3d26d253ca56f614362fdbd22b35293ff69ded",
+      "export_sha256": "1389741dcc9fa6c081a02543ce3d26d253ca56f614362fdbd22b35293ff69ded",
+      "bytes": 9789,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/evaluation/native_agent_report.py",
+      "source": "experiments/evaluation/native_agent_report.py",
+      "source_sha256": "e75763e915a5abc6af8e52f20bc1277fc718fc36853590f6547bca2b80af61e1",
+      "export_sha256": "e75763e915a5abc6af8e52f20bc1277fc718fc36853590f6547bca2b80af61e1",
+      "bytes": 11807,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/evaluation/native_agent_transport.py",
+      "source": "experiments/evaluation/native_agent_transport.py",
+      "source_sha256": "750f08a51008ddc63bac14038b607f624101484fcf9fd4876de38ee40b867c61",
+      "export_sha256": "750f08a51008ddc63bac14038b607f624101484fcf9fd4876de38ee40b867c61",
+      "bytes": 9784,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/evaluation/native_agent_worker.py",
+      "source": "experiments/evaluation/native_agent_worker.py",
+      "source_sha256": "5c4f48f2d5104d4959787f1928f1de8ec4d5fff4d5c231980207f7304ac9d261",
+      "export_sha256": "5c4f48f2d5104d4959787f1928f1de8ec4d5fff4d5c231980207f7304ac9d261",
+      "bytes": 32077,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/evaluation/native_baseline.py",
+      "source": "experiments/evaluation/native_baseline.py",
+      "source_sha256": "a15e75bf53115dd36bb0c7c6671b12ad8f24e570411cdcbcfba4977a01853c35",
+      "export_sha256": "a15e75bf53115dd36bb0c7c6671b12ad8f24e570411cdcbcfba4977a01853c35",
+      "bytes": 9904,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/evaluation/native_baseline_report.py",
+      "source": "experiments/evaluation/native_baseline_report.py",
+      "source_sha256": "9ec70b7af43d95a50f62ccdab7c62e6e8e19a0b1ba8fea3c18cf7730f67b36b1",
+      "export_sha256": "9ec70b7af43d95a50f62ccdab7c62e6e8e19a0b1ba8fea3c18cf7730f67b36b1",
+      "bytes": 12983,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/evaluation/native_baseline_worker.py",
+      "source": "experiments/evaluation/native_baseline_worker.py",
+      "source_sha256": "96cc8b1fbf83428f54ce59caf209bb07856eb612a7ef3923213b25a0556db947",
+      "export_sha256": "96cc8b1fbf83428f54ce59caf209bb07856eb612a7ef3923213b25a0556db947",
+      "bytes": 10500,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/evaluation/native_outbound.py",
+      "source": "experiments/evaluation/native_outbound.py",
+      "source_sha256": "098f127f3cb84f61e5fccf648285aca780b24887eb34de6a579db3c3cadef364",
+      "export_sha256": "098f127f3cb84f61e5fccf648285aca780b24887eb34de6a579db3c3cadef364",
+      "bytes": 3203,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/evaluation/native_semantic_report.py",
+      "source": "experiments/evaluation/native_semantic_report.py",
+      "source_sha256": "5ec30d9c96445f362f3c68dad64fb05d6f0e5b95d479b7a65c0cc6c4454a77e4",
+      "export_sha256": "5ec30d9c96445f362f3c68dad64fb05d6f0e5b95d479b7a65c0cc6c4454a77e4",
+      "bytes": 11902,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/evaluation/prepare_baselines.py",
+      "source": "experiments/evaluation/prepare_baselines.py",
+      "source_sha256": "734ebc7790cd2990cf39339367d938828b4965892e3c389bd92e1bc5c434f52a",
+      "export_sha256": "734ebc7790cd2990cf39339367d938828b4965892e3c389bd92e1bc5c434f52a",
+      "bytes": 4020,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/evaluation/qa_regression.py",
+      "source": "experiments/evaluation/qa_regression.py",
+      "source_sha256": "2b708c3f4fa2b9401955ee938019c18551b18c461662cb2e04fc4f547eb3e875",
+      "export_sha256": "2b708c3f4fa2b9401955ee938019c18551b18c461662cb2e04fc4f547eb3e875",
+      "bytes": 8854,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/evaluation/run.py",
+      "source": "experiments/evaluation/run.py",
+      "source_sha256": "5af18790aa5ec660a9ffd83298a6623054d8958bdea8734d0c40c977f48563c9",
+      "export_sha256": "5af18790aa5ec660a9ffd83298a6623054d8958bdea8734d0c40c977f48563c9",
+      "bytes": 16050,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/evaluation/search_agent_eval.py",
+      "source": "experiments/evaluation/search_agent_eval.py",
+      "source_sha256": "7b36149d2517e97c881577c4fa3d06c1d5d407ec4803fb3657af68383992a5a4",
+      "export_sha256": "7b36149d2517e97c881577c4fa3d06c1d5d407ec4803fb3657af68383992a5a4",
+      "bytes": 18759,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/evaluation/search_agent_report.py",
+      "source": "experiments/evaluation/search_agent_report.py",
+      "source_sha256": "4521571bf7d8024290c798631301975bfa25882697753612cdbffdf8ecc7eb81",
+      "export_sha256": "4521571bf7d8024290c798631301975bfa25882697753612cdbffdf8ecc7eb81",
+      "bytes": 12621,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/evaluation/test_answer_quality.py",
+      "source": "experiments/evaluation/test_answer_quality.py",
+      "source_sha256": "641a98c2b39c543c2d3630c89288026b03b70a6d30b0ad4d8813ca64936e3079",
+      "export_sha256": "641a98c2b39c543c2d3630c89288026b03b70a6d30b0ad4d8813ca64936e3079",
+      "bytes": 7423,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/evaluation/test_answer_quality_report.py",
+      "source": "experiments/evaluation/test_answer_quality_report.py",
+      "source_sha256": "65ff3ea0c637b4358976471efb170e455738675dfb19fcd6ad50ecfcfb83a4b0",
+      "export_sha256": "65ff3ea0c637b4358976471efb170e455738675dfb19fcd6ad50ecfcfb83a4b0",
+      "bytes": 2652,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/evaluation/test_benchmark_v2_baselines.py",
+      "source": "experiments/evaluation/test_benchmark_v2_baselines.py",
+      "source_sha256": "6859a0e0aca9d47e4b58b1e5a753c53a32488cd3c0455d381a709bd7815838cd",
+      "export_sha256": "6859a0e0aca9d47e4b58b1e5a753c53a32488cd3c0455d381a709bd7815838cd",
+      "bytes": 3555,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/evaluation/test_compare.py",
+      "source": "experiments/evaluation/test_compare.py",
+      "source_sha256": "11055edfbc9d7043488cafc9441da6ab3b666ce599480be7254149e105330435",
+      "export_sha256": "11055edfbc9d7043488cafc9441da6ab3b666ce599480be7254149e105330435",
+      "bytes": 2026,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/evaluation/test_context_audit.py",
+      "source": "experiments/evaluation/test_context_audit.py",
+      "source_sha256": "d9b98b9bf91481dc7973b274f13df07da33c9cd4580ac1bbe13b9c215518f35d",
+      "export_sha256": "d9b98b9bf91481dc7973b274f13df07da33c9cd4580ac1bbe13b9c215518f35d",
+      "bytes": 1229,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/evaluation/test_context_completion.py",
+      "source": "experiments/evaluation/test_context_completion.py",
+      "source_sha256": "825b4753a5fdc4564e64e691f59ca053a38c9c36a5ee03b04ab2b56c50899b49",
+      "export_sha256": "825b4753a5fdc4564e64e691f59ca053a38c9c36a5ee03b04ab2b56c50899b49",
+      "bytes": 3342,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/evaluation/test_context_experiment.py",
+      "source": "experiments/evaluation/test_context_experiment.py",
+      "source_sha256": "62a89028c845f76e3a2bb9dac6aaff70dfcdf802a2d0ec7b9194e16a44de3660",
+      "export_sha256": "62a89028c845f76e3a2bb9dac6aaff70dfcdf802a2d0ec7b9194e16a44de3660",
+      "bytes": 2795,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/evaluation/test_context_snapshot.py",
+      "source": "experiments/evaluation/test_context_snapshot.py",
+      "source_sha256": "052248971b66e09828397885726b928957f0ef628273abf1dba78a7b687c3be1",
+      "export_sha256": "052248971b66e09828397885726b928957f0ef628273abf1dba78a7b687c3be1",
+      "bytes": 899,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/evaluation/test_coverage_extension.py",
+      "source": "experiments/evaluation/test_coverage_extension.py",
+      "source_sha256": "f7aa5f7b2b1204f7b3876344cbf5f31b0b58fff3b380083bc588d14a44e5450e",
+      "export_sha256": "f7aa5f7b2b1204f7b3876344cbf5f31b0b58fff3b380083bc588d14a44e5450e",
+      "bytes": 2858,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/evaluation/test_coverage_extension_report.py",
+      "source": "experiments/evaluation/test_coverage_extension_report.py",
+      "source_sha256": "d3aef6cb74d473041f93263f8f458416a6a3e82f45fbdaeeb26454d39ad41d7b",
+      "export_sha256": "d3aef6cb74d473041f93263f8f458416a6a3e82f45fbdaeeb26454d39ad41d7b",
+      "bytes": 1534,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/evaluation/test_coverage_revision.py",
+      "source": "experiments/evaluation/test_coverage_revision.py",
+      "source_sha256": "0342547b6c0e5ccd580a15ab74bc70690bcb997a0ad999f5b74b0a0030428755",
+      "export_sha256": "0342547b6c0e5ccd580a15ab74bc70690bcb997a0ad999f5b74b0a0030428755",
+      "bytes": 6033,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/evaluation/test_coverage_revision_report.py",
+      "source": "experiments/evaluation/test_coverage_revision_report.py",
+      "source_sha256": "89bd6a0d9d27978696435a52647a5b878d883904abe1783dda5961c4ed65f2d9",
+      "export_sha256": "89bd6a0d9d27978696435a52647a5b878d883904abe1783dda5961c4ed65f2d9",
+      "bytes": 1942,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/evaluation/test_evaluation.py",
+      "source": "experiments/evaluation/test_evaluation.py",
+      "source_sha256": "c4b7ec25d89d149f08e975a71e6dc0d8e0b40c4e72afff898c605efd96778460",
+      "export_sha256": "c4b7ec25d89d149f08e975a71e6dc0d8e0b40c4e72afff898c605efd96778460",
+      "bytes": 10876,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/evaluation/test_evidence_router_eval.py",
+      "source": "experiments/evaluation/test_evidence_router_eval.py",
+      "source_sha256": "6a4e32259b9fe1e11117e3a79160e3449f319047c3ab19a31805caec5d11ed24",
+      "export_sha256": "6a4e32259b9fe1e11117e3a79160e3449f319047c3ab19a31805caec5d11ed24",
+      "bytes": 2306,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/evaluation/test_fast_context_eval.py",
+      "source": "experiments/evaluation/test_fast_context_eval.py",
+      "source_sha256": "39c760190b1da94553a54f4709b10abf4f13a2dc9a0f0eb26b35c25bd48dfa03",
+      "export_sha256": "39c760190b1da94553a54f4709b10abf4f13a2dc9a0f0eb26b35c25bd48dfa03",
+      "bytes": 3255,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/evaluation/test_fast_rag_eval.py",
+      "source": "experiments/evaluation/test_fast_rag_eval.py",
+      "source_sha256": "46eb85fd985a2876db1452c80b7c173fbd2a18970ef8552c70c12cbe7becfc1e",
+      "export_sha256": "46eb85fd985a2876db1452c80b7c173fbd2a18970ef8552c70c12cbe7becfc1e",
+      "bytes": 1531,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/evaluation/test_fast_rag_report.py",
+      "source": "experiments/evaluation/test_fast_rag_report.py",
+      "source_sha256": "a3b3c0213b0ba7ab7cb3f4f65e2e95c042e39118b4013aa8f6cc7f9a37117e16",
+      "export_sha256": "a3b3c0213b0ba7ab7cb3f4f65e2e95c042e39118b4013aa8f6cc7f9a37117e16",
+      "bytes": 1527,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/evaluation/test_fast_rag_router.py",
+      "source": "experiments/evaluation/test_fast_rag_router.py",
+      "source_sha256": "c218756fd895f8b30bc7829aab64bc0ef8648aa333c3784f2d564d6621828673",
+      "export_sha256": "c218756fd895f8b30bc7829aab64bc0ef8648aa333c3784f2d564d6621828673",
+      "bytes": 1876,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/evaluation/test_fusion_experiment.py",
+      "source": "experiments/evaluation/test_fusion_experiment.py",
+      "source_sha256": "c5992bc799a87fd8ab1fa2c622bcf838f1097b3e012184e72f96bb0e67f955cd",
+      "export_sha256": "c5992bc799a87fd8ab1fa2c622bcf838f1097b3e012184e72f96bb0e67f955cd",
+      "bytes": 1846,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/evaluation/test_generation_pilot.py",
+      "source": "experiments/evaluation/test_generation_pilot.py",
+      "source_sha256": "50c3b2da5e823e3dda4ec0af1a13b5432db2cc74bb7db57d9440f43681fe5e4b",
+      "export_sha256": "50c3b2da5e823e3dda4ec0af1a13b5432db2cc74bb7db57d9440f43681fe5e4b",
+      "bytes": 5060,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/evaluation/test_generation_report.py",
+      "source": "experiments/evaluation/test_generation_report.py",
+      "source_sha256": "ff7d079ad248d88b1ea45ffe30e969abe99b99890cfa66548c558b074b74d375",
+      "export_sha256": "ff7d079ad248d88b1ea45ffe30e969abe99b99890cfa66548c558b074b74d375",
+      "bytes": 2630,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/evaluation/test_generation_worker.py",
+      "source": "experiments/evaluation/test_generation_worker.py",
+      "source_sha256": "79e149664f1f56142881c791a2b18ded448711de804d8120dad0e120e485e81f",
+      "export_sha256": "79e149664f1f56142881c791a2b18ded448711de804d8120dad0e120e485e81f",
+      "bytes": 2530,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/evaluation/test_heldout_generation.py",
+      "source": "experiments/evaluation/test_heldout_generation.py",
+      "source_sha256": "493110d3f7776e313a34348a35b357e200e0c386732729416e2e23b0ee2975da",
+      "export_sha256": "493110d3f7776e313a34348a35b357e200e0c386732729416e2e23b0ee2975da",
+      "bytes": 3535,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/evaluation/test_heldout_retrieval.py",
+      "source": "experiments/evaluation/test_heldout_retrieval.py",
+      "source_sha256": "9a790236c9ee22e4195e0a39c2795b8e58e97f0c09fb1a2de30a3ea7a1b4c8ff",
+      "export_sha256": "9a790236c9ee22e4195e0a39c2795b8e58e97f0c09fb1a2de30a3ea7a1b4c8ff",
+      "bytes": 2162,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/evaluation/test_native_agent_baseline.py",
+      "source": "experiments/evaluation/test_native_agent_baseline.py",
+      "source_sha256": "1410185e9d74957e4c37a9181b38023f9a651ab3104201d0e63b0eedc1646843",
+      "export_sha256": "1410185e9d74957e4c37a9181b38023f9a651ab3104201d0e63b0eedc1646843",
+      "bytes": 2153,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/evaluation/test_native_agent_guard.py",
+      "source": "experiments/evaluation/test_native_agent_guard.py",
+      "source_sha256": "46f659e935abed3321a6beb1eaf3aff36e5f6fe6934d8ed8d3a5ef79df3b5d19",
+      "export_sha256": "46f659e935abed3321a6beb1eaf3aff36e5f6fe6934d8ed8d3a5ef79df3b5d19",
+      "bytes": 6120,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/evaluation/test_native_agent_integrity_patch.py",
+      "source": "experiments/evaluation/test_native_agent_integrity_patch.py",
+      "source_sha256": "5d0240378e0d4f29c5d1e54eee9b56e6697ac3981c264c01f86a4b741c6d7f9c",
+      "export_sha256": "5d0240378e0d4f29c5d1e54eee9b56e6697ac3981c264c01f86a4b741c6d7f9c",
+      "bytes": 19743,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/evaluation/test_native_agent_patch_entry.py",
+      "source": "experiments/evaluation/test_native_agent_patch_entry.py",
+      "source_sha256": "6b6230f4a53e157dbef7b62c36b6529f524f3f4435c1c00277e1183db9e2afe4",
+      "export_sha256": "6b6230f4a53e157dbef7b62c36b6529f524f3f4435c1c00277e1183db9e2afe4",
+      "bytes": 3966,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/evaluation/test_native_agent_report.py",
+      "source": "experiments/evaluation/test_native_agent_report.py",
+      "source_sha256": "dd5f0c68a56e3816e8ad33706864bf419f382a5af0bda7bf6e362ecadb762e12",
+      "export_sha256": "dd5f0c68a56e3816e8ad33706864bf419f382a5af0bda7bf6e362ecadb762e12",
+      "bytes": 9050,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/evaluation/test_native_agent_transport.py",
+      "source": "experiments/evaluation/test_native_agent_transport.py",
+      "source_sha256": "184780e473ee21e30d84f98a6a0390736df588040c285713121a3a415bdd4af6",
+      "export_sha256": "184780e473ee21e30d84f98a6a0390736df588040c285713121a3a415bdd4af6",
+      "bytes": 19148,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/evaluation/test_native_agent_worker.py",
+      "source": "experiments/evaluation/test_native_agent_worker.py",
+      "source_sha256": "4c6b28d2096b81c9b1c738bcef9c7bd6b052edf28a8f13d41a6f5bc56b47c219",
+      "export_sha256": "4c6b28d2096b81c9b1c738bcef9c7bd6b052edf28a8f13d41a6f5bc56b47c219",
+      "bytes": 10664,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/evaluation/test_native_baseline_report.py",
+      "source": "experiments/evaluation/test_native_baseline_report.py",
+      "source_sha256": "87378d9adb88ea8bdaec215d5a74313c90ec20bcaca4694a9499c7235bd02449",
+      "export_sha256": "87378d9adb88ea8bdaec215d5a74313c90ec20bcaca4694a9499c7235bd02449",
+      "bytes": 3635,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/evaluation/test_native_baseline_worker.py",
+      "source": "experiments/evaluation/test_native_baseline_worker.py",
+      "source_sha256": "49671d4a3f65e133ea2ec9e48c2312aebd831100cd66b55b46405e04d8c1b82c",
+      "export_sha256": "49671d4a3f65e133ea2ec9e48c2312aebd831100cd66b55b46405e04d8c1b82c",
+      "bytes": 3502,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/evaluation/test_native_outbound.py",
+      "source": "experiments/evaluation/test_native_outbound.py",
+      "source_sha256": "b037331db03f50f3e169ec16a08ce5c5a6d260fb330852381a064ba0dcedbcdc",
+      "export_sha256": "b037331db03f50f3e169ec16a08ce5c5a6d260fb330852381a064ba0dcedbcdc",
+      "bytes": 5299,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/evaluation/test_native_semantic_report.py",
+      "source": "experiments/evaluation/test_native_semantic_report.py",
+      "source_sha256": "c202fce24ccecc51c973a1e154aa17d38fd7cf750edca1ff0859af254ee94063",
+      "export_sha256": "c202fce24ccecc51c973a1e154aa17d38fd7cf750edca1ff0859af254ee94063",
+      "bytes": 5333,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/evaluation/test_qa_regression.py",
+      "source": "experiments/evaluation/test_qa_regression.py",
+      "source_sha256": "85510ec6500716a63d70942af5285ba2b2e23c6804b8b971ba184c68a52ee64a",
+      "export_sha256": "85510ec6500716a63d70942af5285ba2b2e23c6804b8b971ba184c68a52ee64a",
+      "bytes": 1457,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/evaluation/test_search_agent_eval.py",
+      "source": "experiments/evaluation/test_search_agent_eval.py",
+      "source_sha256": "b024f28522c66983e8ca5023aec640d3468bfc6367f25f5b560c9e4e64f81311",
+      "export_sha256": "b024f28522c66983e8ca5023aec640d3468bfc6367f25f5b560c9e4e64f81311",
+      "bytes": 6632,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/evaluation/test_search_agent_report.py",
+      "source": "experiments/evaluation/test_search_agent_report.py",
+      "source_sha256": "fc1d41b866bb9f66ac893db9dbc6fac265f43c96156c359dd572cabbcc907d79",
+      "export_sha256": "fc1d41b866bb9f66ac893db9dbc6fac265f43c96156c359dd572cabbcc907d79",
+      "bytes": 4258,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/evaluation/test_split_guard.py",
+      "source": "experiments/evaluation/test_split_guard.py",
+      "source_sha256": "b9bb38609ef421d4570bed8f519c5c4aa5903cdad8729d5d90ab20e682a3cbe1",
+      "export_sha256": "b9bb38609ef421d4570bed8f519c5c4aa5903cdad8729d5d90ab20e682a3cbe1",
+      "bytes": 2012,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/qa.py",
+      "source": "experiments/qa.py",
+      "source_sha256": "2f56a088ae2eec13de2e4771002f6164cbe2f21c2c5789a06862b94e82b41786",
+      "export_sha256": "2f56a088ae2eec13de2e4771002f6164cbe2f21c2c5789a06862b94e82b41786",
+      "bytes": 13853,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/results/private/answer-quality-dev144-flash/comparison_audit.json",
+      "source": "experiments/results/private/answer-quality-dev144-flash/comparison_audit.json",
+      "source_sha256": "84b4620d9a69c5b348b60d6f337e0eec2c27efd78fb5967a2527c7c16e213d55",
+      "export_sha256": "84b4620d9a69c5b348b60d6f337e0eec2c27efd78fb5967a2527c7c16e213d55",
+      "bytes": 2276,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/results/private/answer-quality-dev144-flash/metrics.json",
+      "source": "experiments/results/private/answer-quality-dev144-flash/metrics.json",
+      "source_sha256": "e46b169e4e1366704aaf99c1142ea4227bf768194517e18e046d7ff073bb2cf2",
+      "export_sha256": "e46b169e4e1366704aaf99c1142ea4227bf768194517e18e046d7ff073bb2cf2",
+      "bytes": 15103,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/results/private/answer-quality-dev144-flash/protocol.md",
+      "source": "experiments/results/private/answer-quality-dev144-flash/protocol.md",
+      "source_sha256": "75a68a26589c5b032a46ffe3a68e32afc21403f2be66aa486b2c7824f72e551a",
+      "export_sha256": "75a68a26589c5b032a46ffe3a68e32afc21403f2be66aa486b2c7824f72e551a",
+      "bytes": 2443,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/results/private/answer-quality-dev144-flash/raw_scores.csv",
+      "source": "experiments/results/private/answer-quality-dev144-flash/raw_scores.csv",
+      "source_sha256": "730ebf195f027a63ed11eda710238255bed9468a5e0553e6c48275965a37e6a3",
+      "export_sha256": "730ebf195f027a63ed11eda710238255bed9468a5e0553e6c48275965a37e6a3",
+      "bytes": 42137,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/results/private/answer-quality-dev144-flash/report.md",
+      "source": "experiments/results/private/answer-quality-dev144-flash/report.md",
+      "source_sha256": "8f85c09f3b285be004c7299271e7dd89ef309ddc7e9e84b10cf8ebb0dbf7a3ac",
+      "export_sha256": "322307142350c2d7f9728d7c8abc979ec17f7fee8071bb24eff6cbfee6dca8de",
+      "bytes": 3045,
+      "treatment": "allowlisted source copy; Markdown links made portable; absent local-only targets marked"
+    },
+    {
+      "path": "experiments/results/private/answer-quality-dev144-flash/transport_reconciliation.json",
+      "source": "experiments/results/private/answer-quality-dev144-flash/transport_reconciliation.json",
+      "source_sha256": "9a64369750ca226892ad9555faf6c0c7712c0dff62fcd89dc0ff5bbe6f3496b7",
+      "export_sha256": "9a64369750ca226892ad9555faf6c0c7712c0dff62fcd89dc0ff5bbe6f3496b7",
+      "bytes": 901,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/results/private/answer-quality-v2/calibration_summary.json",
+      "source": "experiments/results/private/answer-quality-v2/calibration_summary.json",
+      "source_sha256": "58df08ffb9b6c484cb6f20690056cb8f912230af8b93f4b3f12d13a3c20ecd35",
+      "export_sha256": "58df08ffb9b6c484cb6f20690056cb8f912230af8b93f4b3f12d13a3c20ecd35",
+      "bytes": 905,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/results/private/answer-quality-v2/final_integrity.json",
+      "source": "experiments/results/private/answer-quality-v2/final_integrity.json",
+      "source_sha256": "40b626b06385e0e617b818872b80b7937501e25875899ad6349e91f68b082ea4",
+      "export_sha256": "40b626b06385e0e617b818872b80b7937501e25875899ad6349e91f68b082ea4",
+      "bytes": 1204,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/results/private/answer-quality-v2/metrics.json",
+      "source": "experiments/results/private/answer-quality-v2/metrics.json",
+      "source_sha256": "f8035708be9e776032ee42b374ea99d718b23747e87de85765d742717a7a9b82",
+      "export_sha256": "f8035708be9e776032ee42b374ea99d718b23747e87de85765d742717a7a9b82",
+      "bytes": 11683,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/results/private/answer-quality-v2/protocol.md",
+      "source": "experiments/results/private/answer-quality-v2/protocol.md",
+      "source_sha256": "876880a14a175d4fe8d25fd321882c20bffadd7dadf7045ba3b6f6a2c899258e",
+      "export_sha256": "876880a14a175d4fe8d25fd321882c20bffadd7dadf7045ba3b6f6a2c899258e",
+      "bytes": 5905,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/results/private/answer-quality-v2/raw_scores.csv",
+      "source": "experiments/results/private/answer-quality-v2/raw_scores.csv",
+      "source_sha256": "e0ba215b2576952f7d2240f9489d2c88d9b11cf00750d2dce296ef71bfe249bb",
+      "export_sha256": "e0ba215b2576952f7d2240f9489d2c88d9b11cf00750d2dce296ef71bfe249bb",
+      "bytes": 20551,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/results/private/answer-quality-v2/report.md",
+      "source": "experiments/results/private/answer-quality-v2/report.md",
+      "source_sha256": "285382e37708c328608dfe9210eece4a7460ad4d0a9400866f6888a8e099c330",
+      "export_sha256": "766d11a8fae8a5b39164a68f07a96e6e03ffe5272a22c5e0d839e6c94fc4ba3b",
+      "bytes": 3130,
+      "treatment": "allowlisted source copy; Markdown links made portable; absent local-only targets marked"
+    },
+    {
+      "path": "experiments/results/private/benchmark-v2-baselines-v2-nonthinking/dev.jsonl",
+      "source": "experiments/results/private/benchmark-v2-baselines-v2-nonthinking/dev.jsonl",
+      "source_sha256": "42bd8f3aae7e4196cb974d6f98d0a2e3bb9407b3bb14382d775f3a334433ba0a",
+      "export_sha256": "42bd8f3aae7e4196cb974d6f98d0a2e3bb9407b3bb14382d775f3a334433ba0a",
+      "bytes": 901545,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/results/private/benchmark-v2-baselines-v2-nonthinking/frozen.json",
+      "source": "experiments/results/private/benchmark-v2-baselines-v2-nonthinking/frozen.json",
+      "source_sha256": "df81f64cc1d83d82d6e95854ccee49fdb7256ab1d6eaddf799616f9917881bff",
+      "export_sha256": "df81f64cc1d83d82d6e95854ccee49fdb7256ab1d6eaddf799616f9917881bff",
+      "bytes": 6084,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/results/private/benchmark-v2-baselines-v2-nonthinking/split_audit.json",
+      "source": "experiments/results/private/benchmark-v2-baselines-v2-nonthinking/split_audit.json",
+      "source_sha256": "ed5e91694e9f4309a4bafacf67e4344fb0e79676c3e557d58994590cacfc7e74",
+      "export_sha256": "ed5e91694e9f4309a4bafacf67e4344fb0e79676c3e557d58994590cacfc7e74",
+      "bytes": 10128,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/results/private/benchmark-v2-baselines-v2-nonthinking/test.jsonl",
+      "source": "experiments/results/private/benchmark-v2-baselines-v2-nonthinking/test.jsonl",
+      "source_sha256": "7199015e61a482376c1b9b410fbcbee7fddce4cdc38527d2d51546d52aacd51e",
+      "export_sha256": "7199015e61a482376c1b9b410fbcbee7fddce4cdc38527d2d51546d52aacd51e",
+      "bytes": 360967,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/results/private/evidence-router-v1-dev165/analysis.md",
+      "source": "experiments/results/private/evidence-router-v1-dev165/analysis.md",
+      "source_sha256": "19e27dedc93bf81a7e4a55329076eb72e7bb5642281ecbcf9cc59c7b7cc7fcbb",
+      "export_sha256": "cadb1da4e97c9913b1fbeb45842bdd0d69d8e1fd93c58b6b963419b28e9bf046",
+      "bytes": 4716,
+      "treatment": "allowlisted source copy; Markdown links made portable; absent local-only targets marked"
+    },
+    {
+      "path": "experiments/results/private/evidence-router-v1-dev165/integrity.json",
+      "source": "experiments/results/private/evidence-router-v1-dev165/integrity.json",
+      "source_sha256": "65cd3ac59bc2e462aa5808a83eb28191309fd81bc10ec074cbf0c25407eca96f",
+      "export_sha256": "65cd3ac59bc2e462aa5808a83eb28191309fd81bc10ec074cbf0c25407eca96f",
+      "bytes": 229,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/results/private/evidence-router-v1-dev165/metrics.json",
+      "source": "experiments/results/private/evidence-router-v1-dev165/metrics.json",
+      "source_sha256": "2ebaefb31c8630a810fb6c6f96735a80a60285f3999adf50e214774dec7a070f",
+      "export_sha256": "2ebaefb31c8630a810fb6c6f96735a80a60285f3999adf50e214774dec7a070f",
+      "bytes": 271213,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/results/private/evidence-router-v1-dev165/protocol.json",
+      "source": "experiments/results/private/evidence-router-v1-dev165/protocol.json",
+      "source_sha256": "0249f0929a6903c2ddec87013fca2f86319ba5ae56e332e353f314f8f34de1c0",
+      "export_sha256": "0249f0929a6903c2ddec87013fca2f86319ba5ae56e332e353f314f8f34de1c0",
+      "bytes": 12421,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/results/private/evidence-router-v1-dev165/report.md",
+      "source": "experiments/results/private/evidence-router-v1-dev165/report.md",
+      "source_sha256": "3b07fa6461d20fd23760c470fc946f3f7de323596929b66c927c8affe361ec86",
+      "export_sha256": "3b07fa6461d20fd23760c470fc946f3f7de323596929b66c927c8affe361ec86",
+      "bytes": 4721,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/results/private/fast-rag-v1-dev199/final_integrity.json",
+      "source": "experiments/results/private/fast-rag-v1-dev199/final_integrity.json",
+      "source_sha256": "30c7f98fdaa0998856f9f0ca9fc4f707677de0ee8a51f2d654ef75e9f63a02a0",
+      "export_sha256": "30c7f98fdaa0998856f9f0ca9fc4f707677de0ee8a51f2d654ef75e9f63a02a0",
+      "bytes": 1137,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/results/private/fast-rag-v1-dev199/loss_diagnostics.json",
+      "source": "experiments/results/private/fast-rag-v1-dev199/loss_diagnostics.json",
+      "source_sha256": "49f411bf95808002a939b686e3a3e2e7ab9786d7251c7fcdfc5581b187c4c2fe",
+      "export_sha256": "49f411bf95808002a939b686e3a3e2e7ab9786d7251c7fcdfc5581b187c4c2fe",
+      "bytes": 26782,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/results/private/fast-rag-v1-dev199/manifest.json",
+      "source": "experiments/results/private/fast-rag-v1-dev199/manifest.json",
+      "source_sha256": "f8e7fc7976685fc2182a016aaee92aaaa5545a064ef403da2d770d8ddbd01242",
+      "export_sha256": "f8e7fc7976685fc2182a016aaee92aaaa5545a064ef403da2d770d8ddbd01242",
+      "bytes": 8615,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/results/private/fast-rag-v1-dev199/metrics.json",
+      "source": "experiments/results/private/fast-rag-v1-dev199/metrics.json",
+      "source_sha256": "f97c7caf6dd02a5bff6146dcfae63a29405e8207429a0c75179581c1586dee9c",
+      "export_sha256": "f97c7caf6dd02a5bff6146dcfae63a29405e8207429a0c75179581c1586dee9c",
+      "bytes": 23753,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/results/private/fast-rag-v1-dev199/paired_scores.csv",
+      "source": "experiments/results/private/fast-rag-v1-dev199/paired_scores.csv",
+      "source_sha256": "49913e8f87093897af4ba66663f0b26d332e2a22d234c091060b19d94d510309",
+      "export_sha256": "49913e8f87093897af4ba66663f0b26d332e2a22d234c091060b19d94d510309",
+      "bytes": 8043,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/results/private/fast-rag-v1-dev199/report.md",
+      "source": "experiments/results/private/fast-rag-v1-dev199/report.md",
+      "source_sha256": "f8a8b1e395df60d9f1f381c9f94776c62c11d149b976006ddb0b5410e82cd7f5",
+      "export_sha256": "f8a8b1e395df60d9f1f381c9f94776c62c11d149b976006ddb0b5410e82cd7f5",
+      "bytes": 3402,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/results/private/fast-rag-v1-dev199/router_metrics.json",
+      "source": "experiments/results/private/fast-rag-v1-dev199/router_metrics.json",
+      "source_sha256": "adcf4bf5a963d1b78928bde48cf926e02062ad87c087a550fa7526c9a3836eee",
+      "export_sha256": "adcf4bf5a963d1b78928bde48cf926e02062ad87c087a550fa7526c9a3836eee",
+      "bytes": 64769,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/results/private/fast-rag-v1-dev199/router_protocol.json",
+      "source": "experiments/results/private/fast-rag-v1-dev199/router_protocol.json",
+      "source_sha256": "a60812c6c84eef8aa528d8f28d71121a6208dfc335df8f39cffa7772209199b2",
+      "export_sha256": "a60812c6c84eef8aa528d8f28d71121a6208dfc335df8f39cffa7772209199b2",
+      "bytes": 787,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/results/private/fast-rag-v1-dev199/router_report.md",
+      "source": "experiments/results/private/fast-rag-v1-dev199/router_report.md",
+      "source_sha256": "ccffb75a1b89540434ef740e0c8abd6083e848743acf9687817378df842f402b",
+      "export_sha256": "ccffb75a1b89540434ef740e0c8abd6083e848743acf9687817378df842f402b",
+      "bytes": 1208,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/results/private/fast-rag-v1-dev199/technical_failures.json",
+      "source": "experiments/results/private/fast-rag-v1-dev199/technical_failures.json",
+      "source_sha256": "bc965b750fd04e92ceb7867ce16ea43b5a0c5864ccd8b2c1828fbfa65d591dd6",
+      "export_sha256": "bc965b750fd04e92ceb7867ce16ea43b5a0c5864ccd8b2c1828fbfa65d591dd6",
+      "bytes": 874,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/results/private/fast-rag-v2-dev199/analysis.md",
+      "source": "experiments/results/private/fast-rag-v2-dev199/analysis.md",
+      "source_sha256": "9cf563a2b2f497217d10191a28112de02e4d8ed90d679990b3d11bf3a113e456",
+      "export_sha256": "94e0beeeade75f14e47e11a57119ba7f70201a990951a3024db28d474385f55f",
+      "bytes": 5687,
+      "treatment": "allowlisted source copy; Markdown links made portable; absent local-only targets marked"
+    },
+    {
+      "path": "experiments/results/private/fast-rag-v2-dev199/delivery_audit.json",
+      "source": "experiments/results/private/fast-rag-v2-dev199/delivery_audit.json",
+      "source_sha256": "3c66c9f4479fe29ff25d4194eb393189abdeaf082c7ef6180b83c8007a0a9129",
+      "export_sha256": "3c66c9f4479fe29ff25d4194eb393189abdeaf082c7ef6180b83c8007a0a9129",
+      "bytes": 653,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/results/private/fast-rag-v2-dev199/generation_audit.json",
+      "source": "experiments/results/private/fast-rag-v2-dev199/generation_audit.json",
+      "source_sha256": "486edbd116fff2238485ca11bad60903e6722dc63c7113cc03b00ffb623d487e",
+      "export_sha256": "486edbd116fff2238485ca11bad60903e6722dc63c7113cc03b00ffb623d487e",
+      "bytes": 253,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/results/private/fast-rag-v2-dev199/integrity.json",
+      "source": "experiments/results/private/fast-rag-v2-dev199/integrity.json",
+      "source_sha256": "2b9ef6d45a31707b174928363edb304dca0e46105366bb067de439954ffd29b0",
+      "export_sha256": "2b9ef6d45a31707b174928363edb304dca0e46105366bb067de439954ffd29b0",
+      "bytes": 178,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/results/private/fast-rag-v2-dev199/manifest.json",
+      "source": "experiments/results/private/fast-rag-v2-dev199/manifest.json",
+      "source_sha256": "75a08694462cf34ff88d996ef35a4f74eb61f5d3d65bd1d476bbe481d1d75cbb",
+      "export_sha256": "75a08694462cf34ff88d996ef35a4f74eb61f5d3d65bd1d476bbe481d1d75cbb",
+      "bytes": 9208,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/results/private/fast-rag-v2-dev199/metrics.json",
+      "source": "experiments/results/private/fast-rag-v2-dev199/metrics.json",
+      "source_sha256": "c36f4e9e0e95ad6921fedc636de5b38ee9e4355564d08e165c16b91d3f82b537",
+      "export_sha256": "c36f4e9e0e95ad6921fedc636de5b38ee9e4355564d08e165c16b91d3f82b537",
+      "bytes": 16828,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/results/private/fast-rag-v2-dev199/offline_preflight.json",
+      "source": "experiments/results/private/fast-rag-v2-dev199/offline_preflight.json",
+      "source_sha256": "2a7e90a1cd7ce4918b722d91c8796ace03b38fcfe7af722685252425b5dfce70",
+      "export_sha256": "2a7e90a1cd7ce4918b722d91c8796ace03b38fcfe7af722685252425b5dfce70",
+      "bytes": 354,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/results/private/fast-rag-v2-dev199/regression_audit.json",
+      "source": "experiments/results/private/fast-rag-v2-dev199/regression_audit.json",
+      "source_sha256": "0941776f99516360c2e2174a7ae12c5fb04827b2f585441549a6979edc2ac0ab",
+      "export_sha256": "0941776f99516360c2e2174a7ae12c5fb04827b2f585441549a6979edc2ac0ab",
+      "bytes": 5817,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/results/private/fast-rag-v2-dev199/report.md",
+      "source": "experiments/results/private/fast-rag-v2-dev199/report.md",
+      "source_sha256": "871267a5258181e390472ee1afec197590e7b1e27b6b5e1f3ac052d0ad628eda",
+      "export_sha256": "871267a5258181e390472ee1afec197590e7b1e27b6b5e1f3ac052d0ad628eda",
+      "bytes": 1908,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/results/private/fast-rag-v2-dev199/validation.json",
+      "source": "experiments/results/private/fast-rag-v2-dev199/validation.json",
+      "source_sha256": "c6f6498679aa8fd4d17077aa2063cf06719cbdb08e82061415b39bf6cad7c8fb",
+      "export_sha256": "c6f6498679aa8fd4d17077aa2063cf06719cbdb08e82061415b39bf6cad7c8fb",
+      "bytes": 576,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/results/private/policy-search-agent-final-test95/assistant-review-v1/report.md",
+      "source": "experiments/results/private/policy-search-agent-final-test95/assistant-review-v1/report.md",
+      "source_sha256": "48edc87e25188014d00d669f5345ebd85167e0d3108b69bb6b41d4301d76ef4b",
+      "export_sha256": "ce79b595659c53ee3b1f6bcfc6b2bc93737a964299232a98c3d6b2705e2aef3e",
+      "bytes": 5471,
+      "treatment": "allowlisted source copy; Markdown links made portable; absent local-only targets marked"
+    },
+    {
+      "path": "experiments/results/private/policy-search-agent-final-test95/final_integrity.json",
+      "source": "experiments/results/private/policy-search-agent-final-test95/final_integrity.json",
+      "source_sha256": "d1266294d4940ae7f1f8330f3a58f98fa178ae6aa3d68034cb6a138ace647111",
+      "export_sha256": "d1266294d4940ae7f1f8330f3a58f98fa178ae6aa3d68034cb6a138ace647111",
+      "bytes": 8706,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/results/private/policy-search-agent-final-test95/final_summary.md",
+      "source": "experiments/results/private/policy-search-agent-final-test95/final_summary.md",
+      "source_sha256": "d4a32c06af4a2f0a6460305935c185e007f8b5888c21fcdd33276362d2d5e6d8",
+      "export_sha256": "9106704501e20f12ed3b35bfeda23a3608cc37bcdcb52bc5c4b4ad2d21a62138",
+      "bytes": 3859,
+      "treatment": "allowlisted source copy; Markdown links made portable; absent local-only targets marked"
+    },
+    {
+      "path": "experiments/results/private/policy-search-agent-final-test95/manifest.json",
+      "source": "experiments/results/private/policy-search-agent-final-test95/manifest.json",
+      "source_sha256": "5f8957117da989f8796e4b1495cf59e2984337e67847bdf98f808e1cc4fd91e7",
+      "export_sha256": "5f8957117da989f8796e4b1495cf59e2984337e67847bdf98f808e1cc4fd91e7",
+      "bytes": 4906,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/results/private/policy-search-agent-final-test95/metrics.json",
+      "source": "experiments/results/private/policy-search-agent-final-test95/metrics.json",
+      "source_sha256": "6dc0a5274cf3117fa8306f591da2a824a2d091a2f7d6a4e680a9e75f349b79a1",
+      "export_sha256": "6dc0a5274cf3117fa8306f591da2a824a2d091a2f7d6a4e680a9e75f349b79a1",
+      "bytes": 11004,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/results/private/policy-search-agent-final-test95/protocol.md",
+      "source": "experiments/results/private/policy-search-agent-final-test95/protocol.md",
+      "source_sha256": "97395858dac6b44e483208037b73887603be080bf921b0cb8a45a72e7281c5ce",
+      "export_sha256": "97395858dac6b44e483208037b73887603be080bf921b0cb8a45a72e7281c5ce",
+      "bytes": 4112,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/results/private/policy-search-agent-final-test95/raw_results.csv",
+      "source": "experiments/results/private/policy-search-agent-final-test95/raw_results.csv",
+      "source_sha256": "f3aa4ad7c7d16ea617800525a1ddff76b6722f3f26851ab5bbc7b67114f982e5",
+      "export_sha256": "f3aa4ad7c7d16ea617800525a1ddff76b6722f3f26851ab5bbc7b67114f982e5",
+      "bytes": 10676,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/results/private/policy-search-agent-final-test95/report.md",
+      "source": "experiments/results/private/policy-search-agent-final-test95/report.md",
+      "source_sha256": "42c722d3866e120103b9ca874672a29b3fe14784ebfa8d707069124d21dcb1be",
+      "export_sha256": "26c1d06544792d47876f7a7a925765c4e27983b968c0498fb0ed079de5c73155",
+      "bytes": 2531,
+      "treatment": "allowlisted source copy; Markdown links made portable; absent local-only targets marked"
+    },
+    {
+      "path": "experiments/results/private/policy-search-agent-final-test95/report.py",
+      "source": "experiments/results/private/policy-search-agent-final-test95/report.py",
+      "source_sha256": "765d8f74a11da8242bab026f7d62307043ced5124b9dc4095706adc7418bdebd",
+      "export_sha256": "765d8f74a11da8242bab026f7d62307043ced5124b9dc4095706adc7418bdebd",
+      "bytes": 11324,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/results/private/policy-search-agent-final-test95/technical-retry-v1/metrics.json",
+      "source": "experiments/results/private/policy-search-agent-final-test95/technical-retry-v1/metrics.json",
+      "source_sha256": "7767de9468254957a139a9c929922bda9d1ba421b778cf12bb4b9a2527119787",
+      "export_sha256": "7767de9468254957a139a9c929922bda9d1ba421b778cf12bb4b9a2527119787",
+      "bytes": 3425,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/results/private/policy-search-agent-final-test95/technical-retry-v1/report.md",
+      "source": "experiments/results/private/policy-search-agent-final-test95/technical-retry-v1/report.md",
+      "source_sha256": "f63db9581b6cee69038c2fda7b1b4448a6ecf18ad4c67a0edee7dfa75d4eb562",
+      "export_sha256": "f63db9581b6cee69038c2fda7b1b4448a6ecf18ad4c67a0edee7dfa75d4eb562",
+      "bytes": 1689,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/results/private/policy-search-agent-v7-dev60-serial/comparison_report.md",
+      "source": "experiments/results/private/policy-search-agent-v7-dev60-serial/comparison_report.md",
+      "source_sha256": "0fab21e77367e8049531358c6a7c76c646ec828d3bdeb335934dfae717e4a649",
+      "export_sha256": "fa0a9a11da03ecef60c46940b9c2cd18568e6247068242579d969405df4211ab",
+      "bytes": 10689,
+      "treatment": "allowlisted source copy; Markdown links made portable; absent local-only targets marked"
+    },
+    {
+      "path": "experiments/results/private/policy-search-agent-v7-dev60-serial/evaluation_protocol.md",
+      "source": "experiments/results/private/policy-search-agent-v7-dev60-serial/evaluation_protocol.md",
+      "source_sha256": "11bcd46a57ae31bf0ed0305020f51139127d33528a69127ae3169cdfe06d9889",
+      "export_sha256": "11bcd46a57ae31bf0ed0305020f51139127d33528a69127ae3169cdfe06d9889",
+      "bytes": 2649,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/results/private/policy-search-agent-v7-dev60-serial/independent_review.md",
+      "source": "experiments/results/private/policy-search-agent-v7-dev60-serial/independent_review.md",
+      "source_sha256": "8c182309f7be003e659956de336773c2ebe173b7edd30c640c25f80400e7e793",
+      "export_sha256": "8c182309f7be003e659956de336773c2ebe173b7edd30c640c25f80400e7e793",
+      "bytes": 6202,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/results/private/policy-search-agent-v7-dev60-serial/mechanism_audit.json",
+      "source": "experiments/results/private/policy-search-agent-v7-dev60-serial/mechanism_audit.json",
+      "source_sha256": "678d0409054828a41145d06a6ad2c67138443681fad2629c2952b5127c9ccdd1",
+      "export_sha256": "678d0409054828a41145d06a6ad2c67138443681fad2629c2952b5127c9ccdd1",
+      "bytes": 2562,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/results/private/policy-search-agent-v7-dev60-serial/metrics.json",
+      "source": "experiments/results/private/policy-search-agent-v7-dev60-serial/metrics.json",
+      "source_sha256": "42916fa88388c0c47b8873f9636501f7afb0ea81b25f1641e89837885e6b6693",
+      "export_sha256": "42916fa88388c0c47b8873f9636501f7afb0ea81b25f1641e89837885e6b6693",
+      "bytes": 16615,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/results/private/policy-search-agent-v7-dev60-serial/rubric_interpretation.md",
+      "source": "experiments/results/private/policy-search-agent-v7-dev60-serial/rubric_interpretation.md",
+      "source_sha256": "a28f88f2d29d2a50cffb0aa53e36d77881dd2200ffd6ca2107e7ae4d256f7862",
+      "export_sha256": "a28f88f2d29d2a50cffb0aa53e36d77881dd2200ffd6ca2107e7ae4d256f7862",
+      "bytes": 668,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/results/private/policy-search-agent-v7-dev60-serial/verification.json",
+      "source": "experiments/results/private/policy-search-agent-v7-dev60-serial/verification.json",
+      "source_sha256": "1feedbb8ca850bce22168e71fd0f2f97c24d476a0473f2317f2cddd96da53cb9",
+      "export_sha256": "1feedbb8ca850bce22168e71fd0f2f97c24d476a0473f2317f2cddd96da53cb9",
+      "bytes": 712,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/results/private/policy-search-agent-v7-dev60b-serial/aggregate120_metrics.json",
+      "source": "experiments/results/private/policy-search-agent-v7-dev60b-serial/aggregate120_metrics.json",
+      "source_sha256": "5e85020d8f87778093af20e13b2a9f7a6b9cdf936526820eb683d019d2abd63f",
+      "export_sha256": "5e85020d8f87778093af20e13b2a9f7a6b9cdf936526820eb683d019d2abd63f",
+      "bytes": 12708,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/results/private/policy-search-agent-v7-dev60b-serial/comparison_report.md",
+      "source": "experiments/results/private/policy-search-agent-v7-dev60b-serial/comparison_report.md",
+      "source_sha256": "69196b4b36ab5856991b5e0b9e18c04f577bc31a77b1b7213fc13cd6215f9ebc",
+      "export_sha256": "f0126df8a41e33bf9f3fe663ca0fb458e732194c3e2330ad478b69359b62e53f",
+      "bytes": 7300,
+      "treatment": "allowlisted source copy; Markdown links made portable; absent local-only targets marked"
+    },
+    {
+      "path": "experiments/results/private/policy-search-agent-v7-dev60b-serial/evaluation_protocol.md",
+      "source": "experiments/results/private/policy-search-agent-v7-dev60b-serial/evaluation_protocol.md",
+      "source_sha256": "102111db7afd4a260b6a599887d9df814937a40e5a685c58448b4750e4b58b9e",
+      "export_sha256": "102111db7afd4a260b6a599887d9df814937a40e5a685c58448b4750e4b58b9e",
+      "bytes": 1806,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/results/private/policy-search-agent-v7-dev60b-serial/metrics.json",
+      "source": "experiments/results/private/policy-search-agent-v7-dev60b-serial/metrics.json",
+      "source_sha256": "81829294a0d2c1af60f68fc2e407cf4ce17691a32ea34e65ad6e4d7aeb8f143b",
+      "export_sha256": "81829294a0d2c1af60f68fc2e407cf4ce17691a32ea34e65ad6e4d7aeb8f143b",
+      "bytes": 16419,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/results/private/policy-search-agent-v7-dev60b-serial/rubric_interpretation.md",
+      "source": "experiments/results/private/policy-search-agent-v7-dev60b-serial/rubric_interpretation.md",
+      "source_sha256": "cc600b8800c50a2c6c9e6d51f7b9de95249d4737526cee2d5f2c17f5b58e21cf",
+      "export_sha256": "cc600b8800c50a2c6c9e6d51f7b9de95249d4737526cee2d5f2c17f5b58e21cf",
+      "bytes": 512,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/results/private/policy-search-agent-v7-dev60b-serial/v7_failure_analysis_and_proposal.md",
+      "source": "experiments/results/private/policy-search-agent-v7-dev60b-serial/v7_failure_analysis_and_proposal.md",
+      "source_sha256": "717a1ced6ccf74a96d427fa477af391cd6511d758accd1b55caa6cfc17fa4ad8",
+      "export_sha256": "717a1ced6ccf74a96d427fa477af391cd6511d758accd1b55caa6cfc17fa4ad8",
+      "bytes": 10095,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/results/private/policy-search-agent-v7-dev60b-serial/verification.json",
+      "source": "experiments/results/private/policy-search-agent-v7-dev60b-serial/verification.json",
+      "source_sha256": "98dfb913dc18957565d0b3ed466423224b87b200347ba1b73254c6911bac90cf",
+      "export_sha256": "98dfb913dc18957565d0b3ed466423224b87b200347ba1b73254c6911bac90cf",
+      "bytes": 1152,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/results/private/policy-search-agent-v7-native-context/evaluation_protocol.md",
+      "source": "experiments/results/private/policy-search-agent-v7-native-context/evaluation_protocol.md",
+      "source_sha256": "e6c9a05d4d32be773e1b70c908950892c21038e88c2437e1a3b9a8cf18231c7e",
+      "export_sha256": "e6c9a05d4d32be773e1b70c908950892c21038e88c2437e1a3b9a8cf18231c7e",
+      "bytes": 1291,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/results/private/policy-search-agent-v7-native-context/metrics.json",
+      "source": "experiments/results/private/policy-search-agent-v7-native-context/metrics.json",
+      "source_sha256": "07be5e040d9eec830d7561ed458b1278974f4a57a8a821023337c1a08305f0a2",
+      "export_sha256": "07be5e040d9eec830d7561ed458b1278974f4a57a8a821023337c1a08305f0a2",
+      "bytes": 4525,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/results/private/policy-search-agent-v7-native-context/report.md",
+      "source": "experiments/results/private/policy-search-agent-v7-native-context/report.md",
+      "source_sha256": "1a9449032fb07824a39498940fee7806dd486f1023bf80ff9015bbebc3840892",
+      "export_sha256": "09356c8be1c3d1876add589e5ec030a40f48d3522e23a4bc1a3d6de177f3efe9",
+      "bytes": 2221,
+      "treatment": "allowlisted source copy; Markdown links made portable; absent local-only targets marked"
+    },
+    {
+      "path": "experiments/results/private/policy-search-agent-v7/comparison_report.md",
+      "source": "experiments/results/private/policy-search-agent-v7/comparison_report.md",
+      "source_sha256": "dc0cef4b8068b99a1d7176c598790dff2a6ee0392db33d34d5e6371d0e418574",
+      "export_sha256": "df73602678b370cd672b93057a0d344ac9f22b180888f1ed35d69785bbf840ed",
+      "bytes": 8094,
+      "treatment": "allowlisted source copy; Markdown links made portable; absent local-only targets marked"
+    },
+    {
+      "path": "experiments/results/private/policy-search-agent-v7/evaluation_protocol.md",
+      "source": "experiments/results/private/policy-search-agent-v7/evaluation_protocol.md",
+      "source_sha256": "51dc79230d78618643ec3092f7d529d89478c114f0c8f1ae3664560f47224ffb",
+      "export_sha256": "51dc79230d78618643ec3092f7d529d89478c114f0c8f1ae3664560f47224ffb",
+      "bytes": 1828,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/results/private/policy-search-agent-v7/matched_metrics.json",
+      "source": "experiments/results/private/policy-search-agent-v7/matched_metrics.json",
+      "source_sha256": "11a2ec9ac4e55efd83794c900bf059faecfaa4e043607fb82e0778256fe1c227",
+      "export_sha256": "11a2ec9ac4e55efd83794c900bf059faecfaa4e043607fb82e0778256fe1c227",
+      "bytes": 3148,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/results/private/policy-search-agent-v7/metrics.json",
+      "source": "experiments/results/private/policy-search-agent-v7/metrics.json",
+      "source_sha256": "1fc936d22beed34fa284550789a048e80ccfece1e7ae4d99787be9c72eb4fb93",
+      "export_sha256": "1fc936d22beed34fa284550789a048e80ccfece1e7ae4d99787be9c72eb4fb93",
+      "bytes": 4820,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/results/private/policy-search-agent-v7/report.md",
+      "source": "experiments/results/private/policy-search-agent-v7/report.md",
+      "source_sha256": "4d79017ab2b10cf27d00913739122aae0fb0cf62890d5e6e773223e7a0796419",
+      "export_sha256": "191ac6a612e1bf91e070b4b3cd0aa7f3d34ad998f5757e2b34bff930c0e42a99",
+      "bytes": 2159,
+      "treatment": "allowlisted source copy; Markdown links made portable; absent local-only targets marked"
+    },
+    {
+      "path": "experiments/results/private/policy-search-agent-v7/verification.json",
+      "source": "experiments/results/private/policy-search-agent-v7/verification.json",
+      "source_sha256": "633249c580fb982bfd751dbb41643eaab92be2d4e7c79403580850d315433943",
+      "export_sha256": "633249c580fb982bfd751dbb41643eaab92be2d4e7c79403580850d315433943",
+      "bytes": 1241,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/results/private/policy-search-agent-v8_1-dev144/analyze_comparison.py",
+      "source": "experiments/results/private/policy-search-agent-v8_1-dev144/analyze_comparison.py",
+      "source_sha256": "1ad4c731e5d21dc6e35893a2bd079b7302fc4bac653e1fd54bccec4b419c7ddd",
+      "export_sha256": "1ad4c731e5d21dc6e35893a2bd079b7302fc4bac653e1fd54bccec4b419c7ddd",
+      "bytes": 15233,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/results/private/policy-search-agent-v8_1-dev144/comparison_integrity.json",
+      "source": "experiments/results/private/policy-search-agent-v8_1-dev144/comparison_integrity.json",
+      "source_sha256": "55b37554de9f666c282d9aef29aebc93fbbf414bb629f2a3db7c95240727bb54",
+      "export_sha256": "55b37554de9f666c282d9aef29aebc93fbbf414bb629f2a3db7c95240727bb54",
+      "bytes": 318,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/results/private/policy-search-agent-v8_1-dev144/comparison_report.md",
+      "source": "experiments/results/private/policy-search-agent-v8_1-dev144/comparison_report.md",
+      "source_sha256": "a068c51d9e8972d7a104c2b1be317c7b980a64d324beb156117ea80504b13477",
+      "export_sha256": "a068c51d9e8972d7a104c2b1be317c7b980a64d324beb156117ea80504b13477",
+      "bytes": 6365,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/results/private/policy-search-agent-v8_1-dev144/human_adjudications.json",
+      "source": "experiments/results/private/policy-search-agent-v8_1-dev144/human_adjudications.json",
+      "source_sha256": "9d1241357647d811228c1d376aeb4d6b1b4229f0b4c8ea9b6e569b76a9d73127",
+      "export_sha256": "9d1241357647d811228c1d376aeb4d6b1b4229f0b4c8ea9b6e569b76a9d73127",
+      "bytes": 9510,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/results/private/policy-search-agent-v8_1-dev144/human_review_integrity.json",
+      "source": "experiments/results/private/policy-search-agent-v8_1-dev144/human_review_integrity.json",
+      "source_sha256": "b0e9cbacc21f36263d26d89ad3e4c7d0885e09d65f882e0c47c8021e30b616c5",
+      "export_sha256": "b0e9cbacc21f36263d26d89ad3e4c7d0885e09d65f882e0c47c8021e30b616c5",
+      "bytes": 1667,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/results/private/policy-search-agent-v8_1-dev144/human_review_report.md",
+      "source": "experiments/results/private/policy-search-agent-v8_1-dev144/human_review_report.md",
+      "source_sha256": "2a7dad4ff8a67a36cf5dbb1c6cdd6453c62d481a957f1db806f96a1359c64527",
+      "export_sha256": "2a7dad4ff8a67a36cf5dbb1c6cdd6453c62d481a957f1db806f96a1359c64527",
+      "bytes": 4113,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/results/private/policy-search-agent-v8_1-dev144/integrity_and_costs.json",
+      "source": "experiments/results/private/policy-search-agent-v8_1-dev144/integrity_and_costs.json",
+      "source_sha256": "1833a35f915b738540d131bd09b4a442f63a322b526e3f6557f4d80a0ca039fe",
+      "export_sha256": "1833a35f915b738540d131bd09b4a442f63a322b526e3f6557f4d80a0ca039fe",
+      "bytes": 819,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/results/private/policy-search-agent-v8_1-dev144/manifest.json",
+      "source": "experiments/results/private/policy-search-agent-v8_1-dev144/manifest.json",
+      "source_sha256": "6ec098acb758b9fa31fae699a197591748d36d883b20a6804e6c2bf532c529b2",
+      "export_sha256": "6ec098acb758b9fa31fae699a197591748d36d883b20a6804e6c2bf532c529b2",
+      "bytes": 3760,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/results/private/policy-search-agent-v8_1-dev144/paired_costs_and_quality.json",
+      "source": "experiments/results/private/policy-search-agent-v8_1-dev144/paired_costs_and_quality.json",
+      "source_sha256": "8f541c7b1d9972390e80b464a35fae55adfe4a6bcaec84e0b725f6d0d68b36a8",
+      "export_sha256": "8f541c7b1d9972390e80b464a35fae55adfe4a6bcaec84e0b725f6d0d68b36a8",
+      "bytes": 23932,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/results/private/policy-search-agent-v8_1-dev144/protocol.md",
+      "source": "experiments/results/private/policy-search-agent-v8_1-dev144/protocol.md",
+      "source_sha256": "5265f7c812d3ad1491b0681f0f2838489aee91f42cd837f42450d92e73e0f201",
+      "export_sha256": "5265f7c812d3ad1491b0681f0f2838489aee91f42cd837f42450d92e73e0f201",
+      "bytes": 2511,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/results/private/policy-search-agent-v8_1-dev144/raw_comparison.csv",
+      "source": "experiments/results/private/policy-search-agent-v8_1-dev144/raw_comparison.csv",
+      "source_sha256": "22e39fca859394fefbc600ab301c33d51b66b9b5b12f0a71b866afd0b0994cae",
+      "export_sha256": "22e39fca859394fefbc600ab301c33d51b66b9b5b12f0a71b866afd0b0994cae",
+      "bytes": 23907,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/results/private/policy-search-agent-v8_1-dev144/selection.json",
+      "source": "experiments/results/private/policy-search-agent-v8_1-dev144/selection.json",
+      "source_sha256": "0afe693ccfc3ce1d14359f9a1182f3ad9faf1f435f770f13d103cc3e5bf9a930",
+      "export_sha256": "0afe693ccfc3ce1d14359f9a1182f3ad9faf1f435f770f13d103cc3e5bf9a930",
+      "bytes": 4771,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/results/private/policy-search-agent-v8_1-study/analyze.py",
+      "source": "experiments/results/private/policy-search-agent-v8_1-study/analyze.py",
+      "source_sha256": "ac471dc9b451fe36b1a2dede52123b7b432e5afcc329c3d42ad81033af028118",
+      "export_sha256": "ac471dc9b451fe36b1a2dede52123b7b432e5afcc329c3d42ad81033af028118",
+      "bytes": 9543,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/results/private/policy-search-agent-v8_1-study/audit.py",
+      "source": "experiments/results/private/policy-search-agent-v8_1-study/audit.py",
+      "source_sha256": "3a9801d20d829254c375d9a0853c4b99a8606abbb9c8de43f76bfc0ec0c59a5a",
+      "export_sha256": "3a9801d20d829254c375d9a0853c4b99a8606abbb9c8de43f76bfc0ec0c59a5a",
+      "bytes": 5554,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/results/private/policy-search-agent-v8_1-study/human_adjudications.json",
+      "source": "experiments/results/private/policy-search-agent-v8_1-study/human_adjudications.json",
+      "source_sha256": "47a469d2207bb582b8ea28451cb1258244edd0f6970645dbbacdbb6ae3fd8df3",
+      "export_sha256": "47a469d2207bb582b8ea28451cb1258244edd0f6970645dbbacdbb6ae3fd8df3",
+      "bytes": 2583,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/results/private/policy-search-agent-v8_1-study/integrity.json",
+      "source": "experiments/results/private/policy-search-agent-v8_1-study/integrity.json",
+      "source_sha256": "d617da69cc2584dd9f33513dcf0f1fc82e2099649e98f3411108ab67c0d53c40",
+      "export_sha256": "d617da69cc2584dd9f33513dcf0f1fc82e2099649e98f3411108ab67c0d53c40",
+      "bytes": 3216,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/results/private/policy-search-agent-v8_1-study/intervals.json",
+      "source": "experiments/results/private/policy-search-agent-v8_1-study/intervals.json",
+      "source_sha256": "7da407f5c4d4d1002451955f55c19af35fb8725e0a8dbd2e2acb2e7e9e93f70d",
+      "export_sha256": "7da407f5c4d4d1002451955f55c19af35fb8725e0a8dbd2e2acb2e7e9e93f70d",
+      "bytes": 1016,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/results/private/policy-search-agent-v8_1-study/manifest.json",
+      "source": "experiments/results/private/policy-search-agent-v8_1-study/manifest.json",
+      "source_sha256": "e3356eaa9b478179375db3c95f5c5e6da463f9e1192803143bb7e651603e156c",
+      "export_sha256": "e3356eaa9b478179375db3c95f5c5e6da463f9e1192803143bb7e651603e156c",
+      "bytes": 6399,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/results/private/policy-search-agent-v8_1-study/metrics.json",
+      "source": "experiments/results/private/policy-search-agent-v8_1-study/metrics.json",
+      "source_sha256": "03b8c3cff4cbd08b035b299a626856dc1cb8ecbb88e482ae5bc449ac6d2253f0",
+      "export_sha256": "03b8c3cff4cbd08b035b299a626856dc1cb8ecbb88e482ae5bc449ac6d2253f0",
+      "bytes": 29166,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/results/private/policy-search-agent-v8_1-study/old_failure_regression.md",
+      "source": "experiments/results/private/policy-search-agent-v8_1-study/old_failure_regression.md",
+      "source_sha256": "bcec942a253e8f3ff59a5471b03d2f557399e6b8e276c2c64de016f6ed70f515",
+      "export_sha256": "bcec942a253e8f3ff59a5471b03d2f557399e6b8e276c2c64de016f6ed70f515",
+      "bytes": 6035,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/results/private/policy-search-agent-v8_1-study/paired_success_costs.json",
+      "source": "experiments/results/private/policy-search-agent-v8_1-study/paired_success_costs.json",
+      "source_sha256": "89bf26b46a0f46515b11a7008e668d982dde9646f15031b6778099f45bceca1f",
+      "export_sha256": "89bf26b46a0f46515b11a7008e668d982dde9646f15031b6778099f45bceca1f",
+      "bytes": 935,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/results/private/policy-search-agent-v8_1-study/raw_table.csv",
+      "source": "experiments/results/private/policy-search-agent-v8_1-study/raw_table.csv",
+      "source_sha256": "5ec1f2e80a678f0954cb15d334dafe3f7be397221dc491852b36b3704879c31c",
+      "export_sha256": "5ec1f2e80a678f0954cb15d334dafe3f7be397221dc491852b36b3704879c31c",
+      "bytes": 59641,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/results/private/policy-search-agent-v8_1-study/report.md",
+      "source": "experiments/results/private/policy-search-agent-v8_1-study/report.md",
+      "source_sha256": "486fd56ee5c8e8076d18cce890ff05ecb085a0ae3f1071f722a6daeb5c3cef95",
+      "export_sha256": "1ad6cbb0e1782d8363001aad9a24d54581ad1f85063c59b1c0150dcac8f06ca7",
+      "bytes": 16682,
+      "treatment": "allowlisted source copy; Markdown links made portable; absent local-only targets marked"
+    },
+    {
+      "path": "experiments/results/private/policy-search-agent-v8_1-study/report.py",
+      "source": "experiments/results/private/policy-search-agent-v8_1-study/report.py",
+      "source_sha256": "d54da11c465bccae2bda74b58238eba01e457de592385b376773ef284600caa3",
+      "export_sha256": "d54da11c465bccae2bda74b58238eba01e457de592385b376773ef284600caa3",
+      "bytes": 17825,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/results/private/policy-search-agent-v8_1-study/selection.json",
+      "source": "experiments/results/private/policy-search-agent-v8_1-study/selection.json",
+      "source_sha256": "be36e322a1dcd5ae5025a0ff09ec081c57d8616b128a906aef4a77a1cd13fb16",
+      "export_sha256": "be36e322a1dcd5ae5025a0ff09ec081c57d8616b128a906aef4a77a1cd13fb16",
+      "bytes": 3499,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/retrieval/__init__.py",
+      "source": "experiments/retrieval/__init__.py",
+      "source_sha256": "9a01757c6a6a9e099210afc8c993121f23330ea68220c5517ec403ebaa1ca2cb",
+      "export_sha256": "9a01757c6a6a9e099210afc8c993121f23330ea68220c5517ec403ebaa1ca2cb",
+      "bytes": 26,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/retrieval/bm25_worker.py",
+      "source": "experiments/retrieval/bm25_worker.py",
+      "source_sha256": "1b036ea4390c59a9c598747cffab6ee4a8416f03fb347c86d245c16cddb796a2",
+      "export_sha256": "1b036ea4390c59a9c598747cffab6ee4a8416f03fb347c86d245c16cddb796a2",
+      "bytes": 5758,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/retrieval/dense.py",
+      "source": "experiments/retrieval/dense.py",
+      "source_sha256": "04f4db833ab632384a220f822a591e0882176dfb681f4e3497b04aa1000ff9c3",
+      "export_sha256": "04f4db833ab632384a220f822a591e0882176dfb681f4e3497b04aa1000ff9c3",
+      "bytes": 3982,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/retrieval/dense_worker.py",
+      "source": "experiments/retrieval/dense_worker.py",
+      "source_sha256": "96dd18a65eade74de96a81a85a1b913e88f6c11f6648e11fd15541776cf2c7d7",
+      "export_sha256": "96dd18a65eade74de96a81a85a1b913e88f6c11f6648e11fd15541776cf2c7d7",
+      "bytes": 7402,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/retrieval/fusion.py",
+      "source": "experiments/retrieval/fusion.py",
+      "source_sha256": "c9653049983174eeb13ebaec1fadcaf50f3243535aeeb800893d6a69e9405bba",
+      "export_sha256": "c9653049983174eeb13ebaec1fadcaf50f3243535aeeb800893d6a69e9405bba",
+      "bytes": 1856,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/retrieval/hybrid_worker.py",
+      "source": "experiments/retrieval/hybrid_worker.py",
+      "source_sha256": "24a74386cfed322957de4774ccf71d552f7215b308790d307f21b69296a53ccb",
+      "export_sha256": "24a74386cfed322957de4774ccf71d552f7215b308790d307f21b69296a53ccb",
+      "bytes": 2502,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/retrieval/independent_rerank.py",
+      "source": "experiments/retrieval/independent_rerank.py",
+      "source_sha256": "d56a8e5e03e45ef98ca028ce44c4b9c4b741b4d6c64d4b11236940e0ea5215aa",
+      "export_sha256": "d56a8e5e03e45ef98ca028ce44c4b9c4b741b4d6c64d4b11236940e0ea5215aa",
+      "bytes": 2213,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/retrieval/local.py",
+      "source": "experiments/retrieval/local.py",
+      "source_sha256": "0d8d3d34c7ec5dfaf35a47b967c8bd9139889b521cccd82b89a22b10e86801d6",
+      "export_sha256": "0d8d3d34c7ec5dfaf35a47b967c8bd9139889b521cccd82b89a22b10e86801d6",
+      "bytes": 2196,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/retrieval/ragflow.py",
+      "source": "experiments/retrieval/ragflow.py",
+      "source_sha256": "ceeb6c6d8cbce82a6de6422d990ade5b39ab77fa8883dc1da6f9a4ad74d32e10",
+      "export_sha256": "ceeb6c6d8cbce82a6de6422d990ade5b39ab77fa8883dc1da6f9a4ad74d32e10",
+      "bytes": 6365,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/retrieval/rerank_worker.py",
+      "source": "experiments/retrieval/rerank_worker.py",
+      "source_sha256": "7b6fb3994f5abbfb5b9a97aa15d864cdef76e40b6a88770efe3c457687f5c45d",
+      "export_sha256": "7b6fb3994f5abbfb5b9a97aa15d864cdef76e40b6a88770efe3c457687f5c45d",
+      "bytes": 4783,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/retrieval/test_dense.py",
+      "source": "experiments/retrieval/test_dense.py",
+      "source_sha256": "a9de65d1b7e31ee98011214c7983954255610c4883a38bbc2dd2e3045d208712",
+      "export_sha256": "a9de65d1b7e31ee98011214c7983954255610c4883a38bbc2dd2e3045d208712",
+      "bytes": 2812,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/retrieval/test_fusion.py",
+      "source": "experiments/retrieval/test_fusion.py",
+      "source_sha256": "9b750446e76899ea163a5f847e4db705d351a03f215439695dbbc3f79f3566c3",
+      "export_sha256": "9b750446e76899ea163a5f847e4db705d351a03f215439695dbbc3f79f3566c3",
+      "bytes": 3874,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/retrieval/test_independent_rerank.py",
+      "source": "experiments/retrieval/test_independent_rerank.py",
+      "source_sha256": "b810ec24d9ad7a46cef6c0cf98c0a32e48d3df4384e400da7057b0621aeaac31",
+      "export_sha256": "b810ec24d9ad7a46cef6c0cf98c0a32e48d3df4384e400da7057b0621aeaac31",
+      "bytes": 3749,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/search_agent/README.md",
+      "source": "experiments/search_agent/README.md",
+      "source_sha256": "1a56ca7304f5fe765e31dc61178bfa40838c000d8bf898767513a63f6e9718cc",
+      "export_sha256": "cffa4aa284ab2b7acaff959d7413fa2ef7634eb628780b31927900d6e65abb05",
+      "bytes": 9066,
+      "treatment": "allowlisted source copy; Markdown links made portable; absent local-only targets marked"
+    },
+    {
+      "path": "experiments/search_agent/__init__.py",
+      "source": "experiments/search_agent/__init__.py",
+      "source_sha256": "c12f79dbc4c1e359cf46beac8afc48a0cb90be2d5f3212deca46fe47b91b9c46",
+      "export_sha256": "c12f79dbc4c1e359cf46beac8afc48a0cb90be2d5f3212deca46fe47b91b9c46",
+      "bytes": 180,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/search_agent/adapter.py",
+      "source": "experiments/search_agent/adapter.py",
+      "source_sha256": "17e70ec3723b167d6910cadbeecb7f40b45f3af3bf58d49f356b50e642325a93",
+      "export_sha256": "17e70ec3723b167d6910cadbeecb7f40b45f3af3bf58d49f356b50e642325a93",
+      "bytes": 7313,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/search_agent/cache.py",
+      "source": "experiments/search_agent/cache.py",
+      "source_sha256": "f2d2b669844ed373176c6e063bb6c6132cceb09fe699e53f9ce6b7f56057f578",
+      "export_sha256": "f2d2b669844ed373176c6e063bb6c6132cceb09fe699e53f9ce6b7f56057f578",
+      "bytes": 875,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/search_agent/core.py",
+      "source": "experiments/search_agent/core.py",
+      "source_sha256": "6402795f12879aa1714555e3b51e290ff4b96f0e6e70becf968a4646085c7733",
+      "export_sha256": "6402795f12879aa1714555e3b51e290ff4b96f0e6e70becf968a4646085c7733",
+      "bytes": 12846,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/search_agent/embedding.py",
+      "source": "experiments/search_agent/embedding.py",
+      "source_sha256": "b5ef55cda7d902ba3ab127c0631e452cd764fc20614e395c124eb1ff94f85e4a",
+      "export_sha256": "b5ef55cda7d902ba3ab127c0631e452cd764fc20614e395c124eb1ff94f85e4a",
+      "bytes": 3656,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/search_agent/evidence.py",
+      "source": "experiments/search_agent/evidence.py",
+      "source_sha256": "8ccca0e446366869a0f9ce0bdf0fd225d2482af6c76b78f70666f5f53ab6c671",
+      "export_sha256": "8ccca0e446366869a0f9ce0bdf0fd225d2482af6c76b78f70666f5f53ab6c671",
+      "bytes": 13622,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/search_agent/fast.py",
+      "source": "experiments/search_agent/fast.py",
+      "source_sha256": "8d8ee86cfd36d3e7dc26809e520e22c2ff6cc6b989afda3216d444722b9f648d",
+      "export_sha256": "8d8ee86cfd36d3e7dc26809e520e22c2ff6cc6b989afda3216d444722b9f648d",
+      "bytes": 4733,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/search_agent/fast_context.py",
+      "source": "experiments/search_agent/fast_context.py",
+      "source_sha256": "6d776961234c9d8264dc5194af25cb8613aca6ffb8d940e3120d399b7b6f7e41",
+      "export_sha256": "6d776961234c9d8264dc5194af25cb8613aca6ffb8d940e3120d399b7b6f7e41",
+      "bytes": 6278,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/search_agent/routing.py",
+      "source": "experiments/search_agent/routing.py",
+      "source_sha256": "889ff2f1198fc656cdb8932f35e4a9856aba1e5fc6a019f67b47deca36c251c4",
+      "export_sha256": "889ff2f1198fc656cdb8932f35e4a9856aba1e5fc6a019f67b47deca36c251c4",
+      "bytes": 5674,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/search_agent/runtime.py",
+      "source": "experiments/search_agent/runtime.py",
+      "source_sha256": "c1082d3eab88ebff919afeb5d2a1fc60b23417e4e63d6289aefe970703b3e15f",
+      "export_sha256": "c1082d3eab88ebff919afeb5d2a1fc60b23417e4e63d6289aefe970703b3e15f",
+      "bytes": 23445,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/search_agent/test_adapter.py",
+      "source": "experiments/search_agent/test_adapter.py",
+      "source_sha256": "663a2c2c62f59afe3da2ff5133814abcb24c1a8a329fb1c7cd7d7f8bfe3f55fe",
+      "export_sha256": "663a2c2c62f59afe3da2ff5133814abcb24c1a8a329fb1c7cd7d7f8bfe3f55fe",
+      "bytes": 2603,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/search_agent/test_core.py",
+      "source": "experiments/search_agent/test_core.py",
+      "source_sha256": "99077f04e233ed2e7ac709fbcb3dce1bc3cb681cf7c4ed880cf6d265a3acb9bd",
+      "export_sha256": "99077f04e233ed2e7ac709fbcb3dce1bc3cb681cf7c4ed880cf6d265a3acb9bd",
+      "bytes": 8779,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/search_agent/test_decision_contract.py",
+      "source": "experiments/search_agent/test_decision_contract.py",
+      "source_sha256": "5e530a243db7e4dc692a89bed0c60adebab654abb53120116d2f43fe95f45a5b",
+      "export_sha256": "5e530a243db7e4dc692a89bed0c60adebab654abb53120116d2f43fe95f45a5b",
+      "bytes": 8361,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/search_agent/test_embedding.py",
+      "source": "experiments/search_agent/test_embedding.py",
+      "source_sha256": "10e21a19c956256d4b336ce8e6b84470110f3044c7527325bbe820735f0068d5",
+      "export_sha256": "10e21a19c956256d4b336ce8e6b84470110f3044c7527325bbe820735f0068d5",
+      "bytes": 4028,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/search_agent/test_evidence_budget.py",
+      "source": "experiments/search_agent/test_evidence_budget.py",
+      "source_sha256": "966f3134c99c8e99d790bb5d1d600a1a5649f33e3a375fed168dcc1810ee517b",
+      "export_sha256": "966f3134c99c8e99d790bb5d1d600a1a5649f33e3a375fed168dcc1810ee517b",
+      "bytes": 4044,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/search_agent/test_fast.py",
+      "source": "experiments/search_agent/test_fast.py",
+      "source_sha256": "c00fea75f85de68fc409186adfd6af1c63ba3a2fe64592f37731b8edcc060eed",
+      "export_sha256": "c00fea75f85de68fc409186adfd6af1c63ba3a2fe64592f37731b8edcc060eed",
+      "bytes": 4494,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/search_agent/test_fast_context.py",
+      "source": "experiments/search_agent/test_fast_context.py",
+      "source_sha256": "b999d0c0342d8735eb5133ba8e827347f0776ab7435b3a6f919bbafaf0bef1ed",
+      "export_sha256": "b999d0c0342d8735eb5133ba8e827347f0776ab7435b3a6f919bbafaf0bef1ed",
+      "bytes": 4631,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/search_agent/test_gap_actions.py",
+      "source": "experiments/search_agent/test_gap_actions.py",
+      "source_sha256": "19585c83a2aabec2a412d975d8fb32c18b0a974bc5aad880819cd731e6ca7ff8",
+      "export_sha256": "19585c83a2aabec2a412d975d8fb32c18b0a974bc5aad880819cd731e6ca7ff8",
+      "bytes": 11673,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/search_agent/test_routing.py",
+      "source": "experiments/search_agent/test_routing.py",
+      "source_sha256": "c23f945aa22017b5fa9b16151c4f19f38fe7f270f8b13753f0c5ee2a5c527324",
+      "export_sha256": "c23f945aa22017b5fa9b16151c4f19f38fe7f270f8b13753f0c5ee2a5c527324",
+      "bytes": 3690,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/search_agent/test_runtime.py",
+      "source": "experiments/search_agent/test_runtime.py",
+      "source_sha256": "bf1626cd6f5eb17cb62280730b3d5554fb8c5300489392925dd2836086731936",
+      "export_sha256": "bf1626cd6f5eb17cb62280730b3d5554fb8c5300489392925dd2836086731936",
+      "bytes": 2656,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/search_agent/test_transport.py",
+      "source": "experiments/search_agent/test_transport.py",
+      "source_sha256": "992679594387002474d2ed0b4b56d44ee12327e21a7637f152115842cefdd21b",
+      "export_sha256": "992679594387002474d2ed0b4b56d44ee12327e21a7637f152115842cefdd21b",
+      "bytes": 5584,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/search_agent/transport.py",
+      "source": "experiments/search_agent/transport.py",
+      "source_sha256": "c28fc0d893d9ed8207f3a6a2412bb74ccb8aec0ed2c0d9e56568fc9ea856268e",
+      "export_sha256": "c28fc0d893d9ed8207f3a6a2412bb74ccb8aec0ed2c0d9e56568fc9ea856268e",
+      "bytes": 3488,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/test_qa.py",
+      "source": "experiments/test_qa.py",
+      "source_sha256": "7c69e64a0038bb65475bd4fc49e093be18fc2e82eb171c696525cbd0822be506",
+      "export_sha256": "7c69e64a0038bb65475bd4fc49e093be18fc2e82eb171c696525cbd0822be506",
+      "bytes": 6026,
+      "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "requirements-offline.txt",
+      "source": null,
+      "source_sha256": null,
+      "export_sha256": "fb8b4e22401ad774a194d2aece57d1eb07ed4e6445f34f0ce8bd8a74fbfd82ef",
+      "bytes": 143,
+      "treatment": "Created for this private backup; not an original experiment artifact"
+    },
+    {
+      "path": "scripts/test_offline.py",
+      "source": null,
+      "source_sha256": null,
+      "export_sha256": "48a8044117bdc367975ecff7441acc4e8bd605404aa588d573ce7bac275ad03a",
+      "bytes": 1293,
+      "treatment": "Created for this private backup; not an original experiment artifact"
+    },
+    {
+      "path": "scripts/verify_backup.py",
+      "source": null,
+      "source_sha256": null,
+      "export_sha256": "ded772b08260170352b10e700a28da1f74ae4e2567cd56ba49335d1f8df04523",
+      "bytes": 1052,
+      "treatment": "Created for this private backup; not an original experiment artifact"
+    },
+    {
+      "path": "snapshots/fast-v1/experiments/evaluation/native_agent_guard.py",
+      "source": "experiments/results/private/fast-rag-v1-dev199/generation/config.json#module_sources.experiments.evaluation.native_agent_guard",
+      "source_sha256": "d963ebff1af2365d4af35fa099fd445c6d6e405b6ef0b4804ec96a2ca103accd",
+      "export_sha256": "d963ebff1af2365d4af35fa099fd445c6d6e405b6ef0b4804ec96a2ca103accd",
+      "bytes": 5803,
+      "treatment": "exact frozen module source extracted from local config"
+    },
+    {
+      "path": "snapshots/fast-v1/experiments/evaluation/native_agent_transport.py",
+      "source": "experiments/results/private/fast-rag-v1-dev199/generation/config.json#module_sources.experiments.evaluation.native_agent_transport",
+      "source_sha256": "750f08a51008ddc63bac14038b607f624101484fcf9fd4876de38ee40b867c61",
+      "export_sha256": "750f08a51008ddc63bac14038b607f624101484fcf9fd4876de38ee40b867c61",
+      "bytes": 9784,
+      "treatment": "exact frozen module source extracted from local config"
+    },
+    {
+      "path": "snapshots/fast-v1/experiments/evaluation/native_agent_worker.py",
+      "source": "experiments/results/private/fast-rag-v1-dev199/generation/config.json#module_sources.experiments.evaluation.native_agent_worker",
+      "source_sha256": "5c4f48f2d5104d4959787f1928f1de8ec4d5fff4d5c231980207f7304ac9d261",
+      "export_sha256": "5c4f48f2d5104d4959787f1928f1de8ec4d5fff4d5c231980207f7304ac9d261",
+      "bytes": 32077,
+      "treatment": "exact frozen module source extracted from local config"
+    },
+    {
+      "path": "snapshots/fast-v1/experiments/evaluation/native_outbound.py",
+      "source": "experiments/results/private/fast-rag-v1-dev199/generation/config.json#module_sources.experiments.evaluation.native_outbound",
+      "source_sha256": "098f127f3cb84f61e5fccf648285aca780b24887eb34de6a579db3c3cadef364",
+      "export_sha256": "098f127f3cb84f61e5fccf648285aca780b24887eb34de6a579db3c3cadef364",
+      "bytes": 3203,
+      "treatment": "exact frozen module source extracted from local config"
+    },
+    {
+      "path": "snapshots/fast-v1/experiments/search_agent/adapter.py",
+      "source": "experiments/results/private/fast-rag-v1-dev199/generation/config.json#module_sources.experiments.search_agent.adapter",
+      "source_sha256": "17e70ec3723b167d6910cadbeecb7f40b45f3af3bf58d49f356b50e642325a93",
+      "export_sha256": "17e70ec3723b167d6910cadbeecb7f40b45f3af3bf58d49f356b50e642325a93",
+      "bytes": 7313,
+      "treatment": "exact frozen module source extracted from local config"
+    },
+    {
+      "path": "snapshots/fast-v1/experiments/search_agent/cache.py",
+      "source": "experiments/results/private/fast-rag-v1-dev199/generation/config.json#module_sources.experiments.search_agent.cache",
+      "source_sha256": "f2d2b669844ed373176c6e063bb6c6132cceb09fe699e53f9ce6b7f56057f578",
+      "export_sha256": "f2d2b669844ed373176c6e063bb6c6132cceb09fe699e53f9ce6b7f56057f578",
+      "bytes": 875,
+      "treatment": "exact frozen module source extracted from local config"
+    },
+    {
+      "path": "snapshots/fast-v1/experiments/search_agent/core.py",
+      "source": "experiments/results/private/fast-rag-v1-dev199/generation/config.json#module_sources.experiments.search_agent.core",
+      "source_sha256": "6402795f12879aa1714555e3b51e290ff4b96f0e6e70becf968a4646085c7733",
+      "export_sha256": "6402795f12879aa1714555e3b51e290ff4b96f0e6e70becf968a4646085c7733",
+      "bytes": 12846,
+      "treatment": "exact frozen module source extracted from local config"
+    },
+    {
+      "path": "snapshots/fast-v1/experiments/search_agent/embedding.py",
+      "source": "experiments/results/private/fast-rag-v1-dev199/generation/config.json#module_sources.experiments.search_agent.embedding",
+      "source_sha256": "b5ef55cda7d902ba3ab127c0631e452cd764fc20614e395c124eb1ff94f85e4a",
+      "export_sha256": "b5ef55cda7d902ba3ab127c0631e452cd764fc20614e395c124eb1ff94f85e4a",
+      "bytes": 3656,
+      "treatment": "exact frozen module source extracted from local config"
+    },
+    {
+      "path": "snapshots/fast-v1/experiments/search_agent/evidence.py",
+      "source": "experiments/results/private/fast-rag-v1-dev199/generation/config.json#module_sources.experiments.search_agent.evidence",
+      "source_sha256": "8ccca0e446366869a0f9ce0bdf0fd225d2482af6c76b78f70666f5f53ab6c671",
+      "export_sha256": "8ccca0e446366869a0f9ce0bdf0fd225d2482af6c76b78f70666f5f53ab6c671",
+      "bytes": 13622,
+      "treatment": "exact frozen module source extracted from local config"
+    },
+    {
+      "path": "snapshots/fast-v1/experiments/search_agent/fast.py",
+      "source": "experiments/results/private/fast-rag-v1-dev199/generation/config.json#module_sources.experiments.search_agent.fast",
+      "source_sha256": "8d8ee86cfd36d3e7dc26809e520e22c2ff6cc6b989afda3216d444722b9f648d",
+      "export_sha256": "8d8ee86cfd36d3e7dc26809e520e22c2ff6cc6b989afda3216d444722b9f648d",
+      "bytes": 4733,
+      "treatment": "exact frozen module source extracted from local config"
+    },
+    {
+      "path": "snapshots/fast-v1/experiments/search_agent/runtime.py",
+      "source": "experiments/results/private/fast-rag-v1-dev199/generation/config.json#module_sources.experiments.search_agent.runtime",
+      "source_sha256": "18a2ce91de68a0e3043dca2d6c0ff7584ea38af031f430e78b74c463a6174172",
+      "export_sha256": "18a2ce91de68a0e3043dca2d6c0ff7584ea38af031f430e78b74c463a6174172",
+      "bytes": 23477,
+      "treatment": "exact frozen module source extracted from local config"
+    },
+    {
+      "path": "snapshots/fast-v1/experiments/search_agent/transport.py",
+      "source": "experiments/results/private/fast-rag-v1-dev199/generation/config.json#module_sources.experiments.search_agent.transport",
+      "source_sha256": "c28fc0d893d9ed8207f3a6a2412bb74ccb8aec0ed2c0d9e56568fc9ea856268e",
+      "export_sha256": "c28fc0d893d9ed8207f3a6a2412bb74ccb8aec0ed2c0d9e56568fc9ea856268e",
+      "bytes": 3488,
+      "treatment": "exact frozen module source extracted from local config"
+    },
+    {
+      "path": "snapshots/fast-v1/protocol-summary.json",
+      "source": "experiments/results/private/fast-rag-v1-dev199/generation/config.json",
+      "source_sha256": "00ae5ed84f2b607c75db68388571b54c7991e77281040855c68c2cf71a5cfedb",
+      "export_sha256": "3078cd21452e83e7935e7274b8af9ab30900c39d84f903abceea77dffc3ebba8",
+      "bytes": 11110,
+      "treatment": "safe field allowlist; not the full runtime config"
+    },
+    {
+      "path": "snapshots/fast-v2/experiments/evaluation/native_agent_guard.py",
+      "source": "experiments/results/private/fast-rag-v2-dev199/generation/config.json#module_sources.experiments.evaluation.native_agent_guard",
+      "source_sha256": "d963ebff1af2365d4af35fa099fd445c6d6e405b6ef0b4804ec96a2ca103accd",
+      "export_sha256": "d963ebff1af2365d4af35fa099fd445c6d6e405b6ef0b4804ec96a2ca103accd",
+      "bytes": 5803,
+      "treatment": "exact frozen module source extracted from local config"
+    },
+    {
+      "path": "snapshots/fast-v2/experiments/evaluation/native_agent_transport.py",
+      "source": "experiments/results/private/fast-rag-v2-dev199/generation/config.json#module_sources.experiments.evaluation.native_agent_transport",
+      "source_sha256": "750f08a51008ddc63bac14038b607f624101484fcf9fd4876de38ee40b867c61",
+      "export_sha256": "750f08a51008ddc63bac14038b607f624101484fcf9fd4876de38ee40b867c61",
+      "bytes": 9784,
+      "treatment": "exact frozen module source extracted from local config"
+    },
+    {
+      "path": "snapshots/fast-v2/experiments/evaluation/native_agent_worker.py",
+      "source": "experiments/results/private/fast-rag-v2-dev199/generation/config.json#module_sources.experiments.evaluation.native_agent_worker",
+      "source_sha256": "5c4f48f2d5104d4959787f1928f1de8ec4d5fff4d5c231980207f7304ac9d261",
+      "export_sha256": "5c4f48f2d5104d4959787f1928f1de8ec4d5fff4d5c231980207f7304ac9d261",
+      "bytes": 32077,
+      "treatment": "exact frozen module source extracted from local config"
+    },
+    {
+      "path": "snapshots/fast-v2/experiments/evaluation/native_outbound.py",
+      "source": "experiments/results/private/fast-rag-v2-dev199/generation/config.json#module_sources.experiments.evaluation.native_outbound",
+      "source_sha256": "098f127f3cb84f61e5fccf648285aca780b24887eb34de6a579db3c3cadef364",
+      "export_sha256": "098f127f3cb84f61e5fccf648285aca780b24887eb34de6a579db3c3cadef364",
+      "bytes": 3203,
+      "treatment": "exact frozen module source extracted from local config"
+    },
+    {
+      "path": "snapshots/fast-v2/experiments/search_agent/adapter.py",
+      "source": "experiments/results/private/fast-rag-v2-dev199/generation/config.json#module_sources.experiments.search_agent.adapter",
+      "source_sha256": "17e70ec3723b167d6910cadbeecb7f40b45f3af3bf58d49f356b50e642325a93",
+      "export_sha256": "17e70ec3723b167d6910cadbeecb7f40b45f3af3bf58d49f356b50e642325a93",
+      "bytes": 7313,
+      "treatment": "exact frozen module source extracted from local config"
+    },
+    {
+      "path": "snapshots/fast-v2/experiments/search_agent/cache.py",
+      "source": "experiments/results/private/fast-rag-v2-dev199/generation/config.json#module_sources.experiments.search_agent.cache",
+      "source_sha256": "f2d2b669844ed373176c6e063bb6c6132cceb09fe699e53f9ce6b7f56057f578",
+      "export_sha256": "f2d2b669844ed373176c6e063bb6c6132cceb09fe699e53f9ce6b7f56057f578",
+      "bytes": 875,
+      "treatment": "exact frozen module source extracted from local config"
+    },
+    {
+      "path": "snapshots/fast-v2/experiments/search_agent/core.py",
+      "source": "experiments/results/private/fast-rag-v2-dev199/generation/config.json#module_sources.experiments.search_agent.core",
+      "source_sha256": "6402795f12879aa1714555e3b51e290ff4b96f0e6e70becf968a4646085c7733",
+      "export_sha256": "6402795f12879aa1714555e3b51e290ff4b96f0e6e70becf968a4646085c7733",
+      "bytes": 12846,
+      "treatment": "exact frozen module source extracted from local config"
+    },
+    {
+      "path": "snapshots/fast-v2/experiments/search_agent/embedding.py",
+      "source": "experiments/results/private/fast-rag-v2-dev199/generation/config.json#module_sources.experiments.search_agent.embedding",
+      "source_sha256": "b5ef55cda7d902ba3ab127c0631e452cd764fc20614e395c124eb1ff94f85e4a",
+      "export_sha256": "b5ef55cda7d902ba3ab127c0631e452cd764fc20614e395c124eb1ff94f85e4a",
+      "bytes": 3656,
+      "treatment": "exact frozen module source extracted from local config"
+    },
+    {
+      "path": "snapshots/fast-v2/experiments/search_agent/evidence.py",
+      "source": "experiments/results/private/fast-rag-v2-dev199/generation/config.json#module_sources.experiments.search_agent.evidence",
+      "source_sha256": "8ccca0e446366869a0f9ce0bdf0fd225d2482af6c76b78f70666f5f53ab6c671",
+      "export_sha256": "8ccca0e446366869a0f9ce0bdf0fd225d2482af6c76b78f70666f5f53ab6c671",
+      "bytes": 13622,
+      "treatment": "exact frozen module source extracted from local config"
+    },
+    {
+      "path": "snapshots/fast-v2/experiments/search_agent/fast.py",
+      "source": "experiments/results/private/fast-rag-v2-dev199/generation/config.json#module_sources.experiments.search_agent.fast",
+      "source_sha256": "6c6b63a433122e2e48162fd86d2eaccf67ca92a1114162c7727fd6ed69c339ae",
+      "export_sha256": "6c6b63a433122e2e48162fd86d2eaccf67ca92a1114162c7727fd6ed69c339ae",
+      "bytes": 3113,
+      "treatment": "exact frozen module source extracted from local config"
+    },
+    {
+      "path": "snapshots/fast-v2/experiments/search_agent/fast_context.py",
+      "source": "experiments/results/private/fast-rag-v2-dev199/generation/config.json#module_sources.experiments.search_agent.fast_context",
+      "source_sha256": "6d776961234c9d8264dc5194af25cb8613aca6ffb8d940e3120d399b7b6f7e41",
+      "export_sha256": "6d776961234c9d8264dc5194af25cb8613aca6ffb8d940e3120d399b7b6f7e41",
+      "bytes": 6278,
+      "treatment": "exact frozen module source extracted from local config"
+    },
+    {
+      "path": "snapshots/fast-v2/experiments/search_agent/runtime.py",
+      "source": "experiments/results/private/fast-rag-v2-dev199/generation/config.json#module_sources.experiments.search_agent.runtime",
+      "source_sha256": "18a2ce91de68a0e3043dca2d6c0ff7584ea38af031f430e78b74c463a6174172",
+      "export_sha256": "18a2ce91de68a0e3043dca2d6c0ff7584ea38af031f430e78b74c463a6174172",
+      "bytes": 23477,
+      "treatment": "exact frozen module source extracted from local config"
+    },
+    {
+      "path": "snapshots/fast-v2/experiments/search_agent/transport.py",
+      "source": "experiments/results/private/fast-rag-v2-dev199/generation/config.json#module_sources.experiments.search_agent.transport",
+      "source_sha256": "c28fc0d893d9ed8207f3a6a2412bb74ccb8aec0ed2c0d9e56568fc9ea856268e",
+      "export_sha256": "c28fc0d893d9ed8207f3a6a2412bb74ccb8aec0ed2c0d9e56568fc9ea856268e",
+      "bytes": 3488,
+      "treatment": "exact frozen module source extracted from local config"
+    },
+    {
+      "path": "snapshots/fast-v2/protocol-summary.json",
+      "source": "experiments/results/private/fast-rag-v2-dev199/generation/config.json",
+      "source_sha256": "f16d9bfeff6b22d0a214beb070065cb458ae6675dd865d6cd0244eda13991ce0",
+      "export_sha256": "b2786e0f43cf74b3702a4e89a8e3ee98335bbd68b7037708a9a20657e78c61ca",
+      "bytes": 12824,
+      "treatment": "safe field allowlist; not the full runtime config"
+    },
+    {
+      "path": "snapshots/final-test95/experiments/evaluation/native_agent_guard.py",
+      "source": "experiments/results/private/policy-search-agent-final-test95/ab/config.json#module_sources.experiments.evaluation.native_agent_guard",
+      "source_sha256": "d963ebff1af2365d4af35fa099fd445c6d6e405b6ef0b4804ec96a2ca103accd",
+      "export_sha256": "d963ebff1af2365d4af35fa099fd445c6d6e405b6ef0b4804ec96a2ca103accd",
+      "bytes": 5803,
+      "treatment": "exact frozen module source extracted from local config"
+    },
+    {
+      "path": "snapshots/final-test95/experiments/evaluation/native_agent_transport.py",
+      "source": "experiments/results/private/policy-search-agent-final-test95/ab/config.json#module_sources.experiments.evaluation.native_agent_transport",
+      "source_sha256": "750f08a51008ddc63bac14038b607f624101484fcf9fd4876de38ee40b867c61",
+      "export_sha256": "750f08a51008ddc63bac14038b607f624101484fcf9fd4876de38ee40b867c61",
+      "bytes": 9784,
+      "treatment": "exact frozen module source extracted from local config"
+    },
+    {
+      "path": "snapshots/final-test95/experiments/evaluation/native_agent_worker.py",
+      "source": "experiments/results/private/policy-search-agent-final-test95/ab/config.json#module_sources.experiments.evaluation.native_agent_worker",
+      "source_sha256": "5c4f48f2d5104d4959787f1928f1de8ec4d5fff4d5c231980207f7304ac9d261",
+      "export_sha256": "5c4f48f2d5104d4959787f1928f1de8ec4d5fff4d5c231980207f7304ac9d261",
+      "bytes": 32077,
+      "treatment": "exact frozen module source extracted from local config"
+    },
+    {
+      "path": "snapshots/final-test95/experiments/evaluation/native_outbound.py",
+      "source": "experiments/results/private/policy-search-agent-final-test95/ab/config.json#module_sources.experiments.evaluation.native_outbound",
+      "source_sha256": "098f127f3cb84f61e5fccf648285aca780b24887eb34de6a579db3c3cadef364",
+      "export_sha256": "098f127f3cb84f61e5fccf648285aca780b24887eb34de6a579db3c3cadef364",
+      "bytes": 3203,
+      "treatment": "exact frozen module source extracted from local config"
+    },
+    {
+      "path": "snapshots/final-test95/experiments/search_agent/adapter.py",
+      "source": "experiments/results/private/policy-search-agent-final-test95/ab/config.json#module_sources.experiments.search_agent.adapter",
+      "source_sha256": "17e70ec3723b167d6910cadbeecb7f40b45f3af3bf58d49f356b50e642325a93",
+      "export_sha256": "17e70ec3723b167d6910cadbeecb7f40b45f3af3bf58d49f356b50e642325a93",
+      "bytes": 7313,
+      "treatment": "exact frozen module source extracted from local config"
+    },
+    {
+      "path": "snapshots/final-test95/experiments/search_agent/cache.py",
+      "source": "experiments/results/private/policy-search-agent-final-test95/ab/config.json#module_sources.experiments.search_agent.cache",
+      "source_sha256": "f2d2b669844ed373176c6e063bb6c6132cceb09fe699e53f9ce6b7f56057f578",
+      "export_sha256": "f2d2b669844ed373176c6e063bb6c6132cceb09fe699e53f9ce6b7f56057f578",
+      "bytes": 875,
+      "treatment": "exact frozen module source extracted from local config"
+    },
+    {
+      "path": "snapshots/final-test95/experiments/search_agent/core.py",
+      "source": "experiments/results/private/policy-search-agent-final-test95/ab/config.json#module_sources.experiments.search_agent.core",
+      "source_sha256": "6402795f12879aa1714555e3b51e290ff4b96f0e6e70becf968a4646085c7733",
+      "export_sha256": "6402795f12879aa1714555e3b51e290ff4b96f0e6e70becf968a4646085c7733",
+      "bytes": 12846,
+      "treatment": "exact frozen module source extracted from local config"
+    },
+    {
+      "path": "snapshots/final-test95/experiments/search_agent/embedding.py",
+      "source": "experiments/results/private/policy-search-agent-final-test95/ab/config.json#module_sources.experiments.search_agent.embedding",
+      "source_sha256": "b5ef55cda7d902ba3ab127c0631e452cd764fc20614e395c124eb1ff94f85e4a",
+      "export_sha256": "b5ef55cda7d902ba3ab127c0631e452cd764fc20614e395c124eb1ff94f85e4a",
+      "bytes": 3656,
+      "treatment": "exact frozen module source extracted from local config"
+    },
+    {
+      "path": "snapshots/final-test95/experiments/search_agent/evidence.py",
+      "source": "experiments/results/private/policy-search-agent-final-test95/ab/config.json#module_sources.experiments.search_agent.evidence",
+      "source_sha256": "8ccca0e446366869a0f9ce0bdf0fd225d2482af6c76b78f70666f5f53ab6c671",
+      "export_sha256": "8ccca0e446366869a0f9ce0bdf0fd225d2482af6c76b78f70666f5f53ab6c671",
+      "bytes": 13622,
+      "treatment": "exact frozen module source extracted from local config"
+    },
+    {
+      "path": "snapshots/final-test95/experiments/search_agent/runtime.py",
+      "source": "experiments/results/private/policy-search-agent-final-test95/ab/config.json#module_sources.experiments.search_agent.runtime",
+      "source_sha256": "6816a74bdf2a6e45de3c7913009df28d722b2cdb5db3ce35301b4b2cf1bc0a6c",
+      "export_sha256": "6816a74bdf2a6e45de3c7913009df28d722b2cdb5db3ce35301b4b2cf1bc0a6c",
+      "bytes": 23460,
+      "treatment": "exact frozen module source extracted from local config"
+    },
+    {
+      "path": "snapshots/final-test95/experiments/search_agent/transport.py",
+      "source": "experiments/results/private/policy-search-agent-final-test95/ab/config.json#module_sources.experiments.search_agent.transport",
+      "source_sha256": "c28fc0d893d9ed8207f3a6a2412bb74ccb8aec0ed2c0d9e56568fc9ea856268e",
+      "export_sha256": "c28fc0d893d9ed8207f3a6a2412bb74ccb8aec0ed2c0d9e56568fc9ea856268e",
+      "bytes": 3488,
+      "treatment": "exact frozen module source extracted from local config"
+    },
+    {
+      "path": "snapshots/final-test95/protocol-summary.json",
+      "source": "experiments/results/private/policy-search-agent-final-test95/ab/config.json",
+      "source_sha256": "5638a3a07c606d0a89dc0975c67bf47d7779b7f1ace78d580094e907eca51bcf",
+      "export_sha256": "20b080755e8e28751fc6fc45c501186566d387acaa97481144fe993035c21b2d",
+      "bytes": 16278,
+      "treatment": "safe field allowlist; not the full runtime config"
+    },
+    {
+      "path": "snapshots/v7/experiments/evaluation/native_agent_guard.py",
+      "source": "experiments/results/private/policy-search-agent-v7/config.json#module_sources.experiments.evaluation.native_agent_guard",
+      "source_sha256": "d963ebff1af2365d4af35fa099fd445c6d6e405b6ef0b4804ec96a2ca103accd",
+      "export_sha256": "d963ebff1af2365d4af35fa099fd445c6d6e405b6ef0b4804ec96a2ca103accd",
+      "bytes": 5803,
+      "treatment": "exact frozen module source extracted from local config"
+    },
+    {
+      "path": "snapshots/v7/experiments/evaluation/native_agent_transport.py",
+      "source": "experiments/results/private/policy-search-agent-v7/config.json#module_sources.experiments.evaluation.native_agent_transport",
+      "source_sha256": "750f08a51008ddc63bac14038b607f624101484fcf9fd4876de38ee40b867c61",
+      "export_sha256": "750f08a51008ddc63bac14038b607f624101484fcf9fd4876de38ee40b867c61",
+      "bytes": 9784,
+      "treatment": "exact frozen module source extracted from local config"
+    },
+    {
+      "path": "snapshots/v7/experiments/evaluation/native_agent_worker.py",
+      "source": "experiments/results/private/policy-search-agent-v7/config.json#module_sources.experiments.evaluation.native_agent_worker",
+      "source_sha256": "5c4f48f2d5104d4959787f1928f1de8ec4d5fff4d5c231980207f7304ac9d261",
+      "export_sha256": "5c4f48f2d5104d4959787f1928f1de8ec4d5fff4d5c231980207f7304ac9d261",
+      "bytes": 32077,
+      "treatment": "exact frozen module source extracted from local config"
+    },
+    {
+      "path": "snapshots/v7/experiments/evaluation/native_outbound.py",
+      "source": "experiments/results/private/policy-search-agent-v7/config.json#module_sources.experiments.evaluation.native_outbound",
+      "source_sha256": "098f127f3cb84f61e5fccf648285aca780b24887eb34de6a579db3c3cadef364",
+      "export_sha256": "098f127f3cb84f61e5fccf648285aca780b24887eb34de6a579db3c3cadef364",
+      "bytes": 3203,
+      "treatment": "exact frozen module source extracted from local config"
+    },
+    {
+      "path": "snapshots/v7/experiments/search_agent/adapter.py",
+      "source": "experiments/results/private/policy-search-agent-v7/config.json#module_sources.experiments.search_agent.adapter",
+      "source_sha256": "6c60c0b8a616875f4e863ebc53d68327f470308ed1e8d8e5b532d0ae94c08491",
+      "export_sha256": "6c60c0b8a616875f4e863ebc53d68327f470308ed1e8d8e5b532d0ae94c08491",
+      "bytes": 5575,
+      "treatment": "exact frozen module source extracted from local config"
+    },
+    {
+      "path": "snapshots/v7/experiments/search_agent/cache.py",
+      "source": "experiments/results/private/policy-search-agent-v7/config.json#module_sources.experiments.search_agent.cache",
+      "source_sha256": "f2d2b669844ed373176c6e063bb6c6132cceb09fe699e53f9ce6b7f56057f578",
+      "export_sha256": "f2d2b669844ed373176c6e063bb6c6132cceb09fe699e53f9ce6b7f56057f578",
+      "bytes": 875,
+      "treatment": "exact frozen module source extracted from local config"
+    },
+    {
+      "path": "snapshots/v7/experiments/search_agent/core.py",
+      "source": "experiments/results/private/policy-search-agent-v7/config.json#module_sources.experiments.search_agent.core",
+      "source_sha256": "5dc9332338f6ba7029e839271df9ab4a99fe1e14e847f38d3d79c7c7ff9d695c",
+      "export_sha256": "5dc9332338f6ba7029e839271df9ab4a99fe1e14e847f38d3d79c7c7ff9d695c",
+      "bytes": 7541,
+      "treatment": "exact frozen module source extracted from local config"
+    },
+    {
+      "path": "snapshots/v7/experiments/search_agent/embedding.py",
+      "source": "experiments/results/private/policy-search-agent-v7/config.json#module_sources.experiments.search_agent.embedding",
+      "source_sha256": "b5ef55cda7d902ba3ab127c0631e452cd764fc20614e395c124eb1ff94f85e4a",
+      "export_sha256": "b5ef55cda7d902ba3ab127c0631e452cd764fc20614e395c124eb1ff94f85e4a",
+      "bytes": 3656,
+      "treatment": "exact frozen module source extracted from local config"
+    },
+    {
+      "path": "snapshots/v7/experiments/search_agent/evidence.py",
+      "source": "experiments/results/private/policy-search-agent-v7/config.json#module_sources.experiments.search_agent.evidence",
+      "source_sha256": "ba2e6e16265a7e45cfc2dac12d8a7f0ed849f9cbb443f9a63cb40ea906ea45e0",
+      "export_sha256": "ba2e6e16265a7e45cfc2dac12d8a7f0ed849f9cbb443f9a63cb40ea906ea45e0",
+      "bytes": 9068,
+      "treatment": "exact frozen module source extracted from local config"
+    },
+    {
+      "path": "snapshots/v7/experiments/search_agent/runtime.py",
+      "source": "experiments/results/private/policy-search-agent-v7/config.json#module_sources.experiments.search_agent.runtime",
+      "source_sha256": "bc0f5240136a20b9dccc2f415ed5b8d763ee6029951a95958f75627892f43474",
+      "export_sha256": "bc0f5240136a20b9dccc2f415ed5b8d763ee6029951a95958f75627892f43474",
+      "bytes": 22784,
+      "treatment": "exact frozen module source extracted from local config"
+    },
+    {
+      "path": "snapshots/v7/experiments/search_agent/transport.py",
+      "source": "experiments/results/private/policy-search-agent-v7/config.json#module_sources.experiments.search_agent.transport",
+      "source_sha256": "c28fc0d893d9ed8207f3a6a2412bb74ccb8aec0ed2c0d9e56568fc9ea856268e",
+      "export_sha256": "c28fc0d893d9ed8207f3a6a2412bb74ccb8aec0ed2c0d9e56568fc9ea856268e",
+      "bytes": 3488,
+      "treatment": "exact frozen module source extracted from local config"
+    },
+    {
+      "path": "snapshots/v7/protocol-summary.json",
+      "source": "experiments/results/private/policy-search-agent-v7/config.json",
+      "source_sha256": "b6a1685362c1f5b0759416b98e6d5ede2a0f080c7dd9fcba1c99e2c84ec3e97c",
+      "export_sha256": "aef3ac174c79593af5452adecfa1024b1b2743592ce6294e94763ebf20323706",
+      "bytes": 10906,
+      "treatment": "safe field allowlist; not the full runtime config"
+    },
+    {
+      "path": "导学-医保Agent.md",
+      "source": "导学-医保Agent.md",
+      "source_sha256": "ebbaf5097a7723773392b73a628e23d967302ea399913e49687c90a7633d8a41",
+      "export_sha256": "304a94111b6ddcf9e0ffc35f86aa35b0c5eda8215f1ea90a475f42919ed9750b",
+      "bytes": 22859,
+      "treatment": "allowlisted source copy; Markdown links made portable; absent local-only targets marked"
+    },
+    {
+      "path": "面经-医保Agent.md",
+      "source": "面经-医保Agent.md",
+      "source_sha256": "5409b70febf6fe9b57d49dea2f692dbbae96497f74c8b4098eddd9cac50f1070",
+      "export_sha256": "384670433039b9acc85be83d298f17d84142bb371db6d2179f95da3e08679ea6",
+      "bytes": 38023,
+      "treatment": "allowlisted source copy; Markdown links made portable; absent local-only targets marked"
+    }
+  ],
+  "exclusions": [
+    "API keys, .env, service configs, auth tokens",
+    "container databases/indexes/volumes",
+    "full original 3081-document corpus and indexed raw chunks",
+    "runtime configs with embedded raw corpus and privacy mapping",
+    "raw provider request/response traces, events, records, all_answers, logs",
+    "unrelated upstream frontend, binaries, dependencies and caches"
+  ],
+  "note": "Hashes inside copied historical records describe the original local artifacts, not transformed Markdown copies.",
+  "manifest_self_hash": "Not included; Git commit authenticates the manifest together with all tracked files."
+}

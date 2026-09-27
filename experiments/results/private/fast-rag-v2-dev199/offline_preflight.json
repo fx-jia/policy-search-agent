@@ -1,0 +1,12 @@
+{
+  "questions": 196,
+  "changed_source_selection": 168,
+  "questions_with_excerpts": 2,
+  "empty": 0,
+  "max_context_tokens": 1994,
+  "mean_context_tokens": 1491.9234693877552,
+  "mean_selection_ms": 6.936537194818886,
+  "model_calls": 0,
+  "embedding_calls": 0,
+  "selector_sha256": "6d776961234c9d8264dc5194af25cb8613aca6ffb8d940e3120d399b7b6f7e41"
+}

@@ -1,0 +1,982 @@
+[
+  {
+    "source_document_id": "79197",
+    "title": "【制度文件】欺诈骗取医疗保障基金行为举报奖励暂行办法",
+    "body_sha256": "d588e347b9dc37db1a4285757e37c2b624c2e18b1df33f759e422221a1888bd4",
+    "source_url": "https://ybj.xz.gov.cn/govxxgk/733291744yl/2019-04-01/8afdb59e-62b7-4db5-97b3-18dfee067b9f.html",
+    "frozen_index_entry": {
+      "source_document_id": "79197",
+      "document_id": "6c67c84ab58911f186f8778a11d56d90",
+      "dataset_id": "6c4bb218b58911f186f8778a11d56d90",
+      "chunk_count": 1,
+      "file_sha256": "9de81c75d0666055a5787e84444803d3e64cbeec2b36171c6e57cf29e579c39b",
+      "body_sha256": "d588e347b9dc37db1a4285757e37c2b624c2e18b1df33f759e422221a1888bd4"
+    }
+  },
+  {
+    "source_document_id": "79198",
+    "title": "【规章】徐州市基本医疗保险违规行为处理和举报奖励办法",
+    "body_sha256": "aa79a177c8b1bd39cbc60aba1e6d42d4c72d39d8e3206b405079cb58bf34f7b9",
+    "source_url": "https://ybj.xz.gov.cn/govxxgk/733291744yl/2019-04-01/2a557fa5-97e0-46a2-95ad-97d5cef7251b.html",
+    "frozen_index_entry": {
+      "source_document_id": "79198",
+      "document_id": "6c694ddcb58911f186f8778a11d56d90",
+      "dataset_id": "6c4bb218b58911f186f8778a11d56d90",
+      "chunk_count": 1,
+      "file_sha256": "d73ea7225e7dca5652abfd000fad51d09079b1cd28cbd6fa9a44c18d1f7a1356",
+      "body_sha256": "aa79a177c8b1bd39cbc60aba1e6d42d4c72d39d8e3206b405079cb58bf34f7b9"
+    }
+  },
+  {
+    "source_document_id": "79200",
+    "title": "【行政法规】社会救助暂行办法",
+    "body_sha256": "90d5cd89600bcb78ec447480864aff95e2b07ea4b8247f2a08c78146af128543",
+    "source_url": "https://ybj.xz.gov.cn/govxxgk/733291744yl/2019-04-08/93f6b5f4-3ca9-45d9-be02-3da70b26fffe.html",
+    "frozen_index_entry": {
+      "source_document_id": "79200",
+      "document_id": "6c6ec352b58911f186f8778a11d56d90",
+      "dataset_id": "6c4bb218b58911f186f8778a11d56d90",
+      "chunk_count": 1,
+      "file_sha256": "8ad51994eb756441a23e62e5afaf6ec38606bc9dbeb357b48bdcd8920e6da251",
+      "body_sha256": "90d5cd89600bcb78ec447480864aff95e2b07ea4b8247f2a08c78146af128543"
+    }
+  },
+  {
+    "source_document_id": "79205",
+    "title": "《中华人民共和国政府信息公开条例》解读",
+    "body_sha256": "825edea6337899fae6ffd018eda8eacc0bc45ba16ac5b5684684adaffef1d50f",
+    "source_url": "https://ybj.xz.gov.cn/govxxgk/733291744yl/2019-08-09/cf2c4e3f-43e4-4ef1-86bc-17af61ebf026.html",
+    "frozen_index_entry": {
+      "source_document_id": "79205",
+      "document_id": "6c7915a0b58911f186f8778a11d56d90",
+      "dataset_id": "6c4bb218b58911f186f8778a11d56d90",
+      "chunk_count": 9,
+      "file_sha256": "885d1d37c617760666d97aa9e228133c8d5c6f9d594c76027832ad4d6302637e",
+      "body_sha256": "825edea6337899fae6ffd018eda8eacc0bc45ba16ac5b5684684adaffef1d50f"
+    }
+  },
+  {
+    "source_document_id": "79220",
+    "title": "《全市生育保险和职工基本医疗保险合并实施方案》政策解读",
+    "body_sha256": "f8e6113a0babc4fd3386b836c4a17fa2fa9cabdc35dec34704f64d6fd4a89609",
+    "source_url": "https://ybj.xz.gov.cn/govxxgk/733291744yl/2019-11-28/9c2b9297-69b9-4ee6-8e21-76c8f52e412f.html",
+    "frozen_index_entry": {
+      "source_document_id": "79220",
+      "document_id": "6c917e1ab58911f186f8778a11d56d90",
+      "dataset_id": "6c4bb218b58911f186f8778a11d56d90",
+      "chunk_count": 2,
+      "file_sha256": "d349e297c294e61ab44c944c76657a405da246e26c00234db93e497b3c78065d",
+      "body_sha256": "f8e6113a0babc4fd3386b836c4a17fa2fa9cabdc35dec34704f64d6fd4a89609"
+    }
+  },
+  {
+    "source_document_id": "79221",
+    "title": "《关于将阿扎胞苷等16种抗癌药参照基本医疗保险特药进行管理》政策解读",
+    "body_sha256": "8ac9e3db5c67d32db627bccfcbda540bc939989cb75b505da25f3d57e25cec23",
+    "source_url": "https://ybj.xz.gov.cn/govxxgk/733291744yl/2019-11-28/de72a898-c509-4cd8-a657-46459e427681.html",
+    "frozen_index_entry": {
+      "source_document_id": "79221",
+      "document_id": "6c935c8ab58911f186f8778a11d56d90",
+      "dataset_id": "6c4bb218b58911f186f8778a11d56d90",
+      "chunk_count": 2,
+      "file_sha256": "e5b40ef9c09c29beba6da63795b2449e5b17ba597c84f26251b816d1cc210a52",
+      "body_sha256": "8ac9e3db5c67d32db627bccfcbda540bc939989cb75b505da25f3d57e25cec23"
+    }
+  },
+  {
+    "source_document_id": "79222",
+    "title": "市政府关于印发《徐州市城镇职工医疗保险办法》的通知",
+    "body_sha256": "e93fdddcc67bd55c57adc85789e7631feec1f1b1c33450b07f117547d841d0e5",
+    "source_url": "https://ybj.xz.gov.cn/govxxgk/733291744yl/2021-03-23/3a0f45af-edfb-4b35-939d-b8d55a3ecb0f.html",
+    "frozen_index_entry": {
+      "source_document_id": "79222",
+      "document_id": "6c950d00b58911f186f8778a11d56d90",
+      "dataset_id": "6c4bb218b58911f186f8778a11d56d90",
+      "chunk_count": 21,
+      "file_sha256": "8f6c55c52364713431f2050bdd03ce70fe45e929226b53815975c88dda8c0981",
+      "body_sha256": "e93fdddcc67bd55c57adc85789e7631feec1f1b1c33450b07f117547d841d0e5"
+    }
+  },
+  {
+    "source_document_id": "79226",
+    "title": "《徐州市城乡居民高血压糖尿病门诊用药保障机制》政策解读",
+    "body_sha256": "d7f8750ae53637a3066ab33f5afca17580327194d089834d53bb93b50a6e6a01",
+    "source_url": "https://ybj.xz.gov.cn/govxxgk/733291744yl/2019-12-20/0738088d-5980-4b9b-a538-6a7a71a29e51.html",
+    "frozen_index_entry": {
+      "source_document_id": "79226",
+      "document_id": "6c9bc8b6b58911f186f8778a11d56d90",
+      "dataset_id": "6c4bb218b58911f186f8778a11d56d90",
+      "chunk_count": 4,
+      "file_sha256": "9ceb30336eea5271bf9426e8d04cc9a40de896cb3f32827c89d496f3acdf988d",
+      "body_sha256": "d7f8750ae53637a3066ab33f5afca17580327194d089834d53bb93b50a6e6a01"
+    }
+  },
+  {
+    "source_document_id": "79231",
+    "title": "关于降低部分抗癌药品 医疗保险个人先行自付比例的通知",
+    "body_sha256": "0aa02d0e02857eddc2308fe382915e09c57e2ff15789207230db81df2b355f1a",
+    "source_url": "https://ybj.xz.gov.cn/govxxgk/733291744yl/2021-03-24/a4ddaad9-6720-4f26-9c95-8f4a4e79540b.html",
+    "frozen_index_entry": {
+      "source_document_id": "79231",
+      "document_id": "6ca3ab94b58911f186f8778a11d56d90",
+      "dataset_id": "6c4bb218b58911f186f8778a11d56d90",
+      "chunk_count": 1,
+      "file_sha256": "14ce8753f3f4f239b758553e7302535ea3bec4961c800b77dff40851ec9d5c44",
+      "body_sha256": "0aa02d0e02857eddc2308fe382915e09c57e2ff15789207230db81df2b355f1a"
+    }
+  },
+  {
+    "source_document_id": "79234",
+    "title": "徐州市医疗保障局徐州市社会信用体系建设领导小组办公室关于印发《徐州市医疗保障定点医药机构失信行为惩戒实施细则（暂行）》的通知",
+    "body_sha256": "87ba924c83f176977e8d33412f5948e5555203a246ed609ecf021fa258c694dc",
+    "source_url": "https://ybj.xz.gov.cn/govxxgk/733291744yl/2020-02-18/14660810-8a06-4623-8fa0-55dfe8ecaed7.html",
+    "frozen_index_entry": {
+      "source_document_id": "79234",
+      "document_id": "6ca94464b58911f186f8778a11d56d90",
+      "dataset_id": "6c4bb218b58911f186f8778a11d56d90",
+      "chunk_count": 9,
+      "file_sha256": "7a9c34e585b9fee1d7d4ead976a9fa77908fac70e461826c2ab3d2dc11246b3b",
+      "body_sha256": "87ba924c83f176977e8d33412f5948e5555203a246ed609ecf021fa258c694dc"
+    }
+  },
+  {
+    "source_document_id": "79237",
+    "title": "关于阶段性减征职工基本医疗保险费的通知",
+    "body_sha256": "06299eb0093c09eedd81d5dc6e073c1dced398589d7a7275862d570eb70f92be",
+    "source_url": "https://ybj.xz.gov.cn/govxxgk/733291744yl/2021-03-24/2dae9d53-3501-4878-8f11-782661eda815.html",
+    "frozen_index_entry": {
+      "source_document_id": "79237",
+      "document_id": "6cae64f8b58911f186f8778a11d56d90",
+      "dataset_id": "6c4bb218b58911f186f8778a11d56d90",
+      "chunk_count": 3,
+      "file_sha256": "559be5985ae07291429cfa09d9c9619d772dcbd1c5690e487c306e2b4ed9e59a",
+      "body_sha256": "06299eb0093c09eedd81d5dc6e073c1dced398589d7a7275862d570eb70f92be"
+    }
+  },
+  {
+    "source_document_id": "79260",
+    "title": "关于做好徐州市长期照护保险照护服务机构协议管理工作的通知",
+    "body_sha256": "18c2d0a1f803695192125565e737ca8b3184d7c4c1dfc36e298ca002e7586f94",
+    "source_url": "https://ybj.xz.gov.cn/govxxgk/733291744yl/2021-03-29/badd8458-7813-4332-85f7-8e1cf1a14395.html",
+    "frozen_index_entry": {
+      "source_document_id": "79260",
+      "document_id": "6ce1a944b58911f186f8778a11d56d90",
+      "dataset_id": "6c4bb218b58911f186f8778a11d56d90",
+      "chunk_count": 9,
+      "file_sha256": "0087ac0308b88040d3312d886ba87f70ef03504705604430a0a8a55101f7cc42",
+      "body_sha256": "18c2d0a1f803695192125565e737ca8b3184d7c4c1dfc36e298ca002e7586f94"
+    }
+  },
+  {
+    "source_document_id": "79261",
+    "title": "关于印发《徐州市市区长期照护保险实施细则》的通知",
+    "body_sha256": "432298699186867a9e0753cef6d21128975b326d4086cbf3b70cdec8888ccb84",
+    "source_url": "https://ybj.xz.gov.cn/govxxgk/733291744yl/2021-03-25/176bf096-6f02-498d-b133-d55cb5b12603.html",
+    "frozen_index_entry": {
+      "source_document_id": "79261",
+      "document_id": "6ce4320eb58911f186f8778a11d56d90",
+      "dataset_id": "6c4bb218b58911f186f8778a11d56d90",
+      "chunk_count": 10,
+      "file_sha256": "e6bcedc164414f3d3a19cf24b728751139574c9038f649a74aae08626730a529",
+      "body_sha256": "432298699186867a9e0753cef6d21128975b326d4086cbf3b70cdec8888ccb84"
+    }
+  },
+  {
+    "source_document_id": "79274",
+    "title": "《市政府办公室关于印发徐州市长期护理保险实施方案的通知》政策解读",
+    "body_sha256": "2a3672825348e79408c0d21487cd624c19c28905fa62a0f34acf1d3e63345484",
+    "source_url": "https://ybj.xz.gov.cn/govxxgk/733291744yl/2021-08-23/3804f4d6-22b4-4377-a613-89ef1dbeabbf.html",
+    "frozen_index_entry": {
+      "source_document_id": "79274",
+      "document_id": "6cfdbf26b58911f186f8778a11d56d90",
+      "dataset_id": "6c4bb218b58911f186f8778a11d56d90",
+      "chunk_count": 4,
+      "file_sha256": "403e14b2dd7f81defaa4c6b755f48070958386cf80cf211fee7c70734e052d5e",
+      "body_sha256": "2a3672825348e79408c0d21487cd624c19c28905fa62a0f34acf1d3e63345484"
+    }
+  },
+  {
+    "source_document_id": "79279",
+    "title": "关于开展脑血管意外康复治疗按床日收付费的通知",
+    "body_sha256": "da1eb40f7bf46b7776161a07fde991f6985fc503f1d51ac8b4a1e5d5a0728dc1",
+    "source_url": "https://ybj.xz.gov.cn/govxxgk/733291744yl/2021-12-15/3e975672-39e2-47bf-9334-3c824670df99.html",
+    "frozen_index_entry": {
+      "source_document_id": "79279",
+      "document_id": "6d07d9e8b58911f186f8778a11d56d90",
+      "dataset_id": "6c4bb218b58911f186f8778a11d56d90",
+      "chunk_count": 7,
+      "file_sha256": "1935a0a08e235f95df9d45050cf7864c8213a7e80097d63b9c40e5e8741e71e3",
+      "body_sha256": "da1eb40f7bf46b7776161a07fde991f6985fc503f1d51ac8b4a1e5d5a0728dc1"
+    }
+  },
+  {
+    "source_document_id": "79294",
+    "title": "《深化城乡居民高血压、糖尿病门诊用药保障和健康管理专项行动方案》政策解读",
+    "body_sha256": "64dea377e299e46ec13a57f903b09508f281b03b2dc3c9f036a188802ebb45ca",
+    "source_url": "https://ybj.xz.gov.cn/govxxgk/733291744yl/2022-06-09/e9aaad91-321c-47ac-98c3-7619e48d5559.html",
+    "frozen_index_entry": {
+      "source_document_id": "79294",
+      "document_id": "6d233b52b58911f186f8778a11d56d90",
+      "dataset_id": "6c4bb218b58911f186f8778a11d56d90",
+      "chunk_count": 3,
+      "file_sha256": "c9dfd66c8393721e58ee733652f9a38924919774a5565c2233d20b30d07b42f3",
+      "body_sha256": "64dea377e299e46ec13a57f903b09508f281b03b2dc3c9f036a188802ebb45ca"
+    }
+  },
+  {
+    "source_document_id": "79297",
+    "title": "《转发<江苏省医疗保障局关于印发全省医疗保障经办政务服务事项清单和办事指南（2022版）的通知>的通知》政策解读",
+    "body_sha256": "5460db80e4ae8aa8ddc81aa160f362be234e7e2d1c239240361f60f31c05eddc",
+    "source_url": "https://ybj.xz.gov.cn/govxxgk/733291744yl/2022-07-25/a58db206-27af-406a-8c81-835723505fd1.html",
+    "frozen_index_entry": {
+      "source_document_id": "79297",
+      "document_id": "6d2ac80eb58911f186f8778a11d56d90",
+      "dataset_id": "6c4bb218b58911f186f8778a11d56d90",
+      "chunk_count": 7,
+      "file_sha256": "664651f7360b1770a002e1c4a5a8ae32e04f3bda6b0c32a3cef0d966717b7027",
+      "body_sha256": "5460db80e4ae8aa8ddc81aa160f362be234e7e2d1c239240361f60f31c05eddc"
+    }
+  },
+  {
+    "source_document_id": "79300",
+    "title": "跨省异地就医将更便捷（政策解读）",
+    "body_sha256": "371fdc4c957ac0dcff8772a442af3a89dfa2f134d7da4166d640fc761ebc46b2",
+    "source_url": "https://ybj.xz.gov.cn/govxxgk/733291744yl/2022-09-16/f4c7d44b-83b4-4a49-bd7b-c73591b22445.html",
+    "frozen_index_entry": {
+      "source_document_id": "79300",
+      "document_id": "6d319378b58911f186f8778a11d56d90",
+      "dataset_id": "6c4bb218b58911f186f8778a11d56d90",
+      "chunk_count": 7,
+      "file_sha256": "a06c200dbea270ad45e5b1f928fd3ec070bda3e3ebb72764254a2e9eecb9196a",
+      "body_sha256": "371fdc4c957ac0dcff8772a442af3a89dfa2f134d7da4166d640fc761ebc46b2"
+    }
+  },
+  {
+    "source_document_id": "79308",
+    "title": "关于贯彻实施“乙类乙管”后优化新型冠状病毒感染患者治疗费用医疗保障相关政策的通知",
+    "body_sha256": "2f2a783399bdcd4a6e656f769367fa95dd785550559184988d39191c0adc470c",
+    "source_url": "https://ybj.xz.gov.cn/govxxgk/733291744yl/2023-01-07/daff778c-02a2-4050-96ac-3f9ee2efae9c.html",
+    "frozen_index_entry": {
+      "source_document_id": "79308",
+      "document_id": "6d41074ab58911f186f8778a11d56d90",
+      "dataset_id": "6c4bb218b58911f186f8778a11d56d90",
+      "chunk_count": 9,
+      "file_sha256": "6aa74954a11e99889acc3e8240c50c629deb4334dffa9e67f18fd58171389860",
+      "body_sha256": "2f2a783399bdcd4a6e656f769367fa95dd785550559184988d39191c0adc470c"
+    }
+  },
+  {
+    "source_document_id": "79315",
+    "title": "关于进一步做好新冠患者医疗费用保障工作的通知",
+    "body_sha256": "3b42afc31d41b9294560aaf9b0ac3a6ddccd80bfe3cdcd300a46b7aaaed2c384",
+    "source_url": "https://ybj.xz.gov.cn/govxxgk/733291744yl/2023-04-24/482d7ed4-4c4b-4961-acb3-2db03ec937ad.html",
+    "frozen_index_entry": {
+      "source_document_id": "79315",
+      "document_id": "6d4ec1a0b58911f186f8778a11d56d90",
+      "dataset_id": "6c4bb218b58911f186f8778a11d56d90",
+      "chunk_count": 3,
+      "file_sha256": "4278bf35c6d8e1cbe4e2061b7954a083e2bbc7925d9b8b42e56205689a49ad95",
+      "body_sha256": "3b42afc31d41b9294560aaf9b0ac3a6ddccd80bfe3cdcd300a46b7aaaed2c384"
+    }
+  },
+  {
+    "source_document_id": "79321",
+    "title": "徐州人关心的居民医保政策问答来啦_徐州市医疗保障局",
+    "body_sha256": "b8d61ea69ccc766dc07238263788cdea28546a28008a86e86583f976108972a0",
+    "source_url": "http://ybj.xz.gov.cn/xwzx/001001/20231026/5e5c7b57-ad24-4b1b-ad52-1194132d4c65.html",
+    "frozen_index_entry": {
+      "source_document_id": "79321",
+      "document_id": "6d5a24e6b58911f186f8778a11d56d90",
+      "dataset_id": "6c4bb218b58911f186f8778a11d56d90",
+      "chunk_count": 6,
+      "file_sha256": "94b8599a38d0b820eb84eb10654ca8cdefa600cca05cae13fe1eb2aab9254c13",
+      "body_sha256": "b8d61ea69ccc766dc07238263788cdea28546a28008a86e86583f976108972a0"
+    }
+  },
+  {
+    "source_document_id": "79322",
+    "title": "2024年度城乡居民基本医疗保险集中征缴政策解读",
+    "body_sha256": "ced6d5b7ca7efaf2765b4913fa12116d9f0ac7c369ef9c6cc5ae6a0b888e693c",
+    "source_url": "https://ybj.xz.gov.cn/govxxgk/733291744yl/2023-10-27/5d503f09-60d1-405c-8bb7-a17637acd97f.html",
+    "frozen_index_entry": {
+      "source_document_id": "79322",
+      "document_id": "6d5bb2deb58911f186f8778a11d56d90",
+      "dataset_id": "6c4bb218b58911f186f8778a11d56d90",
+      "chunk_count": 6,
+      "file_sha256": "62c70b9a87b928f90b995bf4694dc897b51ea4803355c186ef5f3bf1c2954565",
+      "body_sha256": "ced6d5b7ca7efaf2765b4913fa12116d9f0ac7c369ef9c6cc5ae6a0b888e693c"
+    }
+  },
+  {
+    "source_document_id": "79328",
+    "title": "关于调整职工生育保险待遇标准有关事项的政策解读",
+    "body_sha256": "0b0907f9347e147d84f379e7c50f6eed015a8429ba67ec01e149d7d97142df47",
+    "source_url": "https://ybj.xz.gov.cn/govxxgk/733291744yl/2024-08-28/d558dbab-475b-4d64-8f09-5e66d9dfbba1.html",
+    "frozen_index_entry": {
+      "source_document_id": "79328",
+      "document_id": "6d626804b58911f186f8778a11d56d90",
+      "dataset_id": "6c4bb218b58911f186f8778a11d56d90",
+      "chunk_count": 3,
+      "file_sha256": "b4eac0ad4138d35e81ec6de0e8f0738567081e090a20c7979b4c73650358c0c7",
+      "body_sha256": "0b0907f9347e147d84f379e7c50f6eed015a8429ba67ec01e149d7d97142df47"
+    }
+  },
+  {
+    "source_document_id": "79329",
+    "title": "关于做好2025年城乡居民基本医疗保障有关工作的通知",
+    "body_sha256": "d7b60e13148579e1878d93680bc9586f51690b94e210cf642278b5fb0c67f080",
+    "source_url": "https://ybj.xz.gov.cn/govxxgk/733291744yl/2024-10-22/f15805c0-bd9a-475a-9997-49001eb953c7.html",
+    "frozen_index_entry": {
+      "source_document_id": "79329",
+      "document_id": "6d63d93cb58911f186f8778a11d56d90",
+      "dataset_id": "6c4bb218b58911f186f8778a11d56d90",
+      "chunk_count": 6,
+      "file_sha256": "70e33a2a4471019550a5a110b17272a9fd337998b181532f02afdbdb2419b767",
+      "body_sha256": "d7b60e13148579e1878d93680bc9586f51690b94e210cf642278b5fb0c67f080"
+    }
+  },
+  {
+    "source_document_id": "80746",
+    "title": "省物价局 省卫生和计划生育委员会 省人力资源和社会保障厅关于加强医药价格监管规范医疗收费行为的通知",
+    "body_sha256": "c6120e2ffae71e5611ff8774c9685d9a157a493f27678ed9f9d72d2f3a686b4d",
+    "source_url": "http://ybj.jiangsu.gov.cn/art/2018/7/26/art_74038_8296215.html",
+    "frozen_index_entry": {
+      "source_document_id": "80746",
+      "document_id": "70b07ea6b58911f186f8778a11d56d90",
+      "dataset_id": "6c4bb218b58911f186f8778a11d56d90",
+      "chunk_count": 8,
+      "file_sha256": "6e65c7a8f1371b165a783b0ae3b8cc751faa3d03b317e44449792cea13eeeb2b",
+      "body_sha256": "c6120e2ffae71e5611ff8774c9685d9a157a493f27678ed9f9d72d2f3a686b4d"
+    }
+  },
+  {
+    "source_document_id": "80755",
+    "title": "江苏省医疗保障局 江苏省财政厅转发国家医疗保障局办公室 财政部办公厅关于印发欺诈骗取医疗保障基金行为举报奖励暂行办法的通知",
+    "body_sha256": "654961853b74912f749e775e99f53a6abbecd63d7f1370153cf20b673642d798",
+    "source_url": "http://ybj.jiangsu.gov.cn/art/2019/1/29/art_74039_8295452.html",
+    "frozen_index_entry": {
+      "source_document_id": "80755",
+      "document_id": "70bf18bcb58911f186f8778a11d56d90",
+      "dataset_id": "6c4bb218b58911f186f8778a11d56d90",
+      "chunk_count": 3,
+      "file_sha256": "32b39d0de5c26aae32aed9bcfc8b232981eea8dff0f6f6ab9e4fbe552b01453e",
+      "body_sha256": "654961853b74912f749e775e99f53a6abbecd63d7f1370153cf20b673642d798"
+    }
+  },
+  {
+    "source_document_id": "80756",
+    "title": "江苏省医疗保障局 江苏省财政厅转发国家医疗保障局办公室 财政部办公厅关于印发欺诈骗取医疗保障基金行为举报奖励暂行办法的通知",
+    "body_sha256": "f1987c60c702c9862e5a96a82de4c5fc1205c7e8324ef74a8de81e84be7955a4",
+    "source_url": "https://ybj.jiangsu.gov.cn/art/2019/1/31/art_73935_8284614.html",
+    "frozen_index_entry": {
+      "source_document_id": "80756",
+      "document_id": "70c24d34b58911f186f8778a11d56d90",
+      "dataset_id": "6c4bb218b58911f186f8778a11d56d90",
+      "chunk_count": 3,
+      "file_sha256": "84b6b48f8f2f73931c06936b8c9af266d54dac43ac227e5e50b43ef0c529b03a",
+      "body_sha256": "f1987c60c702c9862e5a96a82de4c5fc1205c7e8324ef74a8de81e84be7955a4"
+    }
+  },
+  {
+    "source_document_id": "80757",
+    "title": "江苏省医疗保障局转发国家医疗保障局办公室关于做好基本医疗保险参保人员流感防治工作的通知",
+    "body_sha256": "38f762f5c1bd6b92459f121d4adcf40f1f963be7f646efe6deeb4ad730bfdc9e",
+    "source_url": "http://ybj.jiangsu.gov.cn/art/2019/2/2/art_74037_10862561.html",
+    "frozen_index_entry": {
+      "source_document_id": "80757",
+      "document_id": "70c3ed24b58911f186f8778a11d56d90",
+      "dataset_id": "6c4bb218b58911f186f8778a11d56d90",
+      "chunk_count": 1,
+      "file_sha256": "a7945830ccfb2d78d9cfa30e7c4134bd7adca95388d34931d3c123c774d4df7c",
+      "body_sha256": "38f762f5c1bd6b92459f121d4adcf40f1f963be7f646efe6deeb4ad730bfdc9e"
+    }
+  },
+  {
+    "source_document_id": "80762",
+    "title": "江苏省医疗保障局 江苏省财政厅转发国家医保局 财政部关于切实做好2019年跨省异地就医住院费用直接结算工作的通知",
+    "body_sha256": "6c34d9238f6958c58fd3d7afabad2221afa5d954f50c08c2b05c88e1366097f5",
+    "source_url": "http://ybj.jiangsu.gov.cn/art/2019/7/18/art_76383_8630703.html",
+    "frozen_index_entry": {
+      "source_document_id": "80762",
+      "document_id": "70cc3eb6b58911f186f8778a11d56d90",
+      "dataset_id": "6c4bb218b58911f186f8778a11d56d90",
+      "chunk_count": 8,
+      "file_sha256": "bf0c6213409dbb6a600e12f3c95fe576efeaa2e2f7e1c5cb3a40b4e8b03fb411",
+      "body_sha256": "6c34d9238f6958c58fd3d7afabad2221afa5d954f50c08c2b05c88e1366097f5"
+    }
+  },
+  {
+    "source_document_id": "80763",
+    "title": "江苏省医疗保障局 江苏省财政厅转发国家医保局 财政部关于做好2019年城乡居民基本医疗保障工作的通知",
+    "body_sha256": "5be00c06f6387984b697a19b5c5f174558900bbdcb0d35721cd2783d18ca7f1e",
+    "source_url": "http://ybj.jiangsu.gov.cn/art/2019/7/18/art_74036_8630723.html",
+    "frozen_index_entry": {
+      "source_document_id": "80763",
+      "document_id": "70cdd46ab58911f186f8778a11d56d90",
+      "dataset_id": "6c4bb218b58911f186f8778a11d56d90",
+      "chunk_count": 6,
+      "file_sha256": "4b915a6111c8bc61095f7178e184c7ed0c77910f3873b6cbd91e6e6fca7fecc3",
+      "body_sha256": "5be00c06f6387984b697a19b5c5f174558900bbdcb0d35721cd2783d18ca7f1e"
+    }
+  },
+  {
+    "source_document_id": "80782",
+    "title": "江苏省医疗保险异地就医常见问题解答（经办服务规程解读）",
+    "body_sha256": "1fed503d3022741360099f6a42196554bc0119c4de3a2f40a540b9b381422d41",
+    "source_url": "https://ybj.jiangsu.gov.cn/art/2019/9/9/art_73937_8740228.html",
+    "frozen_index_entry": {
+      "source_document_id": "80782",
+      "document_id": "70ee730ab58911f186f8778a11d56d90",
+      "dataset_id": "6c4bb218b58911f186f8778a11d56d90",
+      "chunk_count": 5,
+      "file_sha256": "830be82006fdf8b30738fccbc41ee4fa1648914bcdf32e8a07a9cafd351dfd94",
+      "body_sha256": "1fed503d3022741360099f6a42196554bc0119c4de3a2f40a540b9b381422d41"
+    }
+  },
+  {
+    "source_document_id": "80796",
+    "title": "关于推广异地就医联审互查经验的通知",
+    "body_sha256": "efabb42bd463a6003c815cf664a70970510e25be01fc3d220623607ae2b1af2a",
+    "source_url": "http://ybj.jiangsu.gov.cn/art/2019/12/3/art_76383_8832499.html",
+    "frozen_index_entry": {
+      "source_document_id": "80796",
+      "document_id": "710647fab58911f186f8778a11d56d90",
+      "dataset_id": "6c4bb218b58911f186f8778a11d56d90",
+      "chunk_count": 6,
+      "file_sha256": "6b13f91426da3f3d418e565c807c297782cfe3d98a9b9ea09a229127e3a8aee4",
+      "body_sha256": "efabb42bd463a6003c815cf664a70970510e25be01fc3d220623607ae2b1af2a"
+    }
+  },
+  {
+    "source_document_id": "80797",
+    "title": "江苏省医疗保障局等6部门关于建立和完善统一的城乡居民大病保险制度的指导意见",
+    "body_sha256": "4c52f850b605215dee1cb7786f4a55bf9b53ae4bdddd3981c8e297b6e172a99f",
+    "source_url": "http://ybj.jiangsu.gov.cn/art/2019/12/6/art_74036_8837452.html",
+    "frozen_index_entry": {
+      "source_document_id": "80797",
+      "document_id": "7109b6c4b58911f186f8778a11d56d90",
+      "dataset_id": "6c4bb218b58911f186f8778a11d56d90",
+      "chunk_count": 10,
+      "file_sha256": "7256d378fe446d4698f9993e3ecf79cec82c29c2d40bc56fa1d27b75e9b89aa1",
+      "body_sha256": "4c52f850b605215dee1cb7786f4a55bf9b53ae4bdddd3981c8e297b6e172a99f"
+    }
+  },
+  {
+    "source_document_id": "80805",
+    "title": "江苏省医疗保障局 江苏省卫生健康委关于进一步规范基本医疗保险特药管理的通知",
+    "body_sha256": "8c4930e286b4173f8ed846a1bd4f039f9640c08fb58d97a70f147275f76c1d09",
+    "source_url": "http://ybj.jiangsu.gov.cn/art/2019/12/31/art_74037_8897162.html",
+    "frozen_index_entry": {
+      "source_document_id": "80805",
+      "document_id": "711b62d4b58911f186f8778a11d56d90",
+      "dataset_id": "6c4bb218b58911f186f8778a11d56d90",
+      "chunk_count": 13,
+      "file_sha256": "bd0d9d6985ba224b8c31bca526096c90e49b227088923f0abce97217522d70c7",
+      "body_sha256": "8c4930e286b4173f8ed846a1bd4f039f9640c08fb58d97a70f147275f76c1d09"
+    }
+  },
+  {
+    "source_document_id": "80806",
+    "title": "江苏省医疗保障局关于落实国家集中采购和使用药品医保支付标准配套措施的通知",
+    "body_sha256": "c4c46faada84a92ca1dc385386d1355563281fb4125a69819984831f28e4ab2f",
+    "source_url": "http://ybj.jiangsu.gov.cn/art/2019/12/31/art_74037_8897570.html",
+    "frozen_index_entry": {
+      "source_document_id": "80806",
+      "document_id": "711ceb86b58911f186f8778a11d56d90",
+      "dataset_id": "6c4bb218b58911f186f8778a11d56d90",
+      "chunk_count": 4,
+      "file_sha256": "256b3eca07cbda632ad6ac284f4b1a6a04c142e7d38fd18ccf65c09384ad338c",
+      "body_sha256": "c4c46faada84a92ca1dc385386d1355563281fb4125a69819984831f28e4ab2f"
+    }
+  },
+  {
+    "source_document_id": "80808",
+    "title": "江苏省医疗保障局转发国家医疗保障局办公室关于优化医疗保障经办服务推动新型冠状病毒感染的肺炎疫情防控工作的通知",
+    "body_sha256": "e89caed902ac94974aa5183116d16fa78ec8295c09405773e755122a3c7ef41e",
+    "source_url": "http://ybj.jiangsu.gov.cn/art/2020/2/4/art_76383_8961271.html",
+    "frozen_index_entry": {
+      "source_document_id": "80808",
+      "document_id": "7120c8a0b58911f186f8778a11d56d90",
+      "dataset_id": "6c4bb218b58911f186f8778a11d56d90",
+      "chunk_count": 9,
+      "file_sha256": "ec49bf974d934d5e5a2d5362e04ef898e9cdcdeb06a5c7014ea0bbc8c4940e56",
+      "body_sha256": "e89caed902ac94974aa5183116d16fa78ec8295c09405773e755122a3c7ef41e"
+    }
+  },
+  {
+    "source_document_id": "80809",
+    "title": "江苏省医疗保障局关于进一步做好城乡基本医疗保险参保扩面和基金征缴工作的通知",
+    "body_sha256": "9e52dccaff9fe87211810d9a7c049f8970f6c8dc2f7c6d4e30db5364870da26a",
+    "source_url": "http://ybj.jiangsu.gov.cn/art/2020/2/6/art_74039_10860560.html",
+    "frozen_index_entry": {
+      "source_document_id": "80809",
+      "document_id": "7122743eb58911f186f8778a11d56d90",
+      "dataset_id": "6c4bb218b58911f186f8778a11d56d90",
+      "chunk_count": 5,
+      "file_sha256": "f373667a64e01f69c37a4b9fdd8bd63b58bbc2724ec89823db802caad448c568",
+      "body_sha256": "9e52dccaff9fe87211810d9a7c049f8970f6c8dc2f7c6d4e30db5364870da26a"
+    }
+  },
+  {
+    "source_document_id": "80811",
+    "title": "江苏省医疗保障局 江苏省财政厅 国家税务总局江苏省税务局关于施行阶段性降低职工基本医疗保险用人单位缴费率有关政策措施的通知",
+    "body_sha256": "ecf7d34c75c5ae179818fe1e514ad25fad4e54c2f761a50bfb9da3e556da8e3b",
+    "source_url": "http://ybj.jiangsu.gov.cn/art/2020/2/19/art_74036_8977475.html",
+    "frozen_index_entry": {
+      "source_document_id": "80811",
+      "document_id": "71256338b58911f186f8778a11d56d90",
+      "dataset_id": "6c4bb218b58911f186f8778a11d56d90",
+      "chunk_count": 2,
+      "file_sha256": "13af9be3e86085ead4125d3d60001ee201b58ec8c9ffb0519aa80698d670ef4a",
+      "body_sha256": "ecf7d34c75c5ae179818fe1e514ad25fad4e54c2f761a50bfb9da3e556da8e3b"
+    }
+  },
+  {
+    "source_document_id": "80813",
+    "title": "江苏省医疗保障局 江苏省财政厅 国家税务总局江苏省税务局关于印发《关于阶段性减征职工基本医疗保险费的实施方案》的通知",
+    "body_sha256": "6b910be931bfac0e772911921f05171243f3bc9c87b641c0869d2fb2cc6960c0",
+    "source_url": "http://ybj.jiangsu.gov.cn/art/2020/3/2/art_74036_8993249.html",
+    "frozen_index_entry": {
+      "source_document_id": "80813",
+      "document_id": "71288e8cb58911f186f8778a11d56d90",
+      "dataset_id": "6c4bb218b58911f186f8778a11d56d90",
+      "chunk_count": 6,
+      "file_sha256": "c34736ac9995d9d13bac915422f11c732a3755fc2b41283a92cd25ff28e6820f",
+      "body_sha256": "6b910be931bfac0e772911921f05171243f3bc9c87b641c0869d2fb2cc6960c0"
+    }
+  },
+  {
+    "source_document_id": "80815",
+    "title": "《江苏省医用耗材阳光采购实施细则（试行）》政策解读及问答",
+    "body_sha256": "7caaebd30ffd0ef0d6e7782830f7e23f4e2471c2fd164d3d2156f58ac615303b",
+    "source_url": "https://ybj.jiangsu.gov.cn/art/2020/3/27/art_73937_9036026.html",
+    "frozen_index_entry": {
+      "source_document_id": "80815",
+      "document_id": "712b9e56b58911f186f8778a11d56d90",
+      "dataset_id": "6c4bb218b58911f186f8778a11d56d90",
+      "chunk_count": 11,
+      "file_sha256": "72b3440f715ebf24516e351b8ef5fca1a9754f79df12674b63fcf9087492617b",
+      "body_sha256": "7caaebd30ffd0ef0d6e7782830f7e23f4e2471c2fd164d3d2156f58ac615303b"
+    }
+  },
+  {
+    "source_document_id": "80821",
+    "title": "《关于推进药品阳光采购的实施意见（试行）》简明问答",
+    "body_sha256": "3bb9806ae6d418337516a43ee841daef9b3609e29fe47a12e0640c7aef4f50ce",
+    "source_url": "https://ybj.jiangsu.gov.cn/art/2020/4/20/art_73937_9053653.html",
+    "frozen_index_entry": {
+      "source_document_id": "80821",
+      "document_id": "7136d172b58911f186f8778a11d56d90",
+      "dataset_id": "6c4bb218b58911f186f8778a11d56d90",
+      "chunk_count": 7,
+      "file_sha256": "c0dbd7d1cdeee6230f3e85295f3a5904a0604a44c9943fb7aaf74e145e0fd31b",
+      "body_sha256": "3bb9806ae6d418337516a43ee841daef9b3609e29fe47a12e0640c7aef4f50ce"
+    }
+  },
+  {
+    "source_document_id": "80841",
+    "title": "在中国境内就业的外国人参加社会保险暂行办法",
+    "body_sha256": "9a95fb43f79cbd19b2567ee928e8d35e397891c166413bac8049177d9c55b7c9",
+    "source_url": "http://ybj.jiangsu.gov.cn/art/2020/7/28/art_71878_9329683.html",
+    "frozen_index_entry": {
+      "source_document_id": "80841",
+      "document_id": "7159563eb58911f186f8778a11d56d90",
+      "dataset_id": "6c4bb218b58911f186f8778a11d56d90",
+      "chunk_count": 4,
+      "file_sha256": "17a0261a4bbb8f14face18a0a5935422557866ad63d35f9abf76e09778261224",
+      "body_sha256": "9a95fb43f79cbd19b2567ee928e8d35e397891c166413bac8049177d9c55b7c9"
+    }
+  },
+  {
+    "source_document_id": "80847",
+    "title": "江苏省社会救助办法",
+    "body_sha256": "33f92a8b281a62c4bb200fe5e4c50ebaab4e3936e05a7a9133d34bf0c807898a",
+    "source_url": "http://ybj.jiangsu.gov.cn/art/2020/7/28/art_71878_9329639.html",
+    "frozen_index_entry": {
+      "source_document_id": "80847",
+      "document_id": "716313b8b58911f186f8778a11d56d90",
+      "dataset_id": "6c4bb218b58911f186f8778a11d56d90",
+      "chunk_count": 26,
+      "file_sha256": "73205fee3eb48892e8315b622a912b6a1e1ee52cdf42cc8cc641d865c989f009",
+      "body_sha256": "33f92a8b281a62c4bb200fe5e4c50ebaab4e3936e05a7a9133d34bf0c807898a"
+    }
+  },
+  {
+    "source_document_id": "80848",
+    "title": "社会保险行政争议处理办法",
+    "body_sha256": "7bd7b4886526e5eb3e35b3117da24948dc86871df7c3bdca4cd0c7c44f53a61f",
+    "source_url": "http://ybj.jiangsu.gov.cn/art/2020/7/28/art_71878_9329681.html",
+    "frozen_index_entry": {
+      "source_document_id": "80848",
+      "document_id": "71649adab58911f186f8778a11d56d90",
+      "dataset_id": "6c4bb218b58911f186f8778a11d56d90",
+      "chunk_count": 10,
+      "file_sha256": "0d0ead651a2ecfc55ad58c4b92954e8d658df14f413e0f8e6b16f12b1b116fa3",
+      "body_sha256": "7bd7b4886526e5eb3e35b3117da24948dc86871df7c3bdca4cd0c7c44f53a61f"
+    }
+  },
+  {
+    "source_document_id": "80854",
+    "title": "江苏省医疗保障局关于印发全省医疗保障经办政务服务事项清单和办事指南的通知",
+    "body_sha256": "4477ebb846cf713ade414653e3dc15340842efc33c51e1984748e0b637b6051d",
+    "source_url": "http://ybj.jiangsu.gov.cn/art/2020/8/17/art_76383_9454933.html",
+    "frozen_index_entry": {
+      "source_document_id": "80854",
+      "document_id": "716d1070b58911f186f8778a11d56d90",
+      "dataset_id": "6c4bb218b58911f186f8778a11d56d90",
+      "chunk_count": 4,
+      "file_sha256": "b54614424c21d6de649fb0660610504bda4e19f5f8492901e5242f24c7f3fc5b",
+      "body_sha256": "4477ebb846cf713ade414653e3dc15340842efc33c51e1984748e0b637b6051d"
+    }
+  },
+  {
+    "source_document_id": "80861",
+    "title": "江苏省医疗保障局关于建立江苏省医疗保障经办政务服务评价工作机制的通知",
+    "body_sha256": "b63890dd2f2062484f0d0cd8a9755dd0bec3cbb5c8615a508ce30d89495a42a4",
+    "source_url": "http://ybj.jiangsu.gov.cn/art/2020/10/27/art_76383_10861532.html",
+    "frozen_index_entry": {
+      "source_document_id": "80861",
+      "document_id": "7179ea8eb58911f186f8778a11d56d90",
+      "dataset_id": "6c4bb218b58911f186f8778a11d56d90",
+      "chunk_count": 4,
+      "file_sha256": "cdeddbae1ced4e780d6d9ee9e5dd84e1d126355ca2fcc91a135b349982bd4ba5",
+      "body_sha256": "b63890dd2f2062484f0d0cd8a9755dd0bec3cbb5c8615a508ce30d89495a42a4"
+    }
+  },
+  {
+    "source_document_id": "80869",
+    "title": "江苏省医疗保障局关于印发医疗保障支持促进中医药发展若干措施的通知",
+    "body_sha256": "1d2384c7b4b8672d9e059ad2bc9df94e955951a06fef61c522af3653a62efd6c",
+    "source_url": "http://ybj.jiangsu.gov.cn/art/2020/11/24/art_74037_9579907.html",
+    "frozen_index_entry": {
+      "source_document_id": "80869",
+      "document_id": "7185fed2b58911f186f8778a11d56d90",
+      "dataset_id": "6c4bb218b58911f186f8778a11d56d90",
+      "chunk_count": 5,
+      "file_sha256": "c4f1bb8d69e38f2367cc666c2e9674545c97a0e574da0888e12cffdb7f87f6e9",
+      "body_sha256": "1d2384c7b4b8672d9e059ad2bc9df94e955951a06fef61c522af3653a62efd6c"
+    }
+  },
+  {
+    "source_document_id": "80887",
+    "title": "《关于促进补充医疗保险发展 进一步健全多层次医疗保障体系的指导意见（试行）》政策十问",
+    "body_sha256": "5f0c04bb15f2aad0e506b859ce05b4635f2668e633e93125d5ddfe090d649e86",
+    "source_url": "https://ybj.jiangsu.gov.cn/art/2021/1/5/art_73937_9642516.html",
+    "frozen_index_entry": {
+      "source_document_id": "80887",
+      "document_id": "71a274e0b58911f186f8778a11d56d90",
+      "dataset_id": "6c4bb218b58911f186f8778a11d56d90",
+      "chunk_count": 6,
+      "file_sha256": "44df57c2dd5605baed481571b1ece0aa3d3f61b36239086647c82c1f515c7577",
+      "body_sha256": "5f0c04bb15f2aad0e506b859ce05b4635f2668e633e93125d5ddfe090d649e86"
+    }
+  },
+  {
+    "source_document_id": "80920",
+    "title": "《国家医保谈判药品“双通道”管理及单独支付药品经办规程（试行）》的解读",
+    "body_sha256": "4b7049a21c4a135875921b2d8bc7bbd3b9d79078215861dc67f6b8da5cb7febe",
+    "source_url": "https://ybj.jiangsu.gov.cn/art/2021/7/30/art_73937_9957722.html",
+    "frozen_index_entry": {
+      "source_document_id": "80920",
+      "document_id": "71d61f2ab58911f186f8778a11d56d90",
+      "dataset_id": "6c4bb218b58911f186f8778a11d56d90",
+      "chunk_count": 5,
+      "file_sha256": "5934559f04a23588a65579ab88d65e6386abfcedf8ac7d0a4bd64b4cba234297",
+      "body_sha256": "4b7049a21c4a135875921b2d8bc7bbd3b9d79078215861dc67f6b8da5cb7febe"
+    }
+  },
+  {
+    "source_document_id": "80935",
+    "title": "江苏省医疗保障局 江苏省财政厅 江苏省人力资源和社会保障厅 国家税务总局江苏省税务局关于推动灵活就业人员参加职工基本医疗保险的通知",
+    "body_sha256": "9e5bef4aaf0513c749d69834cd488b3d3a7b804244232e10fb1ade233f7d1f37",
+    "source_url": "http://ybj.jiangsu.gov.cn/art/2021/10/20/art_74036_10079905.html",
+    "frozen_index_entry": {
+      "source_document_id": "80935",
+      "document_id": "71ee430cb58911f186f8778a11d56d90",
+      "dataset_id": "6c4bb218b58911f186f8778a11d56d90",
+      "chunk_count": 8,
+      "file_sha256": "20858d5bfdcd4dfd3472820dfa85a542d64de70d15947d6139e66ec9514428d5",
+      "body_sha256": "9e5bef4aaf0513c749d69834cd488b3d3a7b804244232e10fb1ade233f7d1f37"
+    }
+  },
+  {
+    "source_document_id": "80940",
+    "title": "江苏省医疗保障局关于深入推进药品阳光采购的实施意见",
+    "body_sha256": "55c1a034d425feb53174f4422e927bff1bd2e1f311f886ff845bbee0d22a8eef",
+    "source_url": "http://ybj.jiangsu.gov.cn/art/2021/11/3/art_74038_10095951.html",
+    "frozen_index_entry": {
+      "source_document_id": "80940",
+      "document_id": "71f8581ab58911f186f8778a11d56d90",
+      "dataset_id": "6c4bb218b58911f186f8778a11d56d90",
+      "chunk_count": 15,
+      "file_sha256": "693c07ecf6e76a3924ea5dc96277031426cafc444f5927a477166edf82173a2b",
+      "body_sha256": "55c1a034d425feb53174f4422e927bff1bd2e1f311f886ff845bbee0d22a8eef"
+    }
+  },
+  {
+    "source_document_id": "80966",
+    "title": "《江苏省医保局关于深入推进医用耗材阳光采购的实施意见》政策解读",
+    "body_sha256": "a67092f5a8239b41af7af88c0d88571a760617f8ccfe95975ccfc82895114c54",
+    "source_url": "https://ybj.jiangsu.gov.cn/art/2022/3/11/art_73937_10389339.html",
+    "frozen_index_entry": {
+      "source_document_id": "80966",
+      "document_id": "721e5e8eb58911f186f8778a11d56d90",
+      "dataset_id": "6c4bb218b58911f186f8778a11d56d90",
+      "chunk_count": 6,
+      "file_sha256": "84f63b2b182075539132644816cb6f346df9d4c7044cf6c4d47db011b4910aff",
+      "body_sha256": "a67092f5a8239b41af7af88c0d88571a760617f8ccfe95975ccfc82895114c54"
+    }
+  },
+  {
+    "source_document_id": "81007",
+    "title": "《江苏省医疗保障局 江苏省卫生健康委员会关于做好急危重伤病参保人员门（急）诊医疗费用保障工作的通知》政策解读",
+    "body_sha256": "38b4b9969160448a58a880831c4719130b4714ae1100aa4124f093a4135f23ab",
+    "source_url": "https://ybj.jiangsu.gov.cn/art/2022/7/11/art_73937_10548733.html",
+    "frozen_index_entry": {
+      "source_document_id": "81007",
+      "document_id": "7265361ab58911f186f8778a11d56d90",
+      "dataset_id": "6c4bb218b58911f186f8778a11d56d90",
+      "chunk_count": 4,
+      "file_sha256": "a01d66905b318e9a91e41683ea3130e4aeb2e8792bcefbb07793977e885af63e",
+      "body_sha256": "38b4b9969160448a58a880831c4719130b4714ae1100aa4124f093a4135f23ab"
+    }
+  },
+  {
+    "source_document_id": "81011",
+    "title": "《江苏省阶段性缓缴职工基本医疗保险单位缴费的实施方案》政策解读",
+    "body_sha256": "f5010c4c8a463b86586f1151c394bf2a539c581212b96f208a19fa592709f6e4",
+    "source_url": "https://ybj.jiangsu.gov.cn/art/2022/7/15/art_73937_10548767.html",
+    "frozen_index_entry": {
+      "source_document_id": "81011",
+      "document_id": "726a0438b58911f186f8778a11d56d90",
+      "dataset_id": "6c4bb218b58911f186f8778a11d56d90",
+      "chunk_count": 6,
+      "file_sha256": "239cab50736f14f361d534543f355b944e49b16bdd50289635aadcfb6d1392c9",
+      "body_sha256": "f5010c4c8a463b86586f1151c394bf2a539c581212b96f208a19fa592709f6e4"
+    }
+  },
+  {
+    "source_document_id": "81023",
+    "title": "江苏省医疗保障局关于优化医疗保障领域营商环境的实施意见",
+    "body_sha256": "65f8f3827c9e0e32be9b6f5faaf697e1335819d93160fe54c7c56d3e94f4566d",
+    "source_url": "http://ybj.jiangsu.gov.cn/art/2022/8/4/art_76383_10861861.html",
+    "frozen_index_entry": {
+      "source_document_id": "81023",
+      "document_id": "727edadeb58911f186f8778a11d56d90",
+      "dataset_id": "6c4bb218b58911f186f8778a11d56d90",
+      "chunk_count": 9,
+      "file_sha256": "2840e2c96f3528ea82a4788b766e4981ed1df6d6a8fdcdc533bb1633a835fa5d",
+      "body_sha256": "65f8f3827c9e0e32be9b6f5faaf697e1335819d93160fe54c7c56d3e94f4566d"
+    }
+  },
+  {
+    "source_document_id": "81029",
+    "title": "关于印发《定点医疗机构DRG/DIP支付方式改革绩效评价办法（试行）》的通知",
+    "body_sha256": "126535c4993b203b2704ddb837d4f2757f9e2a635e72abc4a8e876e819eb2a81",
+    "source_url": "http://ybj.jiangsu.gov.cn/art/2022/9/9/art_74037_10602078.html",
+    "frozen_index_entry": {
+      "source_document_id": "81029",
+      "document_id": "7288744ab58911f186f8778a11d56d90",
+      "dataset_id": "6c4bb218b58911f186f8778a11d56d90",
+      "chunk_count": 6,
+      "file_sha256": "cd8f6ac39535966a6304a9ee0eaf58299af6d7943b192104e510be3194f605f2",
+      "body_sha256": "126535c4993b203b2704ddb837d4f2757f9e2a635e72abc4a8e876e819eb2a81"
+    }
+  },
+  {
+    "source_document_id": "81055",
+    "title": "江苏省医疗保障局关于进一步优化医疗保障管理服务助力科学精准做好疫情防控工作的通知",
+    "body_sha256": "9a0123be6e8acb64f51c47534d93a81adf4405ef1f7fea19749944cb8abc875e",
+    "source_url": "http://ybj.jiangsu.gov.cn/art/2022/12/12/art_76383_10718601.html",
+    "frozen_index_entry": {
+      "source_document_id": "81055",
+      "document_id": "72b6c0cab58911f186f8778a11d56d90",
+      "dataset_id": "6c4bb218b58911f186f8778a11d56d90",
+      "chunk_count": 4,
+      "file_sha256": "0c903f8afcb58f32489ad2ffbd6a63f051e1a7899374046bc95cf95753d1a6fa",
+      "body_sha256": "9a0123be6e8acb64f51c47534d93a81adf4405ef1f7fea19749944cb8abc875e"
+    }
+  },
+  {
+    "source_document_id": "81069",
+    "title": "关于全面排查并取消医保不合理限制的通知",
+    "body_sha256": "a1e77504b2ed37001483fe8908401552664eb4507020c8ffb7be3f830f841498",
+    "source_url": "http://ybj.jiangsu.gov.cn/art/2022/12/30/art_74037_11011461.html",
+    "frozen_index_entry": {
+      "source_document_id": "81069",
+      "document_id": "72cdc31ab58911f186f8778a11d56d90",
+      "dataset_id": "6c4bb218b58911f186f8778a11d56d90",
+      "chunk_count": 6,
+      "file_sha256": "dde48fcb58601034c8f5f8f32443820b56214544c6650adc944274923f263fa7",
+      "body_sha256": "a1e77504b2ed37001483fe8908401552664eb4507020c8ffb7be3f830f841498"
+    }
+  },
+  {
+    "source_document_id": "81086",
+    "title": "关于开展牙冠挂网有关事项的通知",
+    "body_sha256": "7bc3bf41f6469595e253d400a3b90202dba8f347c42a0f1f7c37a7dd4bb8e53d",
+    "source_url": "http://ybj.jiangsu.gov.cn/art/2023/4/11/art_74038_10858887.html",
+    "frozen_index_entry": {
+      "source_document_id": "81086",
+      "document_id": "72e95fd0b58911f186f8778a11d56d90",
+      "dataset_id": "6c4bb218b58911f186f8778a11d56d90",
+      "chunk_count": 5,
+      "file_sha256": "f2da64192c9140f4ad72980c883836a15cb431944b1a9593043e7b3a4fef402c",
+      "body_sha256": "7bc3bf41f6469595e253d400a3b90202dba8f347c42a0f1f7c37a7dd4bb8e53d"
+    }
+  },
+  {
+    "source_document_id": "81106",
+    "title": "《关于进一步规范优化国谈药双通道药品使用管理的通知》政策解读",
+    "body_sha256": "aebd80fa2a13d6b922c5499ee92819e076865605e3d955be8e2d7c2c48e0d14c",
+    "source_url": "https://ybj.jiangsu.gov.cn/art/2023/7/4/art_73937_11041246.html",
+    "frozen_index_entry": {
+      "source_document_id": "81106",
+      "document_id": "730928e2b58911f186f8778a11d56d90",
+      "dataset_id": "6c4bb218b58911f186f8778a11d56d90",
+      "chunk_count": 2,
+      "file_sha256": "a1b4800331eff1f5e425b99136a82c2df86c479158570007c7500eaa112cf2fd",
+      "body_sha256": "aebd80fa2a13d6b922c5499ee92819e076865605e3d955be8e2d7c2c48e0d14c"
+    }
+  },
+  {
+    "source_document_id": "81118",
+    "title": "《江苏省基本医疗保险中药配方颗粒管理暂行办法》政策解读",
+    "body_sha256": "0dc180fda0b935ba6b32c27504d044c00d53e34c544d073d637cb1b4b8fb894a",
+    "source_url": "https://ybj.jiangsu.gov.cn/art/2023/9/25/art_73937_11041239.html",
+    "frozen_index_entry": {
+      "source_document_id": "81118",
+      "document_id": "731d35e4b58911f186f8778a11d56d90",
+      "dataset_id": "6c4bb218b58911f186f8778a11d56d90",
+      "chunk_count": 3,
+      "file_sha256": "0f0142de4fb4fee1dcf5709b57ad078e66e722d801a1a2cfbff52dc111bae8f0",
+      "body_sha256": "0dc180fda0b935ba6b32c27504d044c00d53e34c544d073d637cb1b4b8fb894a"
+    }
+  },
+  {
+    "source_document_id": "81124",
+    "title": "江苏省医疗保障局 江苏省卫生健康委员会江苏省中医药管理局关于创新医疗项目申报新增医疗服务价格项目有关事项的通知",
+    "body_sha256": "a37efc2aae8be205b7706b77e8b3cf656e976c5329fc32c4bd04990b7224429b",
+    "source_url": "http://ybj.jiangsu.gov.cn/art/2023/11/15/art_74038_11078900.html",
+    "frozen_index_entry": {
+      "source_document_id": "81124",
+      "document_id": "7325d0dcb58911f186f8778a11d56d90",
+      "dataset_id": "6c4bb218b58911f186f8778a11d56d90",
+      "chunk_count": 6,
+      "file_sha256": "9a4d175621bd57f577afaff07fd745381388e584763fdfcebc1ba2e183344d2e",
+      "body_sha256": "a37efc2aae8be205b7706b77e8b3cf656e976c5329fc32c4bd04990b7224429b"
+    }
+  },
+  {
+    "source_document_id": "83177",
+    "title": "《苏州市定点门诊部、诊所医疗保障信用等级评价管理办法（试行）》和《苏州市定点零售药店医疗保障信用等级评价管理办法（试行）》政策解读",
+    "body_sha256": "1484303fa4a4f9fac0d90057fb961e8f38915166605f509411b3f2525b3c6bb6",
+    "source_url": "https://ybj.suzhou.gov.cn/szybj/zcjd/202106/2f8a5653c39a484f8016ed20df8bfed9.shtml",
+    "frozen_index_entry": {
+      "source_document_id": "83177",
+      "document_id": "77be4ac2b58211f1835e1b926e8bf15a",
+      "dataset_id": "769caeaeb58211f1835e1b926e8bf15a",
+      "chunk_count": 4,
+      "file_sha256": "78b2ed754acc6b66dd9a1b08d7c125687aa0fa48542ed762a50530ed38c40916",
+      "body_sha256": "1484303fa4a4f9fac0d90057fb961e8f38915166605f509411b3f2525b3c6bb6"
+    }
+  },
+  {
+    "source_document_id": "83187",
+    "title": "国务院关于整合城乡居民基本医疗保险制度的意见（国发〔2016〕3号）",
+    "body_sha256": "e43fde6091b6fa4eda0e690ce8875781302090d9d219636163609ccc7cebcc89",
+    "source_url": "https://ybj.suzhou.gov.cn/szybj/zcfg/202206/c3b9b2704c514d1997e1731e080312da.shtml",
+    "frozen_index_entry": {
+      "source_document_id": "83187",
+      "document_id": "77c310b6b58211f1835e1b926e8bf15a",
+      "dataset_id": "769caeaeb58211f1835e1b926e8bf15a",
+      "chunk_count": 11,
+      "file_sha256": "f90158cd59a6588667ac944bf844c662c68148f2e33413f139ded43722f6cdc8",
+      "body_sha256": "e43fde6091b6fa4eda0e690ce8875781302090d9d219636163609ccc7cebcc89"
+    }
+  },
+  {
+    "source_document_id": "83188",
+    "title": "国务院办公厅关于全面推进生育保险和职工基本医疗保险合并实施的意见（国办发〔2019〕10号）",
+    "body_sha256": "df0fafb1c70843ea47af1f76c6c746fa5ec65d995cfe28349eed9e2a85218643",
+    "source_url": "https://ybj.suzhou.gov.cn/szybj/zcfg/202206/ff1699b1308d4c1cb5c097ab0574ee04.shtml",
+    "frozen_index_entry": {
+      "source_document_id": "83188",
+      "document_id": "77c4a5b6b58211f1835e1b926e8bf15a",
+      "dataset_id": "769caeaeb58211f1835e1b926e8bf15a",
+      "chunk_count": 7,
+      "file_sha256": "3998faa2326aa231dd5ab4cb3b68e8a45fd1345fc4b39d93dcac349ee1e260a3",
+      "body_sha256": "df0fafb1c70843ea47af1f76c6c746fa5ec65d995cfe28349eed9e2a85218643"
+    }
+  },
+  {
+    "source_document_id": "83198",
+    "title": "国家医保局 财政部关于扩大长期护理保险制度试点的指导意见（医保发〔2020〕37号）",
+    "body_sha256": "54bca60d43a6c6d634c167c8b8b28ae1bc15f717db9e04f3fe133891719dd052",
+    "source_url": "https://ybj.suzhou.gov.cn/szybj/zcfg/202206/18c2c471988a492dace8a8f030755f87.shtml",
+    "frozen_index_entry": {
+      "source_document_id": "83198",
+      "document_id": "77c61c0cb58211f1835e1b926e8bf15a",
+      "dataset_id": "769caeaeb58211f1835e1b926e8bf15a",
+      "chunk_count": 7,
+      "file_sha256": "eb83b65303273ae47b704edc1842eb147640c594df84f8e446b5e6c50e0e1f72",
+      "body_sha256": "54bca60d43a6c6d634c167c8b8b28ae1bc15f717db9e04f3fe133891719dd052"
+    }
+  },
+  {
+    "source_document_id": "83215",
+    "title": "苏州城乡居民医保热点问题解答",
+    "body_sha256": "d6b7da1974d27106dbff74e5ca2381f6ebb508409bb405ba7be06f259e0f64e9",
+    "source_url": "https://ybj.suzhou.gov.cn/szybj/zcjd/202311/ceae3c2ee46f4f50a0bff6497f920c94.shtml",
+    "frozen_index_entry": {
+      "source_document_id": "83215",
+      "document_id": "77cc5a4ab58211f1835e1b926e8bf15a",
+      "dataset_id": "769caeaeb58211f1835e1b926e8bf15a",
+      "chunk_count": 7,
+      "file_sha256": "2785e729ce774897886e5db2332b09f70d9faaf615734a75944df38215717669",
+      "body_sha256": "d6b7da1974d27106dbff74e5ca2381f6ebb508409bb405ba7be06f259e0f64e9"
+    }
+  },
+  {
+    "source_document_id": "83496",
+    "title": "关于发布2022年度医疗、生育、失业、工伤保险有关基数的通知",
+    "body_sha256": "483aa5c330eafb765eabd258b473c8ceb5510a6d7657fab286120deea3e6bac8",
+    "source_url": "http://www.suzhou.gov.cn/szsrmzf/bmwj/202112/b7c0d5103fd840c2bcbc8aaaa69c8eb6.shtml",
+    "frozen_index_entry": {
+      "source_document_id": "83496",
+      "document_id": "77d3d9dcb58211f1835e1b926e8bf15a",
+      "dataset_id": "769caeaeb58211f1835e1b926e8bf15a",
+      "chunk_count": 2,
+      "file_sha256": "d15c33132e392d43af84541e425d7fdec52f650efc47379f88a56b4e0dc1c030",
+      "body_sha256": "483aa5c330eafb765eabd258b473c8ceb5510a6d7657fab286120deea3e6bac8"
+    }
+  },
+  {
+    "source_document_id": "84643",
+    "title": "职工参保登记",
+    "body_sha256": "6c45502df14f0aa56ccce5ecd5f6e0da0d5595fee044fb0ee237bfd851183555",
+    "source_url": "https://sz.jszwfw.gov.cn/jszwfw/publicservice/itemlist/showDetail.do?webId=3&iddept_yw_inf=11320500MB16467517332203600801202&ql_kind=20&iddept_ql_inf=11320500MB164675173322036008012",
+    "frozen_index_entry": {
+      "source_document_id": "84643",
+      "document_id": "7821a7f2b58211f1835e1b926e8bf15a",
+      "dataset_id": "769caeaeb58211f1835e1b926e8bf15a",
+      "chunk_count": 5,
+      "file_sha256": "aab74434be3fe9267f3b8e943d8c7c21e47094d9436ccc864ab3e2ba8835c1e5",
+      "body_sha256": "6c45502df14f0aa56ccce5ecd5f6e0da0d5595fee044fb0ee237bfd851183555"
+    }
+  },
+  {
+    "source_document_id": "84665",
+    "title": "门诊费用报销",
+    "body_sha256": "c77a9f39510857a398b41d129082c0c22c1b805180530fc70060bc7db30c9808",
+    "source_url": "https://sz.jszwfw.gov.cn/jszwfw/publicservice/itemlist/showDetail.do?webId=3&iddept_yw_inf=11320500MB16467517332203606600102&ql_kind=20&iddept_ql_inf=11320500MB164675173322036066001",
+    "frozen_index_entry": {
+      "source_document_id": "84665",
+      "document_id": "7823143eb58211f1835e1b926e8bf15a",
+      "dataset_id": "769caeaeb58211f1835e1b926e8bf15a",
+      "chunk_count": 9,
+      "file_sha256": "ad89c82a852ba8b5f6f3388ac93a0050d03ce856f54e69627b858a06c0d7c342",
+      "body_sha256": "c77a9f39510857a398b41d129082c0c22c1b805180530fc70060bc7db30c9808"
+    }
+  }
+]

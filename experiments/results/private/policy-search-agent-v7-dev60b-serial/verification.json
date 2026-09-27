@@ -1,0 +1,56 @@
+{
+  "arms": {
+    "rag": {
+      "records": 60,
+      "config_changed_keys": [
+        "container_ledger",
+        "input_sha256",
+        "questions",
+        "stage_note",
+        "question_ids"
+      ],
+      "statuses": {
+        "ok": 59,
+        "budget_censored": 1
+      }
+    },
+    "low": {
+      "records": 60,
+      "config_changed_keys": [
+        "container_ledger",
+        "input_sha256",
+        "questions",
+        "stage_note",
+        "question_ids"
+      ],
+      "statuses": {
+        "ok": 60
+      }
+    },
+    "agent": {
+      "records": 60,
+      "config_changed_keys": [
+        "input_hashes",
+        "container_ledger",
+        "questions",
+        "stage_note",
+        "question_ids"
+      ],
+      "statuses": {
+        "ok": 60
+      }
+    }
+  },
+  "protected_files_verified": 19,
+  "runtime_question_fields": [
+    "question_id",
+    "question"
+  ],
+  "inference_unchanged_from_previous_cohort": true,
+  "heldout_executed": false,
+  "citation_mapping_issues": 0,
+  "heldout_ids_checked": 95,
+  "heldout_overlap": 0,
+  "all_new_ids_in_dev": true,
+  "note": "Structure checks do not establish semantic correctness."
+}

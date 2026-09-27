@@ -1,0 +1,66 @@
+[
+  {
+    "arm": "rag",
+    "source": "experiments/results/private/benchmark-v2-baselines-v2-nonthinking/rag",
+    "same_model_index_retrieval_config": true,
+    "runtime_hashes_not_captured_in_historical_run": [
+      "rag/llm/embedding_model.py"
+    ]
+  },
+  {
+    "arm": "rag",
+    "source": "experiments/results/private/policy-search-agent-v7-dev60-serial/shard-0/rag",
+    "same_model_index_retrieval_config": true,
+    "runtime_hashes_not_captured_in_historical_run": []
+  },
+  {
+    "arm": "rag",
+    "source": "experiments/results/private/policy-search-agent-v7-dev60b-serial/shard-0/rag",
+    "same_model_index_retrieval_config": true,
+    "runtime_hashes_not_captured_in_historical_run": []
+  },
+  {
+    "arm": "low",
+    "source": "experiments/results/private/benchmark-v2-baselines-v2-nonthinking/low",
+    "same_model_index_retrieval_config": true,
+    "runtime_hashes_not_captured_in_historical_run": [
+      "rag/llm/embedding_model.py"
+    ]
+  },
+  {
+    "arm": "low",
+    "source": "experiments/results/private/policy-search-agent-v7-dev60-serial/shard-0/low",
+    "same_model_index_retrieval_config": true,
+    "runtime_hashes_not_captured_in_historical_run": []
+  },
+  {
+    "arm": "low",
+    "source": "experiments/results/private/policy-search-agent-v7-dev60b-serial/shard-0/low",
+    "same_model_index_retrieval_config": true,
+    "runtime_hashes_not_captured_in_historical_run": []
+  },
+  {
+    "arm": "v7",
+    "source": "experiments/results/private/policy-search-agent-v7-confirmation",
+    "same_model_index_retrieval_config": true,
+    "runtime_hashes_not_captured_in_historical_run": []
+  },
+  {
+    "arm": "v7",
+    "source": "experiments/results/private/policy-search-agent-v7-dev60-serial/shard-0/agent",
+    "same_model_index_retrieval_config": true,
+    "runtime_hashes_not_captured_in_historical_run": []
+  },
+  {
+    "arm": "v7",
+    "source": "experiments/results/private/policy-search-agent-v7-dev60b-serial/shard-0/agent",
+    "same_model_index_retrieval_config": true,
+    "runtime_hashes_not_captured_in_historical_run": []
+  },
+  {
+    "arm": "ab",
+    "source": "experiments/results/private/policy-search-agent-v8_1-dev144",
+    "same_model_index_retrieval_config": true,
+    "runtime_hashes_not_captured_in_historical_run": []
+  }
+]

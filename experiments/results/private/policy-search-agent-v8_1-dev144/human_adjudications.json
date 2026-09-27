@@ -1,0 +1,209 @@
+{
+  "version": "dev144-human-review-20260926-v1",
+  "reviewer": "user",
+  "scope": "五题人工裁决与跨方案一致性应用；不覆盖原始模型评分，不代表全量重评分。",
+  "sources": {
+    "experiments/results/private/policy-search-agent-v8_1-dev144/priority_score_review.md": "45faec6b363d2c68ea465f31428887a0e79d03a4329218c39adc2ad18b00e250",
+    "experiments/results/private/policy-search-agent-v8_1-dev144/judge_case_281.md": "bee9262345f136c79e7a6741cae2ed28bfd8742ddb00405189697cae80b053cc",
+    "experiments/results/private/policy-search-agent-v8_1-dev144/records.jsonl": "00c751204142e0d07d51b31174a43d1189823ae47ea30ae204290d9a3bfbe672",
+    "experiments/results/private/answer-quality-dev144-flash/records.jsonl": "d3fede1fa146908374820691cfd0419dfe6b08d3e61ad7c56ffded2e9f2ab90a",
+    "experiments/results/private/answer-quality-dev144-flash/jobs.json": "23763a3512e1b78cdc029b9940cb1a642fa4b2146b93b499d15bc419beeff461",
+    "experiments/results/private/answer-quality-dev144-flash/manifest.json": "c375c459316f135a02908890588be2dddbfd0eb0a753150c3d83e8ce31f3c74e",
+    "experiments/results/private/answer-quality-dev144-flash/metrics.json": "e46b169e4e1366704aaf99c1142ea4227bf768194517e18e046d7ff073bb2cf2",
+    "experiments/evaluation/answer_quality.py": "7f9e18b781fa3a6a1a0a3574a16498288fd60c70e7040180faaaf05aae1698e7"
+  },
+  "cases": [
+    {
+      "question_id": "mb2-049",
+      "source": "experiments/results/private/policy-search-agent-v8_1-dev144/priority_score_review.md",
+      "source_line": 88,
+      "source_sha256": "45faec6b363d2c68ea465f31428887a0e79d03a4329218c39adc2ad18b00e250",
+      "raw_comment": "v7答案正确，v8.1回答错误。",
+      "decisions": [
+        {
+          "arm": "v7",
+          "answer_sha256": "b08bf24d4502671983ec97ecd19ea93eddf4c1c20b69566a7804093657f9c5e4",
+          "original_grading_status": "invalid_grade",
+          "original_model_total": null,
+          "human_binary_verdict": "pass",
+          "accepted_total": null,
+          "score_direction": null,
+          "origin": "explicit_user",
+          "note": "原裁判摘录校验失败，评分缺失不等于回答错误；用户未指定数值分。"
+        },
+        {
+          "arm": "ab",
+          "answer_sha256": "740b53febf13c9461f57ec1bc4d9f578698063d1a10675f4245500d69c7898a6",
+          "original_grading_status": "ok",
+          "original_model_total": 27.5,
+          "human_binary_verdict": "fail",
+          "accepted_total": null,
+          "score_direction": null,
+          "origin": "explicit_user",
+          "note": "72岁适用90%，回答误用87%；人工二元结论不换算为0分。"
+        }
+      ]
+    },
+    {
+      "question_id": "mb2-091",
+      "source": "experiments/results/private/policy-search-agent-v8_1-dev144/priority_score_review.md",
+      "source_line": 135,
+      "source_sha256": "45faec6b363d2c68ea465f31428887a0e79d03a4329218c39adc2ad18b00e250",
+      "raw_comment": "native rag与v7复述题干给分过高。",
+      "decisions": [
+        {
+          "arm": "rag",
+          "answer_sha256": "05c834068ea3a40c6469a0a8a9d6da1e0cb82162c67ccd347594b8f30e838cec",
+          "original_grading_status": "ok",
+          "original_model_total": 51.25,
+          "human_binary_verdict": null,
+          "accepted_total": null,
+          "score_direction": "lower_than_original",
+          "origin": "explicit_user",
+          "note": "只复述政策和题干，未计算缺口；用户未指定新分数。两份实质相同答案应采用一致锚点。"
+        },
+        {
+          "arm": "v7",
+          "answer_sha256": "b428e77b1a04acb5f72d484b0575c0ef57f588b2b5133b779647f2ef8b7554e6",
+          "original_grading_status": "ok",
+          "original_model_total": 32.5,
+          "human_binary_verdict": null,
+          "accepted_total": null,
+          "score_direction": "lower_than_original",
+          "origin": "explicit_user",
+          "note": "只复述政策和题干，未计算缺口；用户未指定新分数。两份实质相同答案应采用一致锚点。"
+        }
+      ]
+    },
+    {
+      "question_id": "mb2-171",
+      "source": "experiments/results/private/policy-search-agent-v8_1-dev144/priority_score_review.md",
+      "source_line": 180,
+      "source_sha256": "45faec6b363d2c68ea465f31428887a0e79d03a4329218c39adc2ad18b00e250",
+      "raw_comment": "8.1可给100分。",
+      "decisions": [
+        {
+          "arm": "ab",
+          "answer_sha256": "892ee3d1f523a638407aab1f38fa240a16f02e804e2e8c4737d1b92853c6afab",
+          "original_grading_status": "ok",
+          "original_model_total": 76.25,
+          "human_binary_verdict": null,
+          "accepted_total": 100,
+          "score_direction": null,
+          "origin": "explicit_user",
+          "note": "用户明确接受100分；不反推五个维度均为4。"
+        },
+        {
+          "arm": "rag",
+          "answer_sha256": "ed1df44c31c56d436ca0fa0cf692a2f43ac8b7f922aa1af3a2ae43ee9de8a8ce",
+          "original_grading_status": "ok",
+          "original_model_total": 76.25,
+          "human_binary_verdict": null,
+          "accepted_total": 100,
+          "score_direction": null,
+          "origin": "cross_arm_consistency_inference",
+          "note": "人工判断同样适用于RAG：核心答案、补充政策和实际引用一致；这是助手应用统一口径，不冒充用户逐方案打分。"
+        }
+      ]
+    },
+    {
+      "question_id": "mb2-276",
+      "source": "experiments/results/private/policy-search-agent-v8_1-dev144/priority_score_review.md",
+      "source_line": 229,
+      "source_sha256": "45faec6b363d2c68ea465f31428887a0e79d03a4329218c39adc2ad18b00e250",
+      "raw_comment": "8.1可给100分",
+      "decisions": [
+        {
+          "arm": "ab",
+          "answer_sha256": "767e028485b8434233ac04ffec5841ffce0526b78ee6ead65e52f6ad48213f58",
+          "original_grading_status": "ok",
+          "original_model_total": 88.75,
+          "human_binary_verdict": null,
+          "accepted_total": 100,
+          "score_direction": null,
+          "origin": "explicit_user",
+          "note": "按本题人工裁决记录100；保留不等式错误表述标记，不等于原始准确性量表已经校准。"
+        },
+        {
+          "arm": "v7",
+          "answer_sha256": "d0a1418cbc20488f3477efee565cb515a1cfaf711d69775b2f642e2ad8dffa97",
+          "original_grading_status": "ok",
+          "original_model_total": 100.0,
+          "human_binary_verdict": null,
+          "accepted_total": 100,
+          "score_direction": null,
+          "origin": "cross_arm_consistency_inference",
+          "note": "同样核心结论正确、同样错误描述100低于100，采用相同本题口径；原分本已100。"
+        }
+      ]
+    },
+    {
+      "question_id": "mb2-281",
+      "source": "experiments/results/private/policy-search-agent-v8_1-dev144/judge_case_281.md",
+      "source_line": 48,
+      "source_sha256": "bee9262345f136c79e7a6741cae2ed28bfd8742ddb00405189697cae80b053cc",
+      "raw_comment": "v7应适度扣分。",
+      "decisions": [
+        {
+          "arm": "v7",
+          "answer_sha256": "2a636848da605f6406b1477e8d0138432faa0fc298d43d6f848f8dbad56d556d",
+          "original_grading_status": "ok",
+          "original_model_total": 100.0,
+          "human_binary_verdict": null,
+          "accepted_total": null,
+          "score_direction": "moderate_deduction",
+          "origin": "explicit_user",
+          "note": "剩余额度误算为0而非2万元，其他规则和上传时限正确；用户未指定具体扣分或二元不通过。"
+        }
+      ]
+    }
+  ],
+  "equivalence_checks": {
+    "mb2-171_rag_vs_ab": {
+      "exact_text_equal_after_stripping_citations_and_whitespace": false,
+      "literal_differences": [
+        {
+          "operation": "delete",
+          "rag": "参保",
+          "ab": ""
+        },
+        {
+          "operation": "delete",
+          "rag": "后",
+          "ab": ""
+        }
+      ],
+      "same_citation_titles_and_contents": true,
+      "same_core_and_supplementary_assertions": "assistant_verified"
+    }
+  },
+  "retained_factual_flags": [
+    {
+      "question_id": "mb2-276",
+      "arm": "ab",
+      "type": "incorrect_inequality_wording",
+      "answer_quote": "报价100元虽低于医保支付标准",
+      "correct_fact": "100等于100，不低于100；两方案最终判定100元不合格正确。",
+      "human_total": 100,
+      "waived_for_this_case_total": true,
+      "does_not_generalize_to": "关键金额、适用比例或最终结论错误"
+    },
+    {
+      "question_id": "mb2-276",
+      "arm": "v7",
+      "type": "incorrect_inequality_wording",
+      "answer_quote": "报价100元虽然低于支付标准",
+      "correct_fact": "100等于100，不低于100；两方案最终判定100元不合格正确。",
+      "human_total": 100,
+      "waived_for_this_case_total": true,
+      "does_not_generalize_to": "关键金额、适用比例或最终结论错误"
+    }
+  ],
+  "limitations": [
+    "没有将正确/错误换算为100/0。",
+    "091与281仅有方向性裁决，不编造人工数值；049的v7数值评分仍缺失。",
+    "276的100分为本题人工接受总分，不能据此宣称原始严格准确性维度满分；通用新量表仍待校准。",
+    "跨方案应用明确标记为助手推论；不将其记为用户逐份评分。",
+    "本次不改Agent，不调用模型或Embedding，不触碰95道测试题。"
+  ]
+}

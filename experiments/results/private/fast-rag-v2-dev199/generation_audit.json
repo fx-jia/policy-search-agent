@@ -1,0 +1,8 @@
+{
+  "attempts": 199,
+  "unique_records": 199,
+  "literal_contexts_checked": 199,
+  "max_logged_context_tokens": 1994,
+  "generation_records_sha256": "90f2e992d1e9d18640bbc80e5715fcbb7add6ee33050f33aa1791ce0b9eccb19",
+  "frozen_inputs_unchanged": true
+}

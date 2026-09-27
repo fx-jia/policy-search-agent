@@ -1,0 +1,117 @@
+{
+  "planned": 8,
+  "retry_statuses": {
+    "ok": 8
+  },
+  "rows": [
+    {
+      "arm": "rag",
+      "question_id": "mb2-061",
+      "original_status": "budget_censored",
+      "original_reason": "question_call_limit",
+      "original_unknown_reservation": 0,
+      "retry_status": "ok",
+      "grading_status": "ok",
+      "quality_score": 100.0,
+      "retry_latency_ms": 12195,
+      "retry_known_tokens": 4977,
+      "retry_unknown_reservation": 0
+    },
+    {
+      "arm": "rag",
+      "question_id": "mb2-063",
+      "original_status": "host_timeout",
+      "original_reason": "question_wall_time_limit",
+      "original_unknown_reservation": 31178,
+      "retry_status": "ok",
+      "grading_status": "ok",
+      "quality_score": 100.0,
+      "retry_latency_ms": 7195,
+      "retry_known_tokens": 5198,
+      "retry_unknown_reservation": 0
+    },
+    {
+      "arm": "rag",
+      "question_id": "mb2-149",
+      "original_status": "budget_censored",
+      "original_reason": "question_call_limit",
+      "original_unknown_reservation": 0,
+      "retry_status": "ok",
+      "grading_status": "ok",
+      "quality_score": 100.0,
+      "retry_latency_ms": 8885,
+      "retry_known_tokens": 3454,
+      "retry_unknown_reservation": 0
+    },
+    {
+      "arm": "ab",
+      "question_id": "mb2-068",
+      "original_status": "guard_stopped",
+      "original_reason": "provider_usage_unknown",
+      "original_unknown_reservation": 22932,
+      "retry_status": "ok",
+      "grading_status": "ok",
+      "quality_score": 100.0,
+      "retry_latency_ms": 10336,
+      "retry_known_tokens": 7258,
+      "retry_unknown_reservation": 0
+    },
+    {
+      "arm": "ab",
+      "question_id": "mb2-097",
+      "original_status": "guard_stopped",
+      "original_reason": "provider_usage_unknown",
+      "original_unknown_reservation": 21153,
+      "retry_status": "ok",
+      "grading_status": "invalid_grade",
+      "quality_score": null,
+      "retry_latency_ms": 11657,
+      "retry_known_tokens": 7255,
+      "retry_unknown_reservation": 0
+    },
+    {
+      "arm": "ab",
+      "question_id": "mb2-123",
+      "original_status": "guard_stopped",
+      "original_reason": "provider_usage_unknown",
+      "original_unknown_reservation": 22742,
+      "retry_status": "ok",
+      "grading_status": "ok",
+      "quality_score": 100.0,
+      "retry_latency_ms": 11614,
+      "retry_known_tokens": 7195,
+      "retry_unknown_reservation": 0
+    },
+    {
+      "arm": "ab",
+      "question_id": "mb2-225",
+      "original_status": "guard_stopped",
+      "original_reason": "provider_usage_unknown",
+      "original_unknown_reservation": 22697,
+      "retry_status": "ok",
+      "grading_status": "ok",
+      "quality_score": 100.0,
+      "retry_latency_ms": 18907,
+      "retry_known_tokens": 7457,
+      "retry_unknown_reservation": 0
+    },
+    {
+      "arm": "low",
+      "question_id": "mb2-187",
+      "original_status": "guard_stopped",
+      "original_reason": "provider_connect_failed",
+      "original_unknown_reservation": 0,
+      "retry_status": "ok",
+      "grading_status": "invalid_grade",
+      "quality_score": null,
+      "retry_latency_ms": 24576,
+      "retry_known_tokens": 4650,
+      "retry_unknown_reservation": 0
+    }
+  ],
+  "retry_known_generation_tokens": 47444,
+  "retry_unknown_generation_reservation": 0,
+  "judge_known_tokens": 13825,
+  "judge_unknown_reservation": 0,
+  "primary_results_unchanged": true
+}

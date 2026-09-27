@@ -1,0 +1,492 @@
+{
+  "split": "heldout_test95",
+  "rubric": "policy-answer-quality-v1",
+  "unmodified_uncalibrated_judge": true,
+  "quality": {
+    "rag": {
+      "numeric_grades": 85,
+      "mean": 97.926,
+      "stdev": 10.912,
+      "generation_failures": 3,
+      "grading_missing": 7,
+      "status_counts": {
+        "budget_censored": 2,
+        "ok": 92,
+        "host_timeout": 1
+      },
+      "all_question_utility_bounds": [
+        87.618,
+        94.987
+      ],
+      "by_difficulty": {
+        "Easy": {
+          "n": 20,
+          "mean": 99.688
+        },
+        "Medium": {
+          "n": 50,
+          "mean": 96.9
+        },
+        "Hard": {
+          "n": 15,
+          "mean": 99.0
+        }
+      }
+    },
+    "low": {
+      "numeric_grades": 86,
+      "mean": 83.881,
+      "stdev": 33.693,
+      "generation_failures": 1,
+      "grading_missing": 8,
+      "status_counts": {
+        "ok": 94,
+        "guard_stopped": 1
+      },
+      "all_question_utility_bounds": [
+        75.934,
+        84.355
+      ],
+      "by_difficulty": {
+        "Easy": {
+          "n": 19,
+          "mean": 84.539
+        },
+        "Medium": {
+          "n": 51,
+          "mean": 87.181
+        },
+        "Hard": {
+          "n": 16,
+          "mean": 72.578
+        }
+      }
+    },
+    "ab": {
+      "numeric_grades": 84,
+      "mean": 97.991,
+      "stdev": 11.133,
+      "generation_failures": 4,
+      "grading_missing": 7,
+      "status_counts": {
+        "ok": 91,
+        "guard_stopped": 4
+      },
+      "all_question_utility_bounds": [
+        86.645,
+        94.013
+      ],
+      "by_difficulty": {
+        "Easy": {
+          "n": 20,
+          "mean": 99.688
+        },
+        "Medium": {
+          "n": 49,
+          "mean": 96.939
+        },
+        "Hard": {
+          "n": 15,
+          "mean": 99.167
+        }
+      }
+    }
+  },
+  "paired": {
+    "rag": {
+      "n": 77,
+      "delta_mean": 0.016,
+      "wins": 5,
+      "ties": 68,
+      "losses": 4,
+      "policy_groups": 12,
+      "descriptive_cluster_interval": [
+        -0.511,
+        0.635
+      ],
+      "by_difficulty": {
+        "Easy": {
+          "n": 18,
+          "delta_mean": 0.0
+        },
+        "Medium": {
+          "n": 45,
+          "delta_mean": -0.028
+        },
+        "Hard": {
+          "n": 14,
+          "delta_mean": 0.179
+        }
+      },
+      "deltas": {
+        "mb2-062": 0.0,
+        "mb2-064": 0.0,
+        "mb2-065": 0.0,
+        "mb2-066": 0.0,
+        "mb2-067": 0.0,
+        "mb2-069": 0.0,
+        "mb2-070": 0.0,
+        "mb2-071": 0.0,
+        "mb2-072": 0.0,
+        "mb2-073": 0.0,
+        "mb2-074": -6.25,
+        "mb2-075": 0.0,
+        "mb2-076": 0.0,
+        "mb2-098": 0.0,
+        "mb2-099": 0.0,
+        "mb2-100": 0.0,
+        "mb2-101": 0.0,
+        "mb2-102": 0.0,
+        "mb2-104": 0.0,
+        "mb2-105": 0.0,
+        "mb2-107": 0.0,
+        "mb2-121": 6.25,
+        "mb2-122": 0.0,
+        "mb2-124": 0.0,
+        "mb2-134": 0.0,
+        "mb2-135": 0.0,
+        "mb2-136": 0.0,
+        "mb2-137": 0.0,
+        "mb2-138": 0.0,
+        "mb2-139": 0.0,
+        "mb2-140": 0.0,
+        "mb2-141": 0.0,
+        "mb2-147": 0.0,
+        "mb2-148": 0.0,
+        "mb2-150": 8.75,
+        "mb2-151": 0.0,
+        "mb2-152": 0.0,
+        "mb2-153": 6.25,
+        "mb2-154": 0.0,
+        "mb2-166": -6.25,
+        "mb2-167": 0.0,
+        "mb2-168": 0.0,
+        "mb2-169": 0.0,
+        "mb2-181": 0.0,
+        "mb2-182": 0.0,
+        "mb2-183": 0.0,
+        "mb2-184": 0.0,
+        "mb2-185": -2.5,
+        "mb2-186": 0.0,
+        "mb2-187": 0.0,
+        "mb2-188": 0.0,
+        "mb2-189": 0.0,
+        "mb2-190": 0.0,
+        "mb2-191": 6.25,
+        "mb2-192": 0.0,
+        "mb2-193": 0.0,
+        "mb2-194": 0.0,
+        "mb2-195": 0.0,
+        "mb2-199": 0.0,
+        "mb2-217": 0.0,
+        "mb2-218": 0.0,
+        "mb2-219": 0.0,
+        "mb2-221": 6.25,
+        "mb2-222": 0.0,
+        "mb2-223": 0.0,
+        "mb2-224": 0.0,
+        "mb2-226": 0.0,
+        "mb2-229": -17.5,
+        "mb2-250": 0.0,
+        "mb2-251": 0.0,
+        "mb2-252": 0.0,
+        "mb2-253": 0.0,
+        "mb2-288": 0.0,
+        "mb2-289": 0.0,
+        "mb2-290": 0.0,
+        "mb2-291": 0.0,
+        "mb2-292": 0.0
+      }
+    },
+    "low": {
+      "n": 77,
+      "delta_mean": 13.977,
+      "wins": 14,
+      "ties": 61,
+      "losses": 2,
+      "policy_groups": 12,
+      "descriptive_cluster_interval": [
+        2.976,
+        28.208
+      ],
+      "by_difficulty": {
+        "Easy": {
+          "n": 18,
+          "delta_mean": 16.319
+        },
+        "Medium": {
+          "n": 45,
+          "delta_mean": 10.778
+        },
+        "Hard": {
+          "n": 14,
+          "delta_mean": 21.25
+        }
+      },
+      "deltas": {
+        "mb2-061": 0.0,
+        "mb2-062": 0.0,
+        "mb2-063": 0.0,
+        "mb2-064": 0.0,
+        "mb2-065": 0.0,
+        "mb2-066": 97.5,
+        "mb2-067": 0.0,
+        "mb2-069": 0.0,
+        "mb2-070": 0.0,
+        "mb2-071": 0.0,
+        "mb2-072": 0.0,
+        "mb2-073": 0.0,
+        "mb2-074": 50.0,
+        "mb2-075": 0.0,
+        "mb2-098": 0.0,
+        "mb2-100": 0.0,
+        "mb2-101": 0.0,
+        "mb2-102": 0.0,
+        "mb2-104": 86.25,
+        "mb2-105": 0.0,
+        "mb2-107": 0.0,
+        "mb2-108": 0.0,
+        "mb2-121": 0.0,
+        "mb2-122": 0.0,
+        "mb2-124": 0.0,
+        "mb2-134": 0.0,
+        "mb2-135": 0.0,
+        "mb2-136": 0.0,
+        "mb2-137": 0.0,
+        "mb2-138": 0.0,
+        "mb2-139": 0.0,
+        "mb2-140": 0.0,
+        "mb2-141": 0.0,
+        "mb2-147": 0.0,
+        "mb2-148": 0.0,
+        "mb2-149": 0.0,
+        "mb2-150": -6.25,
+        "mb2-151": 0.0,
+        "mb2-152": 0.0,
+        "mb2-153": 0.0,
+        "mb2-154": 0.0,
+        "mb2-167": 0.0,
+        "mb2-168": 0.0,
+        "mb2-169": 0.0,
+        "mb2-181": 98.75,
+        "mb2-183": 95.0,
+        "mb2-185": 90.0,
+        "mb2-186": 98.75,
+        "mb2-188": 97.5,
+        "mb2-189": 98.75,
+        "mb2-190": 97.5,
+        "mb2-191": 0.0,
+        "mb2-192": 0.0,
+        "mb2-193": 0.0,
+        "mb2-194": 0.0,
+        "mb2-195": 0.0,
+        "mb2-197": 0.0,
+        "mb2-199": 0.0,
+        "mb2-217": 0.0,
+        "mb2-218": 0.0,
+        "mb2-219": 0.0,
+        "mb2-221": 47.5,
+        "mb2-222": 0.0,
+        "mb2-223": 0.0,
+        "mb2-224": 70.0,
+        "mb2-226": 0.0,
+        "mb2-227": 0.0,
+        "mb2-229": -23.75,
+        "mb2-250": 0.0,
+        "mb2-251": 0.0,
+        "mb2-252": 0.0,
+        "mb2-253": 72.5,
+        "mb2-288": 6.25,
+        "mb2-289": 0.0,
+        "mb2-290": 0.0,
+        "mb2-291": 0.0,
+        "mb2-292": 0.0
+      }
+    }
+  },
+  "same_success_cost_question_ids": [
+    "mb2-062",
+    "mb2-064",
+    "mb2-065",
+    "mb2-066",
+    "mb2-067",
+    "mb2-069",
+    "mb2-070",
+    "mb2-071",
+    "mb2-072",
+    "mb2-073",
+    "mb2-074",
+    "mb2-075",
+    "mb2-076",
+    "mb2-098",
+    "mb2-099",
+    "mb2-100",
+    "mb2-101",
+    "mb2-102",
+    "mb2-103",
+    "mb2-104",
+    "mb2-105",
+    "mb2-106",
+    "mb2-107",
+    "mb2-108",
+    "mb2-121",
+    "mb2-122",
+    "mb2-124",
+    "mb2-134",
+    "mb2-135",
+    "mb2-136",
+    "mb2-137",
+    "mb2-138",
+    "mb2-139",
+    "mb2-140",
+    "mb2-141",
+    "mb2-147",
+    "mb2-148",
+    "mb2-150",
+    "mb2-151",
+    "mb2-152",
+    "mb2-153",
+    "mb2-154",
+    "mb2-166",
+    "mb2-167",
+    "mb2-168",
+    "mb2-169",
+    "mb2-181",
+    "mb2-182",
+    "mb2-183",
+    "mb2-184",
+    "mb2-185",
+    "mb2-186",
+    "mb2-188",
+    "mb2-189",
+    "mb2-190",
+    "mb2-191",
+    "mb2-192",
+    "mb2-193",
+    "mb2-194",
+    "mb2-195",
+    "mb2-196",
+    "mb2-197",
+    "mb2-198",
+    "mb2-199",
+    "mb2-200",
+    "mb2-217",
+    "mb2-218",
+    "mb2-219",
+    "mb2-220",
+    "mb2-221",
+    "mb2-222",
+    "mb2-223",
+    "mb2-224",
+    "mb2-226",
+    "mb2-227",
+    "mb2-228",
+    "mb2-229",
+    "mb2-249",
+    "mb2-250",
+    "mb2-251",
+    "mb2-252",
+    "mb2-253",
+    "mb2-288",
+    "mb2-289",
+    "mb2-290",
+    "mb2-291",
+    "mb2-292"
+  ],
+  "same_success_costs": {
+    "rag": {
+      "n": 87,
+      "latency_mean_seconds": 6.622,
+      "latency_p95_nearest_rank": 10.323,
+      "known_generation_tokens": 338119,
+      "mean_generation_tokens": 3886.425,
+      "physical_attempts": 90,
+      "confirmed_unsent_attempts": 3,
+      "unsettled_reservations": 0,
+      "rows_without_call_telemetry": 0,
+      "mean_observed_query_embedding_calls": 1,
+      "query_embedding_cache_hits": 0
+    },
+    "low": {
+      "n": 87,
+      "latency_mean_seconds": 25.81,
+      "latency_p95_nearest_rank": 32.095,
+      "known_generation_tokens": 528844,
+      "mean_generation_tokens": 6078.667,
+      "physical_attempts": 372,
+      "confirmed_unsent_attempts": 24,
+      "unsettled_reservations": 0,
+      "rows_without_call_telemetry": 0,
+      "mean_observed_query_embedding_calls": 17,
+      "query_embedding_cache_hits": 0
+    },
+    "ab": {
+      "n": 87,
+      "latency_mean_seconds": 9.001,
+      "latency_p95_nearest_rank": 15.632,
+      "known_generation_tokens": 707110,
+      "mean_generation_tokens": 8127.701,
+      "physical_attempts": 195,
+      "confirmed_unsent_attempts": 10,
+      "unsettled_reservations": 0,
+      "rows_without_call_telemetry": 0,
+      "mean_observed_query_embedding_calls": 1,
+      "query_embedding_cache_hits": 0
+    }
+  },
+  "all_generation_costs": {
+    "rag": {
+      "n": 95,
+      "latency_mean_seconds": 7.161,
+      "latency_p95_nearest_rank": 11.304,
+      "known_generation_tokens": 357768,
+      "mean_generation_tokens": null,
+      "physical_attempts": 100,
+      "confirmed_unsent_attempts": 7,
+      "unsettled_reservations": 31178,
+      "rows_without_call_telemetry": 0,
+      "mean_observed_query_embedding_calls": null,
+      "query_embedding_cache_hits": 0
+    },
+    "low": {
+      "n": 95,
+      "latency_mean_seconds": 25.718,
+      "latency_p95_nearest_rank": 33.841,
+      "known_generation_tokens": 575715,
+      "mean_generation_tokens": 6060.158,
+      "physical_attempts": 406,
+      "confirmed_unsent_attempts": 29,
+      "unsettled_reservations": 0,
+      "rows_without_call_telemetry": 0,
+      "mean_observed_query_embedding_calls": null,
+      "query_embedding_cache_hits": 0
+    },
+    "ab": {
+      "n": 95,
+      "latency_mean_seconds": 9.984,
+      "latency_p95_nearest_rank": 19.529,
+      "known_generation_tokens": 750052,
+      "mean_generation_tokens": null,
+      "physical_attempts": 212,
+      "confirmed_unsent_attempts": 12,
+      "unsettled_reservations": 89524,
+      "rows_without_call_telemetry": 0,
+      "mean_observed_query_embedding_calls": 1,
+      "query_embedding_cache_hits": 0
+    }
+  },
+  "judge_cost": {
+    "jobs": 277,
+    "completed": 277,
+    "known_tokens": 552336,
+    "physical_attempts": 383,
+    "confirmed_unsent_attempts": 113,
+    "unsettled_reservations": 19108,
+    "statuses": {
+      "ok": 255,
+      "invalid_grade": 14,
+      "technical_error": 8
+    }
+  },
+  "source_snapshot_sha256": "87a3a13d0e5fc4badd9f246377729d1d078832bbbbac57fe69e91dec8964e4a7"
+}

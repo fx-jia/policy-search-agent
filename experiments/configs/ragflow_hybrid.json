@@ -1,0 +1,15 @@
+{
+  "method": "hybrid",
+  "base_url": "http://127.0.0.1:9380",
+  "dataset_ids": [],
+  "knowledge_base_version": null,
+  "source_sha256": "dd052ee5ac20640dcef637eba37624be07fcd2a97f80d2080645ba66d383427c",
+  "ragflow_version": "v0.27.2; image sha256:53153e3f7cfb05ab3d5f58204a060a9a45d9af2d963b1ed8ab993dda94d9e278",
+  "runtime_source_hashes": {"api/apps/restful_apis/chunk_api.py": "baae73486b9b807984554a162961ab8e344a6efcde3da42017596fd3a7057e26", "rag/nlp/search.py": "e11c2aa749db1a44d0698f3cdda9b85c0519a5919e05d173fec793dfca3b9387"},
+  "embedding_model": "qwen3.7-text-embedding",
+  "rerank_model": null,
+  "llm_model": null,
+  "chunking_config": {"status": "pending_frozen_import_manifest"},
+  "retrieval_config": {"candidate_count": 64, "context_top_k": 5, "knn_top_k": 1024, "knn_num_candidates": 2048, "vector_similarity_weight": 0.3, "similarity_threshold": 0.0},
+  "generation_config": {"enabled": false}
+}

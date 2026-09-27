@@ -1,0 +1,18 @@
+{
+  "frozen_at": "2026-09-27T13:19:03.673564+08:00",
+  "source_sha256": "3f014542ce43be70c55b08021c668288fbffab87ad5869023c6c7a9ddf1a78b6",
+  "source": "experiments/evaluation/fast_rag_router.py",
+  "test_sha256": "c218756fd895f8b30bc7829aab64bc0ef8648aa333c3784f2d564d6621828673",
+  "quality_attempts_at_freeze": 163,
+  "quality_jobs_planned": 303,
+  "group_folds": 5,
+  "features": "query text only; 13 fixed scalar features",
+  "classifier": "standardized L2 logistic regression, 400 steps, learning rate .2, L2 .05",
+  "thresholds": [
+    0.8,
+    0.9,
+    0.95
+  ],
+  "analysis_gate": "Only evaluate if completed hindsight oracle is faster and quality no worse than Native RAG on common pairs.",
+  "scope": "Exploratory dev analysis; no use of heldout95; no model/embedding API."
+}

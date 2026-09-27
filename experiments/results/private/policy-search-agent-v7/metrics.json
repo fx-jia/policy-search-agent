@@ -1,0 +1,202 @@
+{
+  "agent": {
+    "planned": 30,
+    "attempted": 28,
+    "accepted": 26,
+    "unassessed": 2,
+    "outcomes": {
+      "pending_review": 1,
+      "complete": 26,
+      "budget_censored": 1,
+      "unassessed": 2
+    },
+    "statuses": {
+      "ok": 27,
+      "budget_censored": 1
+    },
+    "mean_seconds": 7.22,
+    "p95_seconds": 10.4,
+    "generation_calls": 61,
+    "generation_tokens": 196102,
+    "unknown_generation_reservation": 0,
+    "query_embedding_calls": 28,
+    "query_embedding_physical_calls": 28,
+    "embedding_cache_hits": 0,
+    "controller_failures": 0,
+    "controller_telemetry_incomplete": 0,
+    "fallback_questions": 0,
+    "fallback_answered_questions": 0,
+    "supplement_questions": 0
+  },
+  "rag": {
+    "planned": 30,
+    "attempted": 30,
+    "accepted": 29,
+    "unassessed": 0,
+    "outcomes": {
+      "incomplete": 1,
+      "complete": 29
+    },
+    "statuses": {
+      "ok": 30
+    },
+    "mean_seconds": 6.2,
+    "p95_seconds": 8.78,
+    "generation_calls": 31,
+    "generation_tokens": 115708,
+    "unknown_generation_reservation": 0,
+    "query_embedding_calls": 30,
+    "query_embedding_physical_calls": 0,
+    "embedding_cache_hits": 0,
+    "controller_failures": 0,
+    "controller_telemetry_incomplete": 0,
+    "fallback_questions": 0,
+    "fallback_answered_questions": 0,
+    "supplement_questions": 0
+  },
+  "vs_rag": {
+    "paired": 27,
+    "improved": [],
+    "regressed": [
+      "mb2-009"
+    ],
+    "unpaired": [
+      "mb2-052",
+      "mb2-044",
+      "mb2-043"
+    ]
+  },
+  "low": {
+    "planned": 30,
+    "attempted": 30,
+    "accepted": 18,
+    "unassessed": 0,
+    "outcomes": {
+      "budget_censored": 1,
+      "incomplete": 11,
+      "complete": 18
+    },
+    "statuses": {
+      "ok": 29,
+      "budget_censored": 1
+    },
+    "mean_seconds": 24.44,
+    "p95_seconds": 33.4,
+    "generation_calls": 134,
+    "generation_tokens": 185158,
+    "unknown_generation_reservation": 0,
+    "query_embedding_calls": 518,
+    "query_embedding_physical_calls": 0,
+    "embedding_cache_hits": 0,
+    "controller_failures": 0,
+    "controller_telemetry_incomplete": 0,
+    "fallback_questions": 0,
+    "fallback_answered_questions": 0,
+    "supplement_questions": 0
+  },
+  "vs_low": {
+    "paired": 27,
+    "improved": [
+      "mb2-020",
+      "mb2-018",
+      "mb2-049",
+      "mb2-278",
+      "mb2-054",
+      "mb2-047",
+      "mb2-129",
+      "mb2-133",
+      "mb2-055"
+    ],
+    "regressed": [
+      "mb2-009"
+    ],
+    "unpaired": [
+      "mb2-052",
+      "mb2-044",
+      "mb2-043"
+    ]
+  },
+  "by_difficulty": {
+    "Easy": {
+      "planned": 10,
+      "attempted": 10,
+      "accepted": 9,
+      "unassessed": 0,
+      "outcomes": {
+        "complete": 9,
+        "budget_censored": 1
+      },
+      "statuses": {
+        "ok": 9,
+        "budget_censored": 1
+      },
+      "mean_seconds": 6.24,
+      "p95_seconds": 7.72,
+      "generation_calls": 21,
+      "generation_tokens": 65366,
+      "unknown_generation_reservation": 0,
+      "query_embedding_calls": 10,
+      "query_embedding_physical_calls": 10,
+      "embedding_cache_hits": 0,
+      "controller_failures": 0,
+      "controller_telemetry_incomplete": 0,
+      "fallback_questions": 0,
+      "fallback_answered_questions": 0,
+      "supplement_questions": 0
+    },
+    "Medium": {
+      "planned": 10,
+      "attempted": 9,
+      "accepted": 9,
+      "unassessed": 1,
+      "outcomes": {
+        "complete": 9,
+        "unassessed": 1
+      },
+      "statuses": {
+        "ok": 9
+      },
+      "mean_seconds": 6.73,
+      "p95_seconds": 8.61,
+      "generation_calls": 19,
+      "generation_tokens": 64284,
+      "unknown_generation_reservation": 0,
+      "query_embedding_calls": 9,
+      "query_embedding_physical_calls": 9,
+      "embedding_cache_hits": 0,
+      "controller_failures": 0,
+      "controller_telemetry_incomplete": 0,
+      "fallback_questions": 0,
+      "fallback_answered_questions": 0,
+      "supplement_questions": 0
+    },
+    "Hard": {
+      "planned": 10,
+      "attempted": 9,
+      "accepted": 8,
+      "unassessed": 1,
+      "outcomes": {
+        "pending_review": 1,
+        "complete": 8,
+        "unassessed": 1
+      },
+      "statuses": {
+        "ok": 9
+      },
+      "mean_seconds": 8.81,
+      "p95_seconds": 11.67,
+      "generation_calls": 21,
+      "generation_tokens": 66452,
+      "unknown_generation_reservation": 0,
+      "query_embedding_calls": 9,
+      "query_embedding_physical_calls": 9,
+      "embedding_cache_hits": 0,
+      "controller_failures": 0,
+      "controller_telemetry_incomplete": 0,
+      "fallback_questions": 0,
+      "fallback_answered_questions": 0,
+      "supplement_questions": 0
+    }
+  },
+  "grading": "Assistant provisional; baseline six-case human adjudications and shared overrides applied. Not held-out test accuracy."
+}

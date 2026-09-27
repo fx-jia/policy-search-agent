@@ -1,0 +1,77 @@
+{
+  "reviewer": "user",
+  "source": "review_queue.md",
+  "source_sha256": "ff3ed9fee2b62021d0dd7a4d5f4fe8839d568d8c34356d42ac88e0cdb9484780",
+  "clarification": "用户确认082、165的其余四个方案在二元标准下均通过，质量差异另行评分。",
+  "scope": "六题核心内容裁定；不等于全文与所有引用逐条通过。评分修订不是模型改善。",
+  "question_rules": {
+    "mb2-024": "各方案核心内容均通过；Low的文件标题/文号版本表述问题保留为质量问题，不撤销核心通过。",
+    "mb2-082": "Low不通过，其余四组二元标准通过；RAG/v7/A以其他公示推断天数、误称指定细则未明确，仍作为证据和表述质量问题保留。用户明确偏好A+B的直接依据。",
+    "mb2-086": "Low不通过，其余四组通过；Low混用后续政策并未明确应用到甲的情境。",
+    "mb2-110": "所有方案通过；题干只问是否自动纳入及地方扩围，不强制额外提企业自愿。",
+    "mb2-112": "所有方案通过；题干所问上限与渠道一致性已答，不强制额外列出分别统一两类险种。",
+    "mb2-165": "Low不通过，其余四组通过；题干所问不得自行扩围、省级医保财政批准及国家两部门备案已答，不强制额外列出新增1城市。"
+  },
+  "changes": [
+    {
+      "question_id": "mb2-024",
+      "arm": "low",
+      "before": "pending_review",
+      "after": "complete"
+    },
+    {
+      "question_id": "mb2-082",
+      "arm": "rag",
+      "before": "pending_review",
+      "after": "complete"
+    },
+    {
+      "question_id": "mb2-082",
+      "arm": "v7",
+      "before": "pending_review",
+      "after": "complete"
+    },
+    {
+      "question_id": "mb2-082",
+      "arm": "a",
+      "before": "pending_review",
+      "after": "complete"
+    },
+    {
+      "question_id": "mb2-086",
+      "arm": "low",
+      "before": "pending_review",
+      "after": "incomplete"
+    },
+    {
+      "question_id": "mb2-110",
+      "arm": "v7",
+      "before": "pending_review",
+      "after": "complete"
+    },
+    {
+      "question_id": "mb2-112",
+      "arm": "a",
+      "before": "pending_review",
+      "after": "complete"
+    },
+    {
+      "question_id": "mb2-165",
+      "arm": "rag",
+      "before": "pending_review",
+      "after": "complete"
+    },
+    {
+      "question_id": "mb2-165",
+      "arm": "a",
+      "before": "pending_review",
+      "after": "complete"
+    },
+    {
+      "question_id": "mb2-165",
+      "arm": "ab",
+      "before": "pending_review",
+      "after": "complete"
+    }
+  ]
+}

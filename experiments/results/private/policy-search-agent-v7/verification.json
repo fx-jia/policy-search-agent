@@ -1,0 +1,47 @@
+{
+  "planned": 30,
+  "attempted": 28,
+  "answers": 27,
+  "outcomes": {
+    "pending_review": 1,
+    "complete": 26,
+    "budget_censored": 1
+  },
+  "unattempted": [
+    "mb2-044",
+    "mb2-043"
+  ],
+  "budget_stopped": [
+    "mb2-009"
+  ],
+  "controller_failures": 0,
+  "fallback_questions": 0,
+  "generation_tokens": 196102,
+  "prior_commitment": 233339,
+  "study_commitment": 429441,
+  "remaining_study_budget": 20559,
+  "blocked_final_reservation": 23424,
+  "generation_attempts": 61,
+  "generation_not_sent": 6,
+  "unknown_usage": 0,
+  "supplement_questions": 0,
+  "embedding_physical_calls": 28,
+  "cache_hits": 0,
+  "citation_mapping_failures": 0,
+  "extra_citation_questions": [
+    "mb2-285",
+    "mb2-054",
+    "mb2-013",
+    "mb2-133"
+  ],
+  "host_tests": 62,
+  "container_transport_tests": 6,
+  "fallback_equivalent_requests": 30,
+  "protected_files_checked": 20,
+  "changed_protected_files": [],
+  "single_question_caps_respected": true,
+  "high_executed": false,
+  "heldout95_executed": false,
+  "generation_budget_extension": "resolved_by_user_2026-09-24: quota stop removed; fresh full30 confirmation preserves this historical partial run",
+  "followup_report": "../policy-search-agent-v7-confirmation/comparison_report.md"
+}

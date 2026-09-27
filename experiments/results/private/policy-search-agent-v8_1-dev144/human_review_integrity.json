@@ -1,0 +1,23 @@
+{
+  "source_hashes": {
+    "experiments/results/private/policy-search-agent-v8_1-dev144/priority_score_review.md": "45faec6b363d2c68ea465f31428887a0e79d03a4329218c39adc2ad18b00e250",
+    "experiments/results/private/policy-search-agent-v8_1-dev144/judge_case_281.md": "bee9262345f136c79e7a6741cae2ed28bfd8742ddb00405189697cae80b053cc",
+    "experiments/results/private/policy-search-agent-v8_1-dev144/records.jsonl": "00c751204142e0d07d51b31174a43d1189823ae47ea30ae204290d9a3bfbe672",
+    "experiments/results/private/answer-quality-dev144-flash/records.jsonl": "d3fede1fa146908374820691cfd0419dfe6b08d3e61ad7c56ffded2e9f2ab90a",
+    "experiments/results/private/answer-quality-dev144-flash/jobs.json": "23763a3512e1b78cdc029b9940cb1a642fa4b2146b93b499d15bc419beeff461",
+    "experiments/results/private/answer-quality-dev144-flash/manifest.json": "c375c459316f135a02908890588be2dddbfd0eb0a753150c3d83e8ce31f3c74e",
+    "experiments/results/private/answer-quality-dev144-flash/metrics.json": "e46b169e4e1366704aaf99c1142ea4227bf768194517e18e046d7ff073bb2cf2",
+    "experiments/evaluation/answer_quality.py": "7f9e18b781fa3a6a1a0a3574a16498288fd60c70e7040180faaaf05aae1698e7"
+  },
+  "archived_review_files": [
+    "experiments/results/private/policy-search-agent-v8_1-dev144/archive/human_review_20260926/priority_score_review.md",
+    "experiments/results/private/policy-search-agent-v8_1-dev144/archive/human_review_20260926/judge_case_281.md"
+  ],
+  "reviewed_questions": 5,
+  "explicit_user_numeric_scores": 2,
+  "cross_arm_numeric_applications": 2,
+  "raw_records_unchanged": true,
+  "external_model_calls": 0,
+  "embedding_calls": 0,
+  "test_questions_run": 0
+}

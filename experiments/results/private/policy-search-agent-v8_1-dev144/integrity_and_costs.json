@@ -1,0 +1,27 @@
+{
+  "records": 144,
+  "statuses": {
+    "ok": 144
+  },
+  "protected_inputs_unchanged": true,
+  "runtime_has_no_gold": true,
+  "heldout95_excluded": true,
+  "identical_frozen_v8_1_sources": true,
+  "one_attempt_per_question": true,
+  "generation_known_tokens": 1141273,
+  "generation_physical_attempts": 317,
+  "generation_not_sent_attempts": 13,
+  "unsettled_generation_calls": [],
+  "query_embedding_physical_calls": 144,
+  "query_embedding_cache_hits": 0,
+  "unknown_embedding_usage_questions": [],
+  "generation_latency_mean_seconds": 7.65,
+  "generation_latency_p95_seconds_nearest_rank": 12.46,
+  "stop_reasons": {
+    "sufficient": 136,
+    "action_limit": 6,
+    "final_call_reserved": 1,
+    "controller_fallback": 1
+  },
+  "records_sha256": "00c751204142e0d07d51b31174a43d1189823ae47ea30ae204290d9a3bfbe672"
+}

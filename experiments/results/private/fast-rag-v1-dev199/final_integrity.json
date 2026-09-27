@@ -1,0 +1,30 @@
+{
+  "verified_at": "2026-09-27T13:30:50.877931+08:00",
+  "generation_attempts": 199,
+  "generation_success": 196,
+  "grading_attempts": 303,
+  "grading_statuses": {
+    "ok": 284,
+    "invalid_grade": 15,
+    "technical_error": 4
+  },
+  "numerically_valid_new_grades": 284,
+  "frozen_inputs_unchanged": true,
+  "duplicate_attempts": 0,
+  "known_generation_tokens": 481227,
+  "known_judge_tokens": 543265,
+  "unsettled_calls": 0,
+  "query_embedding_tokens": 11071,
+  "embedding_physical_totals": {
+    "query_physical_calls": 200,
+    "query_not_sent_calls": 1
+  },
+  "artifacts_sha256": {
+    "report.md": "f8a8b1e395df60d9f1f381c9f94776c62c11d149b976006ddb0b5410e82cd7f5",
+    "metrics.json": "f97c7caf6dd02a5bff6146dcfae63a29405e8207429a0c75179581c1586dee9c",
+    "all_answers.md": "4ed82bb0357e975df97b6207233f1302712695585e5bd43171fbc35d67f62edd",
+    "router_report.md": "ccffb75a1b89540434ef740e0c8abd6083e848743acf9687817378df842f402b",
+    "router_metrics.json": "adcf4bf5a963d1b78928bde48cf926e02062ad87c087a550fa7526c9a3836eee",
+    "review_queue.json": "e3c235936c4bfae54167dccd3ee7f2dee9b85075e2835849e8c8eb8049431988"
+  }
+}

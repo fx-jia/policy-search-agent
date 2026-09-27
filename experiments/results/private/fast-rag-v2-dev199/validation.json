@@ -1,0 +1,10 @@
+{
+  "verified_at": "2026-09-27T06:31:35.604959+00:00",
+  "search_agent_tests": 91,
+  "related_evaluation_tests": 18,
+  "ruff": "passed",
+  "offline_preflight_sha256": "2a7e90a1cd7ce4918b722d91c8796ace03b38fcfe7af722685252425b5dfce70",
+  "selector_sha256": "6d776961234c9d8264dc5194af25cb8613aca6ffb8d940e3120d399b7b6f7e41",
+  "old_generation_sha256": "d0a557c47d7aad17e54d3547295e98d0ac311d316088827e43ac3fbb48b60089",
+  "independent_review": "chapter scope, budget feasibility, unknown accounting, empty scoring groups and grading-integrity findings fixed before freezing"
+}

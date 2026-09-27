@@ -1,0 +1,21 @@
+{
+  "all_pass": true,
+  "checks": {
+    "experiments/results/private/benchmark-v2-baselines-v2-nonthinking/dev.jsonl": true,
+    "experiments/results/private/benchmark-v2-baselines-v2-nonthinking/test.jsonl": true,
+    "experiments/results/private/policy-search-agent-v8_1-study/human_adjudications.json": true,
+    "experiments/results/private/policy-search-agent-v8_1-study/review_queue.md": true,
+    "experiments/results/private/policy-search-agent-v8_1-study/extension/rag/records.jsonl": true,
+    "experiments/results/private/policy-search-agent-v8_1-study/extension/low/records.jsonl": true,
+    "experiments/results/private/policy-search-agent-v8_1-study/extension/v7/records.jsonl": true,
+    "experiments/results/private/policy-search-agent-v8_1-study/extension/a/records.jsonl": true,
+    "experiments/results/private/policy-search-agent-v8_1-study/extension/ab/records.jsonl": true,
+    "experiments/evaluation/answer_quality.py": true,
+    "experiments/evaluation/answer_quality_eval.py": true,
+    "experiments/evaluation/answer_quality_worker.py": true,
+    "experiments/evaluation/native_agent_guard.py": true,
+    "config": true,
+    "jobs": true
+  },
+  "frozen_source_archive": true
+}

@@ -1,0 +1,15 @@
+{
+  "generation_attempts": 199,
+  "grading_attempts": 194,
+  "all_planned_attempted": true,
+  "duplicate_attempts": false,
+  "frozen_inputs_unchanged": true,
+  "unknown_usage": false,
+  "artifact_sha256": {
+    "report.md": "871267a5258181e390472ee1afec197590e7b1e27b6b5e1f3ac052d0ad628eda",
+    "analysis.md": "9cf563a2b2f497217d10191a28112de02e4d8ed90d679990b3d11bf3a113e456",
+    "metrics.json": "c36f4e9e0e95ad6921fedc636de5b38ee9e4355564d08e165c16b91d3f82b537",
+    "all_answers.md": "71fd231c76737421e76ac1dbde307593554d665239ee521af879fa3ad4b1acf7",
+    "review_queue.md": "5c78a985332124d9b6db81d72a786cff7aadde3a2f85ccdfcf0e6e276e8428b0"
+  }
+}

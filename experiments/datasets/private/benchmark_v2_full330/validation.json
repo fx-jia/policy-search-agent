@@ -1,0 +1,23 @@
+{
+  "passed": true,
+  "core_count": 300,
+  "new_core_count": 240,
+  "boundary_count": 30,
+  "evidence_occurrences_checked_including_boundary": 396,
+  "checks": {
+    "protected_inputs_unchanged": true,
+    "counts_ids_pilot_preservation": true,
+    "no_exact_normalized_question_duplicates": true,
+    "original_quotes_offsets_hashes_frozen_sources_safe_chunk_visibility": true,
+    "support_ids_boundary_links_status": true,
+    "manifest_template_consistency": true,
+    "markdown_coverage_html_card_counts_javascript_syntax": true,
+    "browser_visual_interaction_test": "not_run; browser policy restricted preview; no workaround attempted"
+  },
+  "limitations": [
+    "No automated semantic proof; human reviews remain pending.",
+    "No exhaustive alternative-source pooling or semantic deduplication.",
+    "No held-out split or system outcome measured.",
+    "Static HTML checks only; not browser visual or interaction testing."
+  ]
+}

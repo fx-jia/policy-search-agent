@@ -1,0 +1,276 @@
+question_id,difficulty,policy_group_id,arm,outcome,status,stop_reason,latency_ms,generation_tokens,note
+mb2-023,Medium,policy-002,rag,complete,ok,,5550,3901,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-023,Medium,policy-002,low,complete,ok,,20774,6317,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。 与已评答案正文完全一致（仅忽略空白、引用编号），复用内容判定；引用仍独立记录。
+mb2-023,Medium,policy-002,v7,complete,ok,sufficient,7918,7637,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-023,Medium,policy-002,a,technical_error,technical_error,technical_error,1273,0,Technical status technical_error / technical_error
+mb2-023,Medium,policy-002,ab,complete,ok,action_limit,15750,16726,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。 与已评答案正文完全一致（仅忽略空白、引用编号），复用内容判定；引用仍独立记录。
+mb2-024,Medium,policy-004,rag,complete,ok,,6347,3847,用户复核：各方案核心内容均通过；Low的文件标题/文号版本表述问题保留为质量问题，不撤销核心通过。 原初评说明：逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-024,Medium,policy-004,low,complete,ok,,32654,6452,用户复核：各方案核心内容均通过；Low的文件标题/文号版本表述问题保留为质量问题，不撤销核心通过。 原初评说明：医疗机构条件及全省互认均正确，实际引用81107文为2023-07-04文件；但回答将其标题与2021年第27号文拼接。核心结论正确，版本表述错误是否影响整题通过待复核，不因引用未预标判错。
+mb2-024,Medium,policy-004,v7,complete,ok,sufficient,6456,7654,用户复核：各方案核心内容均通过；Low的文件标题/文号版本表述问题保留为质量问题，不撤销核心通过。 原初评说明：逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-024,Medium,policy-004,a,complete,ok,sufficient,9030,7383,用户复核：各方案核心内容均通过；Low的文件标题/文号版本表述问题保留为质量问题，不撤销核心通过。 原初评说明：逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。 与已评答案正文完全一致（仅忽略空白、引用编号），复用内容判定；引用仍独立记录。
+mb2-024,Medium,policy-004,ab,complete,ok,sufficient,7466,7630,用户复核：各方案核心内容均通过；Low的文件标题/文号版本表述问题保留为质量问题，不撤销核心通过。 原初评说明：逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-028,Medium,policy-004,rag,complete,ok,,3640,3558,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-028,Medium,policy-004,low,complete,ok,,21528,6119,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-028,Medium,policy-004,v7,complete,ok,sufficient,5369,7059,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-028,Medium,policy-004,a,complete,ok,sufficient,6829,6776,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。 与已评答案正文完全一致（仅忽略空白、引用编号），复用内容判定；引用仍独立记录。
+mb2-028,Medium,policy-004,ab,complete,ok,sufficient,5652,7045,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-029,Medium,policy-008,rag,complete,ok,,3402,3805,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-029,Medium,policy-008,low,complete,ok,,19840,6337,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-029,Medium,policy-008,v7,complete,ok,sufficient,6755,7573,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-029,Medium,policy-008,a,complete,ok,action_limit,15729,16103,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-029,Medium,policy-008,ab,complete,ok,sufficient,6953,7593,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。 与已评答案正文完全一致（仅忽略空白、引用编号），复用内容判定；引用仍独立记录。
+mb2-032,Medium,policy-004,rag,complete,ok,,3777,5068,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-032,Medium,policy-004,low,complete,ok,,20804,5931,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。 与已评答案正文完全一致（仅忽略空白、引用编号），复用内容判定；引用仍独立记录。
+mb2-032,Medium,policy-004,v7,complete,ok,controller_fallback,5732,8401,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-032,Medium,policy-004,a,complete,ok,sufficient,6069,8138,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-032,Medium,policy-004,ab,complete,ok,sufficient,6553,8418,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。 与已评答案正文完全一致（仅忽略空白、引用编号），复用内容判定；引用仍独立记录。
+mb2-035,Medium,policy-004,rag,complete,ok,,3519,3422,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-035,Medium,policy-004,low,complete,ok,,24284,6286,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-035,Medium,policy-004,v7,complete,ok,sufficient,6319,6818,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-035,Medium,policy-004,a,complete,ok,sufficient,6443,6540,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。 与已评答案正文完全一致（仅忽略空白、引用编号），复用内容判定；引用仍独立记录。
+mb2-035,Medium,policy-004,ab,complete,ok,sufficient,5713,6824,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。 与已评答案正文完全一致（仅忽略空白、引用编号），复用内容判定；引用仍独立记录。
+mb2-036,Medium,policy-004,rag,complete,ok,,4810,3851,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-036,Medium,policy-004,low,complete,ok,,21393,6286,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-036,Medium,policy-004,v7,complete,ok,sufficient,7259,7773,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-036,Medium,policy-004,a,complete,ok,sufficient,5218,7473,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。 与已评答案正文完全一致（仅忽略空白、引用编号），复用内容判定；引用仍独立记录。
+mb2-036,Medium,policy-004,ab,technical_error,guard_stopped,provider_connect_failed,1914,0,Technical status guard_stopped / provider_connect_failed
+mb2-053,Medium,policy-004,rag,complete,ok,,5200,3694,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-053,Medium,policy-004,low,incomplete,ok,,22991,6732,未解释尼洛替尼已纳入，且称无2020通知依据、无法判断特药例外；候选seen_chunks与最终请求均无两段关键规则，属于检索证据缺失。
+mb2-053,Medium,policy-004,v7,complete,ok,sufficient,7359,7317,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-053,Medium,policy-004,a,complete,ok,sufficient,6833,7069,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-053,Medium,policy-004,ab,complete,ok,sufficient,9182,7353,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-078,Medium,policy-008,rag,complete,ok,,3564,3569,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-078,Medium,policy-008,low,complete,ok,,22215,6119,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-078,Medium,policy-008,v7,complete,ok,sufficient,5604,6768,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-078,Medium,policy-008,a,complete,ok,sufficient,6288,6642,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-078,Medium,policy-008,ab,complete,ok,sufficient,6069,6925,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。 与已评答案正文完全一致（仅忽略空白、引用编号），复用内容判定；引用仍独立记录。
+mb2-079,Hard,policy-008,rag,technical_error,budget_censored,,3704,0,Technical status budget_censored / 
+mb2-079,Hard,policy-008,low,incomplete,ok,,23470,6606,正确列出三类不予受理条件，但未回答35分能否绕过受理条件，未给甲乙丙最终判断。已核验最终生成问题被改写为一般受理条件，甲乙丙/4个月/3个月/35分均被删掉。
+mb2-079,Hard,policy-008,v7,complete,ok,sufficient,7524,6745,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-079,Hard,policy-008,a,complete,ok,controller_fallback,8157,6669,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-079,Hard,policy-008,ab,complete,ok,sufficient,7878,6809,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-080,Medium,policy-008,rag,complete,ok,,6154,3532,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-080,Medium,policy-008,low,complete,ok,,31713,6337,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-080,Medium,policy-008,v7,complete,ok,sufficient,6773,6669,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-080,Medium,policy-008,a,complete,ok,sufficient,6725,6532,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-080,Medium,policy-008,ab,complete,ok,sufficient,7485,6794,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。 与已评答案正文完全一致（仅忽略空白、引用编号），复用内容判定；引用仍独立记录。
+mb2-081,Medium,policy-008,rag,complete,ok,,8206,3644,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-081,Medium,policy-008,low,incomplete,ok,,21420,6136,明确称无资料，漏远程视频与两人上门；候选原文中无远程视频连线条款。
+mb2-081,Medium,policy-008,v7,complete,ok,sufficient,5013,6998,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-081,Medium,policy-008,a,complete,ok,sufficient,6037,6835,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。 与已评答案正文完全一致（仅忽略空白、引用编号），复用内容判定；引用仍独立记录。
+mb2-081,Medium,policy-008,ab,complete,ok,sufficient,7063,7071,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。 与已评答案正文完全一致（仅忽略空白、引用编号），复用内容判定；引用仍独立记录。
+mb2-082,Medium,policy-008,rag,complete,ok,,4114,3582,用户复核：Low不通过，其余四组二元标准通过；RAG/v7/A以其他公示推断天数、误称指定细则未明确，仍作为证据和表述质量问题保留。用户明确偏好A+B的直接依据。 原初评说明：20工作日明确；给出通常7天但称指定细则未明确，用其他公示日期推断。数字正确，指定文件范围与结论确定性的通过边界待复核；非因引用未预标直接判错。
+mb2-082,Medium,policy-008,low,incomplete,ok,,21067,6080,用户复核：Low不通过，其余四组二元标准通过；RAG/v7/A以其他公示推断天数、误称指定细则未明确，仍作为证据和表述质量问题保留。用户明确偏好A+B的直接依据。 原初评说明：明确无法找到指定2021细则的公示/评估期限，两个必答点均缺；候选有20工作日条款但最终上下文未保留，7日条款则未检得。
+mb2-082,Medium,policy-008,v7,complete,ok,insufficient,6758,6759,用户复核：Low不通过，其余四组二元标准通过；RAG/v7/A以其他公示推断天数、误称指定细则未明确，仍作为证据和表述质量问题保留。用户明确偏好A+B的直接依据。 原初评说明：与RAG同一边界：20工作日明确，通常7天正确但称指定细则未明确，改用其他公示日期推断。
+mb2-082,Medium,policy-008,a,complete,ok,no_progress,8739,6622,用户复核：Low不通过，其余四组二元标准通过；RAG/v7/A以其他公示推断天数、误称指定细则未明确，仍作为证据和表述质量问题保留。用户明确偏好A+B的直接依据。 原初评说明：与RAG/v7同一边界：答通常7天和20工作日，但称指定细则未明确，使用其他公示推断。
+mb2-082,Medium,policy-008,ab,complete,ok,sufficient,12421,14791,用户复核：Low不通过，其余四组二元标准通过；RAG/v7/A以其他公示推断天数、误称指定细则未明确，仍作为证据和表述质量问题保留。用户明确偏好A+B的直接依据。 原初评说明：逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-084,Medium,policy-008,rag,complete,ok,,3667,3611,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-084,Medium,policy-008,low,complete,ok,,24610,6338,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-084,Medium,policy-008,v7,complete,ok,sufficient,5712,6972,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-084,Medium,policy-008,a,complete,ok,sufficient,6844,6829,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。 与已评答案正文完全一致（仅忽略空白、引用编号），复用内容判定；引用仍独立记录。
+mb2-084,Medium,policy-008,ab,complete,ok,sufficient,5306,7039,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。 与已评答案正文完全一致（仅忽略空白、引用编号），复用内容判定；引用仍独立记录。
+mb2-086,Hard,policy-008,rag,complete,ok,,9448,4144,用户复核：Low不通过，其余四组通过；Low混用后续政策并未明确应用到甲的情境。 原初评说明：逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-086,Hard,policy-008,low,incomplete,ok,,23424,6984,用户复核：Low不通过，其余四组通过；Low混用后续政策并未明确应用到甲的情境。 原初评说明：先正确列出1月细则中度仅两种方式及不可叠加，后又引入较晚政策的中度亲情照护待遇，且未明确甲的判断。是否因版本混用/未落到情境判不完整待复核。
+mb2-086,Hard,policy-008,v7,complete,ok,sufficient,7431,8048,用户复核：Low不通过，其余四组通过；Low混用后续政策并未明确应用到甲的情境。 原初评说明：逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-086,Hard,policy-008,a,complete,ok,sufficient,7796,7821,用户复核：Low不通过，其余四组通过；Low混用后续政策并未明确应用到甲的情境。 原初评说明：逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-086,Hard,policy-008,ab,complete,ok,sufficient,8912,8110,用户复核：Low不通过，其余四组通过；Low混用后续政策并未明确应用到甲的情境。 原初评说明：逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-087,Medium,policy-008,rag,complete,ok,,5877,3891,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-087,Medium,policy-008,low,incomplete,ok,,23933,5996,拒答，漏机构上门变更次月1日及其他变更当天生效。
+mb2-087,Medium,policy-008,v7,complete,ok,sufficient,5445,7650,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-087,Medium,policy-008,a,complete,ok,sufficient,6777,7474,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。 与已评答案正文完全一致（仅忽略空白、引用编号），复用内容判定；引用仍独立记录。
+mb2-087,Medium,policy-008,ab,complete,ok,sufficient,6880,7691,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。 与已评答案正文完全一致（仅忽略空白、引用编号），复用内容判定；引用仍独立记录。
+mb2-089,Medium,policy-008,rag,complete,ok,,6962,3699,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-089,Medium,policy-008,low,complete,ok,,21883,6352,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-089,Medium,policy-008,v7,complete,ok,sufficient,6325,7205,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-089,Medium,policy-008,a,complete,ok,sufficient,6070,6978,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。 与已评答案正文完全一致（仅忽略空白、引用编号），复用内容判定；引用仍独立记录。
+mb2-089,Medium,policy-008,ab,complete,ok,sufficient,8426,11314,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-094,Medium,policy-008,rag,complete,ok,,4131,3600,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-094,Medium,policy-008,low,complete,ok,,21372,6231,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-094,Medium,policy-008,v7,complete,ok,sufficient,5429,7183,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-094,Medium,policy-008,a,complete,ok,no_progress,12201,10679,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-094,Medium,policy-008,ab,complete,ok,action_limit,13721,15792,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-109,Medium,policy-004,rag,complete,ok,,6896,3700,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-109,Medium,policy-004,low,incomplete,ok,,21135,6480,首尾明确拒答，未给参保且符合使用适应症的完整判断；只泛称符合使用条件，未回答不能无条件享受。
+mb2-109,Medium,policy-004,v7,complete,ok,sufficient,6544,7326,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-109,Medium,policy-004,a,complete,ok,duplicate_action,9112,10574,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-109,Medium,policy-004,ab,complete,ok,sufficient,7947,7266,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-110,Medium,policy-004,rag,complete,ok,,3699,3706,用户复核：所有方案通过；题干只问是否自动纳入及地方扩围，不强制额外提企业自愿。 原初评说明：逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-110,Medium,policy-004,low,complete,ok,,21741,6489,用户复核：所有方案通过；题干只问是否自动纳入及地方扩围，不强制额外提企业自愿。 原初评说明：逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-110,Medium,policy-004,v7,complete,ok,sufficient,6709,7374,用户复核：所有方案通过；题干只问是否自动纳入及地方扩围，不强制额外提企业自愿。 原初评说明：已明确需按程序、不能自动纳入、不得地方扩围，但未提参考点中的企业自愿；题干仅问自动纳入与扩围，是否强制该条件待统一复核。
+mb2-110,Medium,policy-004,a,complete,ok,no_progress,10962,10958,用户复核：所有方案通过；题干只问是否自动纳入及地方扩围，不强制额外提企业自愿。 原初评说明：逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。 与已评答案正文完全一致（仅忽略空白、引用编号），复用内容判定；引用仍独立记录。
+mb2-110,Medium,policy-004,ab,complete,ok,sufficient,8806,7366,用户复核：所有方案通过；题干只问是否自动纳入及地方扩围，不强制额外提企业自愿。 原初评说明：逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。 与已评答案正文完全一致（仅忽略空白、引用编号），复用内容判定；引用仍独立记录。
+mb2-112,Medium,policy-004,rag,complete,ok,,5107,3471,用户复核：所有方案通过；题干所问上限与渠道一致性已答，不强制额外列出分别统一两类险种。 原初评说明：逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-112,Medium,policy-004,low,complete,ok,,22825,6251,用户复核：所有方案通过；题干所问上限与渠道一致性已答，不强制额外列出分别统一两类险种。 原初评说明：逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-112,Medium,policy-004,v7,complete,ok,sufficient,6406,6844,用户复核：所有方案通过；题干所问上限与渠道一致性已答，不强制额外列出分别统一两类险种。 原初评说明：逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-112,Medium,policy-004,a,complete,ok,sufficient,6130,6536,用户复核：所有方案通过；题干所问上限与渠道一致性已答，不强制额外列出分别统一两类险种。 原初评说明：40%和医院/药店实际自付基本一致明确；未提参考点中分别统一职工、居民。题干问渠道一致性，是否强制险种限定待统一确认。
+mb2-112,Medium,policy-004,ab,complete,ok,sufficient,5828,6872,用户复核：所有方案通过；题干所问上限与渠道一致性已答，不强制额外列出分别统一两类险种。 原初评说明：逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-113,Medium,policy-004,rag,complete,ok,,5100,3517,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-113,Medium,policy-004,low,complete,ok,,23611,6133,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-113,Medium,policy-004,v7,complete,ok,sufficient,6161,6936,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-113,Medium,policy-004,a,complete,ok,controller_fallback,6406,6668,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-113,Medium,policy-004,ab,complete,ok,sufficient,6428,6935,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-114,Medium,policy-004,rag,complete,ok,,5863,3376,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-114,Medium,policy-004,low,complete,ok,,20135,6300,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-114,Medium,policy-004,v7,complete,ok,sufficient,6407,6567,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-114,Medium,policy-004,a,complete,ok,sufficient,6640,6303,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。 与已评答案正文完全一致（仅忽略空白、引用编号），复用内容判定；引用仍独立记录。
+mb2-114,Medium,policy-004,ab,complete,ok,sufficient,7241,6622,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。 与已评答案正文完全一致（仅忽略空白、引用编号），复用内容判定；引用仍独立记录。
+mb2-119,Medium,policy-020,rag,complete,ok,,6615,3403,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-119,Medium,policy-020,low,complete,ok,,19802,5971,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-119,Medium,policy-020,v7,complete,ok,sufficient,5204,6463,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-119,Medium,policy-020,a,complete,ok,sufficient,5894,6267,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。 与已评答案正文完全一致（仅忽略空白、引用编号），复用内容判定；引用仍独立记录。
+mb2-119,Medium,policy-020,ab,complete,ok,sufficient,6333,6543,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。 与已评答案正文完全一致（仅忽略空白、引用编号），复用内容判定；引用仍独立记录。
+mb2-161,Medium,policy-008,rag,complete,ok,,3894,3467,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-161,Medium,policy-008,low,complete,ok,,23236,6221,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-161,Medium,policy-008,v7,complete,ok,sufficient,6074,7015,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-161,Medium,policy-008,a,complete,ok,sufficient,5362,6664,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。 与已评答案正文完全一致（仅忽略空白、引用编号），复用内容判定；引用仍独立记录。
+mb2-161,Medium,policy-008,ab,complete,ok,sufficient,8034,6964,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。 与已评答案正文完全一致（仅忽略空白、引用编号），复用内容判定；引用仍独立记录。
+mb2-162,Medium,policy-008,rag,complete,ok,,4104,3481,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-162,Medium,policy-008,low,complete,ok,,20061,6413,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-162,Medium,policy-008,v7,complete,ok,sufficient,6026,6774,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-162,Medium,policy-008,a,complete,ok,sufficient,6209,6600,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-162,Medium,policy-008,ab,complete,ok,sufficient,5944,6910,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-163,Hard,policy-008,rag,complete,ok,,5704,3554,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-163,Hard,policy-008,low,complete,ok,,24016,6566,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-163,Hard,policy-008,v7,complete,ok,sufficient,7512,7241,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-163,Hard,policy-008,a,complete,ok,controller_fallback,7136,6855,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-163,Hard,policy-008,ab,complete,ok,sufficient,9376,7128,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-164,Medium,policy-008,rag,complete,ok,,5757,3546,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-164,Medium,policy-008,low,complete,ok,,22018,6608,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-164,Medium,policy-008,v7,complete,ok,sufficient,6201,7304,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-164,Medium,policy-008,a,complete,ok,sufficient,7048,6912,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-164,Medium,policy-008,ab,complete,ok,sufficient,7555,7196,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-165,Medium,policy-008,rag,complete,ok,,4736,3570,用户复核：Low不通过，其余四组通过；题干所问不得自行扩围、省级医保财政批准及国家两部门备案已答，不强制额外列出新增1城市。 原初评说明：已明确不得未经国家两部门同意扩围，省级批准并国家备案后启动；未列参考点中的其他省份可新增1城市。题干是否强制该数量属于评分范围疑问，待统一复核。
+mb2-165,Medium,policy-008,low,incomplete,ok,,22790,4931,用户复核：Low不通过，其余四组通过；题干所问不得自行扩围、省级医保财政批准及国家两部门备案已答，不强制额外列出新增1城市。 原初评说明：未完整给国家两部门同意/新增1城市规则；审批主体错答省级人民政府，原文为省级医保财政。候选已有原条款，最终只保留导言，答案无引用。与其他组仅漏1城市的范围疑问不同。
+mb2-165,Medium,policy-008,v7,complete,ok,sufficient,7281,7339,用户复核：Low不通过，其余四组通过；题干所问不得自行扩围、省级医保财政批准及国家两部门备案已答，不强制额外列出新增1城市。 原初评说明：逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-165,Medium,policy-008,a,complete,ok,sufficient,7086,6906,用户复核：Low不通过，其余四组通过；题干所问不得自行扩围、省级医保财政批准及国家两部门备案已答，不强制额外列出新增1城市。 原初评说明：与RAG同一范围疑问：国家同意、省批并国备均明确，未列其他省新增1城市。
+mb2-165,Medium,policy-008,ab,complete,ok,sufficient,7858,7238,用户复核：Low不通过，其余四组通过；题干所问不得自行扩围、省级医保财政批准及国家两部门备案已答，不强制额外列出新增1城市。 原初评说明：与RAG/A同一评分范围疑问：不得未经国家同意扩围、省批国备完整，未提其他省可新增1城市。
+mb2-177,Medium,policy-004,rag,complete,ok,,4967,3398,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-177,Medium,policy-004,low,complete,ok,,20307,6243,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-177,Medium,policy-004,v7,complete,ok,sufficient,5384,6588,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-177,Medium,policy-004,a,complete,ok,sufficient,5634,6394,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。 与已评答案正文完全一致（仅忽略空白、引用编号），复用内容判定；引用仍独立记录。
+mb2-177,Medium,policy-004,ab,complete,ok,sufficient,6123,6666,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。 与已评答案正文完全一致（仅忽略空白、引用编号），复用内容判定；引用仍独立记录。
+mb2-178,Medium,policy-004,rag,complete,ok,,5175,3606,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-178,Medium,policy-004,low,complete,ok,,23780,6412,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-178,Medium,policy-004,v7,complete,ok,controller_fallback,8871,6997,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-178,Medium,policy-004,a,complete,ok,duplicate_action,11251,10359,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-178,Medium,policy-004,ab,complete,ok,sufficient,13004,14636,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-201,Medium,policy-009,rag,complete,ok,,5658,4082,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-201,Medium,policy-009,low,complete,ok,,30094,6735,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-201,Medium,policy-009,v7,complete,ok,sufficient,8116,7590,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-201,Medium,policy-009,a,complete,ok,sufficient,8209,7856,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-201,Medium,policy-009,ab,complete,ok,sufficient,6616,8066,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-205,Medium,policy-009,rag,complete,ok,,4776,3858,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-205,Medium,policy-009,low,incomplete,ok,,23369,6661,拒答，未给预约错峰及先受理后报销、前台收件后台处理等安排。
+mb2-205,Medium,policy-009,v7,complete,ok,sufficient,6602,7623,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-205,Medium,policy-009,a,complete,ok,sufficient,8677,7401,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-205,Medium,policy-009,ab,complete,ok,sufficient,7784,7676,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-211,Medium,policy-009,rag,complete,ok,,5064,3493,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-211,Medium,policy-009,low,complete,ok,,23735,6147,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-211,Medium,policy-009,v7,complete,ok,sufficient,5740,6771,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-211,Medium,policy-009,a,complete,ok,final_call_reserved,12302,9899,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-211,Medium,policy-009,ab,complete,ok,sufficient,6598,6795,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-212,Medium,policy-009,rag,complete,ok,,4954,3643,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-212,Medium,policy-009,low,complete,ok,,21430,6120,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-212,Medium,policy-009,v7,complete,ok,sufficient,5940,7376,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-212,Medium,policy-009,a,complete,ok,controller_fallback,7691,7153,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-212,Medium,policy-009,ab,complete,ok,sufficient,6684,7360,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-214,Medium,policy-009,rag,technical_error,budget_censored,,5941,0,Technical status budget_censored / 
+mb2-214,Medium,policy-009,low,complete,ok,,22257,6069,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-214,Medium,policy-009,v7,complete,ok,sufficient,5632,6711,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-214,Medium,policy-009,a,complete,ok,sufficient,6420,6512,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-214,Medium,policy-009,ab,complete,ok,sufficient,7043,6774,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-230,Medium,policy-004,rag,complete,ok,,5718,3513,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-230,Medium,policy-004,low,complete,ok,,21457,6182,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-230,Medium,policy-004,v7,complete,ok,sufficient,6907,6788,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-230,Medium,policy-004,a,complete,ok,sufficient,7137,6591,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-230,Medium,policy-004,ab,complete,ok,sufficient,6192,6912,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-232,Medium,policy-004,rag,complete,ok,,4859,3525,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-232,Medium,policy-004,low,complete,ok,,21313,6018,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。 与已评答案正文完全一致（仅忽略空白、引用编号），复用内容判定；引用仍独立记录。
+mb2-232,Medium,policy-004,v7,complete,ok,controller_fallback,6044,6953,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。 与已评答案正文完全一致（仅忽略空白、引用编号），复用内容判定；引用仍独立记录。
+mb2-232,Medium,policy-004,a,complete,ok,sufficient,7301,6697,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。 与已评答案正文完全一致（仅忽略空白、引用编号），复用内容判定；引用仍独立记录。
+mb2-232,Medium,policy-004,ab,complete,ok,sufficient,5961,6990,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。 与已评答案正文完全一致（仅忽略空白、引用编号），复用内容判定；引用仍独立记录。
+mb2-233,Medium,policy-004,rag,complete,ok,,4985,3995,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-233,Medium,policy-004,low,complete,ok,,20418,6617,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-233,Medium,policy-004,v7,complete,ok,sufficient,6666,7641,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。 与已评答案正文完全一致（仅忽略空白、引用编号），复用内容判定；引用仍独立记录。
+mb2-233,Medium,policy-004,a,complete,ok,no_progress,9708,7812,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。 与已评答案正文完全一致（仅忽略空白、引用编号），复用内容判定；引用仍独立记录。
+mb2-233,Medium,policy-004,ab,complete,ok,sufficient,6131,8072,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-237,Medium,policy-002,rag,complete,ok,,5521,3471,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-237,Medium,policy-002,low,complete,ok,,20039,6151,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-237,Medium,policy-002,v7,complete,ok,sufficient,6241,6720,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。 与已评答案正文完全一致（仅忽略空白、引用编号），复用内容判定；引用仍独立记录。
+mb2-237,Medium,policy-002,a,complete,ok,sufficient,6406,6489,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。 与已评答案正文完全一致（仅忽略空白、引用编号），复用内容判定；引用仍独立记录。
+mb2-237,Medium,policy-002,ab,complete,ok,sufficient,5381,6764,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-254,Medium,policy-016,rag,complete,ok,,5193,3930,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-254,Medium,policy-016,low,complete,ok,,22517,6554,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-254,Medium,policy-016,v7,complete,ok,sufficient,6718,8027,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-254,Medium,policy-016,a,complete,ok,no_progress,7988,7689,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-254,Medium,policy-016,ab,complete,ok,sufficient,8515,7965,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。 与已评答案正文完全一致（仅忽略空白、引用编号），复用内容判定；引用仍独立记录。
+mb2-257,Medium,policy-016,rag,complete,ok,,4421,3710,已列先备案后采购/谁备案谁采购并否定他院共用；额外紧急采购例外有同一2020实施细则第19条原文支持，非凭空矛盾。未知替代出处保留复核队列，不因此计内容错。
+mb2-257,Medium,policy-016,low,complete,ok,,23539,6480,一般先备案、不得共用他院备案，紧急例外有2020原细则支持，与其他四组统一判定。
+mb2-257,Medium,policy-016,v7,complete,ok,sufficient,7081,7258,一般先备案、不能共用他院备案明确。紧急采购例外来自同一2020原实施细则第19条，与RAG同口径保留来源复核、不因新增出处判错。
+mb2-257,Medium,policy-016,a,complete,ok,no_progress,12970,11179,一般先备案、不能共用他院备案明确；同2020细则第19条支持紧急例外，沿用RAG/v7判定。
+mb2-257,Medium,policy-016,ab,complete,ok,action_limit,14302,16072,先备案、不能共用、一般不得先买后补明确；紧急例外有同年2020原细则第19条支持，沿用全部方案统一口径。
+mb2-258,Medium,policy-016,rag,complete,ok,,4645,3985,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-258,Medium,policy-016,low,complete,ok,,24931,6608,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-258,Medium,policy-016,v7,complete,ok,sufficient,7359,8097,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。 与已评答案正文完全一致（仅忽略空白、引用编号），复用内容判定；引用仍独立记录。
+mb2-258,Medium,policy-016,a,complete,ok,sufficient,7103,7743,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-258,Medium,policy-016,ab,complete,ok,sufficient,6178,8045,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-260,Medium,policy-016,rag,complete,ok,,4271,3866,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-260,Medium,policy-016,low,complete,ok,,21159,6487,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-260,Medium,policy-016,v7,complete,ok,sufficient,5310,7897,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-260,Medium,policy-016,a,complete,ok,sufficient,10297,11646,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。 与已评答案正文完全一致（仅忽略空白、引用编号），复用内容判定；引用仍独立记录。
+mb2-260,Medium,policy-016,ab,complete,ok,sufficient,6455,7806,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。 与已评答案正文完全一致（仅忽略空白、引用编号），复用内容判定；引用仍独立记录。
+mb2-262,Medium,policy-016,rag,complete,ok,,4295,3579,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-262,Medium,policy-016,low,incomplete,ok,,30937,6066,拒答，未给麻醉/精神药不纳入、饮片和院内制剂按现行规定的排除规则。
+mb2-262,Medium,policy-016,v7,complete,ok,sufficient,6054,7286,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-262,Medium,policy-016,a,complete,ok,sufficient,6305,6967,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-262,Medium,policy-016,ab,complete,ok,sufficient,6275,7236,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-263,Medium,policy-016,rag,complete,ok,,6919,3775,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-263,Medium,policy-016,low,complete,ok,,20116,6318,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-263,Medium,policy-016,v7,complete,ok,sufficient,6656,7632,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。 与已评答案正文完全一致（仅忽略空白、引用编号），复用内容判定；引用仍独立记录。
+mb2-263,Medium,policy-016,a,complete,ok,sufficient,5369,7314,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。 与已评答案正文完全一致（仅忽略空白、引用编号），复用内容判定；引用仍独立记录。
+mb2-263,Medium,policy-016,ab,complete,ok,sufficient,7636,7603,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。 与已评答案正文完全一致（仅忽略空白、引用编号），复用内容判定；引用仍独立记录。
+mb2-264,Medium,policy-016,rag,complete,ok,,3651,4009,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-264,Medium,policy-016,low,complete,ok,,21584,6492,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-264,Medium,policy-016,v7,complete,ok,sufficient,7520,8379,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。 与已评答案正文完全一致（仅忽略空白、引用编号），复用内容判定；引用仍独立记录。
+mb2-264,Medium,policy-016,a,complete,ok,sufficient,5897,7980,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-264,Medium,policy-016,ab,complete,ok,sufficient,5931,8286,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-266,Medium,policy-016,rag,complete,ok,,4760,3968,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-266,Medium,policy-016,low,incomplete,ok,,22667,6398,拒答；未给出同通用名同剂型无企业挂网、二级及以上医疗机构申请，以及备案结果仅供申请机构使用。
+mb2-266,Medium,policy-016,v7,complete,ok,sufficient,7055,7950,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-266,Medium,policy-016,a,complete,ok,no_progress,9216,7673,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-266,Medium,policy-016,ab,complete,ok,sufficient,6962,7950,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-271,Medium,policy-010,rag,complete,ok,,3748,3733,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-271,Medium,policy-010,low,complete,ok,,21934,6515,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-271,Medium,policy-010,v7,complete,ok,sufficient,8097,7554,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-271,Medium,policy-010,a,complete,ok,no_progress,7071,7296,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-271,Medium,policy-010,ab,complete,ok,final_call_reserved,10344,11726,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-274,Medium,policy-010,rag,complete,ok,,4922,3736,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-274,Medium,policy-010,low,complete,ok,,20311,6416,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-274,Medium,policy-010,v7,complete,ok,sufficient,6100,7582,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-274,Medium,policy-010,a,complete,ok,no_progress,7296,7313,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。 与已评答案正文完全一致（仅忽略空白、引用编号），复用内容判定；引用仍独立记录。
+mb2-274,Medium,policy-010,ab,complete,ok,sufficient,7971,7565,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-280,Medium,policy-016,rag,complete,ok,,4756,3545,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-280,Medium,policy-016,low,complete,ok,,22716,6773,题干只问是否仍让医院再议价，已明确两类药品无需再议价；未强制扩展回答采购价格。引用为动态调整范围及支付标准等间接条款，尚不能据此确认语义支持，进入引用核查记录，不据未预标引用自动判内容错。
+mb2-280,Medium,policy-016,v7,complete,ok,sufficient,6442,7118,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。 与已评答案正文完全一致（仅忽略空白、引用编号），复用内容判定；引用仍独立记录。
+mb2-280,Medium,policy-016,a,complete,ok,sufficient,7297,6857,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-280,Medium,policy-016,ab,complete,ok,sufficient,6516,7115,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-282,Medium,policy-016,rag,complete,ok,,3348,4070,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-282,Medium,policy-016,low,incomplete,ok,,23008,6231,正确回答20工作日申报，但明确未找到超过3个月未选择配送企业应暂停挂网的规定。
+mb2-282,Medium,policy-016,v7,complete,ok,sufficient,6610,8333,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。 与已评答案正文完全一致（仅忽略空白、引用编号），复用内容判定；引用仍独立记录。
+mb2-282,Medium,policy-016,a,complete,ok,sufficient,6896,8027,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。 与已评答案正文完全一致（仅忽略空白、引用编号），复用内容判定；引用仍独立记录。
+mb2-282,Medium,policy-016,ab,complete,ok,sufficient,6017,8247,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。 与已评答案正文完全一致（仅忽略空白、引用编号），复用内容判定；引用仍独立记录。
+mb2-283,Medium,policy-016,rag,complete,ok,,6417,3823,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-283,Medium,policy-016,low,incomplete,ok,,21430,6570,未确认三类机构原则上同一支付标准；随后以资料不足拒答，未基于支付标准与个人待遇的区别解释为何不能推出所有患者自付额相同。
+mb2-283,Medium,policy-016,v7,complete,ok,controller_fallback,6747,7478,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-283,Medium,policy-016,a,complete,ok,no_progress,7898,7114,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-283,Medium,policy-016,ab,complete,ok,sufficient,8281,7432,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-286,Medium,policy-016,rag,complete,ok,,3181,3889,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-286,Medium,policy-016,low,complete,ok,,24027,6540,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-286,Medium,policy-016,v7,complete,ok,sufficient,5079,8160,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-286,Medium,policy-016,a,complete,ok,sufficient,6431,7751,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。 与已评答案正文完全一致（仅忽略空白、引用编号），复用内容判定；引用仍独立记录。
+mb2-286,Medium,policy-016,ab,complete,ok,sufficient,6678,8025,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-287,Medium,policy-016,rag,complete,ok,,4924,3847,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-287,Medium,policy-016,low,complete,ok,,23998,6891,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-287,Medium,policy-016,v7,complete,ok,sufficient,5789,7876,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。
+mb2-287,Medium,policy-016,a,technical_error,guard_stopped,provider_connect_failed,2084,0,Technical status guard_stopped / provider_connect_failed
+mb2-287,Medium,policy-016,ab,complete,ok,sufficient,7214,7805,逐题阅读回答与题干范围、参考条款，必答点完整；额外引用不因未预标自动判错。 与已评答案正文完全一致（仅忽略空白、引用编号），复用内容判定；引用仍独立记录。

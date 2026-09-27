@@ -1,0 +1,42 @@
+{
+  "rag": {
+    "policy_groups": 7,
+    "resamples": 10000,
+    "seed": 20260924,
+    "interval95_percentage_points": [
+      0.0,
+      0.0
+    ],
+    "note": "Descriptive policy-group bootstrap; development data, not held-out significance proof."
+  },
+  "low": {
+    "policy_groups": 7,
+    "resamples": 10000,
+    "seed": 20260924,
+    "interval95_percentage_points": [
+      10.53,
+      32.76
+    ],
+    "note": "Descriptive policy-group bootstrap; development data, not held-out significance proof."
+  },
+  "v7": {
+    "policy_groups": 7,
+    "resamples": 10000,
+    "seed": 20260924,
+    "interval95_percentage_points": [
+      0.0,
+      0.0
+    ],
+    "note": "Descriptive policy-group bootstrap; development data, not held-out significance proof."
+  },
+  "a": {
+    "policy_groups": 7,
+    "resamples": 10000,
+    "seed": 20260924,
+    "interval95_percentage_points": [
+      0.0,
+      0.0
+    ],
+    "note": "Descriptive policy-group bootstrap; development data, not held-out significance proof."
+  }
+}

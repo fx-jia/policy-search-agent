@@ -1,0 +1,8 @@
+{
+  "inputs_unchanged": true,
+  "checked_files": 30,
+  "protocol_sha256": "0249f0929a6903c2ddec87013fca2f86319ba5ae56e332e353f314f8f34de1c0",
+  "query_control_reproduced": true,
+  "new_api_calls": 0,
+  "new_embedding_calls": 0
+}

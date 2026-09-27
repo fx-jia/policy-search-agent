@@ -1,0 +1,36 @@
+{
+  "final": true,
+  "failures": [
+    {
+      "question_id": "mb2-007",
+      "status": "technical_error",
+      "stop_reason": "generation_error",
+      "error": "native_final_route_failed",
+      "latency_ms": 3145,
+      "known_tokens": 2141,
+      "unknown_reserve": 0,
+      "unknown_calls": 0
+    },
+    {
+      "question_id": "mb2-045",
+      "status": "technical_error",
+      "stop_reason": "generation_error",
+      "error": "native_final_route_failed",
+      "latency_ms": 3279,
+      "known_tokens": 2183,
+      "unknown_reserve": 0,
+      "unknown_calls": 0
+    },
+    {
+      "question_id": "mb2-241",
+      "status": "technical_error",
+      "stop_reason": "generation_error",
+      "error": "native_final_route_failed",
+      "latency_ms": 3120,
+      "known_tokens": 1974,
+      "unknown_reserve": 0,
+      "unknown_calls": 0
+    }
+  ],
+  "rerun": false
+}

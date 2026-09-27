@@ -1,0 +1,111 @@
+{
+  "protected_inputs_unchanged": true,
+  "heldout95_untouched": true,
+  "no_reference_answers_in_runtime_questions": true,
+  "arms": {
+    "diagnostic/ab": {
+      "records": 6,
+      "attempts": 6,
+      "records_sha256": "7838420960fbd78e22c539f5f8c98f2ff6455c0f0ecd6d35ac54e4b0e1451782",
+      "maximum_physical_generation_calls": 4,
+      "maximum_final_sent_calls": 1,
+      "maximum_judge_attempts": 3,
+      "request_temperatures": {
+        "0": 18
+      },
+      "invalid_citation_numbers": [],
+      "unsettled_calls": []
+    },
+    "extension/rag": {
+      "records": 55,
+      "attempts": 55,
+      "records_sha256": "21ab3fc34237e2616cbe3670b9ed5e048c2f2bc2526da4e5457f42d959f43dd6",
+      "maximum_physical_generation_calls": 2,
+      "maximum_final_sent_calls": null,
+      "maximum_judge_attempts": null,
+      "request_temperatures": {
+        "0": 60
+      },
+      "invalid_citation_numbers": [],
+      "unsettled_calls": []
+    },
+    "extension/v7": {
+      "records": 55,
+      "attempts": 55,
+      "records_sha256": "dea7306e04dbe844b39b3ff3f093412d44fec39867f52868d9275ea57a681d82",
+      "maximum_physical_generation_calls": 3,
+      "maximum_final_sent_calls": 1,
+      "maximum_judge_attempts": 2,
+      "request_temperatures": {
+        "0": 114
+      },
+      "invalid_citation_numbers": [],
+      "unsettled_calls": []
+    },
+    "extension/a": {
+      "records": 55,
+      "attempts": 55,
+      "records_sha256": "bcc637ae9ee533ecd37665e498e550c3c3b5121354afb7e673b457885d93d7eb",
+      "maximum_physical_generation_calls": 4,
+      "maximum_final_sent_calls": 1,
+      "maximum_judge_attempts": 3,
+      "request_temperatures": {
+        "0": 125
+      },
+      "invalid_citation_numbers": [],
+      "unsettled_calls": []
+    },
+    "extension/ab": {
+      "records": 55,
+      "attempts": 55,
+      "records_sha256": "f3e95bf20eb07fd6f75b3dd5f4c8ad8e30a773fc31f618d14b2ee549ed7df647",
+      "maximum_physical_generation_calls": 4,
+      "maximum_final_sent_calls": 1,
+      "maximum_judge_attempts": 3,
+      "request_temperatures": {
+        "0": 136
+      },
+      "invalid_citation_numbers": [],
+      "unsettled_calls": []
+    },
+    "extension/low": {
+      "records": 55,
+      "attempts": 55,
+      "records_sha256": "caf2db04b9f6dc709cc5556740a0b4756e34daf20c5ed20b128ffcbb56e94339",
+      "maximum_physical_generation_calls": 6,
+      "maximum_final_sent_calls": null,
+      "maximum_judge_attempts": null,
+      "request_temperatures": {
+        "0": 61,
+        "0.1": 117,
+        "0.3": 55
+      },
+      "invalid_citation_numbers": [],
+      "unsettled_calls": []
+    }
+  },
+  "initial_retrieval_vs_rag": {
+    "v7": {
+      "compared": 55,
+      "different_order": [
+        "mb2-214"
+      ],
+      "different_candidates": []
+    },
+    "a": {
+      "compared": 54,
+      "different_order": [
+        "mb2-287"
+      ],
+      "different_candidates": []
+    },
+    "ab": {
+      "compared": 55,
+      "different_order": [
+        "mb2-287"
+      ],
+      "different_candidates": []
+    }
+  },
+  "scope": "Frozen hashes, record completeness, request identity, call/action caps and citation numbering. Content and semantic citation support are assessed separately."
+}
