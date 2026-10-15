@@ -3,3 +3,12 @@ aiohttp==3.13.2
 httpx==0.28.1
 openai==2.30.0
 requests==2.32.5
+# Additional isolated collector, publication, API and parser boundary tests.
+pytest==8.4.2
+peewee==3.19.0
+xxhash==3.8.1
+beautifulsoup4==4.13.5
+pydantic==2.12.4
+PyYAML==6.0.3
+numpy==2.3.5
+Quart==0.20.0

@@ -131,6 +131,32 @@ class RuntimeBackend:
         return [direction for direction in ("previous", "next")
                 if any(e.id not in self.observed for e in self.snapshot.neighbors(seed, direction))]
 
+    async def resolve(self, context):
+        from .resolution import resolution_messages, validate_resolution
+
+        if self.remaining_generation_calls() < 2:
+            raise ValueError("final_call_reserved")
+        system, history = resolution_messages(context)
+        budget = self.config.get("conversation", {}).get("history_tokens", 3000)
+        if self.count_tokens(system + history[0]["content"]) > budget:
+            raise DecisionError("conversation_context_budget")
+        self.current["stage"] = "resolve"
+        self.current["approved_resolution_messages"] = [{"role": "system", "content": system}] + history
+        answer = await self.env["chat"].async_chat(system, history, {"temperature": 0, "top_p": 1, "max_tokens": 600,
+                                                                  "response_format": {"type": "json_object"}})
+        self.env["ledger"].assert_open()
+        self.env["event"]({"event": "resolution_raw_response", "text": answer})
+        text = answer.strip()
+        if text.startswith("```json") and text.endswith("```"):
+            text = text[7:-3].strip()
+        try:
+            value = json.loads(text)
+        except json.JSONDecodeError as exc:
+            raise DecisionError("invalid_resolution_json") from exc
+        resolution = validate_resolution(value, context)
+        self.env["event"]({"event": "resolution", "value": asdict(resolution)})
+        return resolution
+
     async def decide(self, question, views, previous):
         validate_views(views, list(self.observed.values()))
         system, history = judge_messages(question, views, previous,
@@ -182,6 +208,90 @@ class RuntimeBackend:
         return result
 
 
+def _check_resolution_request(body, current):
+    if body.get("messages") != current["approved_resolution_messages"]:
+        raise ValueError("resolution_request_changed")
+    if body.get("response_format") != {"type": "json_object"}:
+        raise ValueError("resolution_json_mode_dropped")
+    if body.get("max_tokens") != 600:
+        raise ValueError("resolution_output_budget_changed")
+
+
+async def _serve(config, env, snapshot, current, emit, lines):
+    """Run serial requests in the isolated process that owns the patched adapters."""
+    import re
+    import time
+    import uuid
+
+    conversational = "conversation" in config
+    sessions = {}
+    if conversational:
+        from .conversation import Conversation, ConversationLimits
+
+        conversation_limits = ConversationLimits(**config["conversation"])
+        if config.get("replay"):
+            raise ValueError("conversation_cannot_use_single_question_replay")
+    ledger = env["ledger"]
+    for line in lines:
+        item = json.loads(line)
+        if conversational:
+            session_id = item.get("session_id")
+            if not isinstance(session_id, str) or not re.fullmatch(r"[A-Za-z0-9_-]{1,64}", session_id):
+                raise ValueError("invalid_session_id")
+            if item.get("command") == "clear" and set(item) == {"command", "session_id"}:
+                conversation = sessions.pop(session_id, None)
+                if conversation:
+                    await conversation.clear()
+                emit({"event": "session_cleared", "session_id": session_id})
+                continue
+            if set(item) != {"session_id", "question"} or not isinstance(item["question"], str) or not item["question"].strip():
+                raise ValueError("invalid_conversation_question")
+            if session_id not in sessions:
+                if len(sessions) >= 32:
+                    raise ValueError("conversation_session_limit")
+                sessions[session_id] = Conversation(session_id, limits=conversation_limits)
+            question_id = "turn-" + uuid.uuid4().hex
+        else:
+            if item["question_id"] not in config["question_ids"] or set(item) != {"question_id", "question"}:
+                raise ValueError("invalid_runtime_question")
+            question_id = item["question_id"]
+        current.clear()
+        current.update(question_id=question_id, vectors=VectorCache(3), stage="search", embedding_physical={})
+        if config.get("replay"):
+            current["replay"] = config["replay"][question_id]
+        ledger.start(question_id)
+        if conversational:
+            emit({"event": "turn_started", "question_id": question_id, "session_id": session_id})
+        backend = RuntimeBackend(config, env, snapshot, current)
+        current["backend"] = backend
+        started = time.monotonic()
+        try:
+            limits = AgentLimits(**config["agent_limits"])
+            result = await sessions[session_id].ask(item["question"], backend, limits) if conversational else await run(item["question"], backend, limits)
+        finally:
+            await backend.cache.close()
+        row = asdict(result)
+        if ledger.summary()["pending_calls"] and not ledger.fatal_reason:
+            ledger.abort("provider_usage_unknown")
+        if current["embedding_physical"].get("unknown_embedding_usage") and not ledger.fatal_reason:
+            ledger.abort("embedding_usage_unknown")
+        fatal = ledger.fatal_reason
+        if fatal:
+            row["status"] = "budget_censored" if "budget" in fatal or "call_limit" in fatal else "guard_stopped"
+            row["stop_reason"] = fatal
+        row.update(question_id=question_id, question=item["question"], latency_ms=round((time.monotonic() - started) * 1000),
+                   ledger=ledger.summary(), calls=[copy.deepcopy(c) for c in ledger.calls.values() if c["question_id"] == question_id],
+                   query_embedding_calls=current["vectors"].calls, embedding_cache_hits=current["vectors"].hits,
+                   query_embedding_tokens=current["vectors"].tokens, citation_embedding_calls=current.get("citation_embedding_calls", 0),
+                   embedding_physical=current["embedding_physical"],
+                   seen_chunks={cid: {"doc_id": e.document_id, "docnm_kwd": e.title, "content_with_weight": e.text} for cid, e in backend.observed.items()},
+                   final_request=current.get("final_request"), events=current.get("events", []), preflight_verified=current.get("preflight_verified", False),
+                   request_difference=current.get("request_difference"))
+        emit({"event": "question_complete", "record": row})
+        if fatal or (not conversational and row["status"] != "ok"):
+            break
+
+
 async def execute(config):
     import contextlib
     import functools
@@ -190,7 +300,6 @@ async def execute(config):
     import os
     from pathlib import Path
     import sys
-    import time
 
     from experiments.evaluation.native_agent_guard import CallLedger
     from experiments.evaluation.native_agent_worker import (
@@ -375,7 +484,9 @@ async def execute(config):
     litellm.acompletion = complete
 
     def before_send(body):
-        if current["stage"] == "judge":
+        if current["stage"] == "resolve":
+            _check_resolution_request(body, current)
+        elif current["stage"] == "judge":
             if body.get("messages") != current["approved_judge_messages"]:
                 raise ValueError("judge_request_changed")
             if body.get("response_format") != {"type": "json_object"}:
@@ -404,33 +515,4 @@ async def execute(config):
            "safe_result": safe_result, "event": event, "ledger": ledger,
            "client": app.test_client(), "token": token, "payload": make_payload, "collect_sse": collect_sse}
     emit({"event": "ready", "worker_token": config["worker_token"], "ledger": ledger.summary()})
-    for line in sys.stdin:
-        item = json.loads(line)
-        if item["question_id"] not in config["question_ids"] or set(item) != {"question_id", "question"}:
-            raise ValueError("invalid_runtime_question")
-        current.clear()
-        current.update(question_id=item["question_id"], vectors=VectorCache(3), stage="search", embedding_physical={})
-        if config.get("replay"):
-            current["replay"] = config["replay"][item["question_id"]]
-        ledger.start(item["question_id"])
-        backend = RuntimeBackend(config, env, snapshot, current)
-        current["backend"] = backend
-        started = time.monotonic()
-        result = await run(item["question"], backend, AgentLimits(**config["agent_limits"]))
-        await backend.cache.close()
-        row = asdict(result)
-        fatal = ledger.fatal_reason
-        if fatal:
-            row["status"] = "budget_censored" if "budget" in fatal or "call_limit" in fatal else "guard_stopped"
-            row["stop_reason"] = fatal
-        row.update(question_id=item["question_id"], question=item["question"], latency_ms=round((time.monotonic() - started) * 1000),
-                   ledger=ledger.summary(), calls=[copy.deepcopy(c) for c in ledger.calls.values() if c["question_id"] == item["question_id"]],
-                   query_embedding_calls=current["vectors"].calls, embedding_cache_hits=current["vectors"].hits,
-                   query_embedding_tokens=current["vectors"].tokens, citation_embedding_calls=current.get("citation_embedding_calls", 0),
-                   embedding_physical=current["embedding_physical"],
-                   seen_chunks={cid: {"doc_id": e.document_id, "docnm_kwd": e.title, "content_with_weight": e.text} for cid, e in backend.observed.items()},
-                   final_request=current.get("final_request"), events=current.get("events", []), preflight_verified=current.get("preflight_verified", False),
-                   request_difference=current.get("request_difference"))
-        emit({"event": "question_complete", "record": row})
-        if row["status"] != "ok":
-            break
+    await _serve(config, env, snapshot, current, emit, sys.stdin)

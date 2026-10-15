@@ -17,3 +17,15 @@ __pycache__/
 **/all_answers.md
 **/*api_token*
 **/*credentials*
+*.local.json
+**/session.json
+**/web_owner.json
+**/web_owner.lock
+**/web_commands.jsonl
+**/ledgers/
+**/service_conf*.yaml
+docker/ragflow-logs/
+experiments/results/private/shanghai-policy-live-*/
+.superpowers/
+node_modules/
+dist/

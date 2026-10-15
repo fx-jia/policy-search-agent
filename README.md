@@ -1,14 +1,18 @@
-# 江苏医保政策 Search Agent
+# 医保政策 Search Agent
 
-基于 RAGFlow 的医保政策问答研究项目，包含独立有界 Search Agent、Benchmark、配对评测、Fast RAG 与轻量路由实验。本仓库是 **2026-09-27 整理的私有项目备份**，用于保存代码、实验依据和面试材料。
+基于 RAGFlow 的医保政策问答研究项目，包含独立有界 Search Agent、Benchmark、配对评测、Fast RAG 与轻量路由实验。本仓库于 **2026-09-27 建立私有项目备份，2026-10-15 更新当前源码**。旧冻结实验与当前业务代码分别保存。
+
+本次同步多轮会话与预算守卫、上海官方医保政策采集及不可变发布、原生调度验收工具，以及 `/medical-assistant` 的 API、页面和登录回跳。API、worker 和前端目录是适配现有 RAGFlow 工程的精选源码，不能单独启动整个系统。详见[本次更新及验证边界](docs/update-2026-10-15.md)、[医保助手运行说明](docs/medical_assistant_frontend.md)。
+
+上海线上发布、两轮自然更新和真实新问答未在本次备份任务中验收；原 Search 会话的未知用量阻断继续保留。离线测试和前端构建通过不能替代这些结果。
 
 ## 阅读顺序
 
-1. [项目导学](导学-医保Agent.md)：系统职责、RAGFlow 检索与上下文链路、独立 Agent 实现。
-2. [核心实现](experiments/search_agent/)：控制器、证据窗口、工具适配、预算、调用记录。
+1. [本次源码更新](docs/update-2026-10-15.md)：当前功能、复用方式与验证边界。
+2. [核心实现](experiments/search_agent/)：多轮会话、控制器、证据窗口、工具适配、预算和调用记录。
 3. [最终 95 题报告](experiments/results/private/policy-search-agent-final-test95/final_summary.md)：主要结论与限制。
 4. [Fast RAG 和路由研究](docs/policy_fast_rag.md)：速度与质量取舍。
-5. [面试材料](面经-医保Agent.md)、[结论证据账本](docs/policy_search_agent_claims.json)。
+5. [结论证据账本](docs/policy_search_agent_claims.json)：历史结果的证据与限制。
 
 ## 做了什么
 
@@ -34,6 +38,9 @@ Fast RAG 在开发集观察到速度优势及质量损失；轻量路由完成�
 | 路径 | 内容 |
 | --- | --- |
 | `experiments/search_agent/` | 当前 Agent、Fast RAG、路由及离线单测 |
+| `api/`、`common/`、`rag/`、`deepdoc/` | 上海政策与助手业务模块、必要原生挂钩及 owning 源码；依赖完整 RAGFlow 工程 |
+| `web/` | 医保助手页面、请求层、登录回跳和测试；应用到完整 RAGFlow 前端 |
+| `conf/`、`docker/`、`test/` | 无凭据示例、部署 overlay 和离线边界测试 |
 | `experiments/evaluation/` | 运行隔离、评测、评分、报告与预算守卫 |
 | `experiments/retrieval/` | 早期检索、融合与重排实验 |
 | `experiments/datasets/` | 题库制作、入库与划分辅助程序 |

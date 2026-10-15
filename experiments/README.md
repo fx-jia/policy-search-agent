@@ -17,7 +17,7 @@ Benchmark包含300道核心题和30道边界题；核心按政策组划分为205
 |[辅助复核](<results/private/policy-search-agent-final-test95/assistant-review-v1/report.md>)|53题三方案及8份重跑的逐题建议，原评分保留|
 |[收尾清单](<../docs/policy_search_agent_closeout.md>)|项目定位、成果口径、演示和面试准备|
 |[演示与验收](<../docs/policy_search_agent_demo.md>)|1题现场问答与2份开发轨迹；答案、引用、补读过程、用量及已知局限|
-|[简历与面试](<../面经-医保Agent.md>)|项目介绍、候选要点、15个主问及6个追问；配套[源码导学](<../导学-医保Agent.md>)|
+|简历与面试（已从本仓库移除，保留原文档引用说明）|项目介绍、候选要点、15个主问及6个追问；配套源码导学（已从本仓库移除，保留原文档引用说明）|
 |[Benchmark构建](<datasets/private/benchmark_v2_full330/benchmark_overview.md>)|330题问题、原文、答案和难度依据|
 |[冻结划分](<results/private/benchmark-v2-baselines-v2-nonthinking/frozen.json>)|当前开发/测试/边界划分及摘要|
 

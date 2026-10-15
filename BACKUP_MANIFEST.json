@@ -6,9 +6,9 @@
       "path": ".gitignore",
       "source": null,
       "source_sha256": null,
-      "export_sha256": "2151836467aaad2f62397a70e20063bd0f85c6cdb56186e92ca0e53cf2b52ed8",
-      "bytes": 212,
-      "treatment": "Created for this private backup; not an original experiment artifact"
+      "export_sha256": "cbf5138bb5876523011fa8076b7a9e35ab709d0fb360e9a70a66c319ae49755a",
+      "bytes": 440,
+      "treatment": "Created or updated for 2026-10-15 private source backup; not an original experiment artifact"
     },
     {
       "path": "BACKUP_VALIDATION.json",
@@ -30,17 +30,337 @@
       "path": "README.md",
       "source": null,
       "source_sha256": null,
-      "export_sha256": "c7d76fbedeaa684929d1d09b64214ee7038885b08369463c883e255f48139ef5",
-      "bytes": 5906,
-      "treatment": "Created for this private backup; not an original experiment artifact"
+      "export_sha256": "3e490d5dfd7e8181967fb9f7db89253a4a503596ffacbfe2c704dadd0a9d288b",
+      "bytes": 6892,
+      "treatment": "Created or updated for 2026-10-15 private source backup; not an original experiment artifact"
     },
     {
       "path": "THIRD_PARTY.md",
       "source": null,
       "source_sha256": null,
-      "export_sha256": "c459b98f34367b2dd395cf78ac56575d8d04d3e3434ff8b3ac41733391925150",
-      "bytes": 1086,
-      "treatment": "Created for this private backup; not an original experiment artifact"
+      "export_sha256": "358ea822d7a01fcbdf0d5e14cacb85033304c2167c685618fb11f9d5efe033a3",
+      "bytes": 1567,
+      "treatment": "Created or updated for 2026-10-15 private source backup; not an original experiment artifact"
+    },
+    {
+      "path": "UPDATE_VALIDATION.json",
+      "source": null,
+      "source_sha256": null,
+      "export_sha256": "39fdf5c87fd2f18f6e9b138e2b8289dfcfe0aea8fc498da5ffdbf4855db775ff",
+      "bytes": 3470,
+      "treatment": "Created or updated for 2026-10-15 private source backup; not an original experiment artifact"
+    },
+    {
+      "path": "api/__init__.py",
+      "source": "api/__init__.py",
+      "source_sha256": "5509d0845c83647354b75256508a8c9ba61c5aaadbbedb973fcb86610ca85b0d",
+      "export_sha256": "5509d0845c83647354b75256508a8c9ba61c5aaadbbedb973fcb86610ca85b0d",
+      "bytes": 699,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "api/apps/restful_apis/connector_api.py",
+      "source": "api/apps/restful_apis/connector_api.py",
+      "source_sha256": "75b7f44fe221f1f5d324d5021dfaecc548a210ab0b795d25b6fd9eee58f835fd",
+      "export_sha256": "75b7f44fe221f1f5d324d5021dfaecc548a210ab0b795d25b6fd9eee58f835fd",
+      "bytes": 25717,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "api/apps/restful_apis/medical_assistant_api.py",
+      "source": "api/apps/restful_apis/medical_assistant_api.py",
+      "source_sha256": "a8fe92d7d023f8315275ada0b42833bd639f07969fd354dd2b06249f5b62c649",
+      "export_sha256": "a8fe92d7d023f8315275ada0b42833bd639f07969fd354dd2b06249f5b62c649",
+      "bytes": 3785,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "api/constants.py",
+      "source": "api/constants.py",
+      "source_sha256": "29e619aca479ccee64a5f921acd236991377afeb9808041a368c6f0be1ce5ad6",
+      "export_sha256": "29e619aca479ccee64a5f921acd236991377afeb9808041a368c6f0be1ce5ad6",
+      "bytes": 942,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "api/db/__init__.py",
+      "source": "api/db/__init__.py",
+      "source_sha256": "b1f03939fac31c51a1f85a08cfdae7d24bc75eb41ddc1d6a029ff76201705b42",
+      "export_sha256": "b1f03939fac31c51a1f85a08cfdae7d24bc75eb41ddc1d6a029ff76201705b42",
+      "bytes": 3150,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "api/db/db_models.py",
+      "source": "api/db/db_models.py",
+      "source_sha256": "a4f9d63c7a85d90c4b23627ecd5d31c28c34f381f1ea9ac26876892c6e760d8d",
+      "export_sha256": "a4f9d63c7a85d90c4b23627ecd5d31c28c34f381f1ea9ac26876892c6e760d8d",
+      "bytes": 122618,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "api/db/policy_models.py",
+      "source": "api/db/policy_models.py",
+      "source_sha256": "03a369cbc5d871bacd4f231d5a4d0962ccb02385100e6872a1782c87c3ef9a66",
+      "export_sha256": "03a369cbc5d871bacd4f231d5a4d0962ccb02385100e6872a1782c87c3ef9a66",
+      "bytes": 3463,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "api/db/services/connector_service.py",
+      "source": "api/db/services/connector_service.py",
+      "source_sha256": "9146bac3ba562701ee180c492bedd4d3a505c3ab6220f8734c650720b747d282",
+      "export_sha256": "9146bac3ba562701ee180c492bedd4d3a505c3ab6220f8734c650720b747d282",
+      "bytes": 27023,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "api/db/services/doc_metadata_service.py",
+      "source": "api/db/services/doc_metadata_service.py",
+      "source_sha256": "4d3d02eee4a817f1967a4dccd114179ddee1ee5c455c997faa2d59dad86980cb",
+      "export_sha256": "4d3d02eee4a817f1967a4dccd114179ddee1ee5c455c997faa2d59dad86980cb",
+      "bytes": 60621,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "api/db/services/file_service.py",
+      "source": "api/db/services/file_service.py",
+      "source_sha256": "4c96aa947a62f0d96c0a737786a7f1d605d983002b82d4900a4c7193c33647b6",
+      "export_sha256": "4c96aa947a62f0d96c0a737786a7f1d605d983002b82d4900a4c7193c33647b6",
+      "bytes": 40325,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "api/db/services/medical_assistant_service.py",
+      "source": "api/db/services/medical_assistant_service.py",
+      "source_sha256": "c1021297097ad5609ed79f75e0a901ac657c5ab9673d98499b5c1ec42f252023",
+      "export_sha256": "c1021297097ad5609ed79f75e0a901ac657c5ab9673d98499b5c1ec42f252023",
+      "bytes": 14957,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "api/db/services/policy_catalog_service.py",
+      "source": "api/db/services/policy_catalog_service.py",
+      "source_sha256": "32eb0acfc0d208eb0100062af268fc97e0a391e7c17d761cb13c8eb6c34aa1f1",
+      "export_sha256": "32eb0acfc0d208eb0100062af268fc97e0a391e7c17d761cb13c8eb6c34aa1f1",
+      "bytes": 18579,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "api/db/services/policy_ingestion_service.py",
+      "source": "api/db/services/policy_ingestion_service.py",
+      "source_sha256": "f6b8f288772ddcf7c409f241072290a0f4b2e8e7afc20dfa70fcbf8c3c84ebad",
+      "export_sha256": "f6b8f288772ddcf7c409f241072290a0f4b2e8e7afc20dfa70fcbf8c3c84ebad",
+      "bytes": 3197,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "api/db/services/policy_publication_service.py",
+      "source": "api/db/services/policy_publication_service.py",
+      "source_sha256": "726af3fbc9ef569fc37a17e87a02568d2c2dee91174e5923bf9a0dd108b68a53",
+      "export_sha256": "726af3fbc9ef569fc37a17e87a02568d2c2dee91174e5923bf9a0dd108b68a53",
+      "bytes": 24521,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "api/db/services/policy_search_service.py",
+      "source": "api/db/services/policy_search_service.py",
+      "source_sha256": "c851be0977b3ee0f436d19a515aaa1eee60a315f97808e9f2e2f9f1040d79c2c",
+      "export_sha256": "c851be0977b3ee0f436d19a515aaa1eee60a315f97808e9f2e2f9f1040d79c2c",
+      "bytes": 29310,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "api/db/services/policy_sync_service.py",
+      "source": "api/db/services/policy_sync_service.py",
+      "source_sha256": "2d65315d4c76a093a512aa3bdfaf4b2943332356318d4a094b10481e35942224",
+      "export_sha256": "2d65315d4c76a093a512aa3bdfaf4b2943332356318d4a094b10481e35942224",
+      "bytes": 22465,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "api/db/services/task_service.py",
+      "source": "api/db/services/task_service.py",
+      "source_sha256": "3874ac88265b68a0e9fd0f368af2e027aa5785250b16483c0b8a0a21d5ddc72e",
+      "export_sha256": "3874ac88265b68a0e9fd0f368af2e027aa5785250b16483c0b8a0a21d5ddc72e",
+      "bytes": 29032,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "api/utils/__init__.py",
+      "source": "api/utils/__init__.py",
+      "source_sha256": "c73bfd6645d822c460a5eb5f817edabc279016e431f9c498bb9e73c0b08c3ab2",
+      "export_sha256": "c73bfd6645d822c460a5eb5f817edabc279016e431f9c498bb9e73c0b08c3ab2",
+      "bytes": 951,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "api/utils/common.py",
+      "source": "api/utils/common.py",
+      "source_sha256": "37535280172cd14980506b94f1a38373dc17ba48ea0dff06c26da554f048a027",
+      "export_sha256": "37535280172cd14980506b94f1a38373dc17ba48ea0dff06c26da554f048a027",
+      "bytes": 939,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "common/__init__.py",
+      "source": "common/__init__.py",
+      "source_sha256": "510a4441c4c11b216b42c15ff23b156eb796490037f7e4cfb608e3b683a9c906",
+      "export_sha256": "510a4441c4c11b216b42c15ff23b156eb796490037f7e4cfb608e3b683a9c906",
+      "bytes": 622,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "common/constants.py",
+      "source": "common/constants.py",
+      "source_sha256": "99a1e741447b111683db0ae7c6048377158c492d1cd81513b18deb6cb3ad1fbb",
+      "export_sha256": "99a1e741447b111683db0ae7c6048377158c492d1cd81513b18deb6cb3ad1fbb",
+      "bytes": 11576,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "common/data_source/__init__.py",
+      "source": "common/data_source/__init__.py",
+      "source_sha256": "57610381af97179b7be96ec929fa2fcf32bb8e2935b032ae1e6b13136f4f7d4d",
+      "export_sha256": "57610381af97179b7be96ec929fa2fcf32bb8e2935b032ae1e6b13136f4f7d4d",
+      "bytes": 6861,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "common/data_source/config.py",
+      "source": "common/data_source/config.py",
+      "source_sha256": "110deec85fe2fcb80db626a73790b7bfe4e3dd4535435b0f809a95ee521a2c20",
+      "export_sha256": "110deec85fe2fcb80db626a73790b7bfe4e3dd4535435b0f809a95ee521a2c20",
+      "bytes": 10657,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "common/data_source/feishu_wiki_connector.py",
+      "source": "common/data_source/feishu_wiki_connector.py",
+      "source_sha256": "d3bed92dc9468d2a7f8ad8f0ef3dd1f2d1a424277fbdee510fbc2f77e0a19c29",
+      "export_sha256": "d3bed92dc9468d2a7f8ad8f0ef3dd1f2d1a424277fbdee510fbc2f77e0a19c29",
+      "bytes": 21017,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "common/data_source/interfaces.py",
+      "source": "common/data_source/interfaces.py",
+      "source_sha256": "b09448bb02ead9f482b916a9db8954fefe811829604ae4fec5683e85a1f3d697",
+      "export_sha256": "b09448bb02ead9f482b916a9db8954fefe811829604ae4fec5683e85a1f3d697",
+      "bytes": 15307,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "common/data_source/models.py",
+      "source": "common/data_source/models.py",
+      "source_sha256": "7c7879f73790a302732350c7f71059b4bea26434bbe155a01f063fdcec0c9a78",
+      "export_sha256": "7c7879f73790a302732350c7f71059b4bea26434bbe155a01f063fdcec0c9a78",
+      "bytes": 9536,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "common/data_source/shanghai_medical_connector.py",
+      "source": "common/data_source/shanghai_medical_connector.py",
+      "source_sha256": "a1dc5f4926dd448423b2b44243e37012887fc927668fbc70022aeab7405fe129",
+      "export_sha256": "a1dc5f4926dd448423b2b44243e37012887fc927668fbc70022aeab7405fe129",
+      "bytes": 38725,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "common/data_source/sitemap_connector.py",
+      "source": "common/data_source/sitemap_connector.py",
+      "source_sha256": "4d12a770c013d932887cbee3a71063afd567bc3c99b262ac7a9541b85a5fde4a",
+      "export_sha256": "4d12a770c013d932887cbee3a71063afd567bc3c99b262ac7a9541b85a5fde4a",
+      "bytes": 25179,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "common/doc_store/doc_store_base.py",
+      "source": "common/doc_store/doc_store_base.py",
+      "source_sha256": "47a611e7bd53daa0c6e883aa51f3086c3b70ec9e7b893114282e6dd05b34cc8d",
+      "export_sha256": "47a611e7bd53daa0c6e883aa51f3086c3b70ec9e7b893114282e6dd05b34cc8d",
+      "bytes": 7671,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "common/doc_store/es_conn_base.py",
+      "source": "common/doc_store/es_conn_base.py",
+      "source_sha256": "5ce665492de58096dd990056e07794935115dbc16919206b086b28fa7041fc6d",
+      "export_sha256": "5ce665492de58096dd990056e07794935115dbc16919206b086b28fa7041fc6d",
+      "bytes": 15340,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "common/ssrf_guard.py",
+      "source": "common/ssrf_guard.py",
+      "source_sha256": "d6acdf84a191d4f88c0e4db7108ceae49130a915b3be094f638e5f81fb930aea",
+      "export_sha256": "d6acdf84a191d4f88c0e4db7108ceae49130a915b3be094f638e5f81fb930aea",
+      "bytes": 9228,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "conf/medical_assistant.example.json",
+      "source": "conf/medical_assistant.example.json",
+      "source_sha256": "8b525f0ba2932618f364c1d417c7fce365bc15ee80bfdda570b10be249dbb414",
+      "export_sha256": "8b525f0ba2932618f364c1d417c7fce365bc15ee80bfdda570b10be249dbb414",
+      "bytes": 319,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "conf/policy_sources/shanghai.docker.yaml",
+      "source": "conf/policy_sources/shanghai.docker.yaml",
+      "source_sha256": "b7a5862bd8a3fb969a37435b4f7917f761943721108a2b9165ffa4d3ab74f952",
+      "export_sha256": "b7a5862bd8a3fb969a37435b4f7917f761943721108a2b9165ffa4d3ab74f952",
+      "bytes": 1438,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "conf/policy_sources/shanghai.yaml",
+      "source": "conf/policy_sources/shanghai.yaml",
+      "source_sha256": "d4f01b33ba8770905a3aaf281a8974249eb72ca2bc7426dc8fef194120eecf38",
+      "export_sha256": "d4f01b33ba8770905a3aaf281a8974249eb72ca2bc7426dc8fef194120eecf38",
+      "bytes": 1408,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "deepdoc/parser/pdf_parser.py",
+      "source": "deepdoc/parser/pdf_parser.py",
+      "source_sha256": "c18823cc0c564453b7aebdbcf8b6c2b7e2e88985343980f1740a9628b57e4137",
+      "export_sha256": "c18823cc0c564453b7aebdbcf8b6c2b7e2e88985343980f1740a9628b57e4137",
+      "bytes": 89148,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "docker/docker-compose.medical-assistant.yml",
+      "source": "docker/docker-compose.medical-assistant.yml",
+      "source_sha256": "ae56253277aeeace992eb24e8095d465dab33e9e2d37278f5a26a81ac1a8e0a2",
+      "export_sha256": "ae56253277aeeace992eb24e8095d465dab33e9e2d37278f5a26a81ac1a8e0a2",
+      "bytes": 519,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "docker/docker-compose.shanghai-policy.yml",
+      "source": "docker/docker-compose.shanghai-policy.yml",
+      "source_sha256": "ecb6c9878681980c380b7dbb90796e92b5d791e0c7e3e05d3fb1894d829a0f94",
+      "export_sha256": "ecb6c9878681980c380b7dbb90796e92b5d791e0c7e3e05d3fb1894d829a0f94",
+      "bytes": 5500,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "docs/assets/medical-assistant/desktop-offline.png",
+      "source": "docs/assets/medical-assistant/desktop-offline.png",
+      "source_sha256": "48ab110384bc5076507b4d8f995ed9c54931eee6e5ff4c608a128b4868dff832",
+      "export_sha256": "48ab110384bc5076507b4d8f995ed9c54931eee6e5ff4c608a128b4868dff832",
+      "bytes": 154664,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "docs/assets/medical-assistant/mobile-offline.png",
+      "source": "docs/assets/medical-assistant/mobile-offline.png",
+      "source_sha256": "3a0d2e2bac2cf170564c7ae8f858b68a2f96089962456f6ce78530b68c367147",
+      "export_sha256": "3a0d2e2bac2cf170564c7ae8f858b68a2f96089962456f6ce78530b68c367147",
+      "bytes": 56534,
+      "treatment": "allowlisted current source copy"
     },
     {
       "path": "docs/benchmark_construction.md",
@@ -243,6 +563,14 @@
       "treatment": "allowlisted source copy"
     },
     {
+      "path": "docs/medical_assistant_frontend.md",
+      "source": "docs/medical_assistant_frontend.md",
+      "source_sha256": "7bf33f00df4b54c0e8c17677ab88f2c85355f691bbb0eed789985f2d822adeea",
+      "export_sha256": "8ee6c56d3eb2fbef3352c06f47ce461e3a87b66d281fae220637ad61a08f772f",
+      "bytes": 9904,
+      "treatment": "allowlisted current source copy; Markdown links made portable; absent local-only targets marked"
+    },
+    {
       "path": "docs/policy_fast_rag.md",
       "source": "docs/policy_fast_rag.md",
       "source_sha256": "ddb0d2925b6edb48533a24f6803df6095882518972fac7a0f9268f9fa78755c9",
@@ -278,9 +606,9 @@
       "path": "docs/policy_search_agent_closeout.md",
       "source": "docs/policy_search_agent_closeout.md",
       "source_sha256": "72b69370c0a344657ca3c75f7b171d791862a92afbebf9d01da398a7f8fa01bb",
-      "export_sha256": "2f5c2d793cd62b4d4462ebeed022e4b88da1a423e257748536fcc2336188104a",
-      "bytes": 7684,
-      "treatment": "allowlisted source copy; Markdown links made portable; absent local-only targets marked"
+      "export_sha256": "1f3d6f669dd1973f17db49bbb1589a791ae247ef29833e7fbda47c8ea8557bb8",
+      "bytes": 7792,
+      "treatment": "allowlisted source copy; Markdown links portable; references to remote-deleted documents annotated"
     },
     {
       "path": "docs/policy_search_agent_demo.md",
@@ -307,12 +635,76 @@
       "treatment": "allowlisted source copy"
     },
     {
+      "path": "docs/superpowers/plans/2026-10-09-search-agent-conversation.md",
+      "source": "docs/superpowers/plans/2026-10-09-search-agent-conversation.md",
+      "source_sha256": "819316b3730e1a146995d6143f2cb5d69ddae64bfe163c9cc0574f46fef58648",
+      "export_sha256": "570dbb73379f3f8135a5456bebf85d78ecad2c52d9cc68c3474d372cd8982225",
+      "bytes": 7558,
+      "treatment": "allowlisted current source copy; Markdown links made portable; absent local-only targets marked"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-10-10-shanghai-policy-sync-progress.md",
+      "source": "docs/superpowers/plans/2026-10-10-shanghai-policy-sync-progress.md",
+      "source_sha256": "22b6d57626889b2080f69055166084cc7279e204d0d2d977bb641f5da8ed8a50",
+      "export_sha256": "09d32202fc35385c0459d7d019af30aad3f2e9b2b4cc6957031ab569cb636c88",
+      "bytes": 16247,
+      "treatment": "allowlisted current source copy; Markdown links made portable; absent local-only targets marked"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-10-10-shanghai-policy-sync-review.md",
+      "source": "docs/superpowers/plans/2026-10-10-shanghai-policy-sync-review.md",
+      "source_sha256": "3e6ba163423c7c75dc7fc24beb3baaa5b3bd84281080254bff73bed14c72f994",
+      "export_sha256": "3e6ba163423c7c75dc7fc24beb3baaa5b3bd84281080254bff73bed14c72f994",
+      "bytes": 10809,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-10-10-shanghai-policy-sync.md",
+      "source": "docs/superpowers/plans/2026-10-10-shanghai-policy-sync.md",
+      "source_sha256": "dfd3dcbb3a97f00205b8bc9cd5b62df1583190e16fe3136dfa41bfc50e198fba",
+      "export_sha256": "dfd3dcbb3a97f00205b8bc9cd5b62df1583190e16fe3136dfa41bfc50e198fba",
+      "bytes": 8078,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "docs/superpowers/plans/2026-10-12-search-agent-frontend.md",
+      "source": "docs/superpowers/plans/2026-10-12-search-agent-frontend.md",
+      "source_sha256": "8039c597f4dc19bb43587485f827686db3644ecf268a7308fe8caaa7c29cae71",
+      "export_sha256": "8039c597f4dc19bb43587485f827686db3644ecf268a7308fe8caaa7c29cae71",
+      "bytes": 26470,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "docs/superpowers/specs/2026-10-09-search-agent-conversation-design.md",
+      "source": "docs/superpowers/specs/2026-10-09-search-agent-conversation-design.md",
+      "source_sha256": "a981412e153a9d64ed4f3356987def48161e404dd917cd14944c6844d4391500",
+      "export_sha256": "a981412e153a9d64ed4f3356987def48161e404dd917cd14944c6844d4391500",
+      "bytes": 4187,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "docs/superpowers/specs/2026-10-10-shanghai-policy-sync-design.md",
+      "source": "docs/superpowers/specs/2026-10-10-shanghai-policy-sync-design.md",
+      "source_sha256": "e3fab7485d8e1734269dd0a4c267bf7b11d59109db361c2ad1c7926f92494e40",
+      "export_sha256": "e3fab7485d8e1734269dd0a4c267bf7b11d59109db361c2ad1c7926f92494e40",
+      "bytes": 31233,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "docs/update-2026-10-15.md",
+      "source": null,
+      "source_sha256": null,
+      "export_sha256": "0380497900c9a6e68796aa4233f07015aa89230d247abce61dc559e73c5517c5",
+      "bytes": 3442,
+      "treatment": "Created or updated for 2026-10-15 private source backup; not an original experiment artifact"
+    },
+    {
       "path": "experiments/README.md",
       "source": "experiments/README.md",
       "source_sha256": "6d22c5fe486c2fed35cc82598c8bbb7922f247f4ddfc6b6ab2f31c7fac24ab3d",
-      "export_sha256": "f69e8ef94c6b0f6f796e27778cba3c245322cf22a379b2488549b1083b4455d3",
-      "bytes": 4227,
-      "treatment": "allowlisted source copy; Markdown links made portable; absent local-only targets marked"
+      "export_sha256": "a022bd3492fbac292784882acfcdc5fe3bca2e045fafebcc396b690cd212db38",
+      "bytes": 4281,
+      "treatment": "allowlisted source copy; Markdown links portable; references to remote-deleted documents annotated"
     },
     {
       "path": "experiments/__init__.py",
@@ -320,7 +712,7 @@
       "source_sha256": "5850e7b2e1f9888a0479b7549e3f58b42be355b14727517600cca78bc63f1aa8",
       "export_sha256": "5850e7b2e1f9888a0479b7549e3f58b42be355b14727517600cca78bc63f1aa8",
       "bytes": 69,
-      "treatment": "allowlisted source copy"
+      "treatment": "allowlisted current source copy"
     },
     {
       "path": "experiments/analysis/__init__.py",
@@ -632,7 +1024,7 @@
       "source_sha256": "8d549a79b2741f08bf18b1daa7be81a047e6a811c7cb86dcf8a402c18161df9e",
       "export_sha256": "8d549a79b2741f08bf18b1daa7be81a047e6a811c7cb86dcf8a402c18161df9e",
       "bytes": 33,
-      "treatment": "allowlisted source copy"
+      "treatment": "allowlisted current source copy"
     },
     {
       "path": "experiments/evaluation/analyze_fusion_results.py",
@@ -925,10 +1317,10 @@
     {
       "path": "experiments/evaluation/native_agent_guard.py",
       "source": "experiments/evaluation/native_agent_guard.py",
-      "source_sha256": "d963ebff1af2365d4af35fa099fd445c6d6e405b6ef0b4804ec96a2ca103accd",
-      "export_sha256": "d963ebff1af2365d4af35fa099fd445c6d6e405b6ef0b4804ec96a2ca103accd",
-      "bytes": 5803,
-      "treatment": "allowlisted source copy"
+      "source_sha256": "f79d031805293983962bcb7a7fa2f00223ee4288459ef7cea3d0fc75fd2f82ff",
+      "export_sha256": "f79d031805293983962bcb7a7fa2f00223ee4288459ef7cea3d0fc75fd2f82ff",
+      "bytes": 18455,
+      "treatment": "allowlisted current source copy"
     },
     {
       "path": "experiments/evaluation/native_agent_integrity_patch.py",
@@ -952,7 +1344,7 @@
       "source_sha256": "750f08a51008ddc63bac14038b607f624101484fcf9fd4876de38ee40b867c61",
       "export_sha256": "750f08a51008ddc63bac14038b607f624101484fcf9fd4876de38ee40b867c61",
       "bytes": 9784,
-      "treatment": "allowlisted source copy"
+      "treatment": "allowlisted current source copy"
     },
     {
       "path": "experiments/evaluation/native_agent_worker.py",
@@ -1245,10 +1637,10 @@
     {
       "path": "experiments/evaluation/test_native_agent_guard.py",
       "source": "experiments/evaluation/test_native_agent_guard.py",
-      "source_sha256": "46f659e935abed3321a6beb1eaf3aff36e5f6fe6934d8ed8d3a5ef79df3b5d19",
-      "export_sha256": "46f659e935abed3321a6beb1eaf3aff36e5f6fe6934d8ed8d3a5ef79df3b5d19",
-      "bytes": 6120,
-      "treatment": "allowlisted source copy"
+      "source_sha256": "55dd458cde67dc6d8541a9e118b5767d50e1d3ee2e0f8de44e4b517b3b968f88",
+      "export_sha256": "55dd458cde67dc6d8541a9e118b5767d50e1d3ee2e0f8de44e4b517b3b968f88",
+      "bytes": 19582,
+      "treatment": "allowlisted current source copy"
     },
     {
       "path": "experiments/evaluation/test_native_agent_integrity_patch.py",
@@ -2269,10 +2661,10 @@
     {
       "path": "experiments/search_agent/README.md",
       "source": "experiments/search_agent/README.md",
-      "source_sha256": "1a56ca7304f5fe765e31dc61178bfa40838c000d8bf898767513a63f6e9718cc",
-      "export_sha256": "cffa4aa284ab2b7acaff959d7413fa2ef7634eb628780b31927900d6e65abb05",
-      "bytes": 9066,
-      "treatment": "allowlisted source copy; Markdown links made portable; absent local-only targets marked"
+      "source_sha256": "1b562cfa712f6788b8790a23e685c85e83e23783f24c86044ffb9fc6d83f844c",
+      "export_sha256": "1aae2f2e368f76c72b91983346538c2abead8caff3070ea05d134d8c29fb23e6",
+      "bytes": 33044,
+      "treatment": "allowlisted current source copy; Markdown links made portable; absent local-only targets marked"
     },
     {
       "path": "experiments/search_agent/__init__.py",
@@ -2280,15 +2672,15 @@
       "source_sha256": "c12f79dbc4c1e359cf46beac8afc48a0cb90be2d5f3212deca46fe47b91b9c46",
       "export_sha256": "c12f79dbc4c1e359cf46beac8afc48a0cb90be2d5f3212deca46fe47b91b9c46",
       "bytes": 180,
-      "treatment": "allowlisted source copy"
+      "treatment": "allowlisted current source copy"
     },
     {
       "path": "experiments/search_agent/adapter.py",
       "source": "experiments/search_agent/adapter.py",
-      "source_sha256": "17e70ec3723b167d6910cadbeecb7f40b45f3af3bf58d49f356b50e642325a93",
-      "export_sha256": "17e70ec3723b167d6910cadbeecb7f40b45f3af3bf58d49f356b50e642325a93",
-      "bytes": 7313,
-      "treatment": "allowlisted source copy"
+      "source_sha256": "3d32a8ce9ae068b50c765736fd6d41f3198d7ff88bbf11168b09d5522165fae4",
+      "export_sha256": "3d32a8ce9ae068b50c765736fd6d41f3198d7ff88bbf11168b09d5522165fae4",
+      "bytes": 9026,
+      "treatment": "allowlisted current source copy"
     },
     {
       "path": "experiments/search_agent/cache.py",
@@ -2296,7 +2688,23 @@
       "source_sha256": "f2d2b669844ed373176c6e063bb6c6132cceb09fe699e53f9ce6b7f56057f578",
       "export_sha256": "f2d2b669844ed373176c6e063bb6c6132cceb09fe699e53f9ce6b7f56057f578",
       "bytes": 875,
-      "treatment": "allowlisted source copy"
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "experiments/search_agent/cli.py",
+      "source": "experiments/search_agent/cli.py",
+      "source_sha256": "17c326caa4a825f917afda63917f4732b4171f532a1daa785928d81ab90ac0e4",
+      "export_sha256": "17c326caa4a825f917afda63917f4732b4171f532a1daa785928d81ab90ac0e4",
+      "bytes": 19142,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "experiments/search_agent/conversation.py",
+      "source": "experiments/search_agent/conversation.py",
+      "source_sha256": "6bb2c84147205f67dc5b2f5288dc450cebf38947c818bbdbfaeab0832f15f061",
+      "export_sha256": "6bb2c84147205f67dc5b2f5288dc450cebf38947c818bbdbfaeab0832f15f061",
+      "bytes": 6338,
+      "treatment": "allowlisted current source copy"
     },
     {
       "path": "experiments/search_agent/core.py",
@@ -2304,7 +2712,7 @@
       "source_sha256": "6402795f12879aa1714555e3b51e290ff4b96f0e6e70becf968a4646085c7733",
       "export_sha256": "6402795f12879aa1714555e3b51e290ff4b96f0e6e70becf968a4646085c7733",
       "bytes": 12846,
-      "treatment": "allowlisted source copy"
+      "treatment": "allowlisted current source copy"
     },
     {
       "path": "experiments/search_agent/embedding.py",
@@ -2312,15 +2720,15 @@
       "source_sha256": "b5ef55cda7d902ba3ab127c0631e452cd764fc20614e395c124eb1ff94f85e4a",
       "export_sha256": "b5ef55cda7d902ba3ab127c0631e452cd764fc20614e395c124eb1ff94f85e4a",
       "bytes": 3656,
-      "treatment": "allowlisted source copy"
+      "treatment": "allowlisted current source copy"
     },
     {
       "path": "experiments/search_agent/evidence.py",
       "source": "experiments/search_agent/evidence.py",
-      "source_sha256": "8ccca0e446366869a0f9ce0bdf0fd225d2482af6c76b78f70666f5f53ab6c671",
-      "export_sha256": "8ccca0e446366869a0f9ce0bdf0fd225d2482af6c76b78f70666f5f53ab6c671",
-      "bytes": 13622,
-      "treatment": "allowlisted source copy"
+      "source_sha256": "e6b98303ac46d368fdcd7ca53eb4229bff462063fd7ab738c1ef6fa191f6ad01",
+      "export_sha256": "e6b98303ac46d368fdcd7ca53eb4229bff462063fd7ab738c1ef6fa191f6ad01",
+      "bytes": 15607,
+      "treatment": "allowlisted current source copy"
     },
     {
       "path": "experiments/search_agent/fast.py",
@@ -2328,7 +2736,7 @@
       "source_sha256": "8d8ee86cfd36d3e7dc26809e520e22c2ff6cc6b989afda3216d444722b9f648d",
       "export_sha256": "8d8ee86cfd36d3e7dc26809e520e22c2ff6cc6b989afda3216d444722b9f648d",
       "bytes": 4733,
-      "treatment": "allowlisted source copy"
+      "treatment": "allowlisted current source copy"
     },
     {
       "path": "experiments/search_agent/fast_context.py",
@@ -2336,7 +2744,47 @@
       "source_sha256": "6d776961234c9d8264dc5194af25cb8613aca6ffb8d940e3120d399b7b6f7e41",
       "export_sha256": "6d776961234c9d8264dc5194af25cb8613aca6ffb8d940e3120d399b7b6f7e41",
       "bytes": 6278,
-      "treatment": "allowlisted source copy"
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "experiments/search_agent/policy_acceptance.py",
+      "source": "experiments/search_agent/policy_acceptance.py",
+      "source_sha256": "f39f66e102f4a52ef3bf5d691a364118e58595eb9a4f9755cf157d1f47fb2ca3",
+      "export_sha256": "f39f66e102f4a52ef3bf5d691a364118e58595eb9a4f9755cf157d1f47fb2ca3",
+      "bytes": 34949,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "experiments/search_agent/policy_backend.py",
+      "source": "experiments/search_agent/policy_backend.py",
+      "source_sha256": "9224755dc264c882227708c8b4a240f668a3eb874f5b48ab16589555cf42cb32",
+      "export_sha256": "9224755dc264c882227708c8b4a240f668a3eb874f5b48ab16589555cf42cb32",
+      "bytes": 23256,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "experiments/search_agent/policy_cli.py",
+      "source": "experiments/search_agent/policy_cli.py",
+      "source_sha256": "bb7f93ce39dd6b0f6d7f3bbfd7d2e2430e293e78d0faff4add001cb5b52f00a2",
+      "export_sha256": "bb7f93ce39dd6b0f6d7f3bbfd7d2e2430e293e78d0faff4add001cb5b52f00a2",
+      "bytes": 9314,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "experiments/search_agent/policy_transport.py",
+      "source": "experiments/search_agent/policy_transport.py",
+      "source_sha256": "c1b214324b154dc20f34268b4bf40a89526a0b3ed4c0d6adb3760de8ad120679",
+      "export_sha256": "c1b214324b154dc20f34268b4bf40a89526a0b3ed4c0d6adb3760de8ad120679",
+      "bytes": 5842,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "experiments/search_agent/resolution.py",
+      "source": "experiments/search_agent/resolution.py",
+      "source_sha256": "8f73d251a11f0f1d1606288d03b661412843aae3f2f23bb8899aedcd330e402f",
+      "export_sha256": "8f73d251a11f0f1d1606288d03b661412843aae3f2f23bb8899aedcd330e402f",
+      "bytes": 6731,
+      "treatment": "allowlisted current source copy"
     },
     {
       "path": "experiments/search_agent/routing.py",
@@ -2344,15 +2792,15 @@
       "source_sha256": "889ff2f1198fc656cdb8932f35e4a9856aba1e5fc6a019f67b47deca36c251c4",
       "export_sha256": "889ff2f1198fc656cdb8932f35e4a9856aba1e5fc6a019f67b47deca36c251c4",
       "bytes": 5674,
-      "treatment": "allowlisted source copy"
+      "treatment": "allowlisted current source copy"
     },
     {
       "path": "experiments/search_agent/runtime.py",
       "source": "experiments/search_agent/runtime.py",
-      "source_sha256": "c1082d3eab88ebff919afeb5d2a1fc60b23417e4e63d6289aefe970703b3e15f",
-      "export_sha256": "c1082d3eab88ebff919afeb5d2a1fc60b23417e4e63d6289aefe970703b3e15f",
-      "bytes": 23445,
-      "treatment": "allowlisted source copy"
+      "source_sha256": "bc0e22bc33cd3d2fb5126ec17c8387dc6225a04bff19dd564dee376ffc7b5456",
+      "export_sha256": "bc0e22bc33cd3d2fb5126ec17c8387dc6225a04bff19dd564dee376ffc7b5456",
+      "bytes": 27666,
+      "treatment": "allowlisted current source copy"
     },
     {
       "path": "experiments/search_agent/test_adapter.py",
@@ -2360,7 +2808,31 @@
       "source_sha256": "663a2c2c62f59afe3da2ff5133814abcb24c1a8a329fb1c7cd7d7f8bfe3f55fe",
       "export_sha256": "663a2c2c62f59afe3da2ff5133814abcb24c1a8a329fb1c7cd7d7f8bfe3f55fe",
       "bytes": 2603,
-      "treatment": "allowlisted source copy"
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "experiments/search_agent/test_cli.py",
+      "source": "experiments/search_agent/test_cli.py",
+      "source_sha256": "114d4b1f56943e662e6732e212ff66e8822ff4b280b37d2c2511be50de4160a3",
+      "export_sha256": "114d4b1f56943e662e6732e212ff66e8822ff4b280b37d2c2511be50de4160a3",
+      "bytes": 22435,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "experiments/search_agent/test_conversation.py",
+      "source": "experiments/search_agent/test_conversation.py",
+      "source_sha256": "0df12627252d88607b987a15a7cf6b89a69df91181b18d55829c4e5d789266a3",
+      "export_sha256": "0df12627252d88607b987a15a7cf6b89a69df91181b18d55829c4e5d789266a3",
+      "bytes": 19068,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "experiments/search_agent/test_conversation_runtime.py",
+      "source": "experiments/search_agent/test_conversation_runtime.py",
+      "source_sha256": "49f3ce1cc3b5717c8e739371276ae4a981b03027e32134a288dd2445ff2614b7",
+      "export_sha256": "49f3ce1cc3b5717c8e739371276ae4a981b03027e32134a288dd2445ff2614b7",
+      "bytes": 11340,
+      "treatment": "allowlisted current source copy"
     },
     {
       "path": "experiments/search_agent/test_core.py",
@@ -2368,7 +2840,7 @@
       "source_sha256": "99077f04e233ed2e7ac709fbcb3dce1bc3cb681cf7c4ed880cf6d265a3acb9bd",
       "export_sha256": "99077f04e233ed2e7ac709fbcb3dce1bc3cb681cf7c4ed880cf6d265a3acb9bd",
       "bytes": 8779,
-      "treatment": "allowlisted source copy"
+      "treatment": "allowlisted current source copy"
     },
     {
       "path": "experiments/search_agent/test_decision_contract.py",
@@ -2376,7 +2848,7 @@
       "source_sha256": "5e530a243db7e4dc692a89bed0c60adebab654abb53120116d2f43fe95f45a5b",
       "export_sha256": "5e530a243db7e4dc692a89bed0c60adebab654abb53120116d2f43fe95f45a5b",
       "bytes": 8361,
-      "treatment": "allowlisted source copy"
+      "treatment": "allowlisted current source copy"
     },
     {
       "path": "experiments/search_agent/test_embedding.py",
@@ -2384,7 +2856,7 @@
       "source_sha256": "10e21a19c956256d4b336ce8e6b84470110f3044c7527325bbe820735f0068d5",
       "export_sha256": "10e21a19c956256d4b336ce8e6b84470110f3044c7527325bbe820735f0068d5",
       "bytes": 4028,
-      "treatment": "allowlisted source copy"
+      "treatment": "allowlisted current source copy"
     },
     {
       "path": "experiments/search_agent/test_evidence_budget.py",
@@ -2392,7 +2864,7 @@
       "source_sha256": "966f3134c99c8e99d790bb5d1d600a1a5649f33e3a375fed168dcc1810ee517b",
       "export_sha256": "966f3134c99c8e99d790bb5d1d600a1a5649f33e3a375fed168dcc1810ee517b",
       "bytes": 4044,
-      "treatment": "allowlisted source copy"
+      "treatment": "allowlisted current source copy"
     },
     {
       "path": "experiments/search_agent/test_fast.py",
@@ -2400,7 +2872,7 @@
       "source_sha256": "c00fea75f85de68fc409186adfd6af1c63ba3a2fe64592f37731b8edcc060eed",
       "export_sha256": "c00fea75f85de68fc409186adfd6af1c63ba3a2fe64592f37731b8edcc060eed",
       "bytes": 4494,
-      "treatment": "allowlisted source copy"
+      "treatment": "allowlisted current source copy"
     },
     {
       "path": "experiments/search_agent/test_fast_context.py",
@@ -2408,7 +2880,7 @@
       "source_sha256": "b999d0c0342d8735eb5133ba8e827347f0776ab7435b3a6f919bbafaf0bef1ed",
       "export_sha256": "b999d0c0342d8735eb5133ba8e827347f0776ab7435b3a6f919bbafaf0bef1ed",
       "bytes": 4631,
-      "treatment": "allowlisted source copy"
+      "treatment": "allowlisted current source copy"
     },
     {
       "path": "experiments/search_agent/test_gap_actions.py",
@@ -2416,7 +2888,39 @@
       "source_sha256": "19585c83a2aabec2a412d975d8fb32c18b0a974bc5aad880819cd731e6ca7ff8",
       "export_sha256": "19585c83a2aabec2a412d975d8fb32c18b0a974bc5aad880819cd731e6ca7ff8",
       "bytes": 11673,
-      "treatment": "allowlisted source copy"
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "experiments/search_agent/test_policy_acceptance.py",
+      "source": "experiments/search_agent/test_policy_acceptance.py",
+      "source_sha256": "075c5ad72a035c3289c9991c1348cc8cd4203c69686ec0cebd997db9d46a4d50",
+      "export_sha256": "075c5ad72a035c3289c9991c1348cc8cd4203c69686ec0cebd997db9d46a4d50",
+      "bytes": 39347,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "experiments/search_agent/test_policy_backend.py",
+      "source": "experiments/search_agent/test_policy_backend.py",
+      "source_sha256": "4ad316a045c2c58d9707fd1e73b358a4ff3637484782cf22fcff816f22604cd5",
+      "export_sha256": "4ad316a045c2c58d9707fd1e73b358a4ff3637484782cf22fcff816f22604cd5",
+      "bytes": 30884,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "experiments/search_agent/test_policy_transport.py",
+      "source": "experiments/search_agent/test_policy_transport.py",
+      "source_sha256": "b7e9b645c8316dc8d0c0bbf1defc3dda1e16f80e03c7707482c32f3ab3d6c7a7",
+      "export_sha256": "b7e9b645c8316dc8d0c0bbf1defc3dda1e16f80e03c7707482c32f3ab3d6c7a7",
+      "bytes": 5220,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "experiments/search_agent/test_resolution.py",
+      "source": "experiments/search_agent/test_resolution.py",
+      "source_sha256": "2709a27b23276b6133073e84357b0f8ee755595814e67a38e5f913560437945f",
+      "export_sha256": "2709a27b23276b6133073e84357b0f8ee755595814e67a38e5f913560437945f",
+      "bytes": 8720,
+      "treatment": "allowlisted current source copy"
     },
     {
       "path": "experiments/search_agent/test_routing.py",
@@ -2424,15 +2928,15 @@
       "source_sha256": "c23f945aa22017b5fa9b16151c4f19f38fe7f270f8b13753f0c5ee2a5c527324",
       "export_sha256": "c23f945aa22017b5fa9b16151c4f19f38fe7f270f8b13753f0c5ee2a5c527324",
       "bytes": 3690,
-      "treatment": "allowlisted source copy"
+      "treatment": "allowlisted current source copy"
     },
     {
       "path": "experiments/search_agent/test_runtime.py",
       "source": "experiments/search_agent/test_runtime.py",
-      "source_sha256": "bf1626cd6f5eb17cb62280730b3d5554fb8c5300489392925dd2836086731936",
-      "export_sha256": "bf1626cd6f5eb17cb62280730b3d5554fb8c5300489392925dd2836086731936",
-      "bytes": 2656,
-      "treatment": "allowlisted source copy"
+      "source_sha256": "dd2a479f021ea4b6146ce14676c2c06855e3e9c396037734fe79a3c1de5b72e5",
+      "export_sha256": "dd2a479f021ea4b6146ce14676c2c06855e3e9c396037734fe79a3c1de5b72e5",
+      "bytes": 5549,
+      "treatment": "allowlisted current source copy"
     },
     {
       "path": "experiments/search_agent/test_transport.py",
@@ -2440,7 +2944,7 @@
       "source_sha256": "992679594387002474d2ed0b4b56d44ee12327e21a7637f152115842cefdd21b",
       "export_sha256": "992679594387002474d2ed0b4b56d44ee12327e21a7637f152115842cefdd21b",
       "bytes": 5584,
-      "treatment": "allowlisted source copy"
+      "treatment": "allowlisted current source copy"
     },
     {
       "path": "experiments/search_agent/transport.py",
@@ -2448,7 +2952,7 @@
       "source_sha256": "c28fc0d893d9ed8207f3a6a2412bb74ccb8aec0ed2c0d9e56568fc9ea856268e",
       "export_sha256": "c28fc0d893d9ed8207f3a6a2412bb74ccb8aec0ed2c0d9e56568fc9ea856268e",
       "bytes": 3488,
-      "treatment": "allowlisted source copy"
+      "treatment": "allowlisted current source copy"
     },
     {
       "path": "experiments/test_qa.py",
@@ -2459,12 +2963,76 @@
       "treatment": "allowlisted source copy"
     },
     {
+      "path": "rag/nlp/search.py",
+      "source": "rag/nlp/search.py",
+      "source_sha256": "b24bb050e04c3a2bf5d214d0092a986f7cc4937ecc0d38a84775fe321d035b9d",
+      "export_sha256": "b24bb050e04c3a2bf5d214d0092a986f7cc4937ecc0d38a84775fe321d035b9d",
+      "bytes": 51339,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "rag/prompts/generator.py",
+      "source": "rag/prompts/generator.py",
+      "source_sha256": "ce8638579d941a4f01a4ea720cddae4177857ff94b73d7eba435e890a8c464d6",
+      "export_sha256": "ce8638579d941a4f01a4ea720cddae4177857ff94b73d7eba435e890a8c464d6",
+      "bytes": 40933,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "rag/svr/feishu_wiki_sync.py",
+      "source": "rag/svr/feishu_wiki_sync.py",
+      "source_sha256": "6284cdb267f05cc7cebe464f2ccb64da39dc0d2f399e0b63d44a943e1ceae5a4",
+      "export_sha256": "6284cdb267f05cc7cebe464f2ccb64da39dc0d2f399e0b63d44a943e1ceae5a4",
+      "bytes": 817,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "rag/svr/sync_data_source.py",
+      "source": "rag/svr/sync_data_source.py",
+      "source_sha256": "96944c76edca2b9d5312037d83451b9d44da8c78ed724ef864ae1ef72c3dbde0",
+      "export_sha256": "96944c76edca2b9d5312037d83451b9d44da8c78ed724ef864ae1ef72c3dbde0",
+      "bytes": 103222,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "rag/svr/task_executor.py",
+      "source": "rag/svr/task_executor.py",
+      "source_sha256": "d22ca9531279d0c42203eac271a410780f7d22761dcb7691fb410fbb9012abe3",
+      "export_sha256": "d22ca9531279d0c42203eac271a410780f7d22761dcb7691fb410fbb9012abe3",
+      "bytes": 93583,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "rag/svr/task_executor_refactor/task_handler.py",
+      "source": "rag/svr/task_executor_refactor/task_handler.py",
+      "source_sha256": "fd9715b6ecaad4b40f40a789fecf7140ba6f46f7b8581763a3f957c09d795371",
+      "export_sha256": "fd9715b6ecaad4b40f40a789fecf7140ba6f46f7b8581763a3f957c09d795371",
+      "bytes": 41525,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "rag/utils/es_conn.py",
+      "source": "rag/utils/es_conn.py",
+      "source_sha256": "a865ff1a6cee5e3dc362347e989a3d6b6494f0122ff756d80f4f050288c37cf4",
+      "export_sha256": "a865ff1a6cee5e3dc362347e989a3d6b6494f0122ff756d80f4f050288c37cf4",
+      "bytes": 28014,
+      "treatment": "allowlisted source copy; offline test package or AST dependency"
+    },
+    {
+      "path": "rag/utils/minio_conn.py",
+      "source": "rag/utils/minio_conn.py",
+      "source_sha256": "50ebfa95a5c38ab874a712c4247339f95e56d68366b653d99b92d8328617f95c",
+      "export_sha256": "50ebfa95a5c38ab874a712c4247339f95e56d68366b653d99b92d8328617f95c",
+      "bytes": 11273,
+      "treatment": "allowlisted current source copy"
+    },
+    {
       "path": "requirements-offline.txt",
       "source": null,
       "source_sha256": null,
-      "export_sha256": "fb8b4e22401ad774a194d2aece57d1eb07ed4e6445f34f0ce8bd8a74fbfd82ef",
-      "bytes": 143,
-      "treatment": "Created for this private backup; not an original experiment artifact"
+      "export_sha256": "c3de42131167671ce98c6fa3a959bb1bc70608001158538fdf4caff8e1b32cc7",
+      "bytes": 344,
+      "treatment": "Created or updated for 2026-10-15 private source backup; not an original experiment artifact"
     },
     {
       "path": "scripts/test_offline.py",
@@ -2891,20 +3459,348 @@
       "treatment": "safe field allowlist; not the full runtime config"
     },
     {
-      "path": "导学-医保Agent.md",
-      "source": "导学-医保Agent.md",
-      "source_sha256": "ebbaf5097a7723773392b73a628e23d967302ea399913e49687c90a7633d8a41",
-      "export_sha256": "304a94111b6ddcf9e0ffc35f86aa35b0c5eda8215f1ea90a475f42919ed9750b",
-      "bytes": 22859,
-      "treatment": "allowlisted source copy; Markdown links made portable; absent local-only targets marked"
+      "path": "test/__init__.py",
+      "source": "test/__init__.py",
+      "source_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "export_sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "bytes": 0,
+      "treatment": "allowlisted source copy; offline test package or AST dependency"
     },
     {
-      "path": "面经-医保Agent.md",
-      "source": "面经-医保Agent.md",
-      "source_sha256": "5409b70febf6fe9b57d49dea2f692dbbae96497f74c8b4098eddd9cac50f1070",
-      "export_sha256": "384670433039b9acc85be83d298f17d84142bb371db6d2179f95da3e08679ea6",
-      "bytes": 38023,
-      "treatment": "allowlisted source copy; Markdown links made portable; absent local-only targets marked"
+      "path": "test/unit_test/api/apps/test_medical_assistant_api.py",
+      "source": "test/unit_test/api/apps/test_medical_assistant_api.py",
+      "source_sha256": "02a075a2ebd016ff746fbae9050fb35ee2933684e06bf77e89f28b206f8f0c7c",
+      "export_sha256": "02a075a2ebd016ff746fbae9050fb35ee2933684e06bf77e89f28b206f8f0c7c",
+      "bytes": 5837,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "test/unit_test/api/db/services/test_policy_catalog.py",
+      "source": "test/unit_test/api/db/services/test_policy_catalog.py",
+      "source_sha256": "a96a64691ad9e64da71908267571a5bb18b1d26127291fa804980174bb3e5ce4",
+      "export_sha256": "a96a64691ad9e64da71908267571a5bb18b1d26127291fa804980174bb3e5ce4",
+      "bytes": 12966,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "test/unit_test/api/db/services/test_policy_publication.py",
+      "source": "test/unit_test/api/db/services/test_policy_publication.py",
+      "source_sha256": "b27238e3874ad8af3c854ad953193c7ea6381e58164b57949e7fd38ee77b1721",
+      "export_sha256": "b27238e3874ad8af3c854ad953193c7ea6381e58164b57949e7fd38ee77b1721",
+      "bytes": 28025,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "test/unit_test/common/test_shanghai_medical_connector.py",
+      "source": "test/unit_test/common/test_shanghai_medical_connector.py",
+      "source_sha256": "286b8612cb48f274425183af11d5284e2bebc52428dac5d149baf4c9919bca9e",
+      "export_sha256": "286b8612cb48f274425183af11d5284e2bebc52428dac5d149baf4c9919bca9e",
+      "bytes": 49266,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "test/unit_test/deepdoc/parser/test_pdf_parser_table_coordinates.py",
+      "source": "test/unit_test/deepdoc/parser/test_pdf_parser_table_coordinates.py",
+      "source_sha256": "ad961b2d9460b46aaf21acfdebd55e7d946b2f09a9805fa174172f804b5046f7",
+      "export_sha256": "ad961b2d9460b46aaf21acfdebd55e7d946b2f09a9805fa174172f804b5046f7",
+      "bytes": 19419,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "test/unit_test/policy/test_medical_assistant_service.py",
+      "source": "test/unit_test/policy/test_medical_assistant_service.py",
+      "source_sha256": "9394bfcd833a51e01743c691c1386336f8746d61a7e83c5145ce746fc092e23d",
+      "export_sha256": "9394bfcd833a51e01743c691c1386336f8746d61a7e83c5145ce746fc092e23d",
+      "bytes": 13071,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "test/unit_test/policy/test_policy_admission.py",
+      "source": "test/unit_test/policy/test_policy_admission.py",
+      "source_sha256": "b3d0c678455069b3b941e2cf466e61e20d3855ff15768df321235cfcf4b563e6",
+      "export_sha256": "b3d0c678455069b3b941e2cf466e61e20d3855ff15768df321235cfcf4b563e6",
+      "bytes": 8973,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "test/unit_test/policy/test_policy_ingestion.py",
+      "source": "test/unit_test/policy/test_policy_ingestion.py",
+      "source_sha256": "f2851a05dd0c3ed57098f474f1d1ce330137326b6a4f9fbf68803f1ebba5e958",
+      "export_sha256": "f2851a05dd0c3ed57098f474f1d1ce330137326b6a4f9fbf68803f1ebba5e958",
+      "bytes": 7447,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "test/unit_test/policy/test_policy_search_service.py",
+      "source": "test/unit_test/policy/test_policy_search_service.py",
+      "source_sha256": "2c8e0aaba2cd06744754efb29e8943f76d11f698a6d860daa98ca4efd4b90b28",
+      "export_sha256": "2c8e0aaba2cd06744754efb29e8943f76d11f698a6d860daa98ca4efd4b90b28",
+      "bytes": 44201,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "test/unit_test/policy/test_policy_sync.py",
+      "source": "test/unit_test/policy/test_policy_sync.py",
+      "source_sha256": "f139949f09c681d36faadf48f874ea44e37e13b8b2b8dee78d1b92988a352b6a",
+      "export_sha256": "f139949f09c681d36faadf48f874ea44e37e13b8b2b8dee78d1b92988a352b6a",
+      "bytes": 33601,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "test/unit_test/policy/test_policy_update_chain.py",
+      "source": "test/unit_test/policy/test_policy_update_chain.py",
+      "source_sha256": "767656a74673480b8e48e7a0536d2251344dfade5984bab1fd103547690e81aa",
+      "export_sha256": "767656a74673480b8e48e7a0536d2251344dfade5984bab1fd103547690e81aa",
+      "bytes": 16748,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "test/unit_test/policy/test_policy_worker.py",
+      "source": "test/unit_test/policy/test_policy_worker.py",
+      "source_sha256": "e6253e2b4876e435a3704850482e02dedef66b9057611e99f689f1f120a95945",
+      "export_sha256": "e6253e2b4876e435a3704850482e02dedef66b9057611e99f689f1f120a95945",
+      "bytes": 9361,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "web/jest.config.ts",
+      "source": "web/jest.config.ts",
+      "source_sha256": "039482507b89a1cf2df68342ba61a7e3f11cd0467ff130693c4fd48a8c87b477",
+      "export_sha256": "039482507b89a1cf2df68342ba61a7e3f11cd0467ff130693c4fd48a8c87b477",
+      "bytes": 1747,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "web/src/hooks/auth-hooks.ts",
+      "source": "web/src/hooks/auth-hooks.ts",
+      "source_sha256": "6e41efd9aa851d492498068ee79c24cc96a354c94348090961c80826c42cd85f",
+      "export_sha256": "6e41efd9aa851d492498068ee79c24cc96a354c94348090961c80826c42cd85f",
+      "bytes": 2215,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "web/src/hooks/use-medical-assistant-request.ts",
+      "source": "web/src/hooks/use-medical-assistant-request.ts",
+      "source_sha256": "828d0351d231bf11db866b68373cd3ab5f39db92777863d07cfea7503ce459d1",
+      "export_sha256": "828d0351d231bf11db866b68373cd3ab5f39db92777863d07cfea7503ce459d1",
+      "bytes": 3550,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "web/src/interfaces/database/medical-assistant.ts",
+      "source": "web/src/interfaces/database/medical-assistant.ts",
+      "source_sha256": "3a9a10f4cae3b9d19b6d5744662d75ec8d4ed8d5caf856ef0e055be976a2b013",
+      "export_sha256": "3a9a10f4cae3b9d19b6d5744662d75ec8d4ed8d5caf856ef0e055be976a2b013",
+      "bytes": 1740,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "web/src/interfaces/request/medical-assistant.ts",
+      "source": "web/src/interfaces/request/medical-assistant.ts",
+      "source_sha256": "6e2e7be87c1b4c0841a07c128a7fea0fa208df8ebbcb719a892d5baae963bbba",
+      "export_sha256": "6e2e7be87c1b4c0841a07c128a7fea0fa208df8ebbcb719a892d5baae963bbba",
+      "bytes": 160,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "web/src/locales/en.ts",
+      "source": "web/src/locales/en.ts",
+      "source_sha256": "00391b1d2310144927d20f5569a24d187d6d2add4970b67f758e6d56f3c4097b",
+      "export_sha256": "00391b1d2310144927d20f5569a24d187d6d2add4970b67f758e6d56f3c4097b",
+      "bytes": 207936,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "web/src/locales/zh.ts",
+      "source": "web/src/locales/zh.ts",
+      "source_sha256": "25e1e8bdeb04aaf704c1500a3554da72bcfe6205622a238d260cb224770a2b6a",
+      "export_sha256": "25e1e8bdeb04aaf704c1500a3554da72bcfe6205622a238d260cb224770a2b6a",
+      "bytes": 176465,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "web/src/pages/login-next/index.test.tsx",
+      "source": "web/src/pages/login-next/index.test.tsx",
+      "source_sha256": "668eb20cd252fbba0e3f7f4b3fdb762e3d2ac365059e9dbe0a5637ad881c5fd6",
+      "export_sha256": "668eb20cd252fbba0e3f7f4b3fdb762e3d2ac365059e9dbe0a5637ad881c5fd6",
+      "bytes": 3390,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "web/src/pages/login-next/index.tsx",
+      "source": "web/src/pages/login-next/index.tsx",
+      "source_sha256": "7ce124c72da22b6db435f4bcbcdeab1a4366456d258d2b2985b4f34ebed1600d",
+      "export_sha256": "7ce124c72da22b6db435f4bcbcdeab1a4366456d258d2b2985b4f34ebed1600d",
+      "bytes": 13896,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "web/src/pages/medical-assistant/__tests__/answer-message.test.tsx",
+      "source": "web/src/pages/medical-assistant/__tests__/answer-message.test.tsx",
+      "source_sha256": "dc86a9188f8dd07d1821900c678613a57ff8f9ff2f5a2d1b5b8dc4b8f4d0a146",
+      "export_sha256": "dc86a9188f8dd07d1821900c678613a57ff8f9ff2f5a2d1b5b8dc4b8f4d0a146",
+      "bytes": 5004,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "web/src/pages/medical-assistant/__tests__/assistant-page.test.tsx",
+      "source": "web/src/pages/medical-assistant/__tests__/assistant-page.test.tsx",
+      "source_sha256": "999f09014519c093f8ea371753892fafeb52fe6e62de9ba036d1bac20922ec3e",
+      "export_sha256": "999f09014519c093f8ea371753892fafeb52fe6e62de9ba036d1bac20922ec3e",
+      "bytes": 8953,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "web/src/pages/medical-assistant/__tests__/citations.test.ts",
+      "source": "web/src/pages/medical-assistant/__tests__/citations.test.ts",
+      "source_sha256": "a9cedf22a2ca72ed0b5bbf28da4830d65e4fe6fe1ae2c6bc12dd0ae230ff7071",
+      "export_sha256": "a9cedf22a2ca72ed0b5bbf28da4830d65e4fe6fe1ae2c6bc12dd0ae230ff7071",
+      "bytes": 1009,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "web/src/pages/medical-assistant/__tests__/composer.test.tsx",
+      "source": "web/src/pages/medical-assistant/__tests__/composer.test.tsx",
+      "source_sha256": "e76d17e360b2a077bda74fbab03d55f7cc9301d4119821069f87fa0c91eeea9a",
+      "export_sha256": "e76d17e360b2a077bda74fbab03d55f7cc9301d4119821069f87fa0c91eeea9a",
+      "bytes": 1961,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "web/src/pages/medical-assistant/__tests__/evidence-panel.test.tsx",
+      "source": "web/src/pages/medical-assistant/__tests__/evidence-panel.test.tsx",
+      "source_sha256": "470186e441253f0761fa34930bac99673087115cb8c15582d0afd0b24c944016",
+      "export_sha256": "470186e441253f0761fa34930bac99673087115cb8c15582d0afd0b24c944016",
+      "bytes": 997,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "web/src/pages/medical-assistant/__tests__/search-trace.test.tsx",
+      "source": "web/src/pages/medical-assistant/__tests__/search-trace.test.tsx",
+      "source_sha256": "1f91cab6112a0f67c284e798a72b4e80864c60d6b65ffd25b273776223670322",
+      "export_sha256": "1f91cab6112a0f67c284e798a72b4e80864c60d6b65ffd25b273776223670322",
+      "bytes": 3670,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "web/src/pages/medical-assistant/assistant-page.tsx",
+      "source": "web/src/pages/medical-assistant/assistant-page.tsx",
+      "source_sha256": "ec102bafc71d51c1c6e7d4913db88ef2c6f8a9bf85117066ee2e86da2cbd1168",
+      "export_sha256": "ec102bafc71d51c1c6e7d4913db88ef2c6f8a9bf85117066ee2e86da2cbd1168",
+      "bytes": 13994,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "web/src/pages/medical-assistant/components/answer-message.tsx",
+      "source": "web/src/pages/medical-assistant/components/answer-message.tsx",
+      "source_sha256": "096032751a7a01b49e9731087c1219aab4af4ca2015199b469de8cf903dc4a5a",
+      "export_sha256": "096032751a7a01b49e9731087c1219aab4af4ca2015199b469de8cf903dc4a5a",
+      "bytes": 7270,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "web/src/pages/medical-assistant/components/composer.tsx",
+      "source": "web/src/pages/medical-assistant/components/composer.tsx",
+      "source_sha256": "c4ea550a01d83e8d6faab49df1482733eda2ed06f9759a4aea81e06664a6ae76",
+      "export_sha256": "c4ea550a01d83e8d6faab49df1482733eda2ed06f9759a4aea81e06664a6ae76",
+      "bytes": 2556,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "web/src/pages/medical-assistant/components/evidence-panel.tsx",
+      "source": "web/src/pages/medical-assistant/components/evidence-panel.tsx",
+      "source_sha256": "61b3298e76bd88fbecc587b0bf6f9fe2a490b2639b113ff1d7a955489a909520",
+      "export_sha256": "61b3298e76bd88fbecc587b0bf6f9fe2a490b2639b113ff1d7a955489a909520",
+      "bytes": 4056,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "web/src/pages/medical-assistant/components/search-trace.tsx",
+      "source": "web/src/pages/medical-assistant/components/search-trace.tsx",
+      "source_sha256": "e994d8e726243c577bdb32a69d44f19e5d4012d6d998940f6820aa99357267a3",
+      "export_sha256": "e994d8e726243c577bdb32a69d44f19e5d4012d6d998940f6820aa99357267a3",
+      "bytes": 3857,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "web/src/pages/medical-assistant/index.tsx",
+      "source": "web/src/pages/medical-assistant/index.tsx",
+      "source_sha256": "60390a6b1e0f7c88fd2ea7623c4d72d0784b40dd9e3e7c53193fc49cadaf8d33",
+      "export_sha256": "60390a6b1e0f7c88fd2ea7623c4d72d0784b40dd9e3e7c53193fc49cadaf8d33",
+      "bytes": 951,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "web/src/pages/medical-assistant/utils/citations.ts",
+      "source": "web/src/pages/medical-assistant/utils/citations.ts",
+      "source_sha256": "6baaeac57193ad6537b335dc1101f1968a671199fe9d09239a01d434fababe34",
+      "export_sha256": "6baaeac57193ad6537b335dc1101f1968a671199fe9d09239a01d434fababe34",
+      "bytes": 1026,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "web/src/routes.tsx",
+      "source": "web/src/routes.tsx",
+      "source_sha256": "17aa5dce62ca734995a5e3b92dd3551d7802d312e6131220e0dc9513a1cb95ea",
+      "export_sha256": "17aa5dce62ca734995a5e3b92dd3551d7802d312e6131220e0dc9513a1cb95ea",
+      "bytes": 14007,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "web/src/services/medical-assistant-service.ts",
+      "source": "web/src/services/medical-assistant-service.ts",
+      "source_sha256": "2b2d03899e72905cc4e6878e5550124f6b5e52564ad719bcf37bf549e37b0e50",
+      "export_sha256": "2b2d03899e72905cc4e6878e5550124f6b5e52564ad719bcf37bf549e37b0e50",
+      "bytes": 380,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "web/src/utils/__tests__/login-return.test.ts",
+      "source": "web/src/utils/__tests__/login-return.test.ts",
+      "source_sha256": "6318a08995ea7cd7c7a1a85e7c1f6af4f1dd34dc938ac77ab489107b4f74a0a7",
+      "export_sha256": "6318a08995ea7cd7c7a1a85e7c1f6af4f1dd34dc938ac77ab489107b4f74a0a7",
+      "bytes": 1587,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "web/src/utils/authorization-util.ts",
+      "source": "web/src/utils/authorization-util.ts",
+      "source_sha256": "cfd85419e09e4f4a3cdcc2dfc4c8d92e2290b91d09321ea1508e6d23f18cd987",
+      "export_sha256": "cfd85419e09e4f4a3cdcc2dfc4c8d92e2290b91d09321ea1508e6d23f18cd987",
+      "bytes": 2783,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "web/src/utils/login-return.ts",
+      "source": "web/src/utils/login-return.ts",
+      "source_sha256": "b425917ee5ea566359aac70bbf9e45e170aac2aaee53959532eef01cb62b285a",
+      "export_sha256": "b425917ee5ea566359aac70bbf9e45e170aac2aaee53959532eef01cb62b285a",
+      "bytes": 1318,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "web/src/wrappers/__tests__/medical-assistant-auth.test.tsx",
+      "source": "web/src/wrappers/__tests__/medical-assistant-auth.test.tsx",
+      "source_sha256": "51c795bed7662b631cb5be16b2a69085079d2050da1d265f4b3d056ebb269a11",
+      "export_sha256": "51c795bed7662b631cb5be16b2a69085079d2050da1d265f4b3d056ebb269a11",
+      "bytes": 2275,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "web/src/wrappers/medical-assistant-auth.tsx",
+      "source": "web/src/wrappers/medical-assistant-auth.tsx",
+      "source_sha256": "7ff8add639eea0fa5c37e669f9c290994b84daa41c57f1ade1d18cbf122b8a86",
+      "export_sha256": "7ff8add639eea0fa5c37e669f9c290994b84daa41c57f1ade1d18cbf122b8a86",
+      "bytes": 1677,
+      "treatment": "allowlisted current source copy"
+    },
+    {
+      "path": "web/test-utils/medical-assistant-fixtures.ts",
+      "source": "web/test-utils/medical-assistant-fixtures.ts",
+      "source_sha256": "38c12e9fcf3e85deb52b6891b0bb114f14ffd4e97087ead189c2d8251d477ceb",
+      "export_sha256": "38c12e9fcf3e85deb52b6891b0bb114f14ffd4e97087ead189c2d8251d477ceb",
+      "bytes": 1783,
+      "treatment": "allowlisted current source copy"
     }
   ],
   "exclusions": [
@@ -2916,5 +3812,19 @@
     "unrelated upstream frontend, binaries, dependencies and caches"
   ],
   "note": "Hashes inside copied historical records describe the original local artifacts, not transformed Markdown copies.",
-  "manifest_self_hash": "Not included; Git commit authenticates the manifest together with all tracked files."
+  "manifest_self_hash": "Not included; Git commit authenticates the manifest together with all tracked files.",
+  "updated_date": "2026-10-15",
+  "incremental_update": {
+    "base_commit": "e76e73951f13e3fff2dad74e9647ff42cc00a219",
+    "scope": "Current agent, Shanghai integration owning sources, medical assistant API and frontend overlay, offline tests; not a complete RAGFlow checkout.",
+    "respected_remote_deletions": [
+      "导学-医保Agent.md",
+      "面经-医保Agent.md"
+    ],
+    "protected_frozen_files": 172,
+    "protected_frozen_bytes_unchanged": true,
+    "live_acceptance_or_provider_reconciliation_performed": false,
+    "exported_source_files": 140,
+    "validation_report": "UPDATE_VALIDATION.json"
+  }
 }

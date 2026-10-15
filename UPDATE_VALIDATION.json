@@ -1,0 +1,89 @@
+{
+  "date": "2026-10-15",
+  "scope": "Incremental source backup; offline validation only",
+  "offline_core": {
+    "command": "python scripts/test_offline.py",
+    "passed": 290,
+    "failed": 0,
+    "seconds": 5.228,
+    "excluded_count": 1,
+    "excluded_reason": "Original Fast frozen-runner audit needs omitted local runtime config; same exclusion as initial backup."
+  },
+  "offline_boundaries": {
+    "command": "python -m pytest -q -c /dev/null -p no:cacheprovider test/unit_test/policy test/unit_test/api/db/services/test_policy_catalog.py test/unit_test/api/db/services/test_policy_publication.py test/unit_test/common/test_shanghai_medical_connector.py test/unit_test/api/apps/test_medical_assistant_api.py test/unit_test/deepdoc/parser/test_pdf_parser_table_coordinates.py experiments/evaluation/test_native_agent_guard.py",
+    "passed": 358,
+    "failed": 0,
+    "warnings": 7,
+    "seconds": 37.64,
+    "warning_scope": [
+      "p1 marker not registered when using /dev/null pytest config",
+      "NumPy fixture __array__ copy-keyword deprecation"
+    ]
+  },
+  "frontend_in_complete_source_workspace": {
+    "jest_passed": 61,
+    "jest_failed": 0,
+    "jest_suites": 9,
+    "jest_seconds": 2.48,
+    "production_build": "passed",
+    "build_seconds": 280,
+    "build_warnings": [
+      "Tailwind line-clamp plugin redundancy",
+      "pdfjs eval",
+      "large output chunks"
+    ],
+    "full_typescript_check": "not rerun for this source backup; prior recorded diagnostics remain documented"
+  },
+  "fixture_repair": {
+    "file": "experiments/search_agent/test_policy_backend.py",
+    "before": "3 date-dependent failures after fixture scan date became stale",
+    "after_file_passed": 35,
+    "after_seconds": 0.18,
+    "production_logic_changed": false,
+    "special_staleness_and_historical_boundary_tests_preserved": true
+  },
+  "frozen_evidence": {
+    "files": 172,
+    "all_bytes_unchanged": true,
+    "scope": [
+      "snapshots/",
+      "experiments/datasets/private/",
+      "experiments/results/private/"
+    ],
+    "remote_deleted_documents_not_restored": [
+      "导学-医保Agent.md",
+      "面经-医保Agent.md"
+    ]
+  },
+  "publication_review": {
+    "high_confidence_credential_matches": 0,
+    "missing_local_markdown_links": 0,
+    "independent_review": "completed; inaccurate binding-exclusion wording corrected before commit",
+    "real_session_ledger_log_and_local_configuration_exported": false,
+    "fixed_tenant_kb_session_identifiers_in_source_or_historical_summaries_retained": true
+  },
+  "verification_environment": {
+    "python": "3.13.9",
+    "dependencies": {
+      "aiohttp": "3.13.2",
+      "httpx": "0.28.1",
+      "openai": "2.30.0",
+      "requests": "2.32.5",
+      "pytest": "8.4.2",
+      "peewee": "3.19.0",
+      "xxhash": "3.8.1",
+      "beautifulsoup4": "4.13.5",
+      "pydantic": "2.12.4",
+      "PyYAML": "6.0.3",
+      "numpy": "2.3.5",
+      "Quart": "0.20.0"
+    }
+  },
+  "limitations": [
+    "No live source/model/database calls or ingestion/scheduler actions in this backup task.",
+    "Unknown provider usage remains blocked; no reconciliation or new Search session.",
+    "No claim of completed live publication, two natural rounds, new answer quality or measured parsing speedup.",
+    "Selected RAGFlow API/worker/parser/frontend source overlay is not a full standalone distribution.",
+    "Offline suite counts are reported separately and do not replace historical experiment scores."
+  ]
+}

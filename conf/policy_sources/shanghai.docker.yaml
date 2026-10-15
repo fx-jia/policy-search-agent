@@ -1,0 +1,39 @@
+# Official source allowlist. The init service injects parse_build_key derived from
+# the actual parser and embedding configuration before constructing a connector.
+# Three source examples are verified; topical discovery supplies the initial
+# 20-40 candidate policies. Coverage and applicability require separate review.
+list_urls:
+  - https://ybj.sh.gov.cn/gfxwj/index.html
+  - https://ybj.sh.gov.cn/qtwj/index.html
+  - https://ybj.sh.gov.cn/zcjd/index.html
+seed_urls:
+  - https://ybj.sh.gov.cn/gfxwj/20260911/f57a8b26aa414a15a57d1040c1024600.html
+  - https://ybj.sh.gov.cn/zcjd/20260911/e36f80c1d81a422384db6261d96de59d.html
+  - https://ybj.sh.gov.cn/qtwj/20260914/52a884336736421ba9ace49d84ddbc80.html
+covered_urls: []
+# Worker supplies document numbers of admitted covered policies each scan.
+covered_document_numbers: []
+topics:
+  - 医疗保险
+  - 医保
+  - 生育
+  - 个人账户
+  - 长期护理
+  - 医疗互助
+  - 门诊大病
+batch_size: 2
+max_pages_per_column: 100
+max_new_policies: 40
+max_assets: 100
+max_policies: 200
+request_interval_seconds: 2.0
+request_timeout_seconds: 15.0
+max_html_bytes: 5242880
+max_attachment_bytes: 20971520
+max_archive_bytes: 209715200
+task_timeout_seconds: 3600
+sync_deleted_files: false
+
+# Optional Docker transport: socks5://host.docker.internal:7897.
+# Uses local target DNS and normal TLS verification; no ambient proxy or credentials.
+socks5_proxy_url: socks5://host.docker.internal:7897

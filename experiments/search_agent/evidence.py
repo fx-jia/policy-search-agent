@@ -16,10 +16,26 @@ class Evidence:
     native: dict = field(default_factory=dict, repr=False)
     spans: tuple = ()
     truncated: bool = False
+    source: dict = field(default_factory=dict)
 
 
 class DecisionError(ValueError):
     """Invalid model decision, distinct from source, transport and budget errors."""
+
+
+def _source_for_prompt(source):
+    """Business provenance only; the full immutable source remains on Evidence."""
+    fields = ("title", "source_url", "source_kind", "document_number", "published_at", "signed_at",
+              "effective_from", "effective_to", "repealed_at", "confirmation_status", "relations")
+    result = {key: copy.deepcopy(source[key]) for key in fields if key in source}
+    if "temporal_metadata" in source:
+        result["temporal_metadata"] = {key: copy.deepcopy(value) for key, value in source["temporal_metadata"].items()
+                                       if key not in {"evidence_archive_key", "evidence_archive_sha256"}}
+    if str(source.get("asset_role", "")).split(":", 1)[0] == "attachment":
+        result["asset_role"] = "attachment"
+        if "asset_url" in source:
+            result["asset_url"] = source["asset_url"]
+    return result
 
 
 def evidence_segments(visible):
@@ -89,6 +105,22 @@ def _shared_views(items, query, count, budget, *, needs=(), anchors=None):
     anchors = anchors or {}
     if not items:
         return []
+    # Business sources reserve the same complete decoration emitted by kb_prompt.
+    # Literal text still owns the remaining budget; source fields are never cut.
+    headers = []
+    for index, item in enumerate(items):
+        if not item.source:
+            continue
+        source = _source_for_prompt(item.source)
+        fields = {"Title": source.get("title") or item.title, "URL": source.get("source_url", ""), **source}
+        header = f"\nID: {index}"
+        for key, value in fields.items():
+            if value is not None and str(value):
+                header += f"\n├── {key}: " + re.sub(r"\n+", " ", str(value))
+        headers.append(header + "\n└── Content:\n")
+    budget -= sum(count(header) for header in headers)
+    if headers and budget <= 0:
+        raise ValueError("evidence_source_metadata_budget")
     queries = _queries(query, needs)
     costs = [count(e.text) for e in items]
     allocation = [count(_render(e, [tuple(a["_source_span"]) for a in anchors.get(e.id, [])])[1]) for e in items]
@@ -288,6 +320,10 @@ def validate_views(selected, originals):
         original = by_id.get(item.id)
         if original is None or item.document_id != original.document_id or item.title != original.title:
             raise ValueError("unseen_selected_evidence")
+        if item.source != original.source:
+            raise ValueError("selected_source_metadata_changed")
+        if item.order != original.order:
+            raise ValueError("selected_source_order_changed")
         spans = item.spans or ((0, len(original.text)),)
         if any(type(a) is not int or type(b) is not int or not 0 <= a < b <= len(original.text) for a, b in spans):
             raise ValueError("invalid_excerpt_spans")

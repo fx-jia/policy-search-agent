@@ -1,0 +1,9 @@
+# Apply with the base Compose file and the Shanghai policy overlay.
+services:
+  ragflow-cpu:
+    environment:
+      MEDICAL_ASSISTANT_CONFIG: /ragflow/conf/medical_assistant.local.json
+    volumes:
+      - ../api/apps/restful_apis/medical_assistant_api.py:/ragflow/api/apps/restful_apis/medical_assistant_api.py:ro
+      - ../api/db/services/medical_assistant_service.py:/ragflow/api/db/services/medical_assistant_service.py:ro
+      - ../conf/medical_assistant.local.json:/ragflow/conf/medical_assistant.local.json:ro

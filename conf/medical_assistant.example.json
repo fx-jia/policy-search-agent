@@ -1,0 +1,8 @@
+{
+  "owner_user_id": "REPLACE_WITH_AUTHORIZED_RAGFLOW_USER_ID",
+  "tenant_id": "REPLACE_WITH_EXISTING_SESSION_TENANT_ID",
+  "kb_id": "REPLACE_WITH_SHANGHAI_POLICY_KB_ID",
+  "session_id": "REPLACE_WITH_AUTHORIZED_EXISTING_SESSION_ID",
+  "output_dir": "/absolute/path/to/authorized/existing/session",
+  "budget": 60000
+}

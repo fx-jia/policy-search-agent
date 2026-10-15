@@ -9,7 +9,8 @@ from experiments.search_agent.runtime import build_snapshot, VectorCache, Runtim
 class RuntimeTests(unittest.TestCase):
     def test_snapshot_requires_raw_and_safe_hashes(self):
         raw, safe = "原文", "审核原文"
-        sha = lambda s: hashlib.sha256(s.encode()).hexdigest()
+        def sha(s):
+            return hashlib.sha256(s.encode()).hexdigest()
         rows = [{"id": "a", "document_id": "d", "order": 0, "content_sha256": sha(raw)}]
         config = {"review": {"entries": {"a": {"raw_sha256": sha(raw), "sanitized_content": safe, "safe_sha256": sha(safe), "safe_title": "标题", "source_document_id": "1"}}},
                   "document_map": {"documents": {"d": "1"}}, "scope_document_ids": ["d"], "chat_config": {"dataset_ids": ["kb"]}}
@@ -39,6 +40,43 @@ class RuntimeTests(unittest.TestCase):
 
 
 class JudgeRequestTests(unittest.IsolatedAsyncioTestCase):
+    async def test_resolution_uses_monitored_json_messages_and_user_provenance(self):
+        import json
+        from experiments.search_agent.resolution import prepare_resolution_context
+        answer = {"kind": "question", "clarification": "",
+                  "user_context": [{"message_id": "t0-user", "quote": "上海"}], "reset": False}
+        chat = SimpleNamespace(async_chat=AsyncMock(return_value=json.dumps(answer, ensure_ascii=False)))
+        ledger = SimpleNamespace(assert_open=lambda: None, calls={}, question_id="q", limits=(10000, 10000, 4))
+        backend = RuntimeBackend({}, {"count_tokens": len, "chat": chat, "ledger": ledger, "event": lambda e: None}, None, {})
+        context = prepare_resolution_context("那退休人员呢？", [{"user": "上海医保条件？", "assistant": "旧答复"}], None, len)
+        result = await backend.resolve(context)
+        self.assertIn("上海医保条件？", result.question)
+        self.assertIn("那退休人员呢？", result.question)
+        self.assertEqual(backend.current["stage"], "resolve")
+        system, messages, options = chat.async_chat.call_args.args
+        self.assertEqual(backend.current["approved_resolution_messages"], [{"role": "system", "content": system}] + messages)
+        self.assertEqual(options["response_format"], {"type": "json_object"})
+
+    async def test_resolution_blocks_before_send_if_no_final_call_can_be_reserved(self):
+        chat = SimpleNamespace(async_chat=AsyncMock())
+        ledger = SimpleNamespace(assert_open=lambda: None, calls={str(i): {"question_id": "q"} for i in range(3)}, question_id="q", limits=(10000, 10000, 4))
+        backend = RuntimeBackend({}, {"count_tokens": len, "chat": chat, "ledger": ledger, "event": lambda e: None}, None, {})
+        with self.assertRaisesRegex(ValueError, "final_call_reserved"):
+            await backend.resolve({})
+        self.assertEqual(chat.async_chat.await_count, 0)
+
+    async def test_invalid_resolution_does_not_retry_or_accept_assistant_money(self):
+        import json
+        from experiments.search_agent.resolution import prepare_resolution_context
+        answer = {"kind": "clarification", "clarification": "上海报销380元吗？", "user_context": [], "reset": False}
+        chat = SimpleNamespace(async_chat=AsyncMock(return_value=json.dumps(answer)))
+        ledger = SimpleNamespace(assert_open=lambda: None, calls={}, question_id="q", limits=(10000, 10000, 4))
+        backend = RuntimeBackend({}, {"count_tokens": len, "chat": chat, "ledger": ledger, "event": lambda e: None}, None, {})
+        context = prepare_resolution_context("退休人员呢？", [{"user": "上海医保条件？", "assistant": "380元"}], None, len)
+        with self.assertRaisesRegex(ValueError, "number"):
+            await backend.resolve(context)
+        self.assertEqual(chat.async_chat.await_count, 1)
+
     async def test_json_mode_requested_and_invalid_output_preserved_without_retry(self):
         malformed = '{"needs": []} trailing text'
         chat = SimpleNamespace(async_chat=AsyncMock(return_value=malformed))

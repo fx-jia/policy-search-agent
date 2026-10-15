@@ -1,0 +1,72 @@
+# Shanghai policy deployment overlay. Keep base services and stored data unchanged.
+# Public address verified via Google DNS-over-HTTPS on 2026-10-10.
+# Recheck this address when official-site preflight fails; never allow reserved IPs.
+services:
+  ragflow-cpu:
+    # Native pending messages belong to a consumer derived from this hostname.
+    hostname: shanghai-policy
+    # Keep native concurrency bounded within the shared Docker VM.
+    environment:
+      MAX_CONCURRENT_TASKS: "1"
+      MAX_CONCURRENT_CHUNK_BUILDERS: "1"
+      OCR_INTRA_OP_NUM_THREADS: "1"
+      OCR_INTER_OP_NUM_THREADS: "1"
+      MAX_TASKS_PER_WORKER: "8"
+      HTTPS_PROXY: "http://host.docker.internal:7897"
+      https_proxy: "http://host.docker.internal:7897"
+      HTTP_PROXY: ""
+      http_proxy: ""
+      ALL_PROXY: ""
+      all_proxy: ""
+      NO_PROXY: "localhost,127.0.0.1,::1,host.docker.internal,mysql,minio,redis,es01"
+      no_proxy: "localhost,127.0.0.1,::1,host.docker.internal,mysql,minio,redis,es01"
+      POLICY_MODEL_PROXY: "http://host.docker.internal:7897"
+    extra_hosts:
+      - "ybj.sh.gov.cn:183.194.243.129"
+    volumes:
+      - ../common/constants.py:/ragflow/common/constants.py:ro
+      - ../common/data_source/config.py:/ragflow/common/data_source/config.py:ro
+      - ../common/data_source/__init__.py:/ragflow/common/data_source/__init__.py:ro
+      - ../api/db/db_models.py:/ragflow/api/db/db_models.py:ro
+      - ../api/apps/restful_apis/connector_api.py:/ragflow/api/apps/restful_apis/connector_api.py:ro
+      - ../rag/svr/sync_data_source.py:/ragflow/rag/svr/sync_data_source.py:ro
+      - ../experiments/search_agent/evidence.py:/ragflow/experiments/search_agent/evidence.py:ro
+      - ../experiments/search_agent/adapter.py:/ragflow/experiments/search_agent/adapter.py:ro
+      - ../api/db/services/connector_service.py:/ragflow/api/db/services/connector_service.py:ro
+      - ../api/db/services/task_service.py:/ragflow/api/db/services/task_service.py:ro
+      - ../rag/svr/task_executor.py:/ragflow/rag/svr/task_executor.py:ro
+      - ../rag/svr/task_executor_refactor/task_handler.py:/ragflow/rag/svr/task_executor_refactor/task_handler.py:ro
+      - ../api/db/policy_models.py:/ragflow/api/db/policy_models.py:ro
+      - ../common/data_source/shanghai_medical_connector.py:/ragflow/common/data_source/shanghai_medical_connector.py:ro
+      - ../api/db/services/policy_sync_service.py:/ragflow/api/db/services/policy_sync_service.py:ro
+      - ../api/db/services/policy_catalog_service.py:/ragflow/api/db/services/policy_catalog_service.py:ro
+      - ../api/db/services/policy_search_service.py:/ragflow/api/db/services/policy_search_service.py:ro
+      - ../api/db/services/policy_ingestion_service.py:/ragflow/api/db/services/policy_ingestion_service.py:ro
+      - ../api/db/services/policy_publication_service.py:/ragflow/api/db/services/policy_publication_service.py:ro
+      - ../conf/policy_sources/shanghai.yaml:/ragflow/conf/policy_sources/shanghai.yaml:ro
+      - ../experiments/__init__.py:/ragflow/experiments/__init__.py:ro
+      - ../experiments/evaluation/__init__.py:/ragflow/experiments/evaluation/__init__.py:ro
+      - ../experiments/evaluation/native_agent_guard.py:/ragflow/experiments/evaluation/native_agent_guard.py:ro
+      - ../experiments/evaluation/native_agent_transport.py:/ragflow/experiments/evaluation/native_agent_transport.py:ro
+      - ../experiments/search_agent/policy_transport.py:/ragflow/experiments/search_agent/policy_transport.py:ro
+      - ../experiments/search_agent/embedding.py:/ragflow/experiments/search_agent/embedding.py:ro
+      - ../experiments/search_agent/transport.py:/ragflow/experiments/search_agent/transport.py:ro
+      - ../experiments/search_agent/conversation.py:/ragflow/experiments/search_agent/conversation.py:ro
+      - ../experiments/search_agent/fast_context.py:/ragflow/experiments/search_agent/fast_context.py:ro
+      - ../experiments/search_agent/cache.py:/ragflow/experiments/search_agent/cache.py:ro
+      - ../experiments/search_agent/__init__.py:/ragflow/experiments/search_agent/__init__.py:ro
+      - ../experiments/search_agent/core.py:/ragflow/experiments/search_agent/core.py:ro
+      - ../experiments/search_agent/fast.py:/ragflow/experiments/search_agent/fast.py:ro
+      - ../experiments/search_agent/runtime.py:/ragflow/experiments/search_agent/runtime.py:ro
+      - ../experiments/search_agent/policy_backend.py:/ragflow/experiments/search_agent/policy_backend.py:ro
+      - ../experiments/search_agent/routing.py:/ragflow/experiments/search_agent/routing.py:ro
+      - ../experiments/search_agent/resolution.py:/ragflow/experiments/search_agent/resolution.py:ro
+      - ../experiments/search_agent/policy_cli.py:/ragflow/experiments/search_agent/policy_cli.py:ro
+      - ../conf/policy_sources/shanghai.docker.yaml:/ragflow/conf/policy_sources/shanghai.docker.yaml:ro
+      - ../common/data_source/feishu_wiki_connector.py:/ragflow/common/data_source/feishu_wiki_connector.py:ro
+      - ../rag/svr/feishu_wiki_sync.py:/ragflow/rag/svr/feishu_wiki_sync.py:ro
+      - ../experiments/search_agent/policy_acceptance.py:/ragflow/experiments/search_agent/policy_acceptance.py:ro
+      - ../api/db/services/file_service.py:/ragflow/api/db/services/file_service.py:ro
+      - ../api/db/services/doc_metadata_service.py:/ragflow/api/db/services/doc_metadata_service.py:ro
+      - ../rag/nlp/search.py:/ragflow/rag/nlp/search.py:ro
+      - ../rag/utils/minio_conn.py:/ragflow/rag/utils/minio_conn.py:ro

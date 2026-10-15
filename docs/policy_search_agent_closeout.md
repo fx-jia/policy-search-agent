@@ -35,7 +35,7 @@
 
 1. **资料归档**：以本文和两个README为入口，连接冻结配置、测试报告、复核侧表和关键案例。原始成绩不变；150题的评分争议不阻塞交付。
 2. **单题演示（已完成）**：现有环境中1题真实运行成功，另核验开发题082的邻块补读和043的信息不足回答边界。现场与保存记录分开标注；见[演示与验收](<policy_search_agent_demo.md>)。
-3. **项目讲述（已更新）**：[简历与面试材料](<../面经-医保Agent.md>)提供90秒介绍、4条主推要点及2条替换项、15个主问及8个追问，纳入Fast和路由探索；[源码导学](<../导学-医保Agent.md>)提供5分钟流程讲解和阅读顺序；[证据账本](<policy_search_agent_claims.json>)保存指标与职责边界。接下来重点是自行复述和源码理解，不需要为了收尾继续扩大实验。
+3. **项目讲述（已更新）**：简历与面试材料（已从本仓库移除，保留原文档引用说明）提供90秒介绍、4条主推要点及2条替换项、15个主问及8个追问，纳入Fast和路由探索；源码导学（已从本仓库移除，保留原文档引用说明）提供5分钟流程讲解和阅读顺序；[证据账本](<policy_search_agent_claims.json>)保存指标与职责边界。接下来重点是自行复述和源码理解，不需要为了收尾继续扩大实验。
 
 后续效率探索与原95题冻结测试分开报告。Fast v1在165道三组共同有效开发题上，相对Native RAG平均快30.4%、生成Token少36.1%，质量低5.25分。证据路由相对题干路由有改善迹象，但仍未证明相对RAG保质提速。Fast v2在174道与v1有效配对题上平均低1.35分，未采用；15道退步中11道丢掉了原答案引用过的来源块，且全部15题均未截断。面试可以用这段过程解释“关键词覆盖与关键条款支持的区别”，不能把探索性提速写成已上线系统成果。
 
@@ -66,8 +66,8 @@ python3 -m experiments.evaluation.search_agent_eval run \
 - [冻结及用量核验](<../experiments/results/private/policy-search-agent-final-test95/final_integrity.json>)
 - [控制器与运行说明](<../experiments/search_agent/README.md>)
 - [三案例演示与验收](<policy_search_agent_demo.md>)
-- [简历与面试材料](<../面经-医保Agent.md>)
-- [源码导学](<../导学-医保Agent.md>)
+- 简历与面试材料（已从本仓库移除，保留原文档引用说明）
+- 源码导学（已从本仓库移除，保留原文档引用说明）
 - [Fast v1开发报告](<../experiments/results/private/fast-rag-v1-dev199/report.md>)
 - [轻量证据路由分析](<../experiments/results/private/evidence-router-v1-dev165/analysis.md>)
 - [Fast v2未采用的原因](<../experiments/results/private/fast-rag-v2-dev199/analysis.md>)
