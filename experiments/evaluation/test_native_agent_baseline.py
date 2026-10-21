@@ -6,7 +6,8 @@ import pytest
 
 
 @pytest.fixture
-def api():
+def api(monkeypatch):
+    monkeypatch.setenv("POLICY_APPROVED_CHAT_ID", "1" * 32)
     path = Path(__file__).with_name("native_agent_baseline.py")
     assert path.exists(), "native_agent_baseline implementation missing"
     spec = importlib.util.spec_from_file_location("native_agent_baseline", path)
@@ -23,6 +24,7 @@ def test_gold_and_other_splits_do_not_enter_config(api):
     assert all(set(q) == {"question_id", "question"} for q in c["questions"])
     assert "secret" not in str(c)
     assert c["limits"]["run_tokens"] == 180000
+    assert c["chat_id"] == "1" * 32
 
 
 def test_incomplete_planned_set_does_not_silently_shrink(api):

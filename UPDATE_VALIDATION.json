@@ -85,5 +85,10 @@
     "No claim of completed live publication, two natural rounds, new answer quality or measured parsing speedup.",
     "Selected RAGFlow API/worker/parser/frontend source overlay is not a full standalone distribution.",
     "Offline suite counts are reported separately and do not replace historical experiment scores."
-  ]
+  ],
+  "historical_record": true,
+  "publication_context": {
+    "date": "2026-10-21",
+    "note": "The validation results above describe the 2026-10-15 export. Public-release source, metadata and retained file scope have changed; they are not new measurements of the current tree. Current cleanup validation is recorded in BACKUP_MANIFEST.json."
+  }
 }

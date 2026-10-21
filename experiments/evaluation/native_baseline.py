@@ -5,6 +5,7 @@ import hashlib
 import json
 import os
 from pathlib import Path
+import re
 import subprocess
 
 REPO = Path(__file__).resolve().parents[2]
@@ -12,7 +13,6 @@ OUT = REPO / "experiments/results/private/native-corpus1000-v2"
 PREFLIGHT = REPO / "experiments/results/private/native-corpus1000-v2-preflight"
 WORKER = Path(__file__).with_name("native_baseline_worker.py")
 GATE = Path(__file__).with_name("native_outbound.py")
-CHAT_ID = "863cb57549dd346a24b1fed18d940934"
 MODEL = "qwen3.7-flash-2026-07-15"
 DOCKER = ["docker", "exec", "-i", "docker-ragflow-cpu-1", "/ragflow/.venv/bin/python", "-c"]
 
@@ -46,7 +46,15 @@ def dump(path, value):
         handle.write("\n")
 
 
+def approved_chat_id():
+    chat_id = os.environ.get("POLICY_APPROVED_CHAT_ID", "")
+    if not re.fullmatch(r"[0-9a-f]{32}", chat_id):
+        raise ValueError("POLICY_APPROVED_CHAT_ID must configure an approved 32-character identifier")
+    return chat_id
+
+
 def prepare():
+    chat_id = approved_chat_id()
     OUT.mkdir(parents=True, exist_ok=True)
     target = OUT / "prepared.json"
     if target.exists():
@@ -62,12 +70,12 @@ def prepare():
         questions.extend({"question_id": r["question_id"], "question": r["question"], "split": split} for r in rows)
     assert len(mapping["documents"]) == 1000 and mapping["indexed_chunks"] == 3205
     assert len({q["question_id"] for q in questions}) == 150
-    snapshot = subprocess.run(DOCKER + [SNAPSHOT], input=CHAT_ID + "\n", text=True, capture_output=True, check=True)
+    snapshot = subprocess.run(DOCKER + [SNAPSHOT], input=chat_id + "\n", text=True, capture_output=True, check=True)
     frozen = json.loads(snapshot.stdout)
     assert frozen["chat_config"]["model"] == MODEL
     assert frozen["chat_config"]["top_n"] == 8
     assert frozen["chat_config"]["dataset_ids"] == sorted(mapping["dataset_ids"])
-    frozen.update({"chat_id": CHAT_ID, "model": MODEL, "scope_document_ids": sorted(mapping["documents"]), "document_map": mapping, "review": json.loads(review_path.read_text()), "gate_source": GATE.read_text(), "question_ids": [q["question_id"] for q in questions], "questions": questions, "stop_at_tokens": 900000})
+    frozen.update({"chat_id": chat_id, "model": MODEL, "scope_document_ids": sorted(mapping["documents"]), "document_map": mapping, "review": json.loads(review_path.read_text()), "gate_source": GATE.read_text(), "question_ids": [q["question_id"] for q in questions], "questions": questions, "stop_at_tokens": 900000})
     paths = [corpus, review_path, split_root / "dev.jsonl", split_root / "test.jsonl", WORKER, GATE, Path(__file__)]
     frozen["input_sha256"] = {str(p.relative_to(REPO)): sha(p) for p in paths}
     frozen["scope_note"] = "All fixed 1000 documents, native hybrid top8 chunks, original system prompt; uniformly reviewed outbound sanitization. 51 development and 99 previously inspected test questions. No new holdout claim."
@@ -104,8 +112,11 @@ def freeze(preflight_path):
 
 
 def run(mode, name, limit=None):
+    chat_id = approved_chat_id()
     config_path = OUT / ("generation_frozen.json" if mode == "generate" else "prepared.json")
     config = json.loads(config_path.read_text())
+    if config.get("chat_id") != chat_id:
+        raise PermissionError("frozen chat differs from the approved dialog")
     check_inputs(config)
     config["mode"] = mode
     questions = config["questions"][:limit]

@@ -19,6 +19,8 @@
 
 从项目根目录运行：
 
+真实运行示例需要完整 RAGFlow 部署、已审核的来源映射和运行配置；这些原始配置未公开。原生基线另需部署环境中的`POLICY_APPROVED_CHAT_ID`，配置方式见[仓库运行依赖](<../../README.md#运行真实实验的依赖>)。下列无服务单测可在本仓库执行。
+
 ```bash
 # 本地无服务测试
 python3 -m unittest experiments.search_agent.test_core experiments.search_agent.test_adapter experiments.search_agent.test_runtime experiments.search_agent.test_embedding experiments.search_agent.test_decision_contract experiments.evaluation.test_search_agent_eval experiments.evaluation.test_search_agent_report -q
@@ -58,7 +60,7 @@ python3 -m experiments.evaluation.search_agent_report --run experiments/results/
 
 ## 已知边界
 
-片段ID消除了抄写差异，但不能保证模型选对证据或理解正确。原文窗口未展示的内容不能被Judge确认为支持；降级也保留原生RAG的上下文限制。发现新但未标注的正确依据时，评测侧复核并统一补标。多轮会话通过独立CLI使用；上海政策业务入口见下文。生产网页和在线Router尚未接入。
+片段ID消除了抄写差异，但不能保证模型选对证据或理解正确。原文窗口未展示的内容不能被Judge确认为支持；降级也保留原生RAG的上下文限制。发现新但未标注的正确依据时，评测侧复核并统一补标。多轮会话支持独立CLI；上海政策业务入口见下文。[医保助手页面/API](<../../docs/medical_assistant_frontend.md>)已实现并通过离线验证，真实新问答仍未验收，在线Router尚未接入。
 
 ## 多轮会话
 
@@ -66,11 +68,11 @@ python3 -m experiments.evaluation.search_agent_report --run experiments/results/
 
 例如先问“上海居民医保参保条件是什么？”，再问“那退休人员呢？”；解析器需要继承用户明确的地区和险种。用户说“改成杭州”时以新条件为准。缺用户条件时保存pending，短回复可以补齐原问题；技术失败和取消不会提交新回合或清除pending。明确换主题的成功回合会清除旧话题状态。
 
-命令行在独立worker中串行运行，复用现有已审核模型、语料范围和索引快照。`--config` 提供已有Search Agent冻结配置，程序校验后在新的输出目录冻结当前实现；`--max-tokens` 是这次会话运行的生成总预算。以下命令会在收到问题后调用已配置模型：
+命令行在独立worker中串行运行，复用现有已审核模型、语料范围和索引快照。`--config` 提供部署者恢复并审核的Search Agent冻结配置，程序校验后在新的输出目录冻结当前实现；`--max-tokens` 是这次会话运行的生成总预算。原批次完整配置未公开，须将下例路径替换为部署环境中的实际文件。以下命令会在收到问题后调用已配置模型：
 
 ```bash
 python3 -m experiments.search_agent.cli \
-  --config experiments/results/private/policy-search-agent-final-test95/ab/config.json \
+  --config /absolute/path/reviewed-agent-config.json \
   --output experiments/results/private/conversation-2026-10-09 \
   --max-tokens 60000
 ```
@@ -146,12 +148,13 @@ python3 -m experiments.search_agent.policy_cli ask --tenant-id TENANT_ID --kb-id
 
 扫描状态分为列表发现完成、候选观察归档完成和全部政策抓取完成。政策额度、待审文件或已记录的附件失败会保留不完整覆盖与错误信息；观察任务正常结束后，原生调度仍安排下一轮。DNS安全校验、归档、列表遍历或上传失败会让任务失败。只有全部政策抓取完成才推进`last_scan_success_at`，部分覆盖不会被标记为完整成功。维护协程使用线程内有界等待，避免阻塞原生调度事件循环。
 
-当前Docker Desktop环境的宿主DNS返回代理fake-IP，官网会被安全校验拒绝。`docker/docker-compose.shanghai-policy.yml`通过逐文件只读挂载部署源码，并为官网设置已经核实的公网地址；`conf/policy_sources/shanghai.docker.yaml`显式选择本机`socks5://host.docker.internal:7897`。SOCKS5使用本地解析，官网请求仍经过公网DNS检查、地址固定和TLS验证；`socks5h`、HTTP代理、凭据和其他代理端点均不接受。代理需要持续可用；官网IP变化时重新核实并更新专用Compose映射，预检失败时不会绕过检查。
+`docker/docker-compose.shanghai-policy.yml`通过逐文件只读挂载部署源码；其DNS映射及`conf/policy_sources/shanghai.docker.yaml`中的本机代理属于部署示例，使用前须核对目标环境。SOCKS5使用本地解析，官网请求仍经过公网DNS检查、地址固定和TLS验证；`socks5h`、HTTP代理、带凭据代理和未获准的端点均不接受。代理需要持续可用；官网IP变化时重新核实并更新专用Compose映射，预检失败时不会绕过检查。
 
 ```bash
 cd docker
 docker compose -f docker-compose.yml -f docker-compose.shanghai-policy.yml --profile cpu up -d --no-deps ragflow-cpu
-docker exec -w /ragflow docker-ragflow-cpu-1 python -m experiments.search_agent.policy_cli check-source \
+docker compose -f docker-compose.yml -f docker-compose.shanghai-policy.yml exec -w /ragflow ragflow-cpu \
+  python -m experiments.search_agent.policy_cli check-source \
   --config conf/policy_sources/shanghai.docker.yaml
 ```
 
@@ -178,23 +181,19 @@ python3 -m experiments.search_agent.policy_cli sync-now --tenant-id TENANT_ID --
 
 每轮最多4次物理生成、3次查询embedding、60秒；会话总预算最多60000 Token，最终回答仅生成一次。使用请求独立的RAGFlow模型实例和HTTP client，禁用隐式重试；provider缺少真实usage时保留未知预留并禁止此会话继续。首版支持可审计的OpenAI SDK兼容chat/embedding路径，其他provider在发送前明确拒绝；不能靠估算usage绕过。输出目录属于固定tenant/KB/session/budget，记录`records.jsonl`、`events.jsonl`及逐轮`ledgers/`。CLI创建新session时需使用新的输出目录。
 
-离线验收与真实上线验收分别记录。真实官网样本能读取并不代表20–40份政策已经解析验收，也不代表定时任务已经启用；真实数据库、对象存储、索引、模型及两轮自动更新仍需在部署环境留证。历史冻结benchmark产物保持原样；共享adapter/evidence源码有新增来源字段，新实验需重新冻结源码，不能把旧评分当作这个业务链路的效果。
+离线验收与真实上线验收分别记录。真实官网样本能读取并不代表20–40份政策已经解析验收，也不代表定时任务已经启用；真实数据库、对象存储、索引、模型及两轮自动更新仍需在部署环境留证。公开目录保留历史benchmark的结果和限制；共享adapter/evidence源码有新增来源字段，新实验需重新冻结源码，不能把旧评分当作这个业务链路的效果。
 
-2026-10-11 **15:17:54 Asia/Shanghai最新只读回读：125 DONE／75解析中、75政策／122发布文档、132未完成解析Task；publication_ready=false、1440分钟、自动验收通过0轮。** 后台handoff（本地归档：`experiments/results/private/shanghai-policy-live-2026-10-10/accepted-run-05-handoff-launch-readback.json`，未收入本备份）于15:17:43启动，正等待真实发布就绪；第五次原生验收观察器尚未启动。候选仅唤醒，首次新鲜原生回读验证后冻结新副本，再次新鲜回读与同一来源边界核验通过才单次执行已批两轮自然5分钟验收，结束核对10个实际产物、旧8条FAIL全文、1440/SCHEDULE，失败不自动重试。原prepared host字节和None保留，原manual/03/04不计新轮次。用户保留Search未知用量阻断并允许继续调度（本地归档：`experiments/results/private/shanghai-policy-live-2026-10-10/continue-scheduler-retain-search-block-authorization.json`，未收入本备份），没有新增人工扫描/解析或Search调用，partial coverage和provider全量usage UNKNOWN保留。138项root离线测试/Ruff（本地归档：`experiments/results/private/shanghai-policy-live-2026-10-10/handoff05-root-final-tests.json`，未收入本备份）与最终独立复核（本地归档：`experiments/results/private/shanghai-policy-live-2026-10-10/handoff05-independent-final-closed.md`，未收入本备份）不等于线上验收通过。
+### 历史部署状态与验收边界
 
-2026-10-11 13:10初始发布就绪快照：**获准单次初始来源任务已DONE，109份文档DONE/425 chunks，67政策/109文档已发布，当时封存资产就绪；严格完整覆盖、答案质量与两轮自动验收尚未完成。** 13:10:39 Asia/Shanghai（05:10:39 UTC）回读（本地归档：`experiments/results/private/shanghai-policy-live-2026-10-10/current-readback-native-recovery-02.json`，未收入本备份）release为`23af9a465d56542d7eb31bff746932e0`。发现/观察459、sealed67、needs_review138、deferred254；观察完成但strict scan_complete=false，partial coverage保留。Scope scan9/retry0/last success=null，05:10频率1440、自动0轮；retry为正常结束后的原生值，无手工重置。
+2026-10-11 的本机记录表明，部分上海政策已完成入库和发布，但覆盖仍不完整，仍有待审核和解析中的资产；两轮自然更新验收通过数为0。部分来源任务和问答尝试失败或中断，技术修复与离线测试通过不能作为线上验收通过的证据。
 
-旧五条PEL已接续，四条原Task保留retry=2，第五条经已有原生恢复替换后完成，revision retry=2；其余三文档经追加授权各恢复一次也已执行成功，原计数保持，02:25 UTC回读已54 DONE/222 chunks，03:26、03:33 UTC仍仅30政策/53发布文档。追加批准的一次来源扫描已且仅执行1次、授权额度已消费：Task `c8ae49cb68d46e1f297d13389f87604a`于03:36:17 UTC（11:36:17 Shanghai）启动、03:40:33 UTC（11:40:33）失败，七条旧FAIL全行哈希保留。见三文档执行（本地归档：`experiments/results/private/shanghai-policy-live-2026-10-10/failed-doc-authorized-applied.jsonl`，未收入本备份）、一次来源扫描审计（本地归档：`experiments/results/private/shanghai-policy-live-2026-10-10/additional-initial-source-once.jsonl`，未收入本备份）、原生文件名健康诊断（本地归档：`experiments/results/private/shanghai-policy-live-2026-10-10/additional-initial-upload-health-readback.json`，未收入本备份）：260 UTF-8字节超过255字节限制。八条旧来源FAIL保留，人工动作不改变自动验收计数；人工动作不计自动轮次，也不授权覆盖Search unknown usage。`accepted-run-02`初始扫描失败后真实退出，0轮，1440恢复回读确认，下一轮SCHEDULE未排队：失败摘要（本地归档：`experiments/results/private/shanghai-policy-live-2026-10-10/accepted-run-02/scheduler-acceptance-summary.json`，未收入本备份）。
+历史问答曾返回技术成功的答案，但存在政策生效日期和适用范围问题，质量尚未验收；后续调用又发生连接错误，供应商用量无法确认。原会话继续受未知用量阻断，不能把未知预留记为0，也不能通过新建会话绕过。原生入库的完整供应商用量同样尚未核清。
 
-文件名修复已部署至CPU `2fc4b1a843bf`，03:53:42 UTC（11:53:42 Shanghai）启动，46文件SHA全部核对（本地归档：`experiments/results/private/shanghai-policy-live-2026-10-10/filename-source-deployment.json`，未收入本备份）。helper仅按UTF-8字节缩短文件名标题前缀，完整业务title、稳定后缀和canonical身份保留。原生健康只读证明（本地归档：`experiments/results/private/shanghai-policy-live-2026-10-10/filename-fixed-native-health-proof.json`，未收入本备份）确认旧260字节拒绝、新254字节通过，canonical doc ID及所比较sealed revision/source rows/counts保持；不外推DocMetadata/index或完整Scope不变，不代表资产已上传/解析/发布。恢复计划（本地归档：`experiments/results/private/shanghai-policy-live-2026-10-10/filename-source-recovery-plan.md`，未收入本备份）获新授权（本地归档：`experiments/results/private/shanghai-policy-live-2026-10-10/filename-source-recovery-authorization.json`，未收入本备份）后已且仅执行1次、额度已消费，新Task `3c036f091ffe98d69792e3d75bd32f5f`从12:49:25至12:55:38最终DONE/newdocs50，error_count771为待审核/延期覆盖问题而非scanFatal；审计（本地归档：`experiments/results/private/shanghai-policy-live-2026-10-10/filename-source-once.jsonl`，未收入本备份）保留八条旧FAIL。文档d254的失败经原生retry1自动恢复，无人工parse：恢复证据（本地归档：`experiments/results/private/shanghai-policy-live-2026-10-10/initial-native-recovery-document-02.json`，未收入本备份）。
+2026-10-13 已验证助手页面可恢复历史记录并展示引用，新的提问仍被用量状态阻断。页面/API已实现，真实新问答和完整线上验收仍未完成，详见[医保助手运行说明](<../../docs/medical_assistant_frontend.md>)。具体部署身份、容器、任务与会话标识及原始操作日志不在公开文档中保留。
 
-`accepted-run-03`真实结果failed/0轮，1440恢复确认：摘要（本地归档：`experiments/results/private/shanghai-policy-live-2026-10-10/accepted-run-03/scheduler-acceptance-summary.json`，未收入本备份）、恢复记录（本地归档：`experiments/results/private/shanghai-policy-live-2026-10-10/accepted-run-03/scheduler-restoration.json`，未收入本备份）。`accepted-run-04`的只读预检（本地归档：`experiments/results/private/shanghai-policy-live-2026-10-10/accepted-run-04-preflight.json`，未收入本备份）为publication_ready=true/sealed pending0/observation健康true/strict scanfalse；host观察器（本地归档：`experiments/results/private/shanghai-policy-live-2026-10-10/accepted-run-04-host.jsonl`，未收入本备份）于05:11 UTC启动，随后因已复现的观察时序问题正常中断，实际interrupted/0轮并恢复1440：摘要（本地归档：`experiments/results/private/shanghai-policy-live-2026-10-10/accepted-run-04/scheduler-acceptance-summary.json`，未收入本备份）、恢复（本地归档：`experiments/results/private/shanghai-policy-live-2026-10-10/accepted-run-04/scheduler-restoration.json`，未收入本备份）。第一自然来源0091...DONE/newdocs23，第二d60d...已自然DONE/newdocs89；来源完成尚未全部发布，不计作验收通过。观察器已修复完成健康冻结、精确资产发布等待和一致性全文来源读取，主线程最终74项及独立77项各自通过，不相加；该历史时点actual owner SHA25cc...7280已核实。05:57:50 UTC实际回读200文档/112 DONE/88解析中、448已记录chunks、69政策/111发布文档，1440与下一SCHEDULE保留。目录PDF方向OCR的最小提前退出补丁已通过仓库26项离线测试，actual image owning文件补丁另行核对，尚未声称已加载或真实总耗时改善。新的05等待真实发布就绪预检；来源/解析worker继续，原04记录保持。
+专用两轮加速验收脚本`policy_acceptance`要求部署者独立设置`POLICY_APPROVED_TENANT_ID`和`POLICY_APPROVED_KB_ID`；命令行传入的`--tenant-id`、`--kb-id`必须与该批准范围一致，不能仅凭命令行参数授权自己。两个变量都须为32位小写十六进制标识，无内置部署默认值；真实值通过未跟踪的本地配置提供。
 
-Search Attempt 02在2次调用/499 tokens后因metadata预算失败；业务来源投影修复未扩大预算。Attempt 03技术status=ok、8份literal证据全部核验，6次调用/14580 raw tokens，同session已知累计15079，但生效日期缺失断言与已观测原文冲突，具体家庭关系范围也未证实，**质量未验收，原回答保留**。随后仅补充最终提示词约束（35项targeted tests与2路径Ruff通过）；Attempt 04连接错误、pending=1、usage unknown，不能证明质量问题已解决。原session `4addb850bd27c18201c7c6186af09b0b`、60000 Token预算已阻断，不能调零或换session绕过；15079只是已知累计，另有8874未知用量预留（不是已消耗量），provider回执待取得；**原生入库provider全量usage也仍UNKNOWN**。首次guard拒绝与source-attested非provider回执保留。
-
-较广测试为424 passed，42.64秒（本地归档：`experiments/results/private/shanghai-policy-live-2026-10-10/final-targeted-tests-2026-10-11.txt`，未收入本备份）；后续提示词35项以及最新schedule修复68 passed，1.15秒（本地归档：`experiments/results/private/shanghai-policy-live-2026-10-10/native-schedule-final-root-tests.txt`，未收入本备份）分别记录，不相加。schedule原子事务与只清理terminal历史的修复已部署并独立复核；扩大`duplicate_and_parse`测试因宿主缺`quart_auth`未完成collection，不能声称全套通过，测试也不等于线上验收。文件名修复新增131 passed，1.08秒（本地归档：`experiments/results/private/shanghai-policy-live-2026-10-10/filename-final-root-tests.txt`，未收入本备份），独立审查（本地归档：`experiments/results/private/shanghai-policy-live-2026-10-10/shanghai-policy-filename-independent-review.md`，未收入本备份）另记录91项采集器与14项原生健康边界通过；这些不同范围不相加，red/green原始日志保留。最新结果、历史失败、新增授权、执行边界与原始问答证据统一见运行状态（本地归档：`experiments/results/private/shanghai-policy-live-2026-10-10/live-status.md`，未收入本备份）。
-
-专用两轮加速验收脚本`policy_acceptance`只调整该知识库唯一连接器的频率，不排队、不改任务时间戳、不重置重试。它要求初始正常完成并发布至少20份政策，再临时改为5分钟；两轮必须保留自然创建的原始SCHEDULE记录、实际到期开始时间、来源完成时冻结的精确修订/构建/资产以及后续完整发布清单。解析任务、模型计数与文档成功token差异按observer_windows全局观察窗报告，可能跨来源轮次，不能归因单轮provider成本。回拨时间戳的任务会被拒绝；失败、中断或成功均恢复1440分钟并核对回读。初始入库或重试不计入这两轮，部分覆盖与待审记录会继续显示。
+脚本只调整该知识库唯一连接器的频率，不排队、不改任务时间戳、不重置重试。它要求初始正常完成并发布至少20份政策，再临时改为5分钟；两轮必须保留自然创建的原始SCHEDULE记录、实际到期开始时间、来源完成时冻结的精确修订/构建/资产以及后续完整发布清单。解析任务、模型计数与文档成功token差异按observer_windows全局观察窗报告，可能跨来源轮次，不能归因单轮provider成本。回拨时间戳的任务会被拒绝；失败、中断或成功均恢复1440分钟并核对回读。初始入库或重试不计入这两轮，部分覆盖与待审记录会继续显示。
 
 ```bash
 python3 -m pytest -c /dev/null -p no:cacheprovider \
@@ -203,5 +202,3 @@ python3 -m pytest -c /dev/null -p no:cacheprovider \
   test/unit_test/api/db/services/test_policy_publication.py test/unit_test/policy/
 python3 -m unittest discover -s experiments/search_agent -p 'test_*.py'
 ```
-
-2026-10-11 14:50补充：真实只读观察（本地归档：`experiments/results/private/shanghai-policy-live-2026-10-10/accepted-run-05-publication-watch.jsonl`，未收入本备份）仍为112 DONE/88解析中、69政策/111发布文档、151未完成Task，1440保持，05未启动、自动验收0轮。最终验收owner已更新并核实为f39f66...2ca3，root88项（本地归档：`experiments/results/private/shanghai-policy-live-2026-10-10/acceptance-final-readback-root-tests.txt`，未收入本备份）和独立最终闭合（本地归档：`experiments/results/private/shanghai-policy-live-2026-10-10/accepted-run-05-host-final-independent-closed.md`，未收入本备份）通过；旧74/77及25cc是较早源码时点。实际restoration也核验完整readiness，prepared host05预检SHA仍None。原生方向补丁已写入4dee...43cd6f，旧worker完成第8Task自然recycle，新PID3136于14:46:29启动后继续解析；加载为文件/启动日志推断（本地归档：`experiments/results/private/shanghai-policy-live-2026-10-10/deepdoc-native-orientation-natural-load-proof.json`，未收入本备份），没有直接内存检查或真实总耗时改善结论。百炼已登录并只读查询（本地归档：`experiments/results/private/shanghai-policy-live-2026-10-10/bailian-audit-ui-2026-10-11.json`，未收入本备份）：ragflow Key全部模型10:13:50–10:14:10无记录；5条较早成功记录与本地known调用仅可推断对应。04仍UNKNOWN/8874预留/同会话阻断、四ledger未改，不以NoData核销成0。

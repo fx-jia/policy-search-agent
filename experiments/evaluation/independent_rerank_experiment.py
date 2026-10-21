@@ -15,7 +15,7 @@ from experiments.evaluation.context_experiment import DEV_SHA, TEST_PATH, TEST_S
 from experiments.evaluation.fusion_experiment import evidence_prefix_rank, project_saved
 from experiments.evaluation.metrics import retrieval_metrics
 from experiments.retrieval.independent_rerank import eligible_source, reorder_slots, sanitize_outbound, validate_scores
-from experiments.retrieval.rerank_worker import ENDPOINT, make_payload
+from experiments.retrieval.rerank_worker import ENDPOINT, make_payload, validate_config
 
 
 CONFIG = Path('experiments/configs/independent_rerank_v1.json')
@@ -106,9 +106,10 @@ def run(output, allow_model_api):
     if not allow_model_api:
         raise ValueError('Real rerank requires explicit --allow-model-api')
     config, requests, frozen = verified()
+    validate_config({'endpoint': config['endpoint'], 'model_id': config['model_id'], 'max_calls': 60})
     output.mkdir(parents=True, exist_ok=False)
     write_json(output/'run_manifest.json', {'pre_call_freeze_sha256':digest(ROOT/'pre_call_freeze.json'), 'model':'gte-rerank-v2','endpoint':ENDPOINT,'max_actual_calls':60,'question_count':51,'retrieval_calls':0,'embedding_calls':0,'generation_calls':0,'test_queries':0})
-    proc = subprocess.Popen(['docker','exec','-i','docker-ragflow-cpu-1','/ragflow/.venv/bin/python','-u','-c',Path('experiments/retrieval/rerank_worker.py').read_text()],stdin=subprocess.PIPE,stdout=subprocess.PIPE,stderr=subprocess.DEVNULL,text=True)
+    proc = subprocess.Popen(['docker','exec','-e','POLICY_APPROVED_RERANK_MODEL_ID','-i','docker-ragflow-cpu-1','/ragflow/.venv/bin/python','-u','-c',Path('experiments/retrieval/rerank_worker.py').read_text()],stdin=subprocess.PIPE,stdout=subprocess.PIPE,stderr=subprocess.DEVNULL,text=True)
     calls, consecutive, stopped = 0, 0, False
     responses = []
     try:

@@ -1,22 +1,22 @@
 {
   "created_date": "2026-09-27",
-  "visibility_required": "private",
+  "visibility_required": "public",
   "files": [
     {
       "path": ".gitignore",
       "source": null,
       "source_sha256": null,
-      "export_sha256": "cbf5138bb5876523011fa8076b7a9e35ab709d0fb360e9a70a66c319ae49755a",
-      "bytes": 440,
-      "treatment": "Created or updated for 2026-10-15 private source backup; not an original experiment artifact"
+      "export_sha256": "21961eba0fc66faf0cd967d04ac574b853f4d5e3b03a7b72831c6cff8c9534f2",
+      "bytes": 555,
+      "treatment": "Created or updated for 2026-10-15 private source backup; not an original experiment artifact; public-release privacy, runtime configuration or documentation cleanup"
     },
     {
       "path": "BACKUP_VALIDATION.json",
       "source": null,
       "source_sha256": null,
-      "export_sha256": "a879fcb4e549a22a57abb67b2450e0dde2dfb930dbf1c7d0ae7be523047382a3",
-      "bytes": 1302,
-      "treatment": "Created for this private backup; not an original experiment artifact"
+      "export_sha256": "6fddb6b833e62c8dd8e43a69ff44a591fb293638686050bf3369ef2690e65a2a",
+      "bytes": 1649,
+      "treatment": "Created for this private backup; not an original experiment artifact; public-release privacy, runtime configuration or documentation cleanup"
     },
     {
       "path": "LICENSE",
@@ -30,25 +30,25 @@
       "path": "README.md",
       "source": null,
       "source_sha256": null,
-      "export_sha256": "3e490d5dfd7e8181967fb9f7db89253a4a503596ffacbfe2c704dadd0a9d288b",
-      "bytes": 6892,
-      "treatment": "Created or updated for 2026-10-15 private source backup; not an original experiment artifact"
+      "export_sha256": "5809decd398244c219845698f320a07132e50e9342e999323b97ba3df1ade04d",
+      "bytes": 7249,
+      "treatment": "Created or updated for 2026-10-15 private source backup; not an original experiment artifact; public-release privacy, runtime configuration or documentation cleanup"
     },
     {
       "path": "THIRD_PARTY.md",
       "source": null,
       "source_sha256": null,
-      "export_sha256": "358ea822d7a01fcbdf0d5e14cacb85033304c2167c685618fb11f9d5efe033a3",
-      "bytes": 1567,
-      "treatment": "Created or updated for 2026-10-15 private source backup; not an original experiment artifact"
+      "export_sha256": "bd33ccb6812154d9032f5a80850eccb476a3b4e344168db5ad0296971ace1d63",
+      "bytes": 1585,
+      "treatment": "Created or updated for 2026-10-15 private source backup; not an original experiment artifact; public-release privacy, runtime configuration or documentation cleanup"
     },
     {
       "path": "UPDATE_VALIDATION.json",
       "source": null,
       "source_sha256": null,
-      "export_sha256": "39fdf5c87fd2f18f6e9b138e2b8289dfcfe0aea8fc498da5ffdbf4855db775ff",
-      "bytes": 3470,
-      "treatment": "Created or updated for 2026-10-15 private source backup; not an original experiment artifact"
+      "export_sha256": "e9e71dfc25aeebcd252b890e007307c53c009dcffd917ec3d9f3bdb116022bfb",
+      "bytes": 3817,
+      "treatment": "Created or updated for 2026-10-15 private source backup; not an original experiment artifact; public-release privacy, runtime configuration or documentation cleanup"
     },
     {
       "path": "api/__init__.py",
@@ -558,9 +558,9 @@
       "path": "docs/independent_rerank_protocol_v1.md",
       "source": "docs/independent_rerank_protocol_v1.md",
       "source_sha256": "16f1aac22f66936c65f87e614e71cdbf5f7a973a2ca28d53a3310d03b550d694",
-      "export_sha256": "16f1aac22f66936c65f87e614e71cdbf5f7a973a2ca28d53a3310d03b550d694",
-      "bytes": 4600,
-      "treatment": "allowlisted source copy"
+      "export_sha256": "5361846bff09c2817c44124fabc653d0f1998fdc45fd46eaf7e79fa2d135009c",
+      "bytes": 4900,
+      "treatment": "allowlisted source copy; public-release privacy, runtime configuration or documentation cleanup"
     },
     {
       "path": "docs/medical_assistant_frontend.md",
@@ -595,20 +595,12 @@
       "treatment": "allowlisted source copy"
     },
     {
-      "path": "docs/policy_search_agent_claims.json",
-      "source": "docs/policy_search_agent_claims.json",
-      "source_sha256": "d9a32dc2ea36e756467eb1a0e61dda7fa2e6d896f1b8edb578802f9303a5618e",
-      "export_sha256": "d9a32dc2ea36e756467eb1a0e61dda7fa2e6d896f1b8edb578802f9303a5618e",
-      "bytes": 26302,
-      "treatment": "allowlisted source copy"
-    },
-    {
       "path": "docs/policy_search_agent_closeout.md",
       "source": "docs/policy_search_agent_closeout.md",
       "source_sha256": "72b69370c0a344657ca3c75f7b171d791862a92afbebf9d01da398a7f8fa01bb",
-      "export_sha256": "1f3d6f669dd1973f17db49bbb1589a791ae247ef29833e7fbda47c8ea8557bb8",
-      "bytes": 7792,
-      "treatment": "allowlisted source copy; Markdown links portable; references to remote-deleted documents annotated"
+      "export_sha256": "9964f1165ee30869683ce14af768aaa1158eb3848a6c1a972734193fc3c370b9",
+      "bytes": 7413,
+      "treatment": "allowlisted source copy; Markdown links portable; references to remote-deleted documents annotated; public-release privacy, runtime configuration or documentation cleanup"
     },
     {
       "path": "docs/policy_search_agent_demo.md",
@@ -635,76 +627,20 @@
       "treatment": "allowlisted source copy"
     },
     {
-      "path": "docs/superpowers/plans/2026-10-09-search-agent-conversation.md",
-      "source": "docs/superpowers/plans/2026-10-09-search-agent-conversation.md",
-      "source_sha256": "819316b3730e1a146995d6143f2cb5d69ddae64bfe163c9cc0574f46fef58648",
-      "export_sha256": "570dbb73379f3f8135a5456bebf85d78ecad2c52d9cc68c3474d372cd8982225",
-      "bytes": 7558,
-      "treatment": "allowlisted current source copy; Markdown links made portable; absent local-only targets marked"
-    },
-    {
-      "path": "docs/superpowers/plans/2026-10-10-shanghai-policy-sync-progress.md",
-      "source": "docs/superpowers/plans/2026-10-10-shanghai-policy-sync-progress.md",
-      "source_sha256": "22b6d57626889b2080f69055166084cc7279e204d0d2d977bb641f5da8ed8a50",
-      "export_sha256": "09d32202fc35385c0459d7d019af30aad3f2e9b2b4cc6957031ab569cb636c88",
-      "bytes": 16247,
-      "treatment": "allowlisted current source copy; Markdown links made portable; absent local-only targets marked"
-    },
-    {
-      "path": "docs/superpowers/plans/2026-10-10-shanghai-policy-sync-review.md",
-      "source": "docs/superpowers/plans/2026-10-10-shanghai-policy-sync-review.md",
-      "source_sha256": "3e6ba163423c7c75dc7fc24beb3baaa5b3bd84281080254bff73bed14c72f994",
-      "export_sha256": "3e6ba163423c7c75dc7fc24beb3baaa5b3bd84281080254bff73bed14c72f994",
-      "bytes": 10809,
-      "treatment": "allowlisted current source copy"
-    },
-    {
-      "path": "docs/superpowers/plans/2026-10-10-shanghai-policy-sync.md",
-      "source": "docs/superpowers/plans/2026-10-10-shanghai-policy-sync.md",
-      "source_sha256": "dfd3dcbb3a97f00205b8bc9cd5b62df1583190e16fe3136dfa41bfc50e198fba",
-      "export_sha256": "dfd3dcbb3a97f00205b8bc9cd5b62df1583190e16fe3136dfa41bfc50e198fba",
-      "bytes": 8078,
-      "treatment": "allowlisted current source copy"
-    },
-    {
-      "path": "docs/superpowers/plans/2026-10-12-search-agent-frontend.md",
-      "source": "docs/superpowers/plans/2026-10-12-search-agent-frontend.md",
-      "source_sha256": "8039c597f4dc19bb43587485f827686db3644ecf268a7308fe8caaa7c29cae71",
-      "export_sha256": "8039c597f4dc19bb43587485f827686db3644ecf268a7308fe8caaa7c29cae71",
-      "bytes": 26470,
-      "treatment": "allowlisted current source copy"
-    },
-    {
-      "path": "docs/superpowers/specs/2026-10-09-search-agent-conversation-design.md",
-      "source": "docs/superpowers/specs/2026-10-09-search-agent-conversation-design.md",
-      "source_sha256": "a981412e153a9d64ed4f3356987def48161e404dd917cd14944c6844d4391500",
-      "export_sha256": "a981412e153a9d64ed4f3356987def48161e404dd917cd14944c6844d4391500",
-      "bytes": 4187,
-      "treatment": "allowlisted current source copy"
-    },
-    {
-      "path": "docs/superpowers/specs/2026-10-10-shanghai-policy-sync-design.md",
-      "source": "docs/superpowers/specs/2026-10-10-shanghai-policy-sync-design.md",
-      "source_sha256": "e3fab7485d8e1734269dd0a4c267bf7b11d59109db361c2ad1c7926f92494e40",
-      "export_sha256": "e3fab7485d8e1734269dd0a4c267bf7b11d59109db361c2ad1c7926f92494e40",
-      "bytes": 31233,
-      "treatment": "allowlisted current source copy"
-    },
-    {
       "path": "docs/update-2026-10-15.md",
       "source": null,
       "source_sha256": null,
-      "export_sha256": "0380497900c9a6e68796aa4233f07015aa89230d247abce61dc559e73c5517c5",
-      "bytes": 3442,
-      "treatment": "Created or updated for 2026-10-15 private source backup; not an original experiment artifact"
+      "export_sha256": "30d6261343b86e6d1f65a0e078a96be6dfa362701c584ef0abe64203a8818419",
+      "bytes": 3346,
+      "treatment": "Created or updated for 2026-10-15 private source backup; not an original experiment artifact; public-release privacy, runtime configuration or documentation cleanup"
     },
     {
       "path": "experiments/README.md",
       "source": "experiments/README.md",
       "source_sha256": "6d22c5fe486c2fed35cc82598c8bbb7922f247f4ddfc6b6ab2f31c7fac24ab3d",
-      "export_sha256": "a022bd3492fbac292784882acfcdc5fe3bca2e045fafebcc396b690cd212db38",
-      "bytes": 4281,
-      "treatment": "allowlisted source copy; Markdown links portable; references to remote-deleted documents annotated"
+      "export_sha256": "fb57ab148605c11f54cedaf628fe3fff54b14c8554198fcc9c8534d7b963277f",
+      "bytes": 4397,
+      "treatment": "allowlisted source copy; Markdown links portable; references to remote-deleted documents annotated; public-release privacy, runtime configuration or documentation cleanup"
     },
     {
       "path": "experiments/__init__.py",
@@ -1286,9 +1222,9 @@
       "path": "experiments/evaluation/independent_rerank_experiment.py",
       "source": "experiments/evaluation/independent_rerank_experiment.py",
       "source_sha256": "9dbd2909fd074c9729ecceb1b223e531144a874f59c3ef1744bb81f5cbbb3e2f",
-      "export_sha256": "9dbd2909fd074c9729ecceb1b223e531144a874f59c3ef1744bb81f5cbbb3e2f",
-      "bytes": 16410,
-      "treatment": "allowlisted source copy"
+      "export_sha256": "cdd52e3bf4e98ee796d0f14e8048083c0360e46fffce0380dcbd3767883ca4dc",
+      "bytes": 16569,
+      "treatment": "allowlisted source copy; public-release privacy, runtime configuration or documentation cleanup"
     },
     {
       "path": "experiments/evaluation/index_snapshot.py",
@@ -1310,9 +1246,9 @@
       "path": "experiments/evaluation/native_agent_baseline.py",
       "source": "experiments/evaluation/native_agent_baseline.py",
       "source_sha256": "f951f3e4ee44e6dde518571fd06a34072203e27a77dd00c9501c8013a8acccc4",
-      "export_sha256": "f951f3e4ee44e6dde518571fd06a34072203e27a77dd00c9501c8013a8acccc4",
-      "bytes": 12059,
-      "treatment": "allowlisted source copy"
+      "export_sha256": "966cf433806691989667f3d8ec1bc78df928d32f03289d5b70692a5375f0176e",
+      "bytes": 12264,
+      "treatment": "allowlisted source copy; public-release privacy, runtime configuration or documentation cleanup"
     },
     {
       "path": "experiments/evaluation/native_agent_guard.py",
@@ -1358,9 +1294,9 @@
       "path": "experiments/evaluation/native_baseline.py",
       "source": "experiments/evaluation/native_baseline.py",
       "source_sha256": "a15e75bf53115dd36bb0c7c6671b12ad8f24e570411cdcbcfba4977a01853c35",
-      "export_sha256": "a15e75bf53115dd36bb0c7c6671b12ad8f24e570411cdcbcfba4977a01853c35",
-      "bytes": 9904,
-      "treatment": "allowlisted source copy"
+      "export_sha256": "91e966770f4301ee094e64221793844cc0eb2b66cc7f8895bb2adf13608c3f38",
+      "bytes": 10313,
+      "treatment": "allowlisted source copy; public-release privacy, runtime configuration or documentation cleanup"
     },
     {
       "path": "experiments/evaluation/native_baseline_report.py",
@@ -1630,9 +1566,9 @@
       "path": "experiments/evaluation/test_native_agent_baseline.py",
       "source": "experiments/evaluation/test_native_agent_baseline.py",
       "source_sha256": "1410185e9d74957e4c37a9181b38023f9a651ab3104201d0e63b0eedc1646843",
-      "export_sha256": "1410185e9d74957e4c37a9181b38023f9a651ab3104201d0e63b0eedc1646843",
-      "bytes": 2153,
-      "treatment": "allowlisted source copy"
+      "export_sha256": "19a3bfa571371b79ff41bb56a312f94eb9f5b8730ce740365faf67a8f12bc5bf",
+      "bytes": 2260,
+      "treatment": "allowlisted source copy; public-release privacy, runtime configuration or documentation cleanup"
     },
     {
       "path": "experiments/evaluation/test_native_agent_guard.py",
@@ -1681,6 +1617,14 @@
       "export_sha256": "4c6b28d2096b81c9b1c738bcef9c7bd6b052edf28a8f13d41a6f5bc56b47c219",
       "bytes": 10664,
       "treatment": "allowlisted source copy"
+    },
+    {
+      "path": "experiments/evaluation/test_native_baseline.py",
+      "source": null,
+      "source_sha256": null,
+      "treatment": "Public-release regression test; authored in the exported repository",
+      "export_sha256": "ce01d77a85613f8e0642eeb1433213744b30478e2ab41e9f2cdcdd5e8e6f369a",
+      "bytes": 1596
     },
     {
       "path": "experiments/evaluation/test_native_baseline_report.py",
@@ -2206,9 +2150,9 @@
       "path": "experiments/results/private/policy-search-agent-v7-dev60-serial/metrics.json",
       "source": "experiments/results/private/policy-search-agent-v7-dev60-serial/metrics.json",
       "source_sha256": "42916fa88388c0c47b8873f9636501f7afb0ea81b25f1641e89837885e6b6693",
-      "export_sha256": "42916fa88388c0c47b8873f9636501f7afb0ea81b25f1641e89837885e6b6693",
-      "bytes": 16615,
-      "treatment": "allowlisted source copy"
+      "export_sha256": "3a851e33c892acb8ce68755320c2ba8912fc80a310280413ad6bc5ace091351e",
+      "bytes": 16573,
+      "treatment": "allowlisted source copy; public-release privacy, runtime configuration or documentation cleanup"
     },
     {
       "path": "experiments/results/private/policy-search-agent-v7-dev60-serial/rubric_interpretation.md",
@@ -2630,9 +2574,9 @@
       "path": "experiments/retrieval/rerank_worker.py",
       "source": "experiments/retrieval/rerank_worker.py",
       "source_sha256": "7b6fb3994f5abbfb5b9a97aa15d864cdef76e40b6a88770efe3c457687f5c45d",
-      "export_sha256": "7b6fb3994f5abbfb5b9a97aa15d864cdef76e40b6a88770efe3c457687f5c45d",
-      "bytes": 4783,
-      "treatment": "allowlisted source copy"
+      "export_sha256": "1cc29cf5a4b4d6993f2fa81e4255c60c8eb8f89157f1dd9860036c9de92debf6",
+      "bytes": 5244,
+      "treatment": "allowlisted source copy; public-release privacy, runtime configuration or documentation cleanup"
     },
     {
       "path": "experiments/retrieval/test_dense.py",
@@ -2654,17 +2598,17 @@
       "path": "experiments/retrieval/test_independent_rerank.py",
       "source": "experiments/retrieval/test_independent_rerank.py",
       "source_sha256": "b810ec24d9ad7a46cef6c0cf98c0a32e48d3df4384e400da7057b0621aeaac31",
-      "export_sha256": "b810ec24d9ad7a46cef6c0cf98c0a32e48d3df4384e400da7057b0621aeaac31",
-      "bytes": 3749,
-      "treatment": "allowlisted source copy"
+      "export_sha256": "33a6094192729281e2865323313549d5f94c48be23a20a27800e94f80c6a8e65",
+      "bytes": 7422,
+      "treatment": "allowlisted source copy; public-release privacy, runtime configuration or documentation cleanup"
     },
     {
       "path": "experiments/search_agent/README.md",
       "source": "experiments/search_agent/README.md",
       "source_sha256": "1b562cfa712f6788b8790a23e685c85e83e23783f24c86044ffb9fc6d83f844c",
-      "export_sha256": "1aae2f2e368f76c72b91983346538c2abead8caff3070ea05d134d8c29fb23e6",
-      "bytes": 33044,
-      "treatment": "allowlisted current source copy; Markdown links made portable; absent local-only targets marked"
+      "export_sha256": "0ebe043c0a646822705a043549f589f12403e0c2174b1a0e57161b6b22aeeac2",
+      "bytes": 23890,
+      "treatment": "allowlisted current source copy; Markdown links made portable; absent local-only targets marked; public-release privacy, runtime configuration or documentation cleanup"
     },
     {
       "path": "experiments/search_agent/__init__.py",
@@ -2750,9 +2694,9 @@
       "path": "experiments/search_agent/policy_acceptance.py",
       "source": "experiments/search_agent/policy_acceptance.py",
       "source_sha256": "f39f66e102f4a52ef3bf5d691a364118e58595eb9a4f9755cf157d1f47fb2ca3",
-      "export_sha256": "f39f66e102f4a52ef3bf5d691a364118e58595eb9a4f9755cf157d1f47fb2ca3",
-      "bytes": 34949,
-      "treatment": "allowlisted current source copy"
+      "export_sha256": "29207936af9b57e7419f9c459956707c21bb3d7504dc5369eddb8ab015846998",
+      "bytes": 35430,
+      "treatment": "allowlisted current source copy; public-release privacy, runtime configuration or documentation cleanup"
     },
     {
       "path": "experiments/search_agent/policy_backend.py",
@@ -2894,9 +2838,9 @@
       "path": "experiments/search_agent/test_policy_acceptance.py",
       "source": "experiments/search_agent/test_policy_acceptance.py",
       "source_sha256": "075c5ad72a035c3289c9991c1348cc8cd4203c69686ec0cebd997db9d46a4d50",
-      "export_sha256": "075c5ad72a035c3289c9991c1348cc8cd4203c69686ec0cebd997db9d46a4d50",
-      "bytes": 39347,
-      "treatment": "allowlisted current source copy"
+      "export_sha256": "fb14768ca1bf384e879d5cc753fc19e1a9b5d40e45479cace59807dff0f51304",
+      "bytes": 42330,
+      "treatment": "allowlisted current source copy; public-release privacy, runtime configuration or documentation cleanup"
     },
     {
       "path": "experiments/search_agent/test_policy_backend.py",
@@ -3049,414 +2993,6 @@
       "export_sha256": "ded772b08260170352b10e700a28da1f74ae4e2567cd56ba49335d1f8df04523",
       "bytes": 1052,
       "treatment": "Created for this private backup; not an original experiment artifact"
-    },
-    {
-      "path": "snapshots/fast-v1/experiments/evaluation/native_agent_guard.py",
-      "source": "experiments/results/private/fast-rag-v1-dev199/generation/config.json#module_sources.experiments.evaluation.native_agent_guard",
-      "source_sha256": "d963ebff1af2365d4af35fa099fd445c6d6e405b6ef0b4804ec96a2ca103accd",
-      "export_sha256": "d963ebff1af2365d4af35fa099fd445c6d6e405b6ef0b4804ec96a2ca103accd",
-      "bytes": 5803,
-      "treatment": "exact frozen module source extracted from local config"
-    },
-    {
-      "path": "snapshots/fast-v1/experiments/evaluation/native_agent_transport.py",
-      "source": "experiments/results/private/fast-rag-v1-dev199/generation/config.json#module_sources.experiments.evaluation.native_agent_transport",
-      "source_sha256": "750f08a51008ddc63bac14038b607f624101484fcf9fd4876de38ee40b867c61",
-      "export_sha256": "750f08a51008ddc63bac14038b607f624101484fcf9fd4876de38ee40b867c61",
-      "bytes": 9784,
-      "treatment": "exact frozen module source extracted from local config"
-    },
-    {
-      "path": "snapshots/fast-v1/experiments/evaluation/native_agent_worker.py",
-      "source": "experiments/results/private/fast-rag-v1-dev199/generation/config.json#module_sources.experiments.evaluation.native_agent_worker",
-      "source_sha256": "5c4f48f2d5104d4959787f1928f1de8ec4d5fff4d5c231980207f7304ac9d261",
-      "export_sha256": "5c4f48f2d5104d4959787f1928f1de8ec4d5fff4d5c231980207f7304ac9d261",
-      "bytes": 32077,
-      "treatment": "exact frozen module source extracted from local config"
-    },
-    {
-      "path": "snapshots/fast-v1/experiments/evaluation/native_outbound.py",
-      "source": "experiments/results/private/fast-rag-v1-dev199/generation/config.json#module_sources.experiments.evaluation.native_outbound",
-      "source_sha256": "098f127f3cb84f61e5fccf648285aca780b24887eb34de6a579db3c3cadef364",
-      "export_sha256": "098f127f3cb84f61e5fccf648285aca780b24887eb34de6a579db3c3cadef364",
-      "bytes": 3203,
-      "treatment": "exact frozen module source extracted from local config"
-    },
-    {
-      "path": "snapshots/fast-v1/experiments/search_agent/adapter.py",
-      "source": "experiments/results/private/fast-rag-v1-dev199/generation/config.json#module_sources.experiments.search_agent.adapter",
-      "source_sha256": "17e70ec3723b167d6910cadbeecb7f40b45f3af3bf58d49f356b50e642325a93",
-      "export_sha256": "17e70ec3723b167d6910cadbeecb7f40b45f3af3bf58d49f356b50e642325a93",
-      "bytes": 7313,
-      "treatment": "exact frozen module source extracted from local config"
-    },
-    {
-      "path": "snapshots/fast-v1/experiments/search_agent/cache.py",
-      "source": "experiments/results/private/fast-rag-v1-dev199/generation/config.json#module_sources.experiments.search_agent.cache",
-      "source_sha256": "f2d2b669844ed373176c6e063bb6c6132cceb09fe699e53f9ce6b7f56057f578",
-      "export_sha256": "f2d2b669844ed373176c6e063bb6c6132cceb09fe699e53f9ce6b7f56057f578",
-      "bytes": 875,
-      "treatment": "exact frozen module source extracted from local config"
-    },
-    {
-      "path": "snapshots/fast-v1/experiments/search_agent/core.py",
-      "source": "experiments/results/private/fast-rag-v1-dev199/generation/config.json#module_sources.experiments.search_agent.core",
-      "source_sha256": "6402795f12879aa1714555e3b51e290ff4b96f0e6e70becf968a4646085c7733",
-      "export_sha256": "6402795f12879aa1714555e3b51e290ff4b96f0e6e70becf968a4646085c7733",
-      "bytes": 12846,
-      "treatment": "exact frozen module source extracted from local config"
-    },
-    {
-      "path": "snapshots/fast-v1/experiments/search_agent/embedding.py",
-      "source": "experiments/results/private/fast-rag-v1-dev199/generation/config.json#module_sources.experiments.search_agent.embedding",
-      "source_sha256": "b5ef55cda7d902ba3ab127c0631e452cd764fc20614e395c124eb1ff94f85e4a",
-      "export_sha256": "b5ef55cda7d902ba3ab127c0631e452cd764fc20614e395c124eb1ff94f85e4a",
-      "bytes": 3656,
-      "treatment": "exact frozen module source extracted from local config"
-    },
-    {
-      "path": "snapshots/fast-v1/experiments/search_agent/evidence.py",
-      "source": "experiments/results/private/fast-rag-v1-dev199/generation/config.json#module_sources.experiments.search_agent.evidence",
-      "source_sha256": "8ccca0e446366869a0f9ce0bdf0fd225d2482af6c76b78f70666f5f53ab6c671",
-      "export_sha256": "8ccca0e446366869a0f9ce0bdf0fd225d2482af6c76b78f70666f5f53ab6c671",
-      "bytes": 13622,
-      "treatment": "exact frozen module source extracted from local config"
-    },
-    {
-      "path": "snapshots/fast-v1/experiments/search_agent/fast.py",
-      "source": "experiments/results/private/fast-rag-v1-dev199/generation/config.json#module_sources.experiments.search_agent.fast",
-      "source_sha256": "8d8ee86cfd36d3e7dc26809e520e22c2ff6cc6b989afda3216d444722b9f648d",
-      "export_sha256": "8d8ee86cfd36d3e7dc26809e520e22c2ff6cc6b989afda3216d444722b9f648d",
-      "bytes": 4733,
-      "treatment": "exact frozen module source extracted from local config"
-    },
-    {
-      "path": "snapshots/fast-v1/experiments/search_agent/runtime.py",
-      "source": "experiments/results/private/fast-rag-v1-dev199/generation/config.json#module_sources.experiments.search_agent.runtime",
-      "source_sha256": "18a2ce91de68a0e3043dca2d6c0ff7584ea38af031f430e78b74c463a6174172",
-      "export_sha256": "18a2ce91de68a0e3043dca2d6c0ff7584ea38af031f430e78b74c463a6174172",
-      "bytes": 23477,
-      "treatment": "exact frozen module source extracted from local config"
-    },
-    {
-      "path": "snapshots/fast-v1/experiments/search_agent/transport.py",
-      "source": "experiments/results/private/fast-rag-v1-dev199/generation/config.json#module_sources.experiments.search_agent.transport",
-      "source_sha256": "c28fc0d893d9ed8207f3a6a2412bb74ccb8aec0ed2c0d9e56568fc9ea856268e",
-      "export_sha256": "c28fc0d893d9ed8207f3a6a2412bb74ccb8aec0ed2c0d9e56568fc9ea856268e",
-      "bytes": 3488,
-      "treatment": "exact frozen module source extracted from local config"
-    },
-    {
-      "path": "snapshots/fast-v1/protocol-summary.json",
-      "source": "experiments/results/private/fast-rag-v1-dev199/generation/config.json",
-      "source_sha256": "00ae5ed84f2b607c75db68388571b54c7991e77281040855c68c2cf71a5cfedb",
-      "export_sha256": "3078cd21452e83e7935e7274b8af9ab30900c39d84f903abceea77dffc3ebba8",
-      "bytes": 11110,
-      "treatment": "safe field allowlist; not the full runtime config"
-    },
-    {
-      "path": "snapshots/fast-v2/experiments/evaluation/native_agent_guard.py",
-      "source": "experiments/results/private/fast-rag-v2-dev199/generation/config.json#module_sources.experiments.evaluation.native_agent_guard",
-      "source_sha256": "d963ebff1af2365d4af35fa099fd445c6d6e405b6ef0b4804ec96a2ca103accd",
-      "export_sha256": "d963ebff1af2365d4af35fa099fd445c6d6e405b6ef0b4804ec96a2ca103accd",
-      "bytes": 5803,
-      "treatment": "exact frozen module source extracted from local config"
-    },
-    {
-      "path": "snapshots/fast-v2/experiments/evaluation/native_agent_transport.py",
-      "source": "experiments/results/private/fast-rag-v2-dev199/generation/config.json#module_sources.experiments.evaluation.native_agent_transport",
-      "source_sha256": "750f08a51008ddc63bac14038b607f624101484fcf9fd4876de38ee40b867c61",
-      "export_sha256": "750f08a51008ddc63bac14038b607f624101484fcf9fd4876de38ee40b867c61",
-      "bytes": 9784,
-      "treatment": "exact frozen module source extracted from local config"
-    },
-    {
-      "path": "snapshots/fast-v2/experiments/evaluation/native_agent_worker.py",
-      "source": "experiments/results/private/fast-rag-v2-dev199/generation/config.json#module_sources.experiments.evaluation.native_agent_worker",
-      "source_sha256": "5c4f48f2d5104d4959787f1928f1de8ec4d5fff4d5c231980207f7304ac9d261",
-      "export_sha256": "5c4f48f2d5104d4959787f1928f1de8ec4d5fff4d5c231980207f7304ac9d261",
-      "bytes": 32077,
-      "treatment": "exact frozen module source extracted from local config"
-    },
-    {
-      "path": "snapshots/fast-v2/experiments/evaluation/native_outbound.py",
-      "source": "experiments/results/private/fast-rag-v2-dev199/generation/config.json#module_sources.experiments.evaluation.native_outbound",
-      "source_sha256": "098f127f3cb84f61e5fccf648285aca780b24887eb34de6a579db3c3cadef364",
-      "export_sha256": "098f127f3cb84f61e5fccf648285aca780b24887eb34de6a579db3c3cadef364",
-      "bytes": 3203,
-      "treatment": "exact frozen module source extracted from local config"
-    },
-    {
-      "path": "snapshots/fast-v2/experiments/search_agent/adapter.py",
-      "source": "experiments/results/private/fast-rag-v2-dev199/generation/config.json#module_sources.experiments.search_agent.adapter",
-      "source_sha256": "17e70ec3723b167d6910cadbeecb7f40b45f3af3bf58d49f356b50e642325a93",
-      "export_sha256": "17e70ec3723b167d6910cadbeecb7f40b45f3af3bf58d49f356b50e642325a93",
-      "bytes": 7313,
-      "treatment": "exact frozen module source extracted from local config"
-    },
-    {
-      "path": "snapshots/fast-v2/experiments/search_agent/cache.py",
-      "source": "experiments/results/private/fast-rag-v2-dev199/generation/config.json#module_sources.experiments.search_agent.cache",
-      "source_sha256": "f2d2b669844ed373176c6e063bb6c6132cceb09fe699e53f9ce6b7f56057f578",
-      "export_sha256": "f2d2b669844ed373176c6e063bb6c6132cceb09fe699e53f9ce6b7f56057f578",
-      "bytes": 875,
-      "treatment": "exact frozen module source extracted from local config"
-    },
-    {
-      "path": "snapshots/fast-v2/experiments/search_agent/core.py",
-      "source": "experiments/results/private/fast-rag-v2-dev199/generation/config.json#module_sources.experiments.search_agent.core",
-      "source_sha256": "6402795f12879aa1714555e3b51e290ff4b96f0e6e70becf968a4646085c7733",
-      "export_sha256": "6402795f12879aa1714555e3b51e290ff4b96f0e6e70becf968a4646085c7733",
-      "bytes": 12846,
-      "treatment": "exact frozen module source extracted from local config"
-    },
-    {
-      "path": "snapshots/fast-v2/experiments/search_agent/embedding.py",
-      "source": "experiments/results/private/fast-rag-v2-dev199/generation/config.json#module_sources.experiments.search_agent.embedding",
-      "source_sha256": "b5ef55cda7d902ba3ab127c0631e452cd764fc20614e395c124eb1ff94f85e4a",
-      "export_sha256": "b5ef55cda7d902ba3ab127c0631e452cd764fc20614e395c124eb1ff94f85e4a",
-      "bytes": 3656,
-      "treatment": "exact frozen module source extracted from local config"
-    },
-    {
-      "path": "snapshots/fast-v2/experiments/search_agent/evidence.py",
-      "source": "experiments/results/private/fast-rag-v2-dev199/generation/config.json#module_sources.experiments.search_agent.evidence",
-      "source_sha256": "8ccca0e446366869a0f9ce0bdf0fd225d2482af6c76b78f70666f5f53ab6c671",
-      "export_sha256": "8ccca0e446366869a0f9ce0bdf0fd225d2482af6c76b78f70666f5f53ab6c671",
-      "bytes": 13622,
-      "treatment": "exact frozen module source extracted from local config"
-    },
-    {
-      "path": "snapshots/fast-v2/experiments/search_agent/fast.py",
-      "source": "experiments/results/private/fast-rag-v2-dev199/generation/config.json#module_sources.experiments.search_agent.fast",
-      "source_sha256": "6c6b63a433122e2e48162fd86d2eaccf67ca92a1114162c7727fd6ed69c339ae",
-      "export_sha256": "6c6b63a433122e2e48162fd86d2eaccf67ca92a1114162c7727fd6ed69c339ae",
-      "bytes": 3113,
-      "treatment": "exact frozen module source extracted from local config"
-    },
-    {
-      "path": "snapshots/fast-v2/experiments/search_agent/fast_context.py",
-      "source": "experiments/results/private/fast-rag-v2-dev199/generation/config.json#module_sources.experiments.search_agent.fast_context",
-      "source_sha256": "6d776961234c9d8264dc5194af25cb8613aca6ffb8d940e3120d399b7b6f7e41",
-      "export_sha256": "6d776961234c9d8264dc5194af25cb8613aca6ffb8d940e3120d399b7b6f7e41",
-      "bytes": 6278,
-      "treatment": "exact frozen module source extracted from local config"
-    },
-    {
-      "path": "snapshots/fast-v2/experiments/search_agent/runtime.py",
-      "source": "experiments/results/private/fast-rag-v2-dev199/generation/config.json#module_sources.experiments.search_agent.runtime",
-      "source_sha256": "18a2ce91de68a0e3043dca2d6c0ff7584ea38af031f430e78b74c463a6174172",
-      "export_sha256": "18a2ce91de68a0e3043dca2d6c0ff7584ea38af031f430e78b74c463a6174172",
-      "bytes": 23477,
-      "treatment": "exact frozen module source extracted from local config"
-    },
-    {
-      "path": "snapshots/fast-v2/experiments/search_agent/transport.py",
-      "source": "experiments/results/private/fast-rag-v2-dev199/generation/config.json#module_sources.experiments.search_agent.transport",
-      "source_sha256": "c28fc0d893d9ed8207f3a6a2412bb74ccb8aec0ed2c0d9e56568fc9ea856268e",
-      "export_sha256": "c28fc0d893d9ed8207f3a6a2412bb74ccb8aec0ed2c0d9e56568fc9ea856268e",
-      "bytes": 3488,
-      "treatment": "exact frozen module source extracted from local config"
-    },
-    {
-      "path": "snapshots/fast-v2/protocol-summary.json",
-      "source": "experiments/results/private/fast-rag-v2-dev199/generation/config.json",
-      "source_sha256": "f16d9bfeff6b22d0a214beb070065cb458ae6675dd865d6cd0244eda13991ce0",
-      "export_sha256": "b2786e0f43cf74b3702a4e89a8e3ee98335bbd68b7037708a9a20657e78c61ca",
-      "bytes": 12824,
-      "treatment": "safe field allowlist; not the full runtime config"
-    },
-    {
-      "path": "snapshots/final-test95/experiments/evaluation/native_agent_guard.py",
-      "source": "experiments/results/private/policy-search-agent-final-test95/ab/config.json#module_sources.experiments.evaluation.native_agent_guard",
-      "source_sha256": "d963ebff1af2365d4af35fa099fd445c6d6e405b6ef0b4804ec96a2ca103accd",
-      "export_sha256": "d963ebff1af2365d4af35fa099fd445c6d6e405b6ef0b4804ec96a2ca103accd",
-      "bytes": 5803,
-      "treatment": "exact frozen module source extracted from local config"
-    },
-    {
-      "path": "snapshots/final-test95/experiments/evaluation/native_agent_transport.py",
-      "source": "experiments/results/private/policy-search-agent-final-test95/ab/config.json#module_sources.experiments.evaluation.native_agent_transport",
-      "source_sha256": "750f08a51008ddc63bac14038b607f624101484fcf9fd4876de38ee40b867c61",
-      "export_sha256": "750f08a51008ddc63bac14038b607f624101484fcf9fd4876de38ee40b867c61",
-      "bytes": 9784,
-      "treatment": "exact frozen module source extracted from local config"
-    },
-    {
-      "path": "snapshots/final-test95/experiments/evaluation/native_agent_worker.py",
-      "source": "experiments/results/private/policy-search-agent-final-test95/ab/config.json#module_sources.experiments.evaluation.native_agent_worker",
-      "source_sha256": "5c4f48f2d5104d4959787f1928f1de8ec4d5fff4d5c231980207f7304ac9d261",
-      "export_sha256": "5c4f48f2d5104d4959787f1928f1de8ec4d5fff4d5c231980207f7304ac9d261",
-      "bytes": 32077,
-      "treatment": "exact frozen module source extracted from local config"
-    },
-    {
-      "path": "snapshots/final-test95/experiments/evaluation/native_outbound.py",
-      "source": "experiments/results/private/policy-search-agent-final-test95/ab/config.json#module_sources.experiments.evaluation.native_outbound",
-      "source_sha256": "098f127f3cb84f61e5fccf648285aca780b24887eb34de6a579db3c3cadef364",
-      "export_sha256": "098f127f3cb84f61e5fccf648285aca780b24887eb34de6a579db3c3cadef364",
-      "bytes": 3203,
-      "treatment": "exact frozen module source extracted from local config"
-    },
-    {
-      "path": "snapshots/final-test95/experiments/search_agent/adapter.py",
-      "source": "experiments/results/private/policy-search-agent-final-test95/ab/config.json#module_sources.experiments.search_agent.adapter",
-      "source_sha256": "17e70ec3723b167d6910cadbeecb7f40b45f3af3bf58d49f356b50e642325a93",
-      "export_sha256": "17e70ec3723b167d6910cadbeecb7f40b45f3af3bf58d49f356b50e642325a93",
-      "bytes": 7313,
-      "treatment": "exact frozen module source extracted from local config"
-    },
-    {
-      "path": "snapshots/final-test95/experiments/search_agent/cache.py",
-      "source": "experiments/results/private/policy-search-agent-final-test95/ab/config.json#module_sources.experiments.search_agent.cache",
-      "source_sha256": "f2d2b669844ed373176c6e063bb6c6132cceb09fe699e53f9ce6b7f56057f578",
-      "export_sha256": "f2d2b669844ed373176c6e063bb6c6132cceb09fe699e53f9ce6b7f56057f578",
-      "bytes": 875,
-      "treatment": "exact frozen module source extracted from local config"
-    },
-    {
-      "path": "snapshots/final-test95/experiments/search_agent/core.py",
-      "source": "experiments/results/private/policy-search-agent-final-test95/ab/config.json#module_sources.experiments.search_agent.core",
-      "source_sha256": "6402795f12879aa1714555e3b51e290ff4b96f0e6e70becf968a4646085c7733",
-      "export_sha256": "6402795f12879aa1714555e3b51e290ff4b96f0e6e70becf968a4646085c7733",
-      "bytes": 12846,
-      "treatment": "exact frozen module source extracted from local config"
-    },
-    {
-      "path": "snapshots/final-test95/experiments/search_agent/embedding.py",
-      "source": "experiments/results/private/policy-search-agent-final-test95/ab/config.json#module_sources.experiments.search_agent.embedding",
-      "source_sha256": "b5ef55cda7d902ba3ab127c0631e452cd764fc20614e395c124eb1ff94f85e4a",
-      "export_sha256": "b5ef55cda7d902ba3ab127c0631e452cd764fc20614e395c124eb1ff94f85e4a",
-      "bytes": 3656,
-      "treatment": "exact frozen module source extracted from local config"
-    },
-    {
-      "path": "snapshots/final-test95/experiments/search_agent/evidence.py",
-      "source": "experiments/results/private/policy-search-agent-final-test95/ab/config.json#module_sources.experiments.search_agent.evidence",
-      "source_sha256": "8ccca0e446366869a0f9ce0bdf0fd225d2482af6c76b78f70666f5f53ab6c671",
-      "export_sha256": "8ccca0e446366869a0f9ce0bdf0fd225d2482af6c76b78f70666f5f53ab6c671",
-      "bytes": 13622,
-      "treatment": "exact frozen module source extracted from local config"
-    },
-    {
-      "path": "snapshots/final-test95/experiments/search_agent/runtime.py",
-      "source": "experiments/results/private/policy-search-agent-final-test95/ab/config.json#module_sources.experiments.search_agent.runtime",
-      "source_sha256": "6816a74bdf2a6e45de3c7913009df28d722b2cdb5db3ce35301b4b2cf1bc0a6c",
-      "export_sha256": "6816a74bdf2a6e45de3c7913009df28d722b2cdb5db3ce35301b4b2cf1bc0a6c",
-      "bytes": 23460,
-      "treatment": "exact frozen module source extracted from local config"
-    },
-    {
-      "path": "snapshots/final-test95/experiments/search_agent/transport.py",
-      "source": "experiments/results/private/policy-search-agent-final-test95/ab/config.json#module_sources.experiments.search_agent.transport",
-      "source_sha256": "c28fc0d893d9ed8207f3a6a2412bb74ccb8aec0ed2c0d9e56568fc9ea856268e",
-      "export_sha256": "c28fc0d893d9ed8207f3a6a2412bb74ccb8aec0ed2c0d9e56568fc9ea856268e",
-      "bytes": 3488,
-      "treatment": "exact frozen module source extracted from local config"
-    },
-    {
-      "path": "snapshots/final-test95/protocol-summary.json",
-      "source": "experiments/results/private/policy-search-agent-final-test95/ab/config.json",
-      "source_sha256": "5638a3a07c606d0a89dc0975c67bf47d7779b7f1ace78d580094e907eca51bcf",
-      "export_sha256": "20b080755e8e28751fc6fc45c501186566d387acaa97481144fe993035c21b2d",
-      "bytes": 16278,
-      "treatment": "safe field allowlist; not the full runtime config"
-    },
-    {
-      "path": "snapshots/v7/experiments/evaluation/native_agent_guard.py",
-      "source": "experiments/results/private/policy-search-agent-v7/config.json#module_sources.experiments.evaluation.native_agent_guard",
-      "source_sha256": "d963ebff1af2365d4af35fa099fd445c6d6e405b6ef0b4804ec96a2ca103accd",
-      "export_sha256": "d963ebff1af2365d4af35fa099fd445c6d6e405b6ef0b4804ec96a2ca103accd",
-      "bytes": 5803,
-      "treatment": "exact frozen module source extracted from local config"
-    },
-    {
-      "path": "snapshots/v7/experiments/evaluation/native_agent_transport.py",
-      "source": "experiments/results/private/policy-search-agent-v7/config.json#module_sources.experiments.evaluation.native_agent_transport",
-      "source_sha256": "750f08a51008ddc63bac14038b607f624101484fcf9fd4876de38ee40b867c61",
-      "export_sha256": "750f08a51008ddc63bac14038b607f624101484fcf9fd4876de38ee40b867c61",
-      "bytes": 9784,
-      "treatment": "exact frozen module source extracted from local config"
-    },
-    {
-      "path": "snapshots/v7/experiments/evaluation/native_agent_worker.py",
-      "source": "experiments/results/private/policy-search-agent-v7/config.json#module_sources.experiments.evaluation.native_agent_worker",
-      "source_sha256": "5c4f48f2d5104d4959787f1928f1de8ec4d5fff4d5c231980207f7304ac9d261",
-      "export_sha256": "5c4f48f2d5104d4959787f1928f1de8ec4d5fff4d5c231980207f7304ac9d261",
-      "bytes": 32077,
-      "treatment": "exact frozen module source extracted from local config"
-    },
-    {
-      "path": "snapshots/v7/experiments/evaluation/native_outbound.py",
-      "source": "experiments/results/private/policy-search-agent-v7/config.json#module_sources.experiments.evaluation.native_outbound",
-      "source_sha256": "098f127f3cb84f61e5fccf648285aca780b24887eb34de6a579db3c3cadef364",
-      "export_sha256": "098f127f3cb84f61e5fccf648285aca780b24887eb34de6a579db3c3cadef364",
-      "bytes": 3203,
-      "treatment": "exact frozen module source extracted from local config"
-    },
-    {
-      "path": "snapshots/v7/experiments/search_agent/adapter.py",
-      "source": "experiments/results/private/policy-search-agent-v7/config.json#module_sources.experiments.search_agent.adapter",
-      "source_sha256": "6c60c0b8a616875f4e863ebc53d68327f470308ed1e8d8e5b532d0ae94c08491",
-      "export_sha256": "6c60c0b8a616875f4e863ebc53d68327f470308ed1e8d8e5b532d0ae94c08491",
-      "bytes": 5575,
-      "treatment": "exact frozen module source extracted from local config"
-    },
-    {
-      "path": "snapshots/v7/experiments/search_agent/cache.py",
-      "source": "experiments/results/private/policy-search-agent-v7/config.json#module_sources.experiments.search_agent.cache",
-      "source_sha256": "f2d2b669844ed373176c6e063bb6c6132cceb09fe699e53f9ce6b7f56057f578",
-      "export_sha256": "f2d2b669844ed373176c6e063bb6c6132cceb09fe699e53f9ce6b7f56057f578",
-      "bytes": 875,
-      "treatment": "exact frozen module source extracted from local config"
-    },
-    {
-      "path": "snapshots/v7/experiments/search_agent/core.py",
-      "source": "experiments/results/private/policy-search-agent-v7/config.json#module_sources.experiments.search_agent.core",
-      "source_sha256": "5dc9332338f6ba7029e839271df9ab4a99fe1e14e847f38d3d79c7c7ff9d695c",
-      "export_sha256": "5dc9332338f6ba7029e839271df9ab4a99fe1e14e847f38d3d79c7c7ff9d695c",
-      "bytes": 7541,
-      "treatment": "exact frozen module source extracted from local config"
-    },
-    {
-      "path": "snapshots/v7/experiments/search_agent/embedding.py",
-      "source": "experiments/results/private/policy-search-agent-v7/config.json#module_sources.experiments.search_agent.embedding",
-      "source_sha256": "b5ef55cda7d902ba3ab127c0631e452cd764fc20614e395c124eb1ff94f85e4a",
-      "export_sha256": "b5ef55cda7d902ba3ab127c0631e452cd764fc20614e395c124eb1ff94f85e4a",
-      "bytes": 3656,
-      "treatment": "exact frozen module source extracted from local config"
-    },
-    {
-      "path": "snapshots/v7/experiments/search_agent/evidence.py",
-      "source": "experiments/results/private/policy-search-agent-v7/config.json#module_sources.experiments.search_agent.evidence",
-      "source_sha256": "ba2e6e16265a7e45cfc2dac12d8a7f0ed849f9cbb443f9a63cb40ea906ea45e0",
-      "export_sha256": "ba2e6e16265a7e45cfc2dac12d8a7f0ed849f9cbb443f9a63cb40ea906ea45e0",
-      "bytes": 9068,
-      "treatment": "exact frozen module source extracted from local config"
-    },
-    {
-      "path": "snapshots/v7/experiments/search_agent/runtime.py",
-      "source": "experiments/results/private/policy-search-agent-v7/config.json#module_sources.experiments.search_agent.runtime",
-      "source_sha256": "bc0f5240136a20b9dccc2f415ed5b8d763ee6029951a95958f75627892f43474",
-      "export_sha256": "bc0f5240136a20b9dccc2f415ed5b8d763ee6029951a95958f75627892f43474",
-      "bytes": 22784,
-      "treatment": "exact frozen module source extracted from local config"
-    },
-    {
-      "path": "snapshots/v7/experiments/search_agent/transport.py",
-      "source": "experiments/results/private/policy-search-agent-v7/config.json#module_sources.experiments.search_agent.transport",
-      "source_sha256": "c28fc0d893d9ed8207f3a6a2412bb74ccb8aec0ed2c0d9e56568fc9ea856268e",
-      "export_sha256": "c28fc0d893d9ed8207f3a6a2412bb74ccb8aec0ed2c0d9e56568fc9ea856268e",
-      "bytes": 3488,
-      "treatment": "exact frozen module source extracted from local config"
-    },
-    {
-      "path": "snapshots/v7/protocol-summary.json",
-      "source": "experiments/results/private/policy-search-agent-v7/config.json",
-      "source_sha256": "b6a1685362c1f5b0759416b98e6d5ede2a0f080c7dd9fcba1c99e2c84ec3e97c",
-      "export_sha256": "aef3ac174c79593af5452adecfa1024b1b2743592ce6294e94763ebf20323706",
-      "bytes": 10906,
-      "treatment": "safe field allowlist; not the full runtime config"
     },
     {
       "path": "test/__init__.py",
@@ -3809,11 +3345,13 @@
     "full original 3081-document corpus and indexed raw chunks",
     "runtime configs with embedded raw corpus and privacy mapping",
     "raw provider request/response traces, events, records, all_answers, logs",
-    "unrelated upstream frontend, binaries, dependencies and caches"
+    "unrelated upstream frontend, binaries, dependencies and caches",
+    "Historical source snapshots, internal planning and personal job-preparation material",
+    "Personal local paths, author contact information and original operational deployment identifiers"
   ],
-  "note": "Hashes inside copied historical records describe the original local artifacts, not transformed Markdown copies.",
+  "note": "Source hashes identify original local artifacts where available; export hashes identify the current public files. Historical records describe their original experiment/export, not new efficacy or live deployment validation. The manifest omits its own hash.",
   "manifest_self_hash": "Not included; Git commit authenticates the manifest together with all tracked files.",
-  "updated_date": "2026-10-15",
+  "updated_date": "2026-10-21",
   "incremental_update": {
     "base_commit": "e76e73951f13e3fff2dad74e9647ff42cc00a219",
     "scope": "Current agent, Shanghai integration owning sources, medical assistant API and frontend overlay, offline tests; not a complete RAGFlow checkout.",
@@ -3825,6 +3363,36 @@
     "protected_frozen_bytes_unchanged": true,
     "live_acceptance_or_provider_reconciliation_performed": false,
     "exported_source_files": 140,
-    "validation_report": "UPDATE_VALIDATION.json"
+    "validation_report": "UPDATE_VALIDATION.json",
+    "historical_record": true,
+    "recorded_date": "2026-10-15"
+  },
+  "publication_cleanup": {
+    "date": "2026-10-21",
+    "scope": "Current source overlay and selected public-source benchmark/evaluation records",
+    "approved_current_files_removed": 59,
+    "historical_personal_documents_removed_from_reachable_history": 2,
+    "credential_review": "Gitleaks 8.30.1 and manual review found no authentic credentials; hash/fixture false positives were individually reviewed. Reachable history is rechecked before publication.",
+    "deployment_binding": "Required independently configured POLICY_APPROVED_TENANT_ID, POLICY_APPROVED_KB_ID, POLICY_APPROVED_CHAT_ID and POLICY_APPROVED_RERANK_MODEL_ID; no private built-in identifiers. Ownership and budget guards retained.",
+    "retained_corpus_linkage": "Public-source benchmark document, dataset and chunk identifiers retained consistently; they are not credentials.",
+    "historical_reproducibility_limit": "Historical source snapshots are excluded; selected reports, source references, split evidence and negative results are retained. Full historical runs require original local inputs.",
+    "validation": {
+      "python": "3.13.9",
+      "offline_core": {
+        "command": "python scripts/test_offline.py",
+        "passed": 294,
+        "failed": 0,
+        "excluded_local_artifact_audit": 1
+      },
+      "focused_runtime_binding": {
+        "command": "python -m pytest -q -c /dev/null --rootdir . --confcutdir . experiments/search_agent/test_policy_acceptance.py experiments/retrieval/test_independent_rerank.py experiments/evaluation/test_native_baseline.py experiments/evaluation/test_native_agent_baseline.py experiments/evaluation/test_native_baseline_worker.py",
+        "passed": 72,
+        "failed": 0
+      },
+      "independent_review": "No actionable findings after full source/documentation/history-filter review",
+      "local_markdown_link_targets_checked": 147,
+      "missing_local_markdown_targets": 0,
+      "real_model_database_docker_calls": false
+    }
   }
 }

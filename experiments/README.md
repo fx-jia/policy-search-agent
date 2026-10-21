@@ -15,9 +15,8 @@ Benchmark包含300道核心题和30道边界题；核心按政策组划分为205
 |[控制器说明](<search_agent/README.md>)|架构、单题/批量命令、回放、预算与边界|
 |[最终测试](<results/private/policy-search-agent-final-test95/final_summary.md>)|同题配对分差、成本、技术失败与报告索引|
 |[辅助复核](<results/private/policy-search-agent-final-test95/assistant-review-v1/report.md>)|53题三方案及8份重跑的逐题建议，原评分保留|
-|[收尾清单](<../docs/policy_search_agent_closeout.md>)|项目定位、成果口径、演示和面试准备|
+|[收尾清单](<../docs/policy_search_agent_closeout.md>)|项目定位、实验结论、演示和验证边界|
 |[演示与验收](<../docs/policy_search_agent_demo.md>)|1题现场问答与2份开发轨迹；答案、引用、补读过程、用量及已知局限|
-|简历与面试（已从本仓库移除，保留原文档引用说明）|项目介绍、候选要点、15个主问及6个追问；配套源码导学（已从本仓库移除，保留原文档引用说明）|
 |[Benchmark构建](<datasets/private/benchmark_v2_full330/benchmark_overview.md>)|330题问题、原文、答案和难度依据|
 |[冻结划分](<results/private/benchmark-v2-baselines-v2-nonthinking/frozen.json>)|当前开发/测试/边界划分及摘要|
 
@@ -30,10 +29,10 @@ v8.1在77对有效测试评分中比Low高13.977分，比RAG高0.016分；不能
 - `evaluation/benchmark_v2_baselines.py`：原生RAG/Low评测入口。
 - `evaluation/answer_quality*.py`：匿名评分、原文摘录验证与报告。
 - `datasets/`、`retrieval/`：数据与索引映射、数据划分、检索及上下文实验。
-- `results/private/`：原始输出、配置、调用账本、逐题复核与各批报告。
+- `results/private/`：选定批次的报告、数值表、协议、复核与完整性摘要；原始响应、完整配置和用量账本未公开。
 
 所有新运行使用新目录。已冻结测试策略不因测试表现继续调整；技术失败重跑单列，不挑最好答案。未知调用用量保留预留，不记0。缓存收益只按实际命中统计。
 
 已有Dense/Hybrid、RRF、Rerank和子问复查的研究记录分别见[检索测试](<../docs/heldout_retrieval_evaluation.md>)、[RRF](<../docs/rrf_fusion_evaluation.md>)、[重排](<../docs/independent_rerank_evaluation.md>)和[子问扩验](<../docs/coverage_extension_evaluation.md>)。这些批次的模型、题集与指标不同，不与当前95题成绩混算。旧150题及51/99划分不等于当前330题Benchmark。
 
-当前是本地可评测原型；网页、Router、外网搜索、多轮记忆及跨环境部署验收尚未完成。
+当前是本地原型，已实现多轮会话和医保助手页面/API；界面与服务边界通过离线验证，真实新问答、两轮自然更新及跨环境部署尚未验收。在线 Router 与外网搜索尚未接入。当前业务集成说明见[医保助手运行说明](<../docs/medical_assistant_frontend.md>)，其效果不能由旧单轮 Benchmark 成绩直接推断。

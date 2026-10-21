@@ -12,7 +12,9 @@
 
 ## 隐私与调用
 
-模型沿用本地已配置的gte-rerank-v2，model_id=7ff1b702e59c52ad520d8c0b6720cdce。其现有SDK默认服务为https://dashscope.aliyuncs.com/api/v1，本轮用同一提供方的text-rerank端点；凭据只在容器内存中读取，不写日志。
+模型沿用当时本地已配置的gte-rerank-v2。其现有SDK默认服务为https://dashscope.aliyuncs.com/api/v1，本轮用同一提供方的text-rerank端点；凭据只在容器内存中读取，不写日志。
+
+重新运行须由部署者设置`POLICY_APPROVED_RERANK_MODEL_ID`，为32位小写十六进制模型行标识，无内置默认值；任务配置中的`model_id`必须与其一致。批准值与任务输入独立传入worker，真实值由未跟踪的本地配置提供。原实验的模型数据库行标识不作为公开默认值。
 
 出站采用与答案无关的规则：来源须标记公开、具有可读文件标题，排除招聘、名单公示、表彰、送达、个案劳动关系、建议答复等类别；或其Chunk已在此前52块审核清单中按原文哈希核验。来源79870无条件禁止。未满足这些规则的UUID标题文档不自动判作安全。
 

@@ -7,7 +7,7 @@ import os
 from pathlib import Path
 import subprocess
 
-from experiments.evaluation.native_baseline import SNAPSHOT, CHAT_ID, MODEL, DOCKER
+from experiments.evaluation.native_baseline import SNAPSHOT, MODEL, DOCKER, approved_chat_id
 
 REPO = Path(__file__).resolve().parents[2]
 HERE = Path(__file__).parent
@@ -52,7 +52,7 @@ def build_config(snapshot, questions, review, document_map):
     if snapshot["chat_config"]["model"] != MODEL:
         raise ValueError("unexpected_model")
     return {
-        **snapshot, "chat_id": CHAT_ID, "model": MODEL, "reasoning": 2,
+        **snapshot, "chat_id": approved_chat_id(), "model": MODEL, "reasoning": 2,
         "scope_document_ids": sorted(document_map["documents"]), "document_map": document_map,
         "review": review, "question_ids": IDS,
         "questions": [{"question_id": qid, "question": by_id[qid]["question"]} for qid in IDS],
@@ -84,6 +84,7 @@ def validate_title_review(review, live_chunks, document_map):
 
 
 def prepare(output):
+    chat_id = approved_chat_id()
     output = Path(output)
     target = output / "config.json"
     if target.exists():
@@ -104,7 +105,7 @@ def prepare(output):
     review["status"] = "exact_reviewed_subset_new_chunks_block"
     review["expected_chunks"] = len(review["entries"])
     base = SNAPSHOT.replace("print(json.dumps({'chat_config':dbconfig,'runtime_code_hashes':hashes},ensure_ascii=False))", "frozen={'chat_config':dbconfig,'runtime_code_hashes':hashes}")
-    result = subprocess.run(DOCKER + [base + EXTRA_SNAPSHOT], input=CHAT_ID + "\n" + json.dumps(mapping), text=True, capture_output=True)
+    result = subprocess.run(DOCKER + [base + EXTRA_SNAPSHOT], input=chat_id + "\n" + json.dumps(mapping), text=True, capture_output=True)
     if result.returncode:
         output.mkdir(parents=True, exist_ok=True)
         (output / "snapshot_error.log").write_text(result.stderr)
@@ -137,8 +138,11 @@ def prepare(output):
 
 
 def run(output, max_questions=None):
+    chat_id = approved_chat_id()
     output = Path(output)
     config = json.loads((output / "config.json").read_text())
+    if config.get("chat_id") != chat_id:
+        raise PermissionError("frozen chat differs from the approved dialog")
     for name, expected in config["input_sha256"].items():
         if digest(REPO / name) != expected:
             raise ValueError(f"frozen_input_changed: {name}")

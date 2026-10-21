@@ -4,6 +4,7 @@ from datetime import datetime, timezone
 import json
 import logging
 import math
+import os
 from pathlib import Path
 import re
 import sys
@@ -11,6 +12,16 @@ import time
 
 
 ENDPOINT = 'https://dashscope.aliyuncs.com/api/v1/services/rerank/text-rerank/text-rerank'
+
+
+def validate_config(config, sdk_base_url=None):
+    approved = os.environ.get('POLICY_APPROVED_RERANK_MODEL_ID', '')
+    if not re.fullmatch(r'[0-9a-f]{32}', approved):
+        raise ValueError('POLICY_APPROVED_RERANK_MODEL_ID must configure an approved 32-character identifier')
+    if (config.get('endpoint') != ENDPOINT or config.get('model_id') != approved
+            or type(config.get('max_calls')) is not int or not 0 < config['max_calls'] <= 60
+            or (sdk_base_url is not None and sdk_base_url.rstrip('/') != ENDPOINT.split('/services/')[0])):
+        raise ValueError('Provider, approved model or budget mismatch')
 
 
 def make_payload(query, documents):
@@ -38,12 +49,12 @@ def main():
     logging.disable(logging.CRITICAL)
     config = json.loads(sys.stdin.readline())
     try:
+        validate_config(config)
         import pymysql
         import requests
         import yaml
         import dashscope
-        if config['endpoint'] != ENDPOINT or config['model_id'] != '7ff1b702e59c52ad520d8c0b6720cdce' or not 0 < config['max_calls'] <= 60 or dashscope.base_http_api_url.rstrip('/') != ENDPOINT.split('/services/')[0]:
-            raise ValueError('Provider or budget mismatch')
+        validate_config(config, dashscope.base_http_api_url)
         mysql = yaml.safe_load(Path('/ragflow/conf/service_conf.yaml').read_text())['mysql']
         db = pymysql.connect(host=mysql['host'],port=int(mysql['port']),user=mysql['user'],password=mysql['password'],database=mysql['name'],cursorclass=pymysql.cursors.DictCursor)
         with db.cursor() as cursor:

@@ -1,11 +1,71 @@
 import math
+import os
+from pathlib import Path
+import tempfile
 import unittest
+from unittest.mock import patch
 
 from experiments.retrieval.independent_rerank import eligible_source, sanitize_outbound, reorder_slots, validate_scores
 from experiments.retrieval.rerank_worker import make_payload, parse_result
+from experiments.retrieval import rerank_worker
 
 
 class RerankTests(unittest.TestCase):
+    def test_runner_rejects_unapproved_job_before_writes_or_docker(self):
+        from experiments.evaluation import independent_rerank_experiment as runner
+        config = {"endpoint": rerank_worker.ENDPOINT, "model_id": "1" * 32}
+        for approved in (None, "2" * 32):
+            with self.subTest(approved=approved), tempfile.TemporaryDirectory() as directory, patch.dict(os.environ):
+                if approved is None:
+                    os.environ.pop("POLICY_APPROVED_RERANK_MODEL_ID", None)
+                else:
+                    os.environ["POLICY_APPROVED_RERANK_MODEL_ID"] = approved
+                output = Path(directory) / "run"
+                with patch.object(runner, "verified", return_value=(config, [], {})), patch.object(runner.subprocess, "Popen", side_effect=AssertionError("Docker forbidden")):
+                    with self.assertRaises(ValueError):
+                        runner.run(output, True)
+                self.assertFalse(output.exists())
+
+    def test_runner_forwards_approved_environment_separately_from_job_input(self):
+        from experiments.evaluation import independent_rerank_experiment as runner
+        config = {"endpoint": rerank_worker.ENDPOINT, "model_id": "1" * 32}
+        commands = []
+
+        def stop_before_docker(command, **kwargs):
+            commands.append(command)
+            raise InterruptedError("offline process boundary")
+
+        with tempfile.TemporaryDirectory() as directory, patch.dict(os.environ, {"POLICY_APPROVED_RERANK_MODEL_ID": "1" * 32}):
+            root = Path(directory)
+            (root / "pre_call_freeze.json").write_text("{}")
+            with patch.object(runner, "ROOT", root), patch.object(runner, "verified", return_value=(config, [], {})), patch.object(runner.subprocess, "Popen", side_effect=stop_before_docker):
+                with self.assertRaises(InterruptedError):
+                    runner.run(root / "run", True)
+            self.assertEqual(commands[0][:5], ["docker", "exec", "-e", "POLICY_APPROVED_RERANK_MODEL_ID", "-i"])
+
+    def test_worker_requires_separate_model_approval(self):
+        config = {"endpoint": rerank_worker.ENDPOINT, "model_id": "1" * 32, "max_calls": 60}
+        for value in (None, "", "replace-with-private-id", "2" * 32):
+            with self.subTest(value=value), patch.dict(os.environ):
+                if value is None:
+                    os.environ.pop("POLICY_APPROVED_RERANK_MODEL_ID", None)
+                else:
+                    os.environ["POLICY_APPROVED_RERANK_MODEL_ID"] = value
+                with self.assertRaises(ValueError):
+                    rerank_worker.validate_config(config)
+        with patch.dict(os.environ, {"POLICY_APPROVED_RERANK_MODEL_ID": "1" * 32}):
+            rerank_worker.validate_config(config)
+
+    def test_approval_preserves_endpoint_and_call_budget_guards(self):
+        config = {"endpoint": rerank_worker.ENDPOINT, "model_id": "1" * 32, "max_calls": 60}
+        with patch.dict(os.environ, {"POLICY_APPROVED_RERANK_MODEL_ID": "1" * 32}):
+            for changed in ({"endpoint": "https://provider.invalid"}, {"max_calls": 0}, {"max_calls": 61}, {"max_calls": True}):
+                with self.subTest(changed=changed), self.assertRaises(ValueError):
+                    rerank_worker.validate_config(config | changed)
+            with self.assertRaises(ValueError):
+                rerank_worker.validate_config(config, "https://provider.invalid/api/v1")
+            rerank_worker.validate_config(config, "https://dashscope.aliyuncs.com/api/v1/")
+
     def test_only_sent_slots_move_and_tail_is_preserved(self):
         ids=list('abcdef')
         self.assertEqual(reorder_slots(ids,[0,2,3],[.1,.9,.4]),list('cbd aef'.replace(' ','')))

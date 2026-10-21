@@ -11,8 +11,14 @@ import signal
 import time
 from urllib.parse import urlsplit, urlunsplit
 
-DEDICATED_TENANT = "aa5ca6b0a7f75841abbf04c8d0cacded"
-DEDICATED_KB = "9febcc4ec395714269c42d4222635571"
+def _approved_scope():
+    scope = []
+    for name in ("POLICY_APPROVED_TENANT_ID", "POLICY_APPROVED_KB_ID"):
+        value = os.environ.get(name, "")
+        if not re.fullmatch(r"[0-9a-f]{32}", value):
+            raise ValueError(f"{name} must configure an approved 32-character identifier")
+        scope.append(value)
+    return tuple(scope)
 
 
 def _safe(value):
@@ -146,7 +152,7 @@ def _source_targets(state):
     return targets
 
 
-def _targets_published(state, targets):
+def _targets_published(state, targets, approved_scope):
     """Match frozen admission identities against a later immutable release."""
     snapshot = state["snapshot"]
     documents = {row["id"]: row for row in state["documents"]}
@@ -173,7 +179,7 @@ def _targets_published(state, targets):
                       "parse_build_key": target["parse_build_key"], "asset_role": binding["role"],
                       "asset_sha256": binding["sha256"], "fingerprint": binding["fingerprint"],
                       "embedding_config": build_config.get("embedding_config"),
-                      "tenant_id": DEDICATED_TENANT, "kb_id": DEDICATED_KB,
+                      "tenant_id": approved_scope[0], "kb_id": approved_scope[1],
                       "embedding_config_sha256": hashlib.sha256(json.dumps(build_config.get("embedding_config"), sort_keys=True, ensure_ascii=False, separators=(",", ":")).encode()).hexdigest()}
             source = snapshot["sources"].get(did, {})
             if (did not in snapshot["doc_ids"] or any(source.get(field) != value for field, value in wanted.items())
@@ -200,7 +206,7 @@ def _publication_ready(state):
         and documents[did]["chunk_num"] > 0 for did in state["snapshot"]["doc_ids"])
 
 
-def _finalization_ready(state, completed, baseline_ids):
+def _finalization_ready(state, completed, baseline_ids, approved_scope):
     """Use the same success gate at the barrier and actual restoration readback."""
     tasks = state["tasks"]
     for row in tasks:
@@ -220,7 +226,7 @@ def _finalization_ready(state, completed, baseline_ids):
             and not any(row["status"] == "1" for row in tasks)
             and any(row["status"] == "5" for row in tasks)
             and _publication_ready(state)
-            and all(_targets_published(state, item["targets"]) for item in completed))
+            and all(_targets_published(state, item["targets"], approved_scope) for item in completed))
 
 
 def run_acceptance(adapter, tenant_id, kb_id, output, *, rounds=2, refresh_minutes=5,
@@ -240,7 +246,8 @@ def run_acceptance(adapter, tenant_id, kb_id, output, *, rounds=2, refresh_minut
     completions, initial_completion = {}, None
     finalizing = False
     try:
-        if tenant_id != DEDICATED_TENANT or kb_id != DEDICATED_KB or rounds != 2 or refresh_minutes != 5 or not 0 < poll_seconds <= 30:
+        approved_scope = _approved_scope()
+        if (tenant_id, kb_id) != approved_scope or rounds != 2 or refresh_minutes != 5 or not 0 < poll_seconds <= 30:
             raise PermissionError("only the approved dedicated Shanghai two-round five-minute acceptance is allowed")
         identity = adapter.validate()
         if (identity.get("tenant_id") != tenant_id or identity.get("kb_id") != kb_id
@@ -283,7 +290,7 @@ def run_acceptance(adapter, tenant_id, kb_id, output, *, rounds=2, refresh_minut
                     if current_initial != initial_completion["task"]:
                         raise RuntimeError("native initial completion task changed during publication wait")
                 if (initial_completion and scheduled and published >= 20 and state.get("source_fence_consistent") is True
-                        and _publication_ready(state) and _targets_published(state, initial_completion["targets"])):
+                        and _publication_ready(state) and _targets_published(state, initial_completion["targets"], approved_scope)):
                     if state["connector"]["refresh_freq"] != 1440:
                         raise ValueError("initial connector interval is not the expected daily 1440")
                     baseline_ids = {row["id"] for row in tasks if row["status"] != "5"}
@@ -333,7 +340,7 @@ def run_acceptance(adapter, tenant_id, kb_id, output, *, rounds=2, refresh_minut
                         raise RuntimeError("native completion task changed during publication wait")
                     if any(identifier not in result["completed_round_ids"] for identifier in list(completions)[:list(completions).index(row["id"])]):
                         continue
-                    if not _publication_ready(state) or not _targets_published(state, completion["targets"]):
+                    if not _publication_ready(state) or not _targets_published(state, completion["targets"], approved_scope):
                         continue
                     original, elapsed = completion["queued_task"], completion["queued_to_started_seconds"]
                     complete = completion["strict_scan_complete"]
@@ -371,7 +378,7 @@ def run_acceptance(adapter, tenant_id, kb_id, output, *, rounds=2, refresh_minut
                     if state["connector"]["refresh_freq"] != 1440:
                         raise RuntimeError("daily interval restoration did not read back")
                     completed = [completions[identifier] for identifier in result["completed_round_ids"]]
-                    if _finalization_ready(state, completed, baseline_ids):
+                    if _finalization_ready(state, completed, baseline_ids, approved_scope):
                         result["finalization"] = {"verified": True, "state": state,
                                                   "completed_round_ids": list(result["completed_round_ids"])}
                         _write(output / "scheduler-finalization.json", result["finalization"])
@@ -395,7 +402,7 @@ def run_acceptance(adapter, tenant_id, kb_id, output, *, rounds=2, refresh_minut
                     raise RuntimeError("daily interval restoration did not read back")
                 if result["status"] == "passed":
                     completed = [completions[identifier] for identifier in result["completed_round_ids"]]
-                    if not _finalization_ready(restored, completed, baseline_ids):
+                    if not _finalization_ready(restored, completed, baseline_ids, approved_scope):
                         raise RuntimeError("actual restoration readback no longer satisfies finalization readiness")
                     result["restoration"]["publication_verified"] = True
             except BaseException as exc:
@@ -512,7 +519,11 @@ def main(argv=None):
     parser.add_argument("--initial-timeout-minutes", type=int, default=30)
     parser.add_argument("--poll-seconds", type=int, default=20)
     args = parser.parse_args(argv)
-    if args.tenant_id != DEDICATED_TENANT or args.kb_id != DEDICATED_KB:
+    try:
+        approved_scope = _approved_scope()
+    except ValueError as exc:
+        parser.error(str(exc))
+    if (args.tenant_id, args.kb_id) != approved_scope:
         parser.error("this script only operates the approved dedicated Shanghai knowledge base")
     if args.timeout_minutes <= 0 or args.initial_timeout_minutes <= 0 or not 0 < args.poll_seconds <= 30:
         parser.error("timeout must be positive and polling must be between 1 and 30 seconds")

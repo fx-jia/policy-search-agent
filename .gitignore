@@ -29,3 +29,8 @@ experiments/results/private/shanghai-policy-live-*/
 .superpowers/
 node_modules/
 dist/
+/snapshots/
+/docs/superpowers/
+/docs/policy_search_agent_claims.json
+/导学-医保Agent.md
+/面经-医保Agent.md

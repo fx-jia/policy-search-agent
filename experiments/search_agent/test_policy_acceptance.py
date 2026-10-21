@@ -2,15 +2,18 @@
 import copy
 from contextlib import nullcontext
 import hashlib
+import io
 import json
+import os
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 import tempfile
 import unittest
+from unittest.mock import patch
 from types import SimpleNamespace
 
-TENANT = "aa5ca6b0a7f75841abbf04c8d0cacded"
-KB = "9febcc4ec395714269c42d4222635571"
+TENANT = "1" * 32
+KB = "2" * 32
 
 
 def task(identifier, status, minute, started=None):
@@ -48,9 +51,11 @@ class Adapter:
     def __init__(self, frames):
         self.frames, self.index, self.changes, self.now = frames, 0, [], 0
         self.frequency = 1440
+        self.validations = 0
         self.identity = {"tenant_id": TENANT, "kb_id": KB, "connector_id": "connector", "source": "shanghai_medical", "exclusive": True}
 
     def validate(self):
+        self.validations += 1
         return self.identity
 
     def read(self):
@@ -69,6 +74,9 @@ class Adapter:
 
 class AcceptanceTests(unittest.TestCase):
     def setUp(self):
+        approval = patch.dict(os.environ, {"POLICY_APPROVED_TENANT_ID": TENANT, "POLICY_APPROVED_KB_ID": KB})
+        approval.start()
+        self.addCleanup(approval.stop)
         self.directory = tempfile.TemporaryDirectory()
         self.addCleanup(self.directory.cleanup)
         self.attempt = 0
@@ -77,8 +85,9 @@ class AcceptanceTests(unittest.TestCase):
         from experiments.search_agent.policy_acceptance import run_acceptance
         output = Path(self.directory.name) if self.attempt == 0 else Path(self.directory.name) / str(self.attempt)
         self.attempt += 1
-        return run_acceptance(adapter, TENANT, KB, output, rounds=2, refresh_minutes=5,
-                              timeout_seconds=kwargs.get("timeout_seconds", 200), poll_seconds=10,
+        return run_acceptance(adapter, kwargs.get("tenant_id", TENANT), kwargs.get("kb_id", KB), output,
+                              rounds=kwargs.get("rounds", 2), refresh_minutes=kwargs.get("refresh_minutes", 5),
+                              timeout_seconds=kwargs.get("timeout_seconds", 200), poll_seconds=kwargs.get("poll_seconds", 10),
                               clock=lambda: adapter.now, sleep=adapter.sleep, emit=lambda value: None)
 
     def frames(self):
@@ -109,6 +118,50 @@ class AcceptanceTests(unittest.TestCase):
         self.assertIsNone(result["rounds"][0]["model_counter_delta"])
         self.assertEqual(result["observer_windows"][0]["recorded_document_token_delta"], 0)
         self.assertTrue((Path(self.directory.name) / "scheduler-round-02.json").exists())
+
+    def test_missing_or_invalid_approval_never_reaches_native_state(self):
+        for name in ("POLICY_APPROVED_TENANT_ID", "POLICY_APPROVED_KB_ID"):
+            for value in (None, "", "replace-with-private-id"):
+                with self.subTest(name=name, value=value), patch.dict(os.environ):
+                    if value is None:
+                        os.environ.pop(name, None)
+                    else:
+                        os.environ[name] = value
+                    adapter = Adapter(self.frames())
+                    result = self.run_acceptance(adapter)
+                    self.assertEqual(result["status"], "failed")
+                    self.assertIn(name, result["error"])
+                    self.assertEqual(adapter.validations, 0)
+                    self.assertEqual(adapter.changes, [])
+
+    def test_requested_scope_cannot_authorize_itself(self):
+        for field in ("tenant_id", "kb_id"):
+            with self.subTest(field=field):
+                adapter = Adapter(self.frames())
+                result = self.run_acceptance(adapter, **{field: "3" * 32})
+                self.assertEqual(result["status"], "failed")
+                self.assertEqual(adapter.validations, 0)
+                self.assertEqual(adapter.changes, [])
+
+    def test_approved_scope_still_requires_bounded_rounds_and_interval(self):
+        for changed in ({"rounds": 3}, {"refresh_minutes": 1}, {"poll_seconds": 0}, {"poll_seconds": 31}):
+            with self.subTest(changed=changed):
+                adapter = Adapter(self.frames())
+                result = self.run_acceptance(adapter, **changed)
+                self.assertEqual(result["status"], "failed")
+                self.assertEqual(adapter.validations, 0)
+                self.assertEqual(adapter.changes, [])
+
+    def test_cli_rejects_unapproved_scope_before_constructing_native_adapter(self):
+        from experiments.search_agent import policy_acceptance
+        for missing, tenant in ((True, TENANT), (False, "3" * 32)):
+            with self.subTest(missing=missing), patch.dict(os.environ), patch("sys.stderr", io.StringIO()):
+                if missing:
+                    os.environ.pop("POLICY_APPROVED_TENANT_ID", None)
+                with patch.object(policy_acceptance, "_NativeState", side_effect=AssertionError("native access forbidden")):
+                    with self.assertRaises(SystemExit) as failure:
+                        policy_acceptance.main(["--tenant-id", tenant, "--kb-id", KB, "--output", self.directory.name])
+                    self.assertEqual(failure.exception.code, 2)
 
     def test_native_failure_stops_and_restores(self):
         frames = self.frames()[:2]
@@ -370,7 +423,7 @@ class AcceptanceTests(unittest.TestCase):
                 if changed in {"expired", "future"}:
                     from experiments.search_agent.policy_acceptance import _source_targets, _targets_published
                     self.assertIn("d0", actual["snapshot"]["sources"])
-                    self.assertTrue(_targets_published(actual, _source_targets(actual)))
+                    self.assertTrue(_targets_published(actual, _source_targets(actual), (TENANT, KB)))
                     self.assertNotIn("d0", business_snapshot["sources"])
                 self.assertEqual(actual["snapshot"]["source_heads"], frame["snapshot"]["source_heads"])
                 self.assertEqual(actual["tasks"], frame["tasks"])
